@@ -1,0 +1,44 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=12 format=3 uid="uid://cibb3dd2ldgl1"]
+
+[ext_resource type="Script" uid="uid://c5mpib6lv8akn" path="res://scripts/data/level_config.gd" id="1"]
+[ext_resource type="Script" uid="uid://dm7l6coe30tj5" path="res://scripts/data/lane_config.gd" id="2"]
+[ext_resource type="Script" uid="uid://cju825wry4p3f" path="res://scripts/data/power_up_config.gd" id="2_ebagn"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="3_yycxe"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="4_q1n28"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="5_pxie1"]
+[ext_resource type="Script" uid="uid://clxcqv3kbeb6n" path="res://scripts/data/level_section_config.gd" id="7_y3uio"]
+
+[sub_resource type="Resource" id="Lane1"]
+script = ExtResource("2")
+speed = 145.0
+spawn_min = 2.1
+vehicle_colors = Array[Color]([Color(0.99, 0.72, 0.36, 1), Color(0.89, 0.45, 0.35, 1)])
+
+[sub_resource type="Resource" id="Lane2"]
+script = ExtResource("2")
+row = 2
+direction = -1
+speed = 185.0
+spawn_min = 1.9
+spawn_max = 2.7
+vehicle_colors = Array[Color]([Color(0.45, 0.73, 0.82, 1), Color(0.64, 0.57, 0.83, 1)])
+
+[sub_resource type="Resource" id="Lane3"]
+script = ExtResource("2")
+row = 4
+speed = 165.0
+spawn_min = 2.0
+vehicle_colors = Array[Color]([Color(0.89, 0.91, 0.82, 1), Color(0.48, 0.77, 0.64, 1)])
+
+[sub_resource type="Resource" id="Lane4"]
+script = ExtResource("2")
+row = 5
+direction = -1
+speed = 215.0
+spawn_max = 2.5
+vehicle_colors = Array[Color]([Color(0.92, 0.49, 0.48, 1), Color(0.97, 0.75, 0.37, 1)])
+
+[resource]
+script = ExtResource("1")
+lanes = Array[ExtResource("2")]([SubResource("Lane1"), SubResource("Lane2"), SubResource("Lane3"), SubResource("Lane4")])
+classic_greenway_art = true

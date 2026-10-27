@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="EnvironmentProfile" load_steps=9 format=3]
+[ext_resource type="Script" path="res://scripts/data/environment_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bench.svg" id="bench"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/fence.svg" id="fence"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/road_sign.svg" id="road_sign"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/leafy_tree.svg" id="leafy_tree"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bush.svg" id="bush"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/flowers.svg" id="flowers"]
+[ext_resource type="Texture2D" path="res://assets/environment/destinations/park.svg" id="finish"]
+[resource]
+script = ExtResource("script")
+destination_art = ExtResource("finish")
+profile_id = "green"
+display_name = "Green"
+rest_style = "Path"
+ground_tint = Color(0.7529,0.7882,0.5804,1)
+safe_color = Color(0.7922,0.8157,0.6314,1)
+edge_color = Color(0.6627,0.7176,0.5294,1)
+sign_caption = "CROSSING"
+props = Array[Texture2D]([ExtResource("bench"), ExtResource("fence"), ExtResource("road_sign")])
+vegetation = Array[Texture2D]([ExtResource("leafy_tree"), ExtResource("bush"), ExtResource("flowers")])
+prop_density = 0.3
+vegetation_density = 0.6
+guard_rails = false

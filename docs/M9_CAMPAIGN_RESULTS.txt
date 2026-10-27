@@ -1,0 +1,106 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Five resource-defined campaign levels
+PASS Starts at level selection
+PASS Locked level cannot be started
+PASS Valid geometry and routes: Greenway
+PASS Previous completion unlocks level 1
+PASS Correct resource selected
+PASS No stale lanes or destinations
+PASS Fresh level state
+PASS Player uses current level rules
+PASS Pause freezes current level
+PASS All goals finish level
+PASS Completion recorded by stable ID
+PASS Duplicate completion cannot award reward twice
+PASS Save reload restores completion and best
+PASS Next level or final replay
+PASS Retry clears run state
+PASS Return to selection disables movement
+PASS Valid geometry and routes: City Rush
+PASS Previous completion unlocks level 2
+PASS Correct resource selected
+PASS No stale lanes or destinations
+PASS Fresh level state
+PASS Player uses current level rules
+PASS Pause freezes current level
+PASS All goals finish level
+PASS Completion recorded by stable ID
+PASS Duplicate completion cannot award reward twice
+PASS Save reload restores completion and best
+PASS Next level or final replay
+PASS Retry clears run state
+PASS Return to selection disables movement
+PASS Valid geometry and routes: Highway
+PASS Previous completion unlocks level 3
+PASS Correct resource selected
+PASS No stale lanes or destinations
+PASS Fresh level state
+PASS Player uses current level rules
+PASS Pause freezes current level
+PASS All goals finish level
+PASS Completion recorded by stable ID
+PASS Duplicate completion cannot award reward twice
+PASS Save reload restores completion and best
+PASS Next level or final replay
+PASS Retry clears run state
+PASS Return to selection disables movement
+PASS Valid geometry and routes: Village Road
+PASS Previous completion unlocks level 4
+PASS Correct resource selected
+PASS No stale lanes or destinations
+PASS Fresh level state
+PASS Player uses current level rules
+PASS Obstacle rejects entry
+PASS Obstacle rejects entry
+PASS Pause freezes current level
+PASS All goals finish level
+PASS Completion recorded by stable ID
+PASS Duplicate completion cannot award reward twice
+PASS Save reload restores completion and best
+PASS Next level or final replay
+PASS Retry clears run state
+PASS Return to selection disables movement
+PASS Valid geometry and routes: Railway Crossing
+PASS Previous completion unlocks level 5
+PASS Correct resource selected
+PASS No stale lanes or destinations
+PASS Fresh level state
+PASS Player uses current level rules
+PASS Pause freezes current level
+PASS All goals finish level
+PASS Completion recorded by stable ID
+PASS Duplicate completion cannot award reward twice
+PASS Save reload restores completion and best
+PASS Next level or final replay
+PASS Retry clears run state
+PASS Return to selection disables movement
+PASS Failure never unlocks next level
+PASS 90-second spacing simulation: Greenway row 1
+PASS 90-second spacing simulation: Greenway row 2
+PASS 90-second spacing simulation: Greenway row 4
+PASS 90-second spacing simulation: Greenway row 5
+PASS 90-second spacing simulation: City Rush row 1
+PASS 90-second spacing simulation: City Rush row 2
+PASS 90-second spacing simulation: City Rush row 4
+PASS 90-second spacing simulation: City Rush row 5
+PASS 90-second spacing simulation: Highway row 1
+PASS 90-second spacing simulation: Highway row 2
+PASS 90-second spacing simulation: Highway row 3
+PASS 90-second spacing simulation: Highway row 4
+PASS 90-second spacing simulation: Highway row 5
+PASS 90-second spacing simulation: Village Road row 1
+PASS 90-second spacing simulation: Village Road row 2
+PASS 90-second spacing simulation: Village Road row 4
+PASS 90-second spacing simulation: Village Road row 5
+PASS 90-second spacing simulation: Railway Crossing row 1
+PASS 90-second spacing simulation: Railway Crossing row 2
+PASS 90-second spacing simulation: Railway Crossing row 3
+PASS Railway begins with safe crossing interval
+PASS Warning precedes train spawning
+PASS Train arrives only after warning
+PASS 90-second spacing simulation: Railway Crossing row 4
+PASS 90-second spacing simulation: Railway Crossing row 5
+PASS Old profile migrates without losing score/settings
+PASS Migrated profile starts at level one
+PHASE 3 RESULTS: 103 passed, 0 failed

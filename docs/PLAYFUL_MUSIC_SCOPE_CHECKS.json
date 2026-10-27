@@ -1,0 +1,12 @@
+{
+  "baseline": "PocketCrossing(3).zip plus preceding PocketCrossing_Music_Update.zip",
+  "existing_files_byte_identical_except_two_music_files": 2100,
+  "allowed_changed_existing_files": [
+    "PocketCrossing/default_bus_layout.tres",
+    "PocketCrossing/scripts/core/audio.gd"
+  ],
+  "sfx_cue_dictionary_and_gains_unchanged": true,
+  "sfx_voice_setup_and_play_cue_implementation_unchanged": true,
+  "new_audio_assets_supplied": 0,
+  "final_music_slots_missing": 8
+}

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="VehicleVisualConfig" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/vehicle_visual_config.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/vehicles/microbus.svg" id="art"]
+
+[resource]
+script = ExtResource("1")
+id = "microbus"
+display_name = "Microbus"
+texture = ExtResource("art")
+visual_size = Vector2(140, 58)
+collision_size = Vector2(116, 38)
+base_speed = 160.0

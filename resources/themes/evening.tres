@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="LevelThemeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_theme_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+theme_id = "evening"
+display_name = "Evening / Sunset"
+time_of_day = "Evening"
+background_color = Color(0.72157, 0.50588, 0.46275, 1)
+ambient_tint = Color(1.0, 0.88627, 0.76863, 1)
+ambient_brightness = 0.88
+road_tint = Color(0.89412, 0.78824, 0.76471, 1)
+grass_tint = Color(0.92157, 0.80392, 0.57647, 1)
+safe_tint = Color(1.0, 0.87059, 0.70196, 1)
+railway_color = Color(0.57647, 0.5098, 0.46275, 1)
+rail_color = Color(0.88235, 0.77255, 0.66275, 1)
+water_color = Color(0.32549, 0.43529, 0.58039, 1)
+water_edge_color = Color(0.27451, 0.36471, 0.50196, 1)
+water_ripple_color = Color(0.81569, 0.6549, 0.62745, 1)
+destination_color = Color(0.96863, 0.87059, 0.70196, 1)
+vehicle_lights = true
+train_lights = true
+light_strength = 0.45

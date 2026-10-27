@@ -1,0 +1,14 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/world/road_level.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/levels/level_01.tres" id="2"]
+[ext_resource type="Script" path="res://scripts/world/board_art.gd" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/actors/player.tscn" id="4"]
+[node name="Level01" type="Node2D"]
+script = ExtResource("1")
+config = ExtResource("2")
+[node name="BoardArt" type="Node2D" parent="."]
+script = ExtResource("3")
+[node name="Destinations" type="Node2D" parent="."]
+[node name="Traffic" type="Node2D" parent="."]
+z_index = 3
+[node name="Player" parent="." instance=ExtResource("4")]

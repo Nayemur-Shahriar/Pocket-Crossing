@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="VehicleCatalog" load_steps=15 format=3]
+[ext_resource type="Script" path="res://scripts/data/vehicle_catalog.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/vehicles/car.tres" id="car"]
+[ext_resource type="Resource" path="res://resources/vehicles/truck.tres" id="truck"]
+[ext_resource type="Resource" path="res://resources/vehicles/bus.tres" id="bus"]
+[ext_resource type="Resource" path="res://resources/vehicles/train.tres" id="train"]
+[ext_resource type="Resource" path="res://resources/vehicles/cng.tres" id="cng"]
+[ext_resource type="Resource" path="res://resources/vehicles/rickshaw.tres" id="rickshaw"]
+[ext_resource type="Resource" path="res://resources/vehicles/local_bus.tres" id="local_bus"]
+[ext_resource type="Resource" path="res://resources/vehicles/small_car.tres" id="small_car"]
+[ext_resource type="Resource" path="res://resources/vehicles/microbus.tres" id="microbus"]
+[ext_resource type="Resource" path="res://resources/vehicles/pickup.tres" id="pickup"]
+[ext_resource type="Resource" path="res://resources/vehicles/delivery_van.tres" id="delivery_van"]
+[ext_resource type="Resource" path="res://resources/vehicles/medium_truck.tres" id="medium_truck"]
+[ext_resource type="Resource" path="res://resources/vehicles/large_truck.tres" id="large_truck"]
+[resource]
+script = ExtResource("1")
+entries = Array[Resource]([ExtResource("car"), ExtResource("truck"), ExtResource("bus"), ExtResource("train"), ExtResource("cng"), ExtResource("rickshaw"), ExtResource("local_bus"), ExtResource("small_car"), ExtResource("microbus"), ExtResource("pickup"), ExtResource("delivery_van"), ExtResource("medium_truck"), ExtResource("large_truck")])

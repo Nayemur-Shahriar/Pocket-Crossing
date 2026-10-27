@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="EnvironmentProfile" load_steps=11 format=3]
+[ext_resource type="Script" path="res://scripts/data/environment_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/ghat_steps.svg" id="ghat_steps"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bridge_rail.svg" id="bridge_rail"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/rural_house.svg" id="rural_house"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/market_stall.svg" id="market_stall"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/reeds.svg" id="reeds"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/banana.svg" id="banana"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/palm.svg" id="palm"]
+[ext_resource type="Texture2D" path="res://assets/environment/destinations/landing.svg" id="finish"]
+[ext_resource type="AudioStream" path="res://assets/audio/river_drift.wav" id="music"]
+[ext_resource type="AudioStream" path="res://assets/audio/river_drift_challenge.wav" id="challenge_music"]
+[resource]
+script = ExtResource("script")
+music_track = ExtResource("music")
+challenge_music_track = ExtResource("challenge_music")
+destination_art = ExtResource("finish")
+profile_id = "river"
+display_name = "River"
+rest_style = "Bank"
+ground_tint = Color(0.5882,0.702,0.5922,1)
+safe_color = Color(0.7608,0.6941,0.5412,1)
+edge_color = Color(0.4745,0.6157,0.5176,1)
+sign_caption = "RIVER"
+props = Array[Texture2D]([ExtResource("ghat_steps"), ExtResource("bridge_rail"), ExtResource("rural_house"), ExtResource("market_stall")])
+vegetation = Array[Texture2D]([ExtResource("reeds"), ExtResource("banana"), ExtResource("palm")])
+prop_density = 0.6
+vegetation_density = 0.75
+guard_rails = false

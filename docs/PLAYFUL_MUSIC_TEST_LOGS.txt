@@ -1,0 +1,16 @@
+tests.log
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+Pocket Crossing: final playful music slots awaiting assets: ["village", "city", "river", "night", "village_challenge", "city_challenge", "river_challenge", "night_challenge"]
+PLAYFUL MUSIC SLOTS: 150 passed, 0 failed
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2514)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:804)
+
+
+restart.log
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+Pocket Crossing: final playful music slots awaiting assets: ["village", "city", "river", "night", "village_challenge", "city_challenge", "river_challenge", "night_challenge"]
+PLAYFUL MUSIC SLOTS: 2 passed, 0 failed

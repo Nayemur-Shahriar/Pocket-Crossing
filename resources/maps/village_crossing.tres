@@ -1,0 +1,212 @@
+[gd_resource type="Resource" script_class="MapConfig" load_steps=39 format=3]
+[ext_resource type="AudioStream" path="res://assets/audio/ambience_village.wav" id="ambience"]
+[ext_resource type="Script" path="res://scripts/data/map_config.gd" id="map"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Script" path="res://scripts/data/lane_config.gd" id="road"]
+[ext_resource type="Script" path="res://scripts/data/water_lane_config.gd" id="water"]
+[ext_resource type="Script" path="res://scripts/data/railway_track_config.gd" id="rail"]
+[ext_resource type="Script" path="res://scripts/data/pickup_placement.gd" id="pickup"]
+[ext_resource type="Resource" path="res://resources/environments/village.tres" id="env"]
+[ext_resource type="Resource" path="res://resources/themes/day.tres" id="theme"]
+[ext_resource type="Texture2D" path="res://assets/maps/village_crossing.svg" id="preview"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="shield"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="slow"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="double"]
+
+
+[ext_resource type="Script" path="res://scripts/data/dog_config.gd" id="dog_rule"]
+
+[sub_resource type="Resource" id="S0"]
+script = ExtResource("section")
+section_id = "start_0"
+kind = 0
+
+
+[sub_resource type="Resource" id="H1_0"]
+script = ExtResource("road")
+direction = 1
+speed = 140.0
+spawn_min = 2.4
+spawn_max = 3.4
+minimum_clear_gap = 235.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.07
+vehicle_types = Array[String](["rickshaw", "rickshaw", "cng", "pickup", "small_car"])
+pattern = "waves"
+cycle_seconds = 14.0
+open_seconds = 4.5
+phase_offset = 0.0
+
+[sub_resource type="Resource" id="H1_1"]
+script = ExtResource("road")
+direction = -1
+speed = 175.0
+spawn_min = 2.4
+spawn_max = 3.4
+minimum_clear_gap = 235.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.07
+vehicle_types = Array[String](["local_bus", "pickup"])
+
+
+[sub_resource type="Resource" id="P2_1"]
+script = ExtResource("pickup")
+cell = Vector2i(4, 0)
+coin_value = 3
+on_hazard = true
+
+[sub_resource type="Resource" id="P2_3"]
+script = ExtResource("pickup")
+cell = Vector2i(12, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="P4_2"]
+script = ExtResource("pickup")
+cell = Vector2i(6, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="S1"]
+script = ExtResource("section")
+section_id = "road_1"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("H1_0"), SubResource("H1_1")])
+pickups = Array[ExtResource("pickup")]([SubResource("P2_1"), SubResource("P2_3"), SubResource("P4_2")])
+
+[sub_resource type="Resource" id="P2_0"]
+script = ExtResource("pickup")
+cell = Vector2i(2, 0)
+
+[sub_resource type="Resource" id="P2_2"]
+script = ExtResource("pickup")
+cell = Vector2i(4, 0)
+coin_value = 3
+on_hazard = true
+
+[sub_resource type="Resource" id="Power2"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+power = ExtResource("shield")
+
+[sub_resource type="Resource" id="S2"]
+script = ExtResource("section")
+section_id = "safe_2"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P2_0"), SubResource("Power2")])
+
+
+[sub_resource type="Resource" id="H3_0"]
+script = ExtResource("road")
+direction = 1
+speed = 165.0
+spawn_min = 2.4
+spawn_max = 3.4
+minimum_clear_gap = 235.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.07
+vehicle_types = Array[String](["cng", "small_car"])
+
+
+[sub_resource type="Resource" id="H3_1"]
+script = ExtResource("road")
+direction = -1
+speed = 195.0
+spawn_min = 2.4
+spawn_max = 3.4
+minimum_clear_gap = 235.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.07
+vehicle_types = Array[String](["rickshaw", "rickshaw", "cng", "pickup", "small_car"])
+pattern = "waves"
+cycle_seconds = 14.0
+open_seconds = 4.5
+phase_offset = 6.0
+
+[sub_resource type="Resource" id="H3_2"]
+script = ExtResource("road")
+direction = 1
+speed = 155.0
+spawn_min = 2.4
+spawn_max = 3.4
+minimum_clear_gap = 235.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.07
+vehicle_types = Array[String](["local_bus", "pickup"])
+
+
+[sub_resource type="Resource" id="P4_1"]
+script = ExtResource("pickup")
+cell = Vector2i(12, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="P4_3"]
+script = ExtResource("pickup")
+cell = Vector2i(6, 2)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="S3"]
+script = ExtResource("section")
+section_id = "road_3"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("H3_0"), SubResource("H3_1"), SubResource("H3_2")])
+pickups = Array[ExtResource("pickup")]([SubResource("P2_2"), SubResource("P4_1"), SubResource("P4_3")])
+
+[sub_resource type="Resource" id="P4_0"]
+script = ExtResource("pickup")
+cell = Vector2i(1, 0)
+
+[sub_resource type="Resource" id="Power4"]
+script = ExtResource("pickup")
+cell = Vector2i(10, 0)
+power = ExtResource("double")
+
+[sub_resource type="Resource" id="S4"]
+script = ExtResource("section")
+section_id = "safe_4"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P4_0"), SubResource("Power4")])
+
+
+[sub_resource type="Resource" id="S5"]
+script = ExtResource("section")
+section_id = "goal_5"
+kind = 5
+destination_columns = Array[int]([1, 5, 8, 12, 16])
+
+
+[sub_resource type="Resource" id="DogRule"]
+script = ExtResource("dog_rule")
+section_ids = Array[String](["safe_2", "safe_4"])
+stationary_seconds = 3.0
+warning_seconds = 1.0
+run_speed = 300.0
+cooldown_seconds = 5.0
+
+[resource]
+script = ExtResource("map")
+dog = SubResource("DogRule")
+ambience = ExtResource("ambience")
+level_id = "village_crossing"
+display_name = "Village Crossing"
+level_number = 1
+unlock_cost = 0
+completion_coins = 20
+preview_art = ExtResource("preview")
+atmosphere_label = "Rural daylight · flowing traffic"
+required_crossings = 5
+destination_tints = Array[Color]([Color(1,1,1,1), Color(0.84,0.94,1,1), Color(1,0.9,0.78,1), Color(0.86,1,0.9,1), Color(1,0.85,0.85,1)])
+time_limit = 600.0
+starting_lives = 3
+starting_speed_scale = 1.0
+final_speed_scale = 1.0
+spawn_protection = 0.5
+destination_reset_seconds = 0.55
+coin_count = 0
+presentation = ExtResource("theme")
+environment = ExtResource("env")
+sections = Array[ExtResource("section")]([SubResource("S0"), SubResource("S1"), SubResource("S2"), SubResource("S3"), SubResource("S4"), SubResource("S5")])
+signature = "Rural rhythm · Mixed-speed rickshaw groups, CNGs and congestion waves."
+

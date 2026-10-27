@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ChallengeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/challenge_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+challenge_id = "rush_hour"
+title = "Rush Hour"
+description = "Faster, denser traffic; safe gaps retained."
+modifier = "rush"
+maps = Array[String](["village_crossing", "city_rush", "night_express"])

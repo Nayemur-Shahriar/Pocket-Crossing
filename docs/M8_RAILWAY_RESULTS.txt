@@ -1,0 +1,91 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Preview directly opens railway demo
+PASS Preview uses isolated profile
+PASS Demo fits seven rows
+PASS Road and two tracks coexist
+PASS Safe zones bracket both railway tracks
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS Pickups excluded from railway rows
+PASS 1-track configuration loads
+PASS Track count matches Resource
+PASS Initial safe window
+PASS Warning precedes train
+PASS Full warning duration respected
+PASS Warned train enters
+PASS Train direction matches config
+PASS Hitbox matches visible train
+PASS One train reused across cycles
+PASS Every repeated train has warning
+PASS Shared safe window survives overlapping schedules
+PASS 2-track configuration loads
+PASS Track count matches Resource
+PASS Initial safe window
+PASS Warning precedes train
+PASS Warning precedes train
+PASS Full warning duration respected
+PASS Warned train enters
+PASS Train direction matches config
+PASS Hitbox matches visible train
+PASS Warned train enters
+PASS Train direction matches config
+PASS Hitbox matches visible train
+PASS One train reused across cycles
+PASS Every repeated train has warning
+PASS Shared safe window survives overlapping schedules
+PASS 3-track configuration loads
+PASS Track count matches Resource
+PASS Initial safe window
+PASS Warning precedes train
+PASS Warning precedes train
+PASS Warning precedes train
+PASS Full warning duration respected
+PASS Warned train enters
+PASS Train direction matches config
+PASS Hitbox matches visible train
+PASS Warned train enters
+PASS Train direction matches config
+PASS Hitbox matches visible train
+PASS Warned train enters
+PASS Train direction matches config
+PASS Hitbox matches visible train
+PASS One train reused across cycles
+PASS Every repeated train has warning
+PASS Shared safe window survives overlapping schedules
+PASS Instant train config rejected
+PASS Nonfinite speed rejected
+PASS Missing safe delay rejected
+PASS Insufficient warning for slow player rejected
+PASS Pause freezes warning
+PASS Slow power-up affects train motion
+PASS Pause freezes passing train and timer
+PASS Train collision consumes shield without life loss
+PASS Train collision uses normal life loss/respawn
+PASS Retry restores game
+PASS Retry resets railway clocks and train
+PASS Existing movement works in railway preview
+PASS Coins still bank
+PASS Destination system completes railway level
+PASS Completion, score, stars persist by ID
+PASS Normal profile/backup/temp unchanged
+PASS Normal profile/backup/temp unchanged
+PASS Normal profile/backup/temp unchanged
+RAILWAY RESULTS: 88 passed, 0 failed

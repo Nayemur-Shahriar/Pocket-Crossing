@@ -1,0 +1,9 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Mixed road/rail/water route under Day: lives=3
+PASS Mixed road/rail/water route under Evening / Sunset: lives=3
+PASS Mixed road/rail/water route under Night: lives=3
+PASS Mixed road/rail/water route under Rain: lives=3
+PASS Mixed road/rail/water route under Snow: lives=3
+PASS Mixed road/rail/water route under Fog: lives=3
+THEME ROUTE RESULTS: 6 passed, 0 failed

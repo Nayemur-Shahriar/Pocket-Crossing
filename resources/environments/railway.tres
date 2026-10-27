@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EnvironmentProfile" load_steps=10 format=3]
+[ext_resource type="Script" path="res://scripts/data/environment_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/signal_box.svg" id="signal_box"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/railway_sign.svg" id="railway_sign"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/fence.svg" id="fence"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bench.svg" id="bench"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bamboo.svg" id="bamboo"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bush.svg" id="bush"]
+[ext_resource type="Texture2D" path="res://assets/environment/destinations/station.svg" id="finish"]
+[ext_resource type="AudioStream" path="res://assets/audio/night_rails.wav" id="music"]
+[ext_resource type="AudioStream" path="res://assets/audio/night_rails_challenge.wav" id="challenge_music"]
+[resource]
+script = ExtResource("script")
+music_track = ExtResource("music")
+challenge_music_track = ExtResource("challenge_music")
+destination_art = ExtResource("finish")
+profile_id = "railway"
+display_name = "Railway"
+rest_style = "Gravel"
+ground_tint = Color(0.6784,0.7098,0.5725,1)
+safe_color = Color(0.7804,0.7216,0.5843,1)
+edge_color = Color(0.5843,0.5451,0.451,1)
+sign_caption = "STATION"
+props = Array[Texture2D]([ExtResource("signal_box"), ExtResource("railway_sign"), ExtResource("fence"), ExtResource("bench")])
+vegetation = Array[Texture2D]([ExtResource("bamboo"), ExtResource("bush")])
+prop_density = 0.6
+vegetation_density = 0.4
+guard_rails = false

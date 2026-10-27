@@ -1,0 +1,138 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=24 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/power_up_config.gd" id="3_ubjl2"]
+[ext_resource type="Resource" path="res://resources/environments/green.tres" id="environment"]
+[ext_resource type="Script" path="res://scripts/data/level_config.gd" id="level"]
+[ext_resource type="Script" path="res://scripts/data/pickup_placement.gd" id="pickup"]
+[ext_resource type="Script" path="res://scripts/data/lane_config.gd" id="road"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Resource" path="res://resources/themes/day.tres" id="theme"]
+[ext_resource type="Script" path="res://scripts/data/railway_track_config.gd" id="track"]
+[ext_resource type="Script" path="res://scripts/data/water_lane_config.gd" id="water"]
+
+[sub_resource type="Resource" id="Coin0"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin1"]
+script = ExtResource("pickup")
+cell = Vector2i(11, 0)
+
+[sub_resource type="Resource" id="S00"]
+script = ExtResource("section")
+section_id = "section_00"
+kind = 0
+pickups = Array[ExtResource("pickup")]([SubResource("Coin0"), SubResource("Coin1")])
+
+[sub_resource type="Resource" id="Road0"]
+script = ExtResource("road")
+speed = 133.0
+spawn_min = 2.5
+spawn_max = 3.1
+minimum_clear_gap = 240.0
+speed_variation = 0.025
+vehicle_types = Array[String](["small_car", "cng"])
+open_seconds = 4.0
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road1"]
+script = ExtResource("road")
+direction = -1
+speed = 152.0
+speed_modifier = 1.04
+spawn_min = 2.62
+spawn_max = 3.22
+minimum_clear_gap = 240.0
+speed_variation = 0.025
+vehicle_types = Array[String](["small_car", "cng"])
+cycle_seconds = 13.0
+open_seconds = 4.0
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Resource_4yfkd"]
+script = ExtResource("road")
+speed = 163.0
+speed_modifier = 0.98
+spawn_min = 2.74
+spawn_max = 3.3400000000000003
+minimum_clear_gap = 240.0
+speed_variation = 0.025
+vehicle_types = Array[String](["small_car", "cng"])
+cycle_seconds = 14.0
+open_seconds = 4.0
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="S01"]
+script = ExtResource("section")
+section_id = "section_01"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("Road0"), SubResource("Road1"), SubResource("Resource_4yfkd")])
+
+[sub_resource type="Resource" id="Coin2"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin3"]
+script = ExtResource("pickup")
+cell = Vector2i(5, 0)
+
+[sub_resource type="Resource" id="S02"]
+script = ExtResource("section")
+section_id = "section_02"
+pickups = Array[ExtResource("pickup")]([SubResource("Coin2"), SubResource("Coin3")])
+
+[sub_resource type="Resource" id="Road2"]
+script = ExtResource("road")
+direction = -1
+speed = 140.0
+spawn_min = 2.5
+spawn_max = 3.1
+minimum_clear_gap = 240.0
+speed_variation = 0.025
+vehicle_types = Array[String](["small_car", "cng"])
+open_seconds = 4.0
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Resource_pycko"]
+script = ExtResource("road")
+speed = 156.0
+speed_modifier = 1.04
+spawn_min = 2.62
+spawn_max = 3.22
+minimum_clear_gap = 240.0
+speed_variation = 0.025
+vehicle_types = Array[String](["small_car", "cng"])
+cycle_seconds = 13.0
+open_seconds = 4.0
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="S03"]
+script = ExtResource("section")
+section_id = "section_03"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("Road2"), SubResource("Resource_pycko")])
+
+[sub_resource type="Resource" id="S04"]
+script = ExtResource("section")
+section_id = "section_04"
+kind = 5
+destination_columns = Array[int]([4, 8, 12])
+
+[resource]
+script = ExtResource("level")
+display_name = "Easy Road"
+time_limit = 85.0
+forward_points = 25
+destination_points = 250
+seconds_bonus = 4
+life_bonus = 100
+spawn_protection = 0.25
+starting_speed_scale = 1.0
+difficulty_label = "Moderate"
+score_target = 650
+coin_count = 0
+power_ups = Array[ExtResource("3_ubjl2")]([])
+star_time_fraction = 0.72
+sections = Array[ExtResource("section")]([SubResource("S00"), SubResource("S01"), SubResource("S02"), SubResource("S03"), SubResource("S04")])
+presentation = ExtResource("theme")
+environment = ExtResource("environment")

@@ -1,0 +1,24 @@
+Static resource references: no missing files.
+Preserved byte-identical files:
+project.godot
+export_presets.cfg
+scripts/core/save_data.gd
+scripts/core/power_up_controller.gd
+scripts/input/input_router.gd
+scripts/ui/game_hud.gd
+scripts/world/traffic_lane.gd
+scripts/world/board_art.gd
+scripts/world/railway_track.gd
+scripts/world/railway_section.gd
+scripts/world/railway_signal.gd
+scripts/actors/railway_train.gd
+scripts/data/railway_track_config.gd
+tools/section_preview.gd
+tools/section_preview.tscn
+tools/railway_preview.tscn
+resources/levels/level_04.tres
+resources/levels/campaign.tres
+resources/levels/level_03.tres
+resources/levels/level_05.tres
+resources/levels/level_02.tres
+resources/levels/level_01.tres

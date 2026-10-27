@@ -1,0 +1,63 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Campaign 01 seed 42: row=5 lives=3 stars=3 elapsed=1.1 score=740
+PASS Campaign 01 seed 2026: row=5 lives=3 stars=3 elapsed=1.1 score=740
+PASS Campaign 01 seed 711: row=5 lives=3 stars=3 elapsed=1.1 score=740
+PASS Level 01 has 3/3 three-star routes
+PASS Campaign 02 seed 42: row=8 lives=3 stars=3 elapsed=2.1 score=840
+PASS Campaign 02 seed 2026: row=8 lives=3 stars=3 elapsed=2.3 score=840
+PASS Campaign 02 seed 711: row=8 lives=3 stars=3 elapsed=2.1 score=840
+PASS Level 02 has 3/3 three-star routes
+PASS Campaign 03 seed 42: row=9 lives=3 stars=3 elapsed=1.9 score=930
+PASS Campaign 03 seed 2026: row=9 lives=3 stars=3 elapsed=1.8 score=930
+PASS Campaign 03 seed 711: row=9 lives=3 stars=3 elapsed=1.8 score=930
+PASS Level 03 has 3/3 three-star routes
+PASS Campaign 04 seed 42: row=10 lives=3 stars=3 elapsed=2.6 score=985
+PASS Campaign 04 seed 2026: row=10 lives=3 stars=3 elapsed=2.5 score=985
+PASS Campaign 04 seed 711: row=10 lives=3 stars=3 elapsed=2.5 score=985
+PASS Level 04 has 3/3 three-star routes
+PASS Campaign 05 seed 42: row=10 lives=3 stars=3 elapsed=2.1 score=1035
+PASS Campaign 05 seed 2026: row=10 lives=3 stars=3 elapsed=2.0 score=1040
+PASS Campaign 05 seed 711: row=10 lives=3 stars=3 elapsed=2.0 score=1040
+PASS Level 05 has 3/3 three-star routes
+PASS Campaign 06 seed 42: row=12 lives=3 stars=3 elapsed=5.2 score=1090
+PASS Campaign 06 seed 2026: row=12 lives=3 stars=3 elapsed=3.7 score=1100
+PASS Campaign 06 seed 711: row=12 lives=3 stars=3 elapsed=4.1 score=1095
+PASS Level 06 has 3/3 three-star routes
+PASS Campaign 07 seed 42: row=12 lives=3 stars=3 elapsed=4.5 score=1145
+PASS Campaign 07 seed 2026: row=12 lives=3 stars=3 elapsed=2.4 score=1155
+PASS Campaign 07 seed 711: row=12 lives=3 stars=3 elapsed=2.4 score=1155
+PASS Level 07 has 3/3 three-star routes
+PASS Campaign 08 seed 42: row=14 lives=3 stars=3 elapsed=6.1 score=1180
+PASS Campaign 08 seed 2026: row=14 lives=3 stars=3 elapsed=6.0 score=1180
+PASS Campaign 08 seed 711: row=14 lives=3 stars=3 elapsed=6.1 score=1180
+PASS Level 08 has 3/3 three-star routes
+PASS Campaign 09 seed 42: row=16 lives=3 stars=3 elapsed=4.6 score=1260
+PASS Campaign 09 seed 2026: row=16 lives=3 stars=3 elapsed=4.9 score=1260
+PASS Campaign 09 seed 711: row=16 lives=3 stars=3 elapsed=4.9 score=1260
+PASS Level 09 has 3/3 three-star routes
+PASS Campaign 10 seed 42: row=17 lives=2 stars=3 elapsed=8.7 score=1410
+PASS Campaign 10 seed 2026: row=17 lives=3 stars=3 elapsed=6.3 score=1310
+PASS Campaign 10 seed 711: row=17 lives=3 stars=3 elapsed=6.4 score=1310
+PASS Level 10 has 3/3 three-star routes
+PASS Campaign 11 seed 42: row=19 lives=3 stars=3 elapsed=3.4 score=1395
+PASS Campaign 11 seed 2026: row=19 lives=3 stars=3 elapsed=3.4 score=1395
+PASS Campaign 11 seed 711: row=19 lives=3 stars=3 elapsed=3.4 score=1395
+PASS Level 11 has 3/3 three-star routes
+PASS Campaign 12 seed 42: row=22 lives=3 stars=3 elapsed=7.1 score=1455
+PASS Campaign 12 seed 2026: row=22 lives=3 stars=3 elapsed=7.2 score=1455
+PASS Campaign 12 seed 711: row=22 lives=3 stars=3 elapsed=6.7 score=1460
+PASS Level 12 has 3/3 three-star routes
+PASS Campaign 13 seed 42: row=25 lives=3 stars=3 elapsed=6.0 score=1545
+PASS Campaign 13 seed 2026: row=25 lives=3 stars=3 elapsed=6.8 score=1540
+PASS Campaign 13 seed 711: row=25 lives=3 stars=3 elapsed=7.4 score=1535
+PASS Level 13 has 3/3 three-star routes
+PASS Campaign 14 seed 42: row=29 lives=3 stars=3 elapsed=8.8 score=1645
+PASS Campaign 14 seed 2026: row=29 lives=3 stars=3 elapsed=6.5 score=1655
+PASS Campaign 14 seed 711: row=29 lives=1 stars=2 elapsed=24.4 score=2025
+PASS Level 14 has 2/3 three-star routes
+PASS Campaign 15 seed 42: row=34 lives=2 stars=3 elapsed=21.2 score=2035
+PASS Campaign 15 seed 2026: row=34 lives=2 stars=3 elapsed=20.6 score=2260
+PASS Campaign 15 seed 711: row=34 lives=2 stars=3 elapsed=21.1 score=2035
+PASS Level 15 has 3/3 three-star routes
+CAMPAIGN ROUTE RESULTS: 60 passed, 0 failed

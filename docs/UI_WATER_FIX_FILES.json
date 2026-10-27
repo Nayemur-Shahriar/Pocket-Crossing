@@ -1,0 +1,26 @@
+{
+  "created": [
+    "docs/UI_WATER_FIX_REPORT.md",
+    "docs/ui_water/challenges.png",
+    "docs/ui_water/characters.png",
+    "docs/ui_water/friends.png",
+    "docs/ui_water/home.png",
+    "docs/ui_water/lobby.png",
+    "docs/ui_water/local_result.png",
+    "docs/ui_water/maps.png",
+    "docs/ui_water/race_results.png",
+    "docs/ui_water/settings.png",
+    "tests/ui_water_tests.gd",
+    "tests/ui_water_tests.tscn",
+    "docs/UI_WATER_FIX_FILES.json"
+  ],
+  "modified": [
+    "scripts/core/audio.gd",
+    "scripts/core/mode_game.gd",
+    "scripts/ui/game_hud.gd",
+    "scripts/ui/map_hud.gd",
+    "scripts/ui/mode_hud.gd",
+    "tests/competitive_flow_tests.gd",
+    "tests/refinement_tests.gd"
+  ]
+}

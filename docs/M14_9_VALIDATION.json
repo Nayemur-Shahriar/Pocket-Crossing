@@ -1,0 +1,341 @@
+{
+  "engine": "Godot 4.5.2 stable Linux",
+  "physical_android_tested": false,
+  "physical_windows_tested": false,
+  "new_and_focused_suites": [
+    {
+      "suite": "records_tests",
+      "exit": 0,
+      "summary": [
+        "RECORDS RESULTS: 66 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "ghost_routes",
+      "exit": 0,
+      "summary": [
+        "GHOST ROUTE RESULTS: 320 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "map_depth_tests",
+      "exit": 0,
+      "summary": [
+        "MAP DEPTH RESULTS: 203 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "map_depth_routes",
+      "exit": 0,
+      "summary": [
+        "DEPTH ROUTE RESULTS: 68 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "competitive_tests",
+      "exit": 0,
+      "summary": [
+        "RESULT 24 passed / 0 failed"
+      ]
+    },
+    {
+      "suite": "competitive_flow_tests",
+      "exit": 0,
+      "summary": [
+        "RESULT 27 passed / 0 failed"
+      ]
+    },
+    {
+      "suite": "lan_stabilization_tests",
+      "exit": 0,
+      "summary": [
+        "STABILIZATION RESULT: 28 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "lan_stabilization_extra",
+      "exit": 0,
+      "summary": [
+        "EXTRA RESULT: 24 passed, 0 failed"
+      ]
+    }
+  ],
+  "preserved_regression_suites": [
+    {
+      "suite": "test_runner",
+      "exit": 0,
+      "seconds": 1.75,
+      "summary": [
+        "RESULT: 135 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "phase3_tests",
+      "exit": 0,
+      "seconds": 2.49,
+      "summary": [
+        "PHASE 3 RESULTS: 103 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "phase4_tests",
+      "exit": 0,
+      "seconds": 0.63,
+      "summary": [
+        "PHASE 4 RESULTS: 62 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "section_tests",
+      "exit": 0,
+      "seconds": 0.74,
+      "summary": [
+        "SECTION RESULTS: 68 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "railway_tests",
+      "exit": 0,
+      "seconds": 0.86,
+      "summary": [
+        "RAILWAY RESULTS: 88 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "water_tests",
+      "exit": 0,
+      "seconds": 1.02,
+      "summary": [
+        "WATER RESULTS: 73 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "water_route_tests",
+      "exit": 0,
+      "seconds": 0.64,
+      "summary": [
+        "WATER ROUTE RESULTS: 3 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "long_level_tests",
+      "exit": 0,
+      "seconds": 1.04,
+      "summary": [
+        "LONG LEVEL RESULTS: 142 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "long_route_tests",
+      "exit": 0,
+      "seconds": 1.13,
+      "summary": [
+        "LONG ROUTE RESULTS: 2 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "theme_tests",
+      "exit": 0,
+      "seconds": 0.85,
+      "summary": [
+        "THEME RESULTS: 109 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "theme_route_tests",
+      "exit": 0,
+      "seconds": 1.99,
+      "summary": [
+        "THEME ROUTE RESULTS: 6 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "campaign_route_tests",
+      "exit": 0,
+      "seconds": 9.68,
+      "summary": [
+        "CAMPAIGN ROUTE RESULTS: 75 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "campaign_tests",
+      "exit": 0,
+      "seconds": 1.7,
+      "summary": [
+        "CAMPAIGN RESULTS: 372 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "identity_tests",
+      "exit": 0,
+      "seconds": 1.78,
+      "summary": [
+        "IDENTITY RESULTS: 993 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "balance_tests",
+      "exit": 0,
+      "seconds": 1.21,
+      "summary": [
+        "BALANCE RESULTS: 516 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "balance_water_routes",
+      "exit": 0,
+      "seconds": 1.37,
+      "summary": []
+    },
+    {
+      "suite": "qa_validation",
+      "exit": 0,
+      "seconds": 1.01,
+      "summary": [
+        "QA VALIDATION RESULTS: 367 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "qa_contacts",
+      "exit": 0,
+      "seconds": 0.92,
+      "summary": [
+        "QA CONTACT RESULTS: 90 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "qa_stress",
+      "exit": 0,
+      "seconds": 3.14,
+      "summary": [
+        "QA STRESS RESULTS: 539 passed, 0 failed; cycles=18; wall_seconds=2.30"
+      ]
+    },
+    {
+      "suite": "qa_repro",
+      "exit": 0,
+      "seconds": 0.63,
+      "summary": []
+    },
+    {
+      "suite": "qa_perf",
+      "exit": 0,
+      "seconds": 6.31,
+      "summary": []
+    },
+    {
+      "suite": "post_m14_tests",
+      "exit": 0,
+      "seconds": 1.85,
+      "summary": [
+        "POST M14 RESULTS: 461 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "map_campaign_tests",
+      "exit": 0,
+      "seconds": 0.71,
+      "summary": [
+        "MAP CAMPAIGN RESULTS: 110 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "map_route_tests",
+      "exit": 0,
+      "seconds": 4.35,
+      "summary": [
+        "MAP ROUTE RESULTS: 12 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "lan_account_tests",
+      "exit": 0,
+      "seconds": 0.45,
+      "summary": [
+        "RESULT 29 passed / 0 failed"
+      ]
+    }
+  ],
+  "records_four_peer": "0 0 ['RESULT 62 passed / 0 failed']\n1 0 ['RESULT 71 passed / 0 failed']\n2 0 ['RESULT 69 passed / 0 failed']\n3 0 ['RESULT 66 passed / 0 failed']\nIDENTICAL True\n",
+  "four_map_lan": "0 0 ['RESULT 122 passed / 0 failed']\n1 0 ['RESULT 74 passed / 0 failed']\n2 0 ['RESULT 74 passed / 0 failed']\n3 0 ['RESULT 74 passed / 0 failed']\nidentical results True [(122, 0, 0), (74, 0, 74), (74, 0, 78), (74, 0, 74)]\n",
+  "rendered_verification": [
+    "M149 RENDER 240 frames median_ms=9.52380952380952 p95_ms=14.5214848484848 peak_nodes=146",
+    "RECORDS VISUAL RESULTS: capture and cleanup complete",
+    "RENDER duration_ms=120000 frames=4865 median_ms=24.0740740740741 p95_ms=30.0 max_records=25 wave_count=190 nodes=1..1 audio_events=350",
+    "RESULT rendered 120 seconds; cleanup PASS"
+  ],
+  "references": {
+    "references": 605,
+    "missing": [],
+    "layouts_unchanged_except_ambience": {
+      "night_express": true,
+      "city_rush": true,
+      "river_delta": true,
+      "village_crossing": true
+    }
+  },
+  "audio": {
+    "assets": {
+      "splash": {
+        "peak": 0.40491,
+        "seconds": 0.35
+      },
+      "time_up": {
+        "peak": 0.37781,
+        "seconds": 0.45
+      },
+      "hit": {
+        "peak": 0.53415,
+        "seconds": 0.28
+      },
+      "ambience_night": {
+        "peak": 0.64996,
+        "seconds": 8.0
+      },
+      "ambience_river": {
+        "peak": 0.64996,
+        "seconds": 8.0
+      },
+      "rail_warning": {
+        "peak": 0.32452,
+        "seconds": 0.5
+      },
+      "coin": {
+        "peak": 0.43341,
+        "seconds": 0.18
+      },
+      "ui": {
+        "peak": 0.47128,
+        "seconds": 0.12
+      },
+      "hop": {
+        "peak": 0.47452,
+        "seconds": 0.06
+      },
+      "complete": {
+        "peak": 0.55136,
+        "seconds": 0.6
+      },
+      "ambience_village": {
+        "peak": 0.64996,
+        "seconds": 8.0
+      },
+      "dock": {
+        "peak": 0.51849,
+        "seconds": 0.28
+      },
+      "ambience_city": {
+        "peak": 0.64996,
+        "seconds": 8.0
+      },
+      "firework": {
+        "peak": 0.42746,
+        "seconds": 0.22
+      }
+    },
+    "conservative_mix_peak_bound": 0.5862100773357245
+  },
+  "main_and_import_errors": [],
+  "clean_patch_check": "Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org\n\nRECORDS RESULTS: 66 passed, 0 failed\n",
+  "exported_pack_check": "Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org\n\nPACK SMOKE RESULTS: exported resources, records, ghost save/replay, ambience, cleanup PASS\n"
+}

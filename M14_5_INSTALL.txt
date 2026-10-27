@@ -1,0 +1,31 @@
+POCKET CROSSING — M14.5 MAP CAMPAIGN UPDATE
+
+This is ONE cumulative UPDATE ZIP, not a second independent project.
+It includes the earlier post-M14 fixes and the M14.5 map campaign.
+
+1. Close Godot. Back up your existing PocketCrossing project folder.
+2. Extract this ZIP to a temporary folder.
+3. Copy the CONTENTS of its PocketCrossing folder into your existing
+   PocketCrossing folder (the folder containing project.godot).
+4. Allow replacement of matching files. Do not create a nested
+   PocketCrossing/PocketCrossing directory inside your project.
+5. Open your existing project.godot in Godot 4.5.2. Let imports finish.
+6. Use Run Project (top-right play button). Create a named player.
+   The first named player receives existing coins, skins and settings.
+7. The normal game now offers FOUR maps, not the old 15-level menu.
+
+Do not delete the game's user data. profile.cfg is preserved unchanged.
+New profiles use user://map_profiles.cfg with backup/temp recovery.
+Tests and capture tools use isolated saves.
+
+Full report: docs/M14_5_REPORT.md
+Exact file lists: docs/M14_5_FILES.txt
+Validation evidence: docs/m14_5_validation/
+Preview pictures: docs/screenshots/map_*.png
+
+Old tests/previews intentionally use scenes/legacy_main.tscn.
+Their old level menus are legacy fixtures, not the normal game.
+For the new campaign, run scenes/main.tscn or Run Project.
+No F6 key is required.
+
+This update stops at M14.5. M15 release preparation was not started.

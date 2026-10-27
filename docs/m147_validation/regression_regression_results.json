@@ -1,0 +1,196 @@
+[
+  {
+    "suite": "test_runner",
+    "exit": 0,
+    "seconds": 1.94,
+    "summary": [
+      "RESULT: 135 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "phase3_tests",
+    "exit": 0,
+    "seconds": 3.34,
+    "summary": [
+      "PHASE 3 RESULTS: 103 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "phase4_tests",
+    "exit": 0,
+    "seconds": 1.05,
+    "summary": [
+      "PHASE 4 RESULTS: 62 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "section_tests",
+    "exit": 0,
+    "seconds": 1.03,
+    "summary": [
+      "SECTION RESULTS: 68 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "railway_tests",
+    "exit": 0,
+    "seconds": 0.75,
+    "summary": [
+      "RAILWAY RESULTS: 88 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "water_tests",
+    "exit": 0,
+    "seconds": 1.11,
+    "summary": [
+      "WATER RESULTS: 73 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "water_route_tests",
+    "exit": 0,
+    "seconds": 0.83,
+    "summary": [
+      "WATER ROUTE RESULTS: 3 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "long_level_tests",
+    "exit": 0,
+    "seconds": 1.01,
+    "summary": [
+      "LONG LEVEL RESULTS: 142 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "long_route_tests",
+    "exit": 0,
+    "seconds": 1.14,
+    "summary": [
+      "LONG ROUTE RESULTS: 2 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "theme_tests",
+    "exit": 0,
+    "seconds": 0.83,
+    "summary": [
+      "THEME RESULTS: 109 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "theme_route_tests",
+    "exit": 0,
+    "seconds": 1.94,
+    "summary": [
+      "THEME ROUTE RESULTS: 6 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "campaign_route_tests",
+    "exit": 0,
+    "seconds": 10.23,
+    "summary": [
+      "CAMPAIGN ROUTE RESULTS: 75 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "campaign_tests",
+    "exit": 0,
+    "seconds": 1.56,
+    "summary": [
+      "CAMPAIGN RESULTS: 372 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "identity_tests",
+    "exit": 0,
+    "seconds": 1.57,
+    "summary": [
+      "IDENTITY RESULTS: 979 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "balance_tests",
+    "exit": 0,
+    "seconds": 1.12,
+    "summary": [
+      "BALANCE RESULTS: 516 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "balance_water_routes",
+    "exit": 0,
+    "seconds": 1.47,
+    "summary": []
+  },
+  {
+    "suite": "qa_validation",
+    "exit": 0,
+    "seconds": 0.92,
+    "summary": [
+      "QA VALIDATION RESULTS: 361 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "qa_contacts",
+    "exit": 0,
+    "seconds": 0.81,
+    "summary": [
+      "QA CONTACT RESULTS: 90 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "qa_stress",
+    "exit": 0,
+    "seconds": 4.36,
+    "summary": [
+      "QA STRESS RESULTS: 539 passed, 0 failed; cycles=18; wall_seconds=3.33"
+    ]
+  },
+  {
+    "suite": "qa_repro",
+    "exit": 0,
+    "seconds": 0.73,
+    "summary": []
+  },
+  {
+    "suite": "qa_perf",
+    "exit": 0,
+    "seconds": 7.43,
+    "summary": []
+  },
+  {
+    "suite": "post_m14_tests",
+    "exit": 0,
+    "seconds": 2.41,
+    "summary": [
+      "POST M14 RESULTS: 457 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "map_campaign_tests",
+    "exit": 0,
+    "seconds": 0.82,
+    "summary": [
+      "MAP CAMPAIGN RESULTS: 110 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "map_route_tests",
+    "exit": 0,
+    "seconds": 4.73,
+    "summary": [
+      "MAP ROUTE RESULTS: 12 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "lan_account_tests",
+    "exit": 0,
+    "seconds": 0.44,
+    "summary": [
+      "RESULT 29 passed / 0 failed"
+    ]
+  }
+]

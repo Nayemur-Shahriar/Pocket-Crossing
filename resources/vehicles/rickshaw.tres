@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="VehicleVisualConfig" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/vehicle_visual_config.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/vehicles/rickshaw.svg" id="art"]
+
+[resource]
+script = ExtResource("1")
+id = "rickshaw"
+display_name = "Cycle rickshaw"
+texture = ExtResource("art")
+base_speed = 85.0
+collision_outline = PackedVector2Array(-46, -18, -4, -18, 35, -9, 46, -4, 46, 4, 35, 9, -4, 18, -46, 18)

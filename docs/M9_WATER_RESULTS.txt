@@ -1,0 +1,76 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Direct water preview launch
+PASS Preview save isolated
+PASS Three-lane demo fits static board
+PASS 1 water lanes compile/load
+PASS Lane count matches data
+PASS Platform moves in configured direction
+PASS Pool identities unchanged after two minutes
+PASS Recycling maintains bounded nonoverlapping spacing
+PASS Lane speed variation remains bounded
+PASS 2 water lanes compile/load
+PASS Lane count matches data
+PASS Platform moves in configured direction
+PASS Pool identities unchanged after two minutes
+PASS Recycling maintains bounded nonoverlapping spacing
+PASS Lane speed variation remains bounded
+PASS Platform moves in configured direction
+PASS Pool identities unchanged after two minutes
+PASS Recycling maintains bounded nonoverlapping spacing
+PASS Lane speed variation remains bounded
+PASS 3 water lanes compile/load
+PASS Lane count matches data
+PASS Platform moves in configured direction
+PASS Pool identities unchanged after two minutes
+PASS Recycling maintains bounded nonoverlapping spacing
+PASS Lane speed variation remains bounded
+PASS Platform moves in configured direction
+PASS Pool identities unchanged after two minutes
+PASS Recycling maintains bounded nonoverlapping spacing
+PASS Lane speed variation remains bounded
+PASS Platform moves in configured direction
+PASS Pool identities unchanged after two minutes
+PASS Recycling maintains bounded nonoverlapping spacing
+PASS Lane speed variation remains bounded
+PASS Nonfinite speed rejected
+PASS Unreasonably wide gaps rejected
+PASS Unknown platform type rejected
+PASS Unsafe hop/speed combination rejected
+PASS Hop from bank lands on deck
+PASS Platform carries idle player
+PASS Riding offset stable without jitter
+PASS Support transfers across opposite-direction lanes
+PASS Hop completes normally
+PASS Westbound deck carries left
+PASS Third-lane log supports player
+PASS Landing on bank stops carry
+PASS Land restores grid alignment
+PASS Pause freezes rider, platforms and timer
+PASS Resume preserves support
+PASS Slow Traffic does not slow water
+PASS Unsupported landing loses one life
+PASS Hazard precedes score and buffered hop
+PASS Normal respawn detaches support
+PASS Shield consumes once and rescues to spawn
+PASS Spawn protection rescues rather than leaving player on water
+PASS Riding past right playable boundary loses life
+PASS Riding past left playable boundary loses life
+PASS Retry frees old lanes and platform pools
+PASS Retry resets player, pools and support
+PASS Retry resets lane timers
+PASS Demo pickups are on safe land
+PASS Demo pickups are on safe land
+PASS Demo pickups are on safe land
+PASS Demo pickups are on safe land
+PASS Coin multiplier still banks rewards
+PASS Water level completes through destinations
+PASS Completion, stars and score persist
+PASS Next Level transitions to railway cleanly
+PASS Water adapters disabled on non-water levels
+PASS Return to Level Select
+PASS Re-enter water without duplicate pools
+PASS Normal save/backup/temp unchanged
+PASS Normal save/backup/temp unchanged
+PASS Normal save/backup/temp unchanged
+WATER RESULTS: 73 passed, 0 failed

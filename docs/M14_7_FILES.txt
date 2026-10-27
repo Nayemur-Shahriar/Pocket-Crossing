@@ -1,0 +1,184 @@
+M14.7 — EVERY DELIVERED NEW/MODIFIED FILE
+Paths relative to your existing project. No files deleted.
+No maps, movement/hazard configuration, Local save schemas or project.godot changed.
+
+CREATED  M14_7_INSTALL.txt
+  Installation, completion report or changed-file documentation.
+CREATED  assets/audio/time_up.wav
+  Original two-note Time Up sound.
+CREATED  assets/audio/time_up.wav.import
+  Godot audio import metadata.
+CREATED  docs/M14_7_FILES.txt
+  Installation, completion report or changed-file documentation.
+CREATED  docs/M14_7_REPORT.md
+  Installation, completion report or changed-file documentation.
+CREATED  docs/m147_validation/all_checks.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/clean_import.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/clean_main.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/competitive.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/competitive_peer0.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/competitive_peer1.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/competitive_peer2.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/competitive_peer3.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/competitive_summary.json
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/connections.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/flow.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/import.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/lan4.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/lan4_peer_0.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/lan4_peer_1.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/lan4_peer_2.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/lan4_peer_3.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/lan4_summary.json
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/references.json
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_balance_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_balance_water_routes.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_campaign_route_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_campaign_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_identity_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_lan_account_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_long_level_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_long_route_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_map_campaign_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_map_route_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_phase3_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_phase4_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_post_m14_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_qa_contacts.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_qa_perf.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_qa_repro.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_qa_stress.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_qa_validation.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_railway_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_regression_results.json
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_section_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_test_runner.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_theme_route_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_theme_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_water_route_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/regression_water_tests.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/render_runner.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/rules.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/stabilization.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/stabilization_client.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/stabilization_host.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/stabilization_lan_stabilization_extra.log
+  Final automated verification evidence; no normal player saves.
+CREATED  docs/m147_validation/stabilization_lan_stabilization_tests.log
+  Final automated verification evidence; no normal player saves.
+MODIFIED  resources/presentation/celebration.tres
+  Tested effect defaults.
+MODIFIED  scripts/core/audio.gd
+  Register original Time Up cue; retain existing voice pool/mute handling.
+MODIFIED  scripts/core/mode_game.gd
+  Wire settings, countdown cues, expiry, wallet rewards and results.
+MODIFIED  scripts/data/celebration_config.gd
+  Inspector settings for denser bounded effects.
+MODIFIED  scripts/network/lan_config.gd
+  Bump content version for changed network packets.
+CREATED  scripts/network/lan_match_rules.gd
+  Pure score, ranking, tie and award rules.
+CREATED  scripts/network/lan_match_rules.gd.uid
+  Stable Godot UID for the new script.
+MODIFIED  scripts/network/lan_race.gd
+  Validated score/deaths/completion timing, rankings, expiry and actor freeze.
+MODIFIED  scripts/network/lan_replica.gd
+  Replicate death counts without remote transforms.
+MODIFIED  scripts/network/lan_session.gd
+  Host-only settings/synchronization, deadline guards and authoritative Time Up/results.
+CREATED  scripts/ui/competitive_results.gd
+  Mode-specific table, compact awards, winner effect and readable panels.
+CREATED  scripts/ui/competitive_results.gd.uid
+  Stable Godot UID for the new script.
+MODIFIED  scripts/ui/mode_hud.gd
+  Compact host/guest selectors and result entry point.
+MODIFIED  scripts/ui/result_celebration.gd
+  Random overlapping waves, bounded records/audio and cached batched sparks.
+MODIFIED  tests/balance_tests.gd
+  Update obsolete sparse-firework cap to intentional 36-record bound; retain Local/audio/cleanup checks.
+MODIFIED  tests/campaign_tests.gd
+  Update obsolete sparse-firework cap to intentional 36-record bound; retain Local/audio/cleanup checks.
+CREATED  tests/competitive_flow_tests.gd
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+CREATED  tests/competitive_flow_tests.gd.uid
+  Stable Godot UID for the new script.
+CREATED  tests/competitive_flow_tests.tscn
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+CREATED  tests/competitive_peer_tests.gd
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+CREATED  tests/competitive_peer_tests.gd.uid
+  Stable Godot UID for the new script.
+CREATED  tests/competitive_peer_tests.tscn
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+CREATED  tests/competitive_tests.gd
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+CREATED  tests/competitive_tests.gd.uid
+  Stable Godot UID for the new script.
+CREATED  tests/competitive_tests.tscn
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+CREATED  tests/competitive_visual.gd
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+CREATED  tests/competitive_visual.gd.uid
+  Stable Godot UID for the new script.
+CREATED  tests/competitive_visual.tscn
+  Competitive rules/flow/network/rendered-preview test or associated scene.
+MODIFIED  tests/lan_account_tests.gd
+  Update standalone result fixture with session/config and new fields.
+MODIFIED  tests/lan_peer_tests.gd
+  Use 150-second matches when existing 120-second soak is requested.
+MODIFIED  tests/map_campaign_tests.gd
+  Update obsolete sparse-firework cap to intentional 36-record bound; retain Local/audio/cleanup checks.
+MODIFIED  tests/post_m14_tests.gd
+  Update obsolete sparse-firework cap to intentional 36-record bound; retain Local/audio/cleanup checks.
+CREATED  tools/run_competitive_tests.py
+  Launch isolated real peers and compare host/client outcomes.

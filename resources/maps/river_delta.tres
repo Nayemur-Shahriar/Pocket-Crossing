@@ -1,0 +1,246 @@
+[gd_resource type="Resource" script_class="MapConfig" load_steps=52 format=3]
+[ext_resource type="AudioStream" path="res://assets/audio/ambience_river.wav" id="ambience"]
+[ext_resource type="Script" path="res://scripts/data/map_config.gd" id="map"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Script" path="res://scripts/data/lane_config.gd" id="road"]
+[ext_resource type="Script" path="res://scripts/data/water_lane_config.gd" id="water"]
+[ext_resource type="Script" path="res://scripts/data/railway_track_config.gd" id="rail"]
+[ext_resource type="Script" path="res://scripts/data/pickup_placement.gd" id="pickup"]
+[ext_resource type="Resource" path="res://resources/environments/river.tres" id="env"]
+[ext_resource type="Resource" path="res://resources/themes/rain.tres" id="theme"]
+[ext_resource type="Texture2D" path="res://assets/maps/river_delta.svg" id="preview"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="shield"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="slow"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="double"]
+[ext_resource type="Resource" path="res://resources/water/visuals/wooden_boat.tres" id="boat0"]
+[ext_resource type="Resource" path="res://resources/water/visuals/passenger_boat.tres" id="boat1"]
+[ext_resource type="Resource" path="res://resources/water/visuals/fishing_boat.tres" id="boat2"]
+[ext_resource type="Resource" path="res://resources/water/visuals/ferry.tres" id="boat3"]
+
+
+[ext_resource type="Script" path="res://scripts/data/dog_config.gd" id="dog_rule"]
+
+[sub_resource type="Resource" id="S0"]
+script = ExtResource("section")
+section_id = "start_0"
+kind = 0
+
+
+[sub_resource type="Resource" id="H1_0"]
+script = ExtResource("road")
+direction = 1
+speed = 155.0
+spawn_min = 2.0
+spawn_max = 2.8
+minimum_clear_gap = 210.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.08
+vehicle_types = Array[String](["cng", "pickup"])
+
+
+[sub_resource type="Resource" id="S1"]
+script = ExtResource("section")
+section_id = "road_1"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("H1_0")])
+
+[sub_resource type="Resource" id="P2_0"]
+script = ExtResource("pickup")
+cell = Vector2i(2, 0)
+
+[sub_resource type="Resource" id="P2_1"]
+script = ExtResource("pickup")
+cell = Vector2i(4, 0)
+coin_value = 3
+on_hazard = true
+
+[sub_resource type="Resource" id="P2_2"]
+script = ExtResource("pickup")
+cell = Vector2i(4, 0)
+coin_value = 3
+on_hazard = true
+
+[sub_resource type="Resource" id="P2_3"]
+script = ExtResource("pickup")
+cell = Vector2i(12, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="Power2"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+power = ExtResource("shield")
+
+[sub_resource type="Resource" id="S2"]
+script = ExtResource("section")
+section_id = "safe_2"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P2_0"), SubResource("Power2")])
+
+
+[sub_resource type="Resource" id="H3_0"]
+script = ExtResource("water")
+direction = -1
+platform_speed = 60.0
+platform_length = 144.0
+spawn_min = 1.0
+spawn_max = 1.2
+minimum_spacing = 48.0
+speed_variation = 0.04
+visual = ExtResource("boat0")
+
+
+[sub_resource type="Resource" id="H3_1"]
+script = ExtResource("water")
+direction = 1
+platform_speed = 82.0
+platform_length = 208.0
+spawn_min = 1.0
+spawn_max = 1.2
+minimum_spacing = 64.0
+speed_variation = 0.06
+visual = ExtResource("boat1")
+
+
+[sub_resource type="Resource" id="P4_2"]
+script = ExtResource("pickup")
+cell = Vector2i(6, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="P6_1"]
+script = ExtResource("pickup")
+cell = Vector2i(10, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="P6_3"]
+script = ExtResource("pickup")
+cell = Vector2i(8, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="S3"]
+script = ExtResource("section")
+section_id = "water_3"
+kind = 4
+water_lanes = Array[ExtResource("water")]([SubResource("H3_0"), SubResource("H3_1")])
+pickups = Array[ExtResource("pickup")]([SubResource("P2_1"), SubResource("P2_3"), SubResource("P4_2"), SubResource("P6_1"), SubResource("P6_3")])
+
+[sub_resource type="Resource" id="P4_0"]
+script = ExtResource("pickup")
+cell = Vector2i(1, 0)
+
+[sub_resource type="Resource" id="P4_1"]
+script = ExtResource("pickup")
+cell = Vector2i(12, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="P4_3"]
+script = ExtResource("pickup")
+cell = Vector2i(6, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="Power4"]
+script = ExtResource("pickup")
+cell = Vector2i(10, 0)
+power = ExtResource("double")
+
+[sub_resource type="Resource" id="S4"]
+script = ExtResource("section")
+section_id = "safe_4"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P4_0"), SubResource("Power4")])
+
+
+[sub_resource type="Resource" id="H5_0"]
+script = ExtResource("water")
+direction = -1
+platform_speed = 72.0
+platform_length = 176.0
+spawn_min = 1.0
+spawn_max = 1.2
+minimum_spacing = 80.0
+speed_variation = 0.05
+visual = ExtResource("boat2")
+
+
+[sub_resource type="Resource" id="H5_1"]
+script = ExtResource("water")
+direction = 1
+platform_speed = 96.0
+platform_length = 240.0
+spawn_min = 1.0
+spawn_max = 1.2
+minimum_spacing = 56.0
+speed_variation = 0.06
+visual = ExtResource("boat3")
+
+
+[sub_resource type="Resource" id="P6_2"]
+script = ExtResource("pickup")
+cell = Vector2i(10, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="S5"]
+script = ExtResource("section")
+section_id = "water_5"
+kind = 4
+water_lanes = Array[ExtResource("water")]([SubResource("H5_0"), SubResource("H5_1")])
+pickups = Array[ExtResource("pickup")]([SubResource("P2_2"), SubResource("P4_1"), SubResource("P4_3"), SubResource("P6_2")])
+
+[sub_resource type="Resource" id="P6_0"]
+script = ExtResource("pickup")
+cell = Vector2i(2, 0)
+
+[sub_resource type="Resource" id="Power6"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+power = ExtResource("slow")
+
+[sub_resource type="Resource" id="S6"]
+script = ExtResource("section")
+section_id = "safe_6"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P6_0"), SubResource("Power6")])
+
+
+[sub_resource type="Resource" id="S7"]
+script = ExtResource("section")
+section_id = "goal_7"
+kind = 5
+destination_columns = Array[int]([0, 4, 7, 11, 15])
+
+
+[sub_resource type="Resource" id="DogRule"]
+script = ExtResource("dog_rule")
+section_ids = Array[String](["safe_2", "safe_4", "safe_6"])
+
+[resource]
+script = ExtResource("map")
+dog = SubResource("DogRule")
+ambience = ExtResource("ambience")
+level_id = "river_delta"
+display_name = "River Delta"
+level_number = 3
+unlock_cost = 100
+completion_coins = 30
+preview_art = ExtResource("preview")
+atmosphere_label = "Rain · moving boats and landings"
+required_crossings = 5
+destination_tints = Array[Color]([Color(1,1,1,1), Color(0.84,0.94,1,1), Color(1,0.9,0.78,1), Color(0.86,1,0.9,1), Color(1,0.85,0.85,1)])
+time_limit = 600.0
+starting_lives = 3
+starting_speed_scale = 1.0
+final_speed_scale = 1.0
+spawn_protection = 0.5
+destination_reset_seconds = 0.55
+coin_count = 0
+presentation = ExtResource("theme")
+environment = ExtResource("env")
+sections = Array[ExtResource("section")]([SubResource("S0"), SubResource("S1"), SubResource("S2"), SubResource("S3"), SubResource("S4"), SubResource("S5"), SubResource("S6"), SubResource("S7")])
+signature = "Platform prediction · Four boat sizes, alternating currents and optional river coins."
+

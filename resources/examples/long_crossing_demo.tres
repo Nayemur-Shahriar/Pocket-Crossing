@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=25 format=3 uid="uid://byxohi21fmyw5"]
+
+[ext_resource type="Script" uid="uid://cju825wry4p3f" path="res://scripts/data/power_up_config.gd" id="2_wlpe7"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="3_fvgxt"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="4_ofong"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="5_p8m8t"]
+[ext_resource type="Script" uid="uid://bc4yvr40ecisi" path="res://scripts/data/pickup_placement.gd" id="10_1kp0l"]
+[ext_resource type="Script" uid="uid://c7bkf7fvtt6ea" path="res://scripts/data/railway_track_config.gd" id="11_nxkn7"]
+[ext_resource type="Script" uid="uid://c5mpib6lv8akn" path="res://scripts/data/level_config.gd" id="level"]
+[ext_resource type="Resource" uid="uid://chpwny52xsxwl" path="res://resources/sections/railway_pair.tres" id="rail"]
+[ext_resource type="Script" uid="uid://dm7l6coe30tj5" path="res://scripts/data/lane_config.gd" id="road"]
+[ext_resource type="Resource" uid="uid://b4d7plqqviwfy" path="res://resources/sections/road_pair.tres" id="road_pair"]
+[ext_resource type="Resource" path="res://resources/sections/safe.tres" id="safe"]
+[ext_resource type="Script" uid="uid://clxcqv3kbeb6n" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Resource" path="res://resources/sections/start.tres" id="start"]
+[ext_resource type="Resource" path="res://resources/themes/day.tres" id="theme"]
+[ext_resource type="Script" uid="uid://d16k50w54hxcu" path="res://scripts/data/water_lane_config.gd" id="water"]
+
+[sub_resource type="Resource" id="East"]
+script = ExtResource("road")
+speed = 155.0
+spawn_min = 2.2
+spawn_max = 3.0
+minimum_clear_gap = 260.0
+
+[sub_resource type="Resource" id="West"]
+script = ExtResource("road")
+direction = -1
+speed = 180.0
+spawn_min = 2.4
+spawn_max = 3.2
+minimum_clear_gap = 280.0
+
+[sub_resource type="Resource" id="RoadSix"]
+script = ExtResource("section")
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("East"), SubResource("West"), SubResource("East"), SubResource("West"), SubResource("East"), SubResource("West")])
+
+[sub_resource type="Resource" id="Boat"]
+script = ExtResource("water")
+platform_speed = 50.0
+spawn_min = 5.2
+spawn_max = 6.0
+platform_type = "small_boat"
+
+[sub_resource type="Resource" id="LongBoat"]
+script = ExtResource("water")
+direction = -1
+platform_speed = 64.0
+spawn_min = 5.0
+spawn_max = 5.5
+platform_type = "long_boat"
+platform_length = 288.0
+
+[sub_resource type="Resource" id="Log"]
+script = ExtResource("water")
+platform_speed = 42.0
+spawn_min = 6.0
+spawn_max = 7.0
+platform_type = "log"
+
+[sub_resource type="Resource" id="WaterThree"]
+script = ExtResource("section")
+kind = 4
+water_lanes = Array[ExtResource("water")]([SubResource("Boat"), SubResource("LongBoat"), SubResource("Log")])
+
+[sub_resource type="Resource" id="RoadFour"]
+script = ExtResource("section")
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("West"), SubResource("East"), SubResource("West"), SubResource("East")])
+
+[sub_resource type="Resource" id="Finish"]
+script = ExtResource("section")
+kind = 5
+destination_columns = Array[int]([8])
+
+[resource]
+script = ExtResource("level")
+display_name = "Long Crossing"
+time_limit = 240.0
+level_id = "example_long_crossing_m9"
+coin_count = 12
+sections = Array[ExtResource("section")]([ExtResource("start"), SubResource("RoadSix"), ExtResource("safe"), ExtResource("rail"), ExtResource("safe"), ExtResource("road_pair"), ExtResource("safe"), SubResource("WaterThree"), ExtResource("safe"), SubResource("RoadFour"), ExtResource("safe"), SubResource("Finish")])
+presentation = ExtResource("theme")

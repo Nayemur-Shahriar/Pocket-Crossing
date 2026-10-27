@@ -1,0 +1,26 @@
+POCKET CROSSING M14.8 — UPDATE FOR STABLE M14.7
+
+1. Close Godot and make a backup of your working M14.7 project folder.
+2. Extract this ZIP. Copy the CONTENTS of its PocketCrossing folder into your
+   existing project folder (the folder containing project.godot).
+3. Allow Windows to replace matching files and merge folders. Do not create
+   a second PocketCrossing folder inside your project.
+4. Open the existing project.godot, let Godot finish importing, and press the
+   main Play triangle (F5 if available).
+5. LOCAL PLAY opens the same four maps. MASTERY on each card opens its goals.
+   CHALLENGES on the main menu opens the new local-only challenge selection.
+
+Keep your normal user:// save files. Do not delete app data or reinstall the
+Android app without preserving its data. The existing account/profile schema
+is extended with optional mastery and challenge fields; no save reset.
+
+Every Friends Play device must use this same M14.8 build. The content revision
+changed because map layouts and coin values changed; networking itself did not.
+
+The complete change report, exact file list, test evidence and manual tests:
+  docs/M14_8_REPORT.md
+  docs/M14_8_FILES.txt
+  docs/m148_validation/
+
+This is an update ZIP, not a standalone project or APK. Use your existing
+Windows/Android export settings. No M14.9 work is included.

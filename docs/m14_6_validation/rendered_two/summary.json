@@ -1,0 +1,201 @@
+{
+  "identical_results": true,
+  "peers": [
+    {
+      "failed": 0,
+      "max_compressed_bytes": 745,
+      "passed": 90,
+      "results": [
+        [
+          {
+            "coins": 21,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 3980,
+            "status": "finished",
+            "time": 5.433
+          },
+          {
+            "coins": 21,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4030,
+            "status": "finished",
+            "time": 5.65
+          }
+        ],
+        [
+          {
+            "coins": 26,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 4030,
+            "status": "finished",
+            "time": 5.408
+          },
+          {
+            "coins": 26,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4080,
+            "status": "finished",
+            "time": 5.596
+          }
+        ],
+        [
+          {
+            "coins": 31,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 4030,
+            "status": "finished",
+            "time": 5.598
+          },
+          {
+            "coins": 31,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4080,
+            "status": "finished",
+            "time": 5.808
+          }
+        ],
+        [
+          {
+            "coins": 36,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 4080,
+            "status": "finished",
+            "time": 5.402
+          },
+          {
+            "coins": 36,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4130,
+            "status": "finished",
+            "time": 5.619
+          }
+        ]
+      ],
+      "snapshots": 0,
+      "soak_node_max": 0,
+      "soak_node_min": 0
+    },
+    {
+      "failed": 0,
+      "max_compressed_bytes": 0,
+      "passed": 53,
+      "results": [
+        [
+          {
+            "coins": 21,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 3980,
+            "status": "finished",
+            "time": 5.433
+          },
+          {
+            "coins": 21,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4030,
+            "status": "finished",
+            "time": 5.65
+          }
+        ],
+        [
+          {
+            "coins": 26,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 4030,
+            "status": "finished",
+            "time": 5.408
+          },
+          {
+            "coins": 26,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4080,
+            "status": "finished",
+            "time": 5.596
+          }
+        ],
+        [
+          {
+            "coins": 31,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 4030,
+            "status": "finished",
+            "time": 5.598
+          },
+          {
+            "coins": 31,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4080,
+            "status": "finished",
+            "time": 5.808
+          }
+        ],
+        [
+          {
+            "coins": 36,
+            "id": "9ee53bf849e0017b466c7e96a3cd6e09",
+            "name": "Host_User",
+            "peer": 1,
+            "rank": 1,
+            "score": 4080,
+            "status": "finished",
+            "time": 5.402
+          },
+          {
+            "coins": 36,
+            "id": "6438b7183271214f0270020579208c62",
+            "name": "Guest_1",
+            "peer": 229801331,
+            "rank": 2,
+            "score": 4130,
+            "status": "finished",
+            "time": 5.619
+          }
+        ]
+      ],
+      "snapshots": 341,
+      "soak_node_max": 0,
+      "soak_node_min": 0
+    }
+  ]
+}

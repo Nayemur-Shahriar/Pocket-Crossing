@@ -1,0 +1,71 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Road section example is valid and playable
+PASS Ordered sections produce contiguous seven-row layout
+PASS Derived lane count and safe rows are correct
+PASS Start/destination compile to existing grid contract
+PASS Local lane rows assigned from section order
+PASS Per-lane directions retained
+PASS Independent per-lane speeds retained
+PASS Spawn density and gap settings retained
+PASS Stable progression ID and time limit preserved
+PASS Section lookup maps global rows safely
+PASS Compiler does not mutate shared lane resources
+PASS Source section array and legacy fields stay untouched
+PASS Section start and destination settings override obsolete flat fields
+PASS Section-local obstacle rows translated correctly
+PASS Multirow safe section reflows downstream lanes
+PASS Theme metadata independent of gameplay and difficulty
+PASS Presentation resource carried through without weather simulation
+PASS Long Road/Rail/Water/Road/Rail combination validates as data
+PASS Mixed long layout now playable with M9 camera
+PASS Track and platform metadata remain available in section descriptors
+PASS Mixed ordered recipe validates: [1, 3, 1]
+PASS Mixed ordered recipe validates: [1, 4, 3]
+PASS Mixed ordered recipe validates: [1, 3, 4, 1]
+PASS Mixed ordered recipe validates: [1, 3, 4, 3, 1]
+PASS 1 configured tracks validate and can launch
+PASS 2 configured tracks validate and can launch
+PASS 3 configured tracks validate and can launch
+PASS Missing section rejected
+PASS Missing START rejected
+PASS Duplicate/misplaced START rejected
+PASS Missing DESTINATION rejected
+PASS Zero-lane ROAD rejected
+PASS Missing lane resource rejected
+PASS Negative speed rejected
+PASS Invalid direction rejected
+PASS Reversed spawn interval rejected
+PASS Train hidden in new ROAD section rejected
+PASS Unsafe negative gap rejected
+PASS Out-of-section obstacle rejected
+PASS Full-width blocked safe zone makes destinations unreachable
+PASS Duplicate destination columns rejected
+PASS Invalid start column rejected
+PASS Duplicate explicit section IDs rejected
+PASS Train interval shorter than warning rejected
+PASS Nonfinite platform speed rejected
+PASS Long road-only layout is valid and playable
+PASS Legacy resource loads unchanged: Greenway
+PASS Legacy lane count preserved: Greenway
+PASS Legacy resource loads unchanged: City Rush
+PASS Legacy lane count preserved: City Rush
+PASS Legacy resource loads unchanged: Highway
+PASS Legacy lane count preserved: Highway
+PASS Legacy resource loads unchanged: Village Road
+PASS Legacy lane count preserved: Village Road
+PASS Legacy resource loads unchanged: Railway Crossing
+PASS Legacy lane count preserved: Railway Crossing
+PASS Section level starts through existing selection/controller flow
+PASS HUD and player share compiled rules
+PASS Existing destinations and pickups built for sections
+PASS SAFE section remains a resting area
+PASS Coins still bank in a compiled section level
+PASS Power-ups still affect compiled traffic
+PASS Section level pauses without advancing timer
+PASS Existing destination completion awards stars using stable source ID
+PASS Section progress survives existing save/load schema
+PASS Unsupported configuration fails atomically, preserving active world
+PASS Controller refuses invalid geometry without changing state
+PASS Retry/selection resets run effects and counters
+SECTION RESULTS: 68 passed, 0 failed

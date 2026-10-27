@@ -1,0 +1,7985 @@
+[
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Beginner",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Easy Road",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "greenway",
+		"level_number": 1,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 1.0,
+			"ambient_tint": "Color(1, 1, 1, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.7137255, 0.79607844, 0.6901961, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.9098039, 0.9254902, 0.8156863, 1)",
+			"display_name": "Day",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(1, 1, 1, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.65,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.44705883, 0.48235294, 0.4392157, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(1, 1, 1, 1)",
+			"safe_tint": "Color(1, 1, 1, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "day",
+			"time_of_day": "Day",
+			"train_lights": false,
+			"vehicle_lights": false,
+			"water_color": "Color(0.22352941, 0.49803922, 0.6, 1)",
+			"water_edge_color": "Color(0.19607843, 0.43529412, 0.5254902, 1)",
+			"water_ripple_color": "Color(0.44705883, 0.7019608, 0.76862746, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 300,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 331.0,
+						"minimum_gap_seconds": 1.95,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.05,
+						"spawn_min": 3.4,
+						"speed": 92.0,
+						"speed_variation": 0.024,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 355.0,
+						"minimum_gap_seconds": 1.95,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.2,
+						"spawn_min": 3.55,
+						"speed": 117.0,
+						"speed_variation": 0.024,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 331.0,
+						"minimum_gap_seconds": 1.95,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.35,
+						"spawn_min": 3.7,
+						"speed": 80.0,
+						"speed_variation": 0.024,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 70.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Easy",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "City Run",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_02",
+		"level_number": 2,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 1.0,
+			"ambient_tint": "Color(1, 1, 1, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.7137255, 0.79607844, 0.6901961, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.9098039, 0.9254902, 0.8156863, 1)",
+			"display_name": "Day",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(1, 1, 1, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.65,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.44705883, 0.48235294, 0.4392157, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(1, 1, 1, 1)",
+			"safe_tint": "Color(1, 1, 1, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "day",
+			"time_of_day": "Day",
+			"train_lights": false,
+			"vehicle_lights": false,
+			"water_color": "Color(0.22352941, 0.49803922, 0.6, 1)",
+			"water_edge_color": "Color(0.19607843, 0.43529412, 0.5254902, 1)",
+			"water_ripple_color": "Color(0.44705883, 0.7019608, 0.76862746, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 330,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 322.0,
+						"minimum_gap_seconds": 1.9,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.95,
+						"spawn_min": 3.3,
+						"speed": 99.0,
+						"speed_variation": 0.028,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 346.0,
+						"minimum_gap_seconds": 1.9,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.1,
+						"spawn_min": 3.45,
+						"speed": 124.0,
+						"speed_variation": 0.028,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 322.0,
+						"minimum_gap_seconds": 1.9,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.25,
+						"spawn_min": 3.6,
+						"speed": 87.0,
+						"speed_variation": 0.028,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 322.0,
+						"minimum_gap_seconds": 1.9,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.95,
+						"spawn_min": 3.3,
+						"speed": 137.0,
+						"speed_variation": 0.028,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 346.0,
+						"minimum_gap_seconds": 1.9,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.1,
+						"spawn_min": 3.45,
+						"speed": 99.0,
+						"speed_variation": 0.028,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 85.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Easy",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Sunset Rush",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_03",
+		"level_number": 3,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.88,
+			"ambient_tint": "Color(1, 0.88627, 0.76863, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.72157, 0.50588, 0.46275, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.96863, 0.87059, 0.70196, 1)",
+			"display_name": "Evening / Sunset",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.92157, 0.80392, 0.57647, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.45,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.88235, 0.77255, 0.66275, 1)",
+			"railway_color": "Color(0.57647, 0.5098, 0.46275, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.89412, 0.78824, 0.76471, 1)",
+			"safe_tint": "Color(1, 0.87059, 0.70196, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "evening",
+			"time_of_day": "Evening",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.32549, 0.43529, 0.58039, 1)",
+			"water_edge_color": "Color(0.27451, 0.36471, 0.50196, 1)",
+			"water_ripple_color": "Color(0.81569, 0.6549, 0.62745, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 360,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 313.0,
+						"minimum_gap_seconds": 1.85,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.85,
+						"spawn_min": 3.2,
+						"speed": 106.0,
+						"speed_variation": 0.032,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 337.0,
+						"minimum_gap_seconds": 1.85,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.0,
+						"spawn_min": 3.35,
+						"speed": 131.0,
+						"speed_variation": 0.032,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 313.0,
+						"minimum_gap_seconds": 1.85,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 4.15,
+						"spawn_min": 3.5,
+						"speed": 94.0,
+						"speed_variation": 0.032,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 313.0,
+						"minimum_gap_seconds": 1.85,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.85,
+						"spawn_min": 3.2,
+						"speed": 144.0,
+						"speed_variation": 0.032,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 337.0,
+						"minimum_gap_seconds": 1.85,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 4.0,
+						"spawn_min": 3.35,
+						"speed": 106.0,
+						"speed_variation": 0.032,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 313.0,
+						"minimum_gap_seconds": 1.85,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 4.15,
+						"spawn_min": 3.5,
+						"speed": 131.0,
+						"speed_variation": 0.032,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"car",
+							"truck"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 100.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Moderate",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Night Ride",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_04",
+		"level_number": 4,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.7,
+			"ambient_tint": "Color(0.6902, 0.79608, 0.92941, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.09412, 0.16863, 0.28627, 1)",
+			"destination_border": "Color(0.58039, 0.83529, 0.81569, 1)",
+			"destination_color": "Color(0.82745, 0.91765, 0.87451, 1)",
+			"display_name": "Night",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.53725, 0.68235, 0.75294, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.9,
+			"markings_color": "Color(0.66667, 0.72157, 0.78824, 1)",
+			"particle_amount": 120,
+			"player_highlight": true,
+			"rail_color": "Color(0.73333, 0.82353, 0.89412, 1)",
+			"railway_color": "Color(0.32157, 0.40784, 0.47059, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.66275, 0.74902, 0.83922, 1)",
+			"safe_tint": "Color(0.67843, 0.73333, 0.80784, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "night",
+			"time_of_day": "Night",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.12549, 0.34118, 0.45882, 1)",
+			"water_edge_color": "Color(0.08627, 0.23922, 0.38039, 1)",
+			"water_ripple_color": "Color(0.40392, 0.73333, 0.81569, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 390,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 304.0,
+						"minimum_gap_seconds": 1.8,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.75,
+						"spawn_min": 3.1,
+						"speed": 113.0,
+						"speed_variation": 0.036,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 328.0,
+						"minimum_gap_seconds": 1.8,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.9,
+						"spawn_min": 3.25,
+						"speed": 138.0,
+						"speed_variation": 0.036,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 304.0,
+						"minimum_gap_seconds": 1.8,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 4.05,
+						"spawn_min": 3.4,
+						"speed": 101.0,
+						"speed_variation": 0.036,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 304.0,
+						"minimum_gap_seconds": 1.8,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.75,
+						"spawn_min": 3.1,
+						"speed": 151.0,
+						"speed_variation": 0.036,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 328.0,
+						"minimum_gap_seconds": 1.8,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.9,
+						"spawn_min": 3.25,
+						"speed": 113.0,
+						"speed_variation": 0.036,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 304.0,
+						"minimum_gap_seconds": 1.8,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 4.05,
+						"spawn_min": 3.4,
+						"speed": 138.0,
+						"speed_variation": 0.036,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 304.0,
+						"minimum_gap_seconds": 1.8,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.75,
+						"spawn_min": 3.1,
+						"speed": 101.0,
+						"speed_variation": 0.036,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 110.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Moderate",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Train Time",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_05",
+		"level_number": 5,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 1.0,
+			"ambient_tint": "Color(1, 1, 1, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.7137255, 0.79607844, 0.6901961, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.9098039, 0.9254902, 0.8156863, 1)",
+			"display_name": "Day",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(1, 1, 1, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.65,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.44705883, 0.48235294, 0.4392157, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(1, 1, 1, 1)",
+			"safe_tint": "Color(1, 1, 1, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "day",
+			"time_of_day": "Day",
+			"train_lights": false,
+			"vehicle_lights": false,
+			"water_color": "Color(0.22352941, 0.49803922, 0.6, 1)",
+			"water_edge_color": "Color(0.19607843, 0.43529412, 0.5254902, 1)",
+			"water_ripple_color": "Color(0.44705883, 0.7019608, 0.76862746, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 420,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 295.0,
+						"minimum_gap_seconds": 1.75,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.65,
+						"spawn_min": 3.0,
+						"speed": 120.0,
+						"speed_variation": 0.04,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 319.0,
+						"minimum_gap_seconds": 1.75,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.8,
+						"spawn_min": 3.15,
+						"speed": 145.0,
+						"speed_variation": 0.04,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 28.0,
+						"interval_min": 24.0,
+						"safe_delay": 4.0,
+						"speed": 300.0,
+						"timing_variation": true,
+						"train_length": 328.0,
+						"warning_seconds": 4.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 295.0,
+						"minimum_gap_seconds": 1.75,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.95,
+						"spawn_min": 3.3,
+						"speed": 108.0,
+						"speed_variation": 0.04,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 295.0,
+						"minimum_gap_seconds": 1.75,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.65,
+						"spawn_min": 3.0,
+						"speed": 158.0,
+						"speed_variation": 0.04,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 319.0,
+						"minimum_gap_seconds": 1.75,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.8,
+						"spawn_min": 3.15,
+						"speed": 120.0,
+						"speed_variation": 0.04,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 120.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Moderate",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Double Track",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_06",
+		"level_number": 6,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.88,
+			"ambient_tint": "Color(1, 0.88627, 0.76863, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.72157, 0.50588, 0.46275, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.96863, 0.87059, 0.70196, 1)",
+			"display_name": "Evening / Sunset",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.92157, 0.80392, 0.57647, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.45,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.88235, 0.77255, 0.66275, 1)",
+			"railway_color": "Color(0.57647, 0.5098, 0.46275, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.89412, 0.78824, 0.76471, 1)",
+			"safe_tint": "Color(1, 0.87059, 0.70196, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "evening",
+			"time_of_day": "Evening",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.32549, 0.43529, 0.58039, 1)",
+			"water_edge_color": "Color(0.27451, 0.36471, 0.50196, 1)",
+			"water_ripple_color": "Color(0.81569, 0.6549, 0.62745, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 450,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 286.0,
+						"minimum_gap_seconds": 1.7,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.55,
+						"spawn_min": 2.9,
+						"speed": 127.0,
+						"speed_variation": 0.044,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 310.0,
+						"minimum_gap_seconds": 1.7,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.7,
+						"spawn_min": 3.05,
+						"speed": 152.0,
+						"speed_variation": 0.044,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 286.0,
+						"minimum_gap_seconds": 1.7,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.85,
+						"spawn_min": 3.2,
+						"speed": 115.0,
+						"speed_variation": 0.044,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 28.0,
+						"interval_min": 24.0,
+						"safe_delay": 4.0,
+						"speed": 308.0,
+						"timing_variation": true,
+						"train_length": 336.0,
+						"warning_seconds": 4.0
+					},
+					{
+						"direction": -1,
+						"initial_delay": 7.0,
+						"interval_max": 30.0,
+						"interval_min": 26.0,
+						"safe_delay": 4.0,
+						"speed": 348.0,
+						"timing_variation": true,
+						"train_length": 368.0,
+						"warning_seconds": 4.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 286.0,
+						"minimum_gap_seconds": 1.7,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.55,
+						"spawn_min": 2.9,
+						"speed": 165.0,
+						"speed_variation": 0.044,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 310.0,
+						"minimum_gap_seconds": 1.7,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.7,
+						"spawn_min": 3.05,
+						"speed": 127.0,
+						"speed_variation": 0.044,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 286.0,
+						"minimum_gap_seconds": 1.7,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.85,
+						"spawn_min": 3.2,
+						"speed": 152.0,
+						"speed_variation": 0.044,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 130.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Moderate",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "River Hop",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_07",
+		"level_number": 7,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 1.0,
+			"ambient_tint": "Color(1, 1, 1, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.7137255, 0.79607844, 0.6901961, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.9098039, 0.9254902, 0.8156863, 1)",
+			"display_name": "Day",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(1, 1, 1, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.65,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.44705883, 0.48235294, 0.4392157, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(1, 1, 1, 1)",
+			"safe_tint": "Color(1, 1, 1, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "day",
+			"time_of_day": "Day",
+			"train_lights": false,
+			"vehicle_lights": false,
+			"water_color": "Color(0.22352941, 0.49803922, 0.6, 1)",
+			"water_edge_color": "Color(0.19607843, 0.43529412, 0.5254902, 1)",
+			"water_ripple_color": "Color(0.44705883, 0.7019608, 0.76862746, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 480,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 277.0,
+						"minimum_gap_seconds": 1.65,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.45,
+						"spawn_min": 2.8,
+						"speed": 134.0,
+						"speed_variation": 0.048,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 301.0,
+						"minimum_gap_seconds": 1.65,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.6,
+						"spawn_min": 2.95,
+						"speed": 159.0,
+						"speed_variation": 0.048,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 277.0,
+						"minimum_gap_seconds": 1.65,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.75,
+						"spawn_min": 3.1,
+						"speed": 122.0,
+						"speed_variation": 0.048,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": 1,
+						"minimum_spacing": 32.0,
+						"platform_length": 320.0,
+						"platform_speed": 40.0,
+						"platform_type": "long_boat",
+						"spawn_max": 9.0,
+						"spawn_min": 8.8,
+						"spawn_variation": true,
+						"speed_variation": 0.0,
+						"variation_period": 10.0
+					},
+					{
+						"direction": -1,
+						"minimum_spacing": 32.0,
+						"platform_length": 320.0,
+						"platform_speed": 48.0,
+						"platform_type": "log",
+						"spawn_max": 7.5,
+						"spawn_min": 7.333,
+						"spawn_variation": true,
+						"speed_variation": 0.0,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 277.0,
+						"minimum_gap_seconds": 1.65,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.45,
+						"spawn_min": 2.8,
+						"speed": 172.0,
+						"speed_variation": 0.048,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 301.0,
+						"minimum_gap_seconds": 1.65,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.6,
+						"spawn_min": 2.95,
+						"speed": 134.0,
+						"speed_variation": 0.048,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 277.0,
+						"minimum_gap_seconds": 1.65,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.75,
+						"spawn_min": 3.1,
+						"speed": 159.0,
+						"speed_variation": 0.048,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 140.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Skilled",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Rain Run",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_08",
+		"level_number": 8,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.84,
+			"ambient_tint": "Color(0.71373, 0.8, 0.84706, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.39216, 0.49412, 0.56863, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.9098039, 0.9254902, 0.8156863, 1)",
+			"display_name": "Rain",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.65098, 0.76863, 0.72157, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.5,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 200,
+			"player_highlight": true,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.4, 0.46275, 0.50196, 1)",
+			"ripple_visual_speed": 1.5,
+			"road_tint": "Color(0.63922, 0.70196, 0.77255, 1)",
+			"safe_tint": "Color(0.70588, 0.75686, 0.77647, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "rain",
+			"time_of_day": "Day",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.16863, 0.5098, 0.61569, 1)",
+			"water_edge_color": "Color(0.12549, 0.38039, 0.48627, 1)",
+			"water_ripple_color": "Color(0.60784, 0.80784, 0.83529, 1)",
+			"weather": "Rain",
+			"weather_intensity": 0.7,
+			"wetness": 0.85
+		},
+		"score_target": 510,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 268.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.35,
+						"spawn_min": 2.7,
+						"speed": 141.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 292.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.5,
+						"spawn_min": 2.85,
+						"speed": 166.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 268.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.65,
+						"spawn_min": 3.0,
+						"speed": 129.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.63, 0.86, 0.68, 1)",
+							"display_name": "Slow traffic",
+							"duration": 6.0,
+							"effect": "slow",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 24.0,
+						"interval_min": 20.0,
+						"safe_delay": 4.0,
+						"speed": 324.0,
+						"timing_variation": true,
+						"train_length": 352.0,
+						"warning_seconds": 3.4
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 268.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.35,
+						"spawn_min": 2.7,
+						"speed": 179.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 292.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.5,
+						"spawn_min": 2.85,
+						"speed": 141.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 268.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.65,
+						"spawn_min": 3.0,
+						"speed": 166.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 268.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.35,
+						"spawn_min": 2.7,
+						"speed": 129.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 292.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.5,
+						"spawn_min": 2.85,
+						"speed": 179.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 268.0,
+						"minimum_gap_seconds": 1.6,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.65,
+						"spawn_min": 3.0,
+						"speed": 141.0,
+						"speed_variation": 0.052,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 145.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Skilled",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "River Rush",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_09",
+		"level_number": 9,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.88,
+			"ambient_tint": "Color(1, 0.88627, 0.76863, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.72157, 0.50588, 0.46275, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.96863, 0.87059, 0.70196, 1)",
+			"display_name": "Evening / Sunset",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.92157, 0.80392, 0.57647, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.45,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.88235, 0.77255, 0.66275, 1)",
+			"railway_color": "Color(0.57647, 0.5098, 0.46275, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.89412, 0.78824, 0.76471, 1)",
+			"safe_tint": "Color(1, 0.87059, 0.70196, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "evening",
+			"time_of_day": "Evening",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.32549, 0.43529, 0.58039, 1)",
+			"water_edge_color": "Color(0.27451, 0.36471, 0.50196, 1)",
+			"water_ripple_color": "Color(0.81569, 0.6549, 0.62745, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 540,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 259.0,
+						"minimum_gap_seconds": 1.55,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.25,
+						"spawn_min": 2.6,
+						"speed": 148.0,
+						"speed_variation": 0.056,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 283.0,
+						"minimum_gap_seconds": 1.55,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.4,
+						"spawn_min": 2.75,
+						"speed": 173.0,
+						"speed_variation": 0.056,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 259.0,
+						"minimum_gap_seconds": 1.55,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.55,
+						"spawn_min": 2.9,
+						"speed": 136.0,
+						"speed_variation": 0.056,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": 1,
+						"minimum_spacing": 40.0,
+						"platform_length": 288.0,
+						"platform_speed": 52.0,
+						"platform_type": "long_boat",
+						"spawn_max": 6.462,
+						"spawn_min": 6.308,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": -1,
+						"minimum_spacing": 48.0,
+						"platform_length": 256.0,
+						"platform_speed": 64.0,
+						"platform_type": "log",
+						"spawn_max": 4.875,
+						"spawn_min": 4.75,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 40.0,
+						"platform_length": 224.0,
+						"platform_speed": 46.0,
+						"platform_type": "small_boat",
+						"spawn_max": 5.913,
+						"spawn_min": 5.739,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 259.0,
+						"minimum_gap_seconds": 1.55,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.25,
+						"spawn_min": 2.6,
+						"speed": 186.0,
+						"speed_variation": 0.056,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 283.0,
+						"minimum_gap_seconds": 1.55,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.4,
+						"spawn_min": 2.75,
+						"speed": 148.0,
+						"speed_variation": 0.056,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 259.0,
+						"minimum_gap_seconds": 1.55,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.55,
+						"spawn_min": 2.9,
+						"speed": 173.0,
+						"speed_variation": 0.056,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": -1,
+						"minimum_spacing": 40.0,
+						"platform_length": 288.0,
+						"platform_speed": 52.0,
+						"platform_type": "long_boat",
+						"spawn_max": 6.462,
+						"spawn_min": 6.308,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 48.0,
+						"platform_length": 256.0,
+						"platform_speed": 64.0,
+						"platform_type": "log",
+						"spawn_max": 4.875,
+						"spawn_min": 4.75,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_09",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 155.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Skilled",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Snow Way",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_10",
+		"level_number": 10,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 1.05,
+			"ambient_tint": "Color(0.85098, 0.91373, 1, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.7098, 0.81569, 0.88235, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.94118, 0.94902, 0.87451, 1)",
+			"display_name": "Snow",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.79608, 0.86275, 0.89412, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.65,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 160,
+			"player_highlight": false,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.49412, 0.56863, 0.61176, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.62745, 0.70588, 0.78039, 1)",
+			"safe_tint": "Color(0.88627, 0.92941, 1, 1)",
+			"snow_coverage": 0.9,
+			"theme_id": "snow",
+			"time_of_day": "Day",
+			"train_lights": false,
+			"vehicle_lights": false,
+			"water_color": "Color(0.20392, 0.48235, 0.61176, 1)",
+			"water_edge_color": "Color(0.13725, 0.36078, 0.50196, 1)",
+			"water_ripple_color": "Color(0.64314, 0.83137, 0.89804, 1)",
+			"weather": "Snow",
+			"weather_intensity": 0.65,
+			"wetness": 0.0
+		},
+		"score_target": 570,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 250.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.15,
+						"spawn_min": 2.5,
+						"speed": 155.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 274.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.3,
+						"spawn_min": 2.65,
+						"speed": 180.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 250.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.45,
+						"spawn_min": 2.8,
+						"speed": 143.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.63, 0.86, 0.68, 1)",
+							"display_name": "Slow traffic",
+							"duration": 6.0,
+							"effect": "slow",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 24.0,
+						"interval_min": 20.0,
+						"safe_delay": 3.0,
+						"speed": 340.0,
+						"timing_variation": true,
+						"train_length": 368.0,
+						"warning_seconds": 3.4
+					},
+					{
+						"direction": -1,
+						"initial_delay": 7.0,
+						"interval_max": 26.0,
+						"interval_min": 22.0,
+						"safe_delay": 3.0,
+						"speed": 380.0,
+						"timing_variation": true,
+						"train_length": 400.0,
+						"warning_seconds": 3.4
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 250.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.15,
+						"spawn_min": 2.5,
+						"speed": 193.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 274.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.3,
+						"spawn_min": 2.65,
+						"speed": 155.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 250.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.45,
+						"spawn_min": 2.8,
+						"speed": 180.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 24.0,
+						"interval_min": 20.0,
+						"safe_delay": 3.0,
+						"speed": 340.0,
+						"timing_variation": true,
+						"train_length": 368.0,
+						"warning_seconds": 3.4
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 250.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.15,
+						"spawn_min": 2.5,
+						"speed": 143.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 274.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.3,
+						"spawn_min": 2.65,
+						"speed": 193.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 250.0,
+						"minimum_gap_seconds": 1.5,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.45,
+						"spawn_min": 2.8,
+						"speed": 155.0,
+						"speed_variation": 0.06,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_09",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_10",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 165.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Skilled",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Fog Track",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_11",
+		"level_number": 11,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.95,
+			"ambient_tint": "Color(0.82745, 0.86275, 0.85098, 1)",
+			"atmosphere_color": "Color(0.81176, 0.87451, 0.87059, 1)",
+			"background_color": "Color(0.68627, 0.77255, 0.77255, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.9098039, 0.9254902, 0.8156863, 1)",
+			"display_name": "Fog",
+			"environment_id": "greenway",
+			"fog_strength": 0.24,
+			"grass_tint": "Color(0.75686, 0.80784, 0.76471, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.55,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": true,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.48627, 0.5451, 0.54902, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.72157, 0.77255, 0.78824, 1)",
+			"safe_tint": "Color(0.83922, 0.86667, 0.85098, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "fog",
+			"time_of_day": "Day",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.26275, 0.52549, 0.60784, 1)",
+			"water_edge_color": "Color(0.18824, 0.39608, 0.47451, 1)",
+			"water_ripple_color": "Color(0.44705883, 0.7019608, 0.76862746, 1)",
+			"weather": "Fog",
+			"weather_intensity": 0.6,
+			"wetness": 0.0
+		},
+		"score_target": 600,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 241.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 162.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 265.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.2,
+						"spawn_min": 2.55,
+						"speed": 187.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 241.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.35,
+						"spawn_min": 2.7,
+						"speed": 150.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 241.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 200.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 24.0,
+						"interval_min": 20.0,
+						"safe_delay": 3.0,
+						"speed": 348.0,
+						"timing_variation": true,
+						"train_length": 376.0,
+						"warning_seconds": 3.4
+					},
+					{
+						"direction": -1,
+						"initial_delay": 7.0,
+						"interval_max": 26.0,
+						"interval_min": 22.0,
+						"safe_delay": 3.0,
+						"speed": 388.0,
+						"timing_variation": true,
+						"train_length": 408.0,
+						"warning_seconds": 3.4
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 265.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.2,
+						"spawn_min": 2.55,
+						"speed": 162.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 241.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.35,
+						"spawn_min": 2.7,
+						"speed": 187.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 241.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 150.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 24.0,
+						"interval_min": 20.0,
+						"safe_delay": 3.0,
+						"speed": 348.0,
+						"timing_variation": true,
+						"train_length": 376.0,
+						"warning_seconds": 3.4
+					},
+					{
+						"direction": -1,
+						"initial_delay": 7.0,
+						"interval_max": 26.0,
+						"interval_min": 22.0,
+						"safe_delay": 3.0,
+						"speed": 388.0,
+						"timing_variation": true,
+						"train_length": 408.0,
+						"warning_seconds": 3.4
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 265.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.2,
+						"spawn_min": 2.55,
+						"speed": 200.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 241.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.35,
+						"spawn_min": 2.7,
+						"speed": 162.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 241.0,
+						"minimum_gap_seconds": 1.45,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 187.0,
+						"speed_variation": 0.064,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_09",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_10",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 175.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Advanced",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Wild River",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_12",
+		"level_number": 12,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.84,
+			"ambient_tint": "Color(0.71373, 0.8, 0.84706, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.39216, 0.49412, 0.56863, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.9098039, 0.9254902, 0.8156863, 1)",
+			"display_name": "Rain",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.65098, 0.76863, 0.72157, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.5,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 200,
+			"player_highlight": true,
+			"rail_color": "Color(0.7137255, 0.76862746, 0.7411765, 1)",
+			"railway_color": "Color(0.4, 0.46275, 0.50196, 1)",
+			"ripple_visual_speed": 1.5,
+			"road_tint": "Color(0.63922, 0.70196, 0.77255, 1)",
+			"safe_tint": "Color(0.70588, 0.75686, 0.77647, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "rain",
+			"time_of_day": "Day",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.16863, 0.5098, 0.61569, 1)",
+			"water_edge_color": "Color(0.12549, 0.38039, 0.48627, 1)",
+			"water_ripple_color": "Color(0.60784, 0.80784, 0.83529, 1)",
+			"weather": "Rain",
+			"weather_intensity": 0.7,
+			"wetness": 0.85
+		},
+		"score_target": 630,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 232.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 169.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 256.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.1,
+						"spawn_min": 2.45,
+						"speed": 194.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 232.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.25,
+						"spawn_min": 2.6,
+						"speed": 157.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": 1,
+						"minimum_spacing": 52.0,
+						"platform_length": 288.0,
+						"platform_speed": 61.0,
+						"platform_type": "long_boat",
+						"spawn_max": 5.705,
+						"spawn_min": 5.574,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": -1,
+						"minimum_spacing": 60.0,
+						"platform_length": 256.0,
+						"platform_speed": 73.0,
+						"platform_type": "log",
+						"spawn_max": 4.438,
+						"spawn_min": 4.329,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 52.0,
+						"platform_length": 224.0,
+						"platform_speed": 55.0,
+						"platform_type": "small_boat",
+						"spawn_max": 5.164,
+						"spawn_min": 5.018,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 21.0,
+						"interval_min": 17.0,
+						"safe_delay": 3.0,
+						"speed": 356.0,
+						"timing_variation": true,
+						"train_length": 384.0,
+						"warning_seconds": 3.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.84, 0.7, 0.96, 1)",
+							"display_name": "Double rewards",
+							"duration": 8.0,
+							"effect": "double",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 232.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 207.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 256.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.1,
+						"spawn_min": 2.45,
+						"speed": 169.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 232.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.25,
+						"spawn_min": 2.6,
+						"speed": 194.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 232.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 157.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_09",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": -1,
+						"minimum_spacing": 52.0,
+						"platform_length": 288.0,
+						"platform_speed": 61.0,
+						"platform_type": "long_boat",
+						"spawn_max": 5.705,
+						"spawn_min": 5.574,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 60.0,
+						"platform_length": 256.0,
+						"platform_speed": 73.0,
+						"platform_type": "log",
+						"spawn_max": 4.438,
+						"spawn_min": 4.329,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_10",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 256.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.1,
+						"spawn_min": 2.45,
+						"speed": 207.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 232.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.25,
+						"spawn_min": 2.6,
+						"speed": 169.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 232.0,
+						"minimum_gap_seconds": 1.4,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 194.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_11",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_12",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 185.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Advanced",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Midnight Run",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_13",
+		"level_number": 13,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.7,
+			"ambient_tint": "Color(0.6902, 0.79608, 0.92941, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.09412, 0.16863, 0.28627, 1)",
+			"destination_border": "Color(0.58039, 0.83529, 0.81569, 1)",
+			"destination_color": "Color(0.82745, 0.91765, 0.87451, 1)",
+			"display_name": "Night",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.53725, 0.68235, 0.75294, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.9,
+			"markings_color": "Color(0.66667, 0.72157, 0.78824, 1)",
+			"particle_amount": 120,
+			"player_highlight": true,
+			"rail_color": "Color(0.73333, 0.82353, 0.89412, 1)",
+			"railway_color": "Color(0.32157, 0.40784, 0.47059, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.66275, 0.74902, 0.83922, 1)",
+			"safe_tint": "Color(0.67843, 0.73333, 0.80784, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "night",
+			"time_of_day": "Night",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.12549, 0.34118, 0.45882, 1)",
+			"water_edge_color": "Color(0.08627, 0.23922, 0.38039, 1)",
+			"water_ripple_color": "Color(0.40392, 0.73333, 0.81569, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 660,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.85,
+						"spawn_min": 2.2,
+						"speed": 176.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 247.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.0,
+						"spawn_min": 2.35,
+						"speed": 201.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.15,
+						"spawn_min": 2.5,
+						"speed": 164.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.85,
+						"spawn_min": 2.2,
+						"speed": 214.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 21.0,
+						"interval_min": 17.0,
+						"safe_delay": 3.0,
+						"speed": 364.0,
+						"timing_variation": true,
+						"train_length": 384.0,
+						"warning_seconds": 3.0
+					},
+					{
+						"direction": -1,
+						"initial_delay": 7.0,
+						"interval_max": 23.0,
+						"interval_min": 19.0,
+						"safe_delay": 3.0,
+						"speed": 404.0,
+						"timing_variation": true,
+						"train_length": 416.0,
+						"warning_seconds": 3.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 247.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.0,
+						"spawn_min": 2.35,
+						"speed": 176.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.15,
+						"spawn_min": 2.5,
+						"speed": 201.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.85,
+						"spawn_min": 2.2,
+						"speed": 164.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.63, 0.86, 0.68, 1)",
+							"display_name": "Slow traffic",
+							"duration": 6.0,
+							"effect": "slow",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": 1,
+						"minimum_spacing": 56.0,
+						"platform_length": 288.0,
+						"platform_speed": 64.0,
+						"platform_type": "long_boat",
+						"spawn_max": 5.5,
+						"spawn_min": 5.375,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": -1,
+						"minimum_spacing": 64.0,
+						"platform_length": 256.0,
+						"platform_speed": 76.0,
+						"platform_type": "log",
+						"spawn_max": 4.316,
+						"spawn_min": 4.211,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 56.0,
+						"platform_length": 224.0,
+						"platform_speed": 58.0,
+						"platform_type": "small_boat",
+						"spawn_max": 4.966,
+						"spawn_min": 4.828,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 247.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.0,
+						"spawn_min": 2.35,
+						"speed": 214.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.15,
+						"spawn_min": 2.5,
+						"speed": 176.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.85,
+						"spawn_min": 2.2,
+						"speed": 201.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_09",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_10",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 21.0,
+						"interval_min": 17.0,
+						"safe_delay": 3.0,
+						"speed": 364.0,
+						"timing_variation": true,
+						"train_length": 384.0,
+						"warning_seconds": 3.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_11",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_12",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 247.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 3.0,
+						"spawn_min": 2.35,
+						"speed": 164.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 223.0,
+						"minimum_gap_seconds": 1.35,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.15,
+						"spawn_min": 2.5,
+						"speed": 214.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_13",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_14",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 195.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Expert",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Danger Zone",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_14",
+		"level_number": 14,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.88,
+			"ambient_tint": "Color(1, 0.88627, 0.76863, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.72157, 0.50588, 0.46275, 1)",
+			"destination_border": "Color(0.45490196, 0.5921569, 0.5019608, 1)",
+			"destination_color": "Color(0.96863, 0.87059, 0.70196, 1)",
+			"display_name": "Evening / Sunset",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.92157, 0.80392, 0.57647, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.45,
+			"markings_color": "Color(0.60784316, 0.6666667, 0.6509804, 1)",
+			"particle_amount": 120,
+			"player_highlight": false,
+			"rail_color": "Color(0.88235, 0.77255, 0.66275, 1)",
+			"railway_color": "Color(0.57647, 0.5098, 0.46275, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.89412, 0.78824, 0.76471, 1)",
+			"safe_tint": "Color(1, 0.87059, 0.70196, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "evening",
+			"time_of_day": "Evening",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.32549, 0.43529, 0.58039, 1)",
+			"water_edge_color": "Color(0.27451, 0.36471, 0.50196, 1)",
+			"water_ripple_color": "Color(0.81569, 0.6549, 0.62745, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 690,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.75,
+						"spawn_min": 2.1,
+						"speed": 183.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 238.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.9,
+						"spawn_min": 2.25,
+						"speed": 208.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 171.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.75,
+						"spawn_min": 2.1,
+						"speed": 221.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 21.0,
+						"interval_min": 17.0,
+						"safe_delay": 3.0,
+						"speed": 372.0,
+						"timing_variation": true,
+						"train_length": 384.0,
+						"warning_seconds": 3.0
+					},
+					{
+						"direction": -1,
+						"initial_delay": 7.0,
+						"interval_max": 23.0,
+						"interval_min": 19.0,
+						"safe_delay": 3.0,
+						"speed": 412.0,
+						"timing_variation": true,
+						"train_length": 416.0,
+						"warning_seconds": 3.0
+					},
+					{
+						"direction": 1,
+						"initial_delay": 11.0,
+						"interval_max": 25.0,
+						"interval_min": 21.0,
+						"safe_delay": 3.0,
+						"speed": 452.0,
+						"timing_variation": true,
+						"train_length": 448.0,
+						"warning_seconds": 3.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 238.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.9,
+						"spawn_min": 2.25,
+						"speed": 183.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 208.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.75,
+						"spawn_min": 2.1,
+						"speed": 171.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.63, 0.86, 0.68, 1)",
+							"display_name": "Slow traffic",
+							"duration": 6.0,
+							"effect": "slow",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": 1,
+						"minimum_spacing": 60.0,
+						"platform_length": 288.0,
+						"platform_speed": 67.0,
+						"platform_type": "long_boat",
+						"spawn_max": 5.313,
+						"spawn_min": 5.194,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": -1,
+						"minimum_spacing": 68.0,
+						"platform_length": 256.0,
+						"platform_speed": 79.0,
+						"platform_type": "log",
+						"spawn_max": 4.203,
+						"spawn_min": 4.101,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 60.0,
+						"platform_length": 224.0,
+						"platform_speed": 61.0,
+						"platform_type": "small_boat",
+						"spawn_max": 4.787,
+						"spawn_min": 4.656,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 238.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.9,
+						"spawn_min": 2.25,
+						"speed": 221.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 183.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.75,
+						"spawn_min": 2.1,
+						"speed": 208.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 238.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.9,
+						"spawn_min": 2.25,
+						"speed": 171.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_09",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.84, 0.7, 0.96, 1)",
+							"display_name": "Double rewards",
+							"duration": 8.0,
+							"effect": "double",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_10",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": -1,
+						"initial_delay": 3.0,
+						"interval_max": 21.0,
+						"interval_min": 17.0,
+						"safe_delay": 3.0,
+						"speed": 372.0,
+						"timing_variation": true,
+						"train_length": 384.0,
+						"warning_seconds": 3.0
+					},
+					{
+						"direction": 1,
+						"initial_delay": 7.0,
+						"interval_max": 23.0,
+						"interval_min": 19.0,
+						"safe_delay": 3.0,
+						"speed": 412.0,
+						"timing_variation": true,
+						"train_length": 416.0,
+						"warning_seconds": 3.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_11",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_12",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 3.05,
+						"spawn_min": 2.4,
+						"speed": 221.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 214.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.75,
+						"spawn_min": 2.1,
+						"speed": 183.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 238.0,
+						"minimum_gap_seconds": 1.3,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.9,
+						"spawn_min": 2.25,
+						"speed": 208.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_13",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_14",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 210.0
+	},
+	{
+		"cell_size": 64.0,
+		"classic_greenway_art": false,
+		"coin_count": 0,
+		"columns": 18,
+		"destination_points": 100,
+		"destination_reset_seconds": 0.65,
+		"difficulty_label": "Finale",
+		"difficulty_ramp_seconds": 60.0,
+		"display_name": "Final Crossing",
+		"final_speed_scale": 1.0,
+		"forward_points": 10,
+		"goal_columns": [
+			2,
+			6,
+			11,
+			15
+		],
+		"goal_row": 6,
+		"grid_origin": "Vector2(96, 576)",
+		"hit_reset_seconds": 0.9,
+		"hop_height": 11.0,
+		"hop_seconds": 0.14,
+		"lanes": [],
+		"level_id": "level_15",
+		"level_number": 15,
+		"life_bonus": 50,
+		"obstacles": [],
+		"power_ups": [],
+		"presentation": {
+			"ambient_brightness": 0.7,
+			"ambient_tint": "Color(0.6902, 0.79608, 0.92941, 1)",
+			"atmosphere_color": "Color(0.7529412, 0.8392157, 0.87058824, 1)",
+			"background_color": "Color(0.09412, 0.16863, 0.28627, 1)",
+			"destination_border": "Color(0.58039, 0.83529, 0.81569, 1)",
+			"destination_color": "Color(0.82745, 0.91765, 0.87451, 1)",
+			"display_name": "Night",
+			"environment_id": "greenway",
+			"fog_strength": 0.0,
+			"grass_tint": "Color(0.53725, 0.68235, 0.75294, 1)",
+			"ground_tint": "Color(0.8, 0.64, 0.33, 0.12)",
+			"light_strength": 0.9,
+			"markings_color": "Color(0.66667, 0.72157, 0.78824, 1)",
+			"particle_amount": 120,
+			"player_highlight": true,
+			"rail_color": "Color(0.73333, 0.82353, 0.89412, 1)",
+			"railway_color": "Color(0.32157, 0.40784, 0.47059, 1)",
+			"ripple_visual_speed": 1.0,
+			"road_tint": "Color(0.66275, 0.74902, 0.83922, 1)",
+			"safe_tint": "Color(0.67843, 0.73333, 0.80784, 1)",
+			"snow_coverage": 0.0,
+			"theme_id": "night",
+			"time_of_day": "Night",
+			"train_lights": true,
+			"vehicle_lights": true,
+			"water_color": "Color(0.12549, 0.34118, 0.45882, 1)",
+			"water_edge_color": "Color(0.08627, 0.23922, 0.38039, 1)",
+			"water_ripple_color": "Color(0.40392, 0.73333, 0.81569, 1)",
+			"weather": "Clear",
+			"weather_intensity": 0.0,
+			"wetness": 0.0
+		},
+		"score_target": 720,
+		"seconds_bonus": 5,
+		"sections": [
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 0,
+				"pickups": [
+					{
+						"cell": "Vector2i(7, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_00",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.65,
+						"spawn_min": 2.0,
+						"speed": 190.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 229.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.8,
+						"spawn_min": 2.15,
+						"speed": 215.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 178.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_01",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.65,
+						"spawn_min": 2.0,
+						"speed": 228.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 229.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.8,
+						"spawn_min": 2.15,
+						"speed": 190.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_02",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.57, 0.84, 0.93, 1)",
+							"display_name": "Shield",
+							"duration": 12.0,
+							"effect": "shield",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_03",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 21.0,
+						"interval_min": 17.0,
+						"safe_delay": 3.0,
+						"speed": 380.0,
+						"timing_variation": true,
+						"train_length": 384.0,
+						"warning_seconds": 3.0
+					},
+					{
+						"direction": -1,
+						"initial_delay": 7.0,
+						"interval_max": 23.0,
+						"interval_min": 19.0,
+						"safe_delay": 3.0,
+						"speed": 420.0,
+						"timing_variation": true,
+						"train_length": 416.0,
+						"warning_seconds": 3.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_04",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_05",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 215.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.65,
+						"spawn_min": 2.0,
+						"speed": 178.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 229.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.8,
+						"spawn_min": 2.15,
+						"speed": 228.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_06",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(10, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.63, 0.86, 0.68, 1)",
+							"display_name": "Slow traffic",
+							"duration": 6.0,
+							"effect": "slow",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_07",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_08",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": 1,
+						"minimum_spacing": 64.0,
+						"platform_length": 288.0,
+						"platform_speed": 70.0,
+						"platform_type": "long_boat",
+						"spawn_max": 5.143,
+						"spawn_min": 5.029,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": -1,
+						"minimum_spacing": 72.0,
+						"platform_length": 256.0,
+						"platform_speed": 82.0,
+						"platform_type": "log",
+						"spawn_max": 4.098,
+						"spawn_min": 4.0,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 64.0,
+						"platform_length": 224.0,
+						"platform_speed": 64.0,
+						"platform_type": "small_boat",
+						"spawn_max": 4.625,
+						"spawn_min": 4.5,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(6, 0)",
+						"power": null
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_09",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 190.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.65,
+						"spawn_min": 2.0,
+						"speed": 215.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 229.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.8,
+						"spawn_min": 2.15,
+						"speed": 178.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 228.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_10",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 3,
+				"pickups": [],
+				"railway_tracks": [
+					{
+						"direction": 1,
+						"initial_delay": 3.0,
+						"interval_max": 21.0,
+						"interval_min": 17.0,
+						"safe_delay": 3.0,
+						"speed": 380.0,
+						"timing_variation": true,
+						"train_length": 384.0,
+						"warning_seconds": 3.0
+					}
+				],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_11",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [
+					{
+						"cell": "Vector2i(8, 0)",
+						"power": null
+					},
+					{
+						"cell": "Vector2i(9, 0)",
+						"power": {
+							"color": "Color(0.84, 0.7, 0.96, 1)",
+							"display_name": "Double rewards",
+							"duration": 8.0,
+							"effect": "double",
+							"reward_multiplier": 2,
+							"traffic_scale": 0.65
+						}
+					}
+				],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_12",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.65,
+						"spawn_min": 2.0,
+						"speed": 190.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 229.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.8,
+						"spawn_min": 2.15,
+						"speed": 215.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 178.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_13",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_14",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 4,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_15",
+				"spawn_column": 8,
+				"water_lanes": [
+					{
+						"direction": -1,
+						"minimum_spacing": 64.0,
+						"platform_length": 288.0,
+						"platform_speed": 70.0,
+						"platform_type": "long_boat",
+						"spawn_max": 5.143,
+						"spawn_min": 5.029,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					},
+					{
+						"direction": 1,
+						"minimum_spacing": 72.0,
+						"platform_length": 256.0,
+						"platform_speed": 82.0,
+						"platform_type": "log",
+						"spawn_max": 4.098,
+						"spawn_min": 4.0,
+						"spawn_variation": true,
+						"speed_variation": 0.04,
+						"variation_period": 10.0
+					}
+				]
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 2,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_16",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					2,
+					6,
+					11,
+					15
+				],
+				"kind": 1,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.65,
+						"spawn_min": 2.0,
+						"speed": 228.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": 1,
+						"minimum_clear_gap": 229.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "steady",
+						"row": 1,
+						"spawn_max": 2.8,
+						"spawn_min": 2.15,
+						"speed": 190.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"bus",
+							"car"
+						],
+						"warning_seconds": 2.0
+					},
+					{
+						"cycle_seconds": 13.0,
+						"direction": -1,
+						"minimum_clear_gap": 205.0,
+						"minimum_gap_seconds": 1.25,
+						"open_seconds": 4.0,
+						"pattern": "waves",
+						"row": 1,
+						"spawn_max": 2.95,
+						"spawn_min": 2.3,
+						"speed": 215.0,
+						"speed_variation": 0.068,
+						"variation_period": 18.0,
+						"vehicle_colors": [
+							"Color(0.972549, 0.7882353, 0.42352942, 1)",
+							"Color(0.5411765, 0.79607844, 0.7607843, 1)"
+						],
+						"vehicle_types": [
+							"car",
+							"truck",
+							"car"
+						],
+						"warning_seconds": 2.0
+					}
+				],
+				"safe_rows": 1,
+				"section_id": "section_17",
+				"spawn_column": 8,
+				"water_lanes": []
+			},
+			{
+				"blocked_cells": [],
+				"destination_columns": [
+					8
+				],
+				"kind": 5,
+				"pickups": [],
+				"railway_tracks": [],
+				"road_lanes": [],
+				"safe_rows": 1,
+				"section_id": "section_18",
+				"spawn_column": 8,
+				"water_lanes": []
+			}
+		],
+		"spawn_cell": "Vector2i(8, 0)",
+		"spawn_protection": 0.9,
+		"star_lives_required": 2,
+		"star_time_fraction": 0.35,
+		"starting_lives": 3,
+		"starting_speed_scale": 1.0,
+		"target_reward": 100,
+		"theme": "Greenway",
+		"time_limit": 235.0
+	}
+]

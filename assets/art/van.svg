@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="58" viewBox="0 0 140 58">
+<defs><linearGradient id="body" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#b6c1c6"/></linearGradient><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#94b6c5"/><stop offset="1" stop-color="#304854"/></linearGradient></defs>
+<rect x="6" y="12" width="130" height="43" rx="8" fill="#10212c" opacity=".3"/>
+<path d="M20 2h20v12H20zM108 2h17v12h-17zM20 42h20v12H20zM108 42h17v12h-17z" fill="#1e2c36"/>
+<rect x="4" y="6" width="132" height="43" rx="7" fill="#6d7d86"/>
+<rect x="4" y="5" width="87" height="39" rx="5" fill="url(#body)"/>
+<path d="M96 7h26q13 0 13 13v13q0 11-13 11H96Z" fill="url(#body)"/>
+<path d="M93 11v29" stroke="#334751" stroke-width="4"/>
+<path d="m110 10 11 4v23l-11 4Z" fill="url(#glass)"/><path d="m113 14 5 3v15" fill="none" stroke="#cfe5ea" opacity=".6"/>
+<rect x="98" y="13" width="10" height="24" rx="2" fill="#ecf1f1"/>
+<path d="M13 11v27M24 11v27M35 11v27M46 11v27M57 11v27M68 11v27M79 11v27" stroke="#889da7" opacity=".26"/>
+<path d="M11 9h72M11 40h72" stroke="#fff" stroke-width="2" opacity=".8"/>
+<rect x="35" y="17" width="26" height="16" rx="3" fill="#fff" opacity=".75"/>
+<path d="m40 25 6 4 10-9" stroke="#7b9095" fill="none" stroke-width="2"/>
+<rect x="130" y="11" width="5" height="9" rx="2" fill="#fff2c4"/><rect x="130" y="31" width="5" height="9" rx="2" fill="#fff2c4"/>
+<path d="M5 13v7M5 31v7" stroke="#e37e70" stroke-width="3"/>
+</svg>

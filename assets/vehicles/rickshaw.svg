@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="58" viewBox="0 0 116 58">
+<ellipse cx="55" cy="34" rx="53" ry="22" fill="#162d38" opacity=".18"/>
+<!-- Paired rear wheels, single exposed bicycle front wheel. -->
+<g fill="#203843" stroke="#a7b9b5" stroke-width="1.5"><rect x="15" y="2" width="20" height="8" rx="4"/><rect x="15" y="48" width="20" height="8" rx="4"/><ellipse cx="100" cy="29" rx="13" ry="6"/></g>
+<g fill="none" stroke="#243e48" stroke-width="3" stroke-linejoin="round"><path d="M24 6V51M26 29H99M56 14L80 29L56 44M68 29L79 20L94 29M91 20V38"/></g>
+<path d="M8 11Q5 29 8 47H51L63 40V18L51 11Z" fill="#bd4d61" stroke="#263c46" stroke-width="2"/>
+<path d="M12 15H49V43H12Z" fill="#f1c266"/><path d="M15 18H36V40H15Z" fill="#377c81"/>
+<!-- Rounded scalloped passenger hood, open seat and colorful painted panel. -->
+<path d="M8 13Q21 1 43 10L42 48Q20 54 8 45Z" fill="#23867c" stroke="#203b44" stroke-width="2"/>
+<path d="M13 14Q25 7 37 13M13 22Q25 15 37 21M13 30Q25 23 37 29M13 38Q25 31 37 37" fill="none" stroke="#edbf5a" stroke-width="2"/>
+<path d="M38 11Q48 12 48 17V41Q48 46 38 47" fill="none" stroke="#f7d97f" stroke-width="3"/>
+<path d="M49 17H57V41H49Z" fill="#8c3e56"/><path d="M53 21V37" stroke="#f3a284" stroke-width="2"/>
+<path d="M11 46L38 48" stroke="#f2ca6e" stroke-width="3"/><circle cx="21" cy="43" r="2" fill="#ec816c"/>
+<!-- Rider shoulders, head, hands at the handlebar, pedal crank. -->
+<path d="M68 20L74 15M68 38L75 44" stroke="#9b7158" stroke-width="3"/>
+<ellipse cx="71" cy="29" rx="9" ry="7" fill="#40709a" stroke="#263d47" stroke-width="1.5"/>
+<circle cx="80" cy="29" r="4.5" fill="#e5b480"/>
+<path d="M77 22L89 20M77 36L89 38" stroke="#deb180" stroke-width="2.5"/>
+<path d="M97 26L108 29L97 32" fill="none" stroke="#d2d9c6" stroke-width="1"/>
+<circle cx="66" cy="29" r="3" fill="#e8c788"/>
+</svg>

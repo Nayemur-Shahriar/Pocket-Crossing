@@ -1,0 +1,46 @@
+[
+  {
+    "path": "scripts/core/audio.gd",
+    "sha256": "6aeaf4d5a60a178daadf6c4c2456940cf7a2e1233e6c313af3182e0ff36326e5"
+  },
+  {
+    "path": "default_bus_layout.tres",
+    "sha256": "c139c4ff9f68dc5b3a5a3d444ac20864c615c0e4777f0156027a178ea372dcbd"
+  },
+  {
+    "path": "scripts/data/playful_music_catalog.gd",
+    "sha256": "b7d4d8d235b65d8e37c55c302b2019da363814bc927632a47e23cedcf67af667"
+  },
+  {
+    "path": "resources/audio/playful_music.tres",
+    "sha256": "05f9b3ed39deb19a53f49d6ba00e40f82cff0afb5001d535e10f385e91b2352a"
+  },
+  {
+    "path": "assets/audio/playful/ASSET_REQUIREMENTS.md",
+    "sha256": "908b497a29f842ae8833216e7593d13c57a0651fb81938a954dbb8822b3bdbda"
+  },
+  {
+    "path": "tests/playful_music_slots_tests.gd",
+    "sha256": "2e7013b506b90da36da67a636b01223df6d624a8a11a6e9ad10a328f3ff5d1b1"
+  },
+  {
+    "path": "tests/playful_music_slots_tests.tscn",
+    "sha256": "0b17f82d033757618fdd5f3464de423b2a54ee31a6c82b8cfd4e805311d90d3a"
+  },
+  {
+    "path": "docs/PLAYFUL_MUSIC_REPORT.md",
+    "sha256": "13113aa077192825aeff402cfc826ef66f597397915888e95b3b62ca2edf7445"
+  },
+  {
+    "path": "docs/PLAYFUL_MUSIC_SCOPE_CHECKS.json",
+    "sha256": "d9a99396ec8c673237a5e4e515f372b60952bcd23ba56f22f5dc3a053c67ac90"
+  },
+  {
+    "path": "docs/PLAYFUL_MUSIC_TEST_LOGS.txt",
+    "sha256": "351ed1d486d7062154f93e0060ddcb49ac31f2b006e170b0a4e8a87ed8b2752f"
+  },
+  {
+    "path": "scripts/data/playful_music_catalog.gd.uid",
+    "sha256": "de4fb92fc95c0b59e82773ee4719c1454b8ee7d9638c04c937eec99e219683ea"
+  }
+]

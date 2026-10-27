@@ -1,0 +1,16 @@
+Byte-identical to M12:
+project.godot
+export_presets.cfg
+scripts/core/save_data.gd
+scripts/input/input_router.gd
+scripts/core/power_up_controller.gd
+scripts/actors/player.gd
+scripts/world/water_support.gd
+scripts/world/water_lane.gd
+scripts/world/railway_track.gd
+scripts/world/railway_section.gd
+scripts/world/level_camera.gd
+scripts/world/section_activation.gd
+scripts/data/section_layout_compiler.gd
+All existing assets, theme and environment Resources unchanged.
+Stable campaign IDs verified by identity tests; no save schema migration.

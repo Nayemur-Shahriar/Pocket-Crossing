@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ChallengeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/challenge_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+challenge_id = "fast_river"
+title = "Fast River"
+description = "Faster boats and closer spacing."
+modifier = "river"
+maps = Array[String](["river_delta"])

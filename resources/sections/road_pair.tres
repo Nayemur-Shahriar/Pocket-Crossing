@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="LevelSectionConfig" load_steps=8 format=3 uid="uid://b4d7plqqviwfy"]
+
+[ext_resource type="Script" uid="uid://clxcqv3kbeb6n" path="res://scripts/data/level_section_config.gd" id="1"]
+[ext_resource type="Script" uid="uid://bc4yvr40ecisi" path="res://scripts/data/pickup_placement.gd" id="1_0iqki"]
+[ext_resource type="Script" uid="uid://c7bkf7fvtt6ea" path="res://scripts/data/railway_track_config.gd" id="1_sjg0l"]
+[ext_resource type="Script" uid="uid://dm7l6coe30tj5" path="res://scripts/data/lane_config.gd" id="2"]
+[ext_resource type="Script" uid="uid://d16k50w54hxcu" path="res://scripts/data/water_lane_config.gd" id="4_0iqki"]
+
+[sub_resource type="Resource" id="East"]
+script = ExtResource("2")
+speed = 155.0
+spawn_min = 2.0
+minimum_clear_gap = 240.0
+
+[sub_resource type="Resource" id="West"]
+script = ExtResource("2")
+direction = -1
+speed = 180.0
+spawn_min = 2.2
+spawn_max = 3.0
+minimum_gap_seconds = 1.6
+
+[resource]
+script = ExtResource("1")
+kind = 1
+road_lanes = Array[ExtResource("2")]([SubResource("East"), SubResource("West")])

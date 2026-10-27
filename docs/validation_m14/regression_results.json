@@ -1,0 +1,128 @@
+[
+  {
+    "suite": "test_runner",
+    "exit": 0,
+    "seconds": 2.23,
+    "summary": [
+      "RESULT: 135 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "phase3_tests",
+    "exit": 0,
+    "seconds": 3.17,
+    "summary": [
+      "PHASE 3 RESULTS: 103 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "phase4_tests",
+    "exit": 0,
+    "seconds": 0.84,
+    "summary": [
+      "PHASE 4 RESULTS: 62 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "section_tests",
+    "exit": 0,
+    "seconds": 1.02,
+    "summary": [
+      "SECTION RESULTS: 68 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "railway_tests",
+    "exit": 0,
+    "seconds": 1.06,
+    "summary": [
+      "RAILWAY RESULTS: 88 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "water_tests",
+    "exit": 0,
+    "seconds": 1.21,
+    "summary": [
+      "WATER RESULTS: 73 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "water_route_tests",
+    "exit": 0,
+    "seconds": 0.93,
+    "summary": [
+      "WATER ROUTE RESULTS: 3 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "long_level_tests",
+    "exit": 0,
+    "seconds": 1.22,
+    "summary": [
+      "LONG LEVEL RESULTS: 142 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "long_route_tests",
+    "exit": 0,
+    "seconds": 1.57,
+    "summary": [
+      "LONG ROUTE RESULTS: 2 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "theme_tests",
+    "exit": 0,
+    "seconds": 1.09,
+    "summary": [
+      "THEME RESULTS: 109 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "theme_route_tests",
+    "exit": 0,
+    "seconds": 2.49,
+    "summary": [
+      "THEME ROUTE RESULTS: 6 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "campaign_route_tests",
+    "exit": 0,
+    "seconds": 12.8,
+    "summary": [
+      "CAMPAIGN ROUTE RESULTS: 75 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "campaign_tests",
+    "exit": 0,
+    "seconds": 1.87,
+    "summary": [
+      "CAMPAIGN RESULTS: 372 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "identity_tests",
+    "exit": 0,
+    "seconds": 1.78,
+    "summary": [
+      "IDENTITY RESULTS: 986 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "balance_tests",
+    "exit": 0,
+    "seconds": 1.13,
+    "summary": [
+      "BALANCE RESULTS: 516 passed, 0 failed"
+    ]
+  },
+  {
+    "suite": "balance_water_routes",
+    "exit": 0,
+    "seconds": 1.56,
+    "summary": []
+  }
+]

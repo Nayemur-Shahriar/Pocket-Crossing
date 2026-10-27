@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=13 format=3 uid="uid://c7pgv2ces7x13"]
+
+[ext_resource type="Script" uid="uid://c5mpib6lv8akn" path="res://scripts/data/level_config.gd" id="1"]
+[ext_resource type="Script" uid="uid://dm7l6coe30tj5" path="res://scripts/data/lane_config.gd" id="2"]
+[ext_resource type="Script" uid="uid://cju825wry4p3f" path="res://scripts/data/power_up_config.gd" id="2_r0f0s"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="3_effx0"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="4_yyhwi"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="5_khicc"]
+[ext_resource type="Script" uid="uid://clxcqv3kbeb6n" path="res://scripts/data/level_section_config.gd" id="7_o0vt1"]
+
+[sub_resource type="Resource" id="Lane0"]
+script = ExtResource("2")
+speed = 220.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[sub_resource type="Resource" id="Lane1"]
+script = ExtResource("2")
+row = 2
+direction = -1
+speed = 232.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[sub_resource type="Resource" id="Lane2"]
+script = ExtResource("2")
+row = 3
+speed = 310.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["train"])
+pattern = "railway"
+cycle_seconds = 24.0
+open_seconds = 10.0
+warning_seconds = 3.0
+
+[sub_resource type="Resource" id="Lane3"]
+script = ExtResource("2")
+row = 4
+direction = -1
+speed = 256.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[sub_resource type="Resource" id="Lane4"]
+script = ExtResource("2")
+row = 5
+speed = 268.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[resource]
+script = ExtResource("1")
+display_name = "Railway Crossing"
+level_number = 5
+time_limit = 120.0
+cell_size = 40.0
+lanes = Array[ExtResource("2")]([SubResource("Lane0"), SubResource("Lane1"), SubResource("Lane2"), SubResource("Lane3"), SubResource("Lane4")])
+life_bonus = 20
+starting_speed_scale = 0.78
+difficulty_ramp_seconds = 70.0
+level_id = "level_05"
+theme = "Railway"
+difficulty_label = "Expert"
+score_target = 950
+target_reward = 225

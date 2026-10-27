@@ -1,0 +1,167 @@
+M13 incremental update relative to completed M12
+
+Created (103):
+docs/BALANCE_M13.md
+docs/M13_BALANCE_DATA.json
+docs/M13_FILES.txt
+docs/screenshots/m12_level_01_destination.png.import
+docs/screenshots/m12_level_02_destination.png.import
+docs/screenshots/m12_level_03_destination.png.import
+docs/screenshots/m12_level_04_destination.png.import
+docs/screenshots/m12_level_05_destination.png.import
+docs/screenshots/m12_level_06_destination.png.import
+docs/screenshots/m12_level_07_destination.png.import
+docs/screenshots/m12_level_08_destination.png.import
+docs/screenshots/m12_level_09_destination.png.import
+docs/screenshots/m12_level_10_destination.png.import
+docs/screenshots/m12_level_11_destination.png.import
+docs/screenshots/m12_level_12_destination.png.import
+docs/screenshots/m12_level_13_destination.png.import
+docs/screenshots/m12_level_14_destination.png.import
+docs/screenshots/m12_level_15_destination.png.import
+docs/screenshots/m13_failure.png
+docs/screenshots/m13_failure_1920x864.png
+docs/screenshots/m13_failure_800x360.png
+docs/screenshots/m13_final_complete.png
+docs/screenshots/m13_fireworks_01s.png
+docs/screenshots/m13_fireworks_30s.png
+docs/screenshots/m13_fireworks_60s.png
+docs/screenshots/m13_fireworks_after_replay.png
+docs/screenshots/m13_level_01.png
+docs/screenshots/m13_level_02.png
+docs/screenshots/m13_level_03.png
+docs/screenshots/m13_level_04.png
+docs/screenshots/m13_level_05.png
+docs/screenshots/m13_level_06.png
+docs/screenshots/m13_level_07.png
+docs/screenshots/m13_level_08.png
+docs/screenshots/m13_level_09.png
+docs/screenshots/m13_level_10.png
+docs/screenshots/m13_level_11.png
+docs/screenshots/m13_level_12.png
+docs/screenshots/m13_level_13.png
+docs/screenshots/m13_level_14.png
+docs/screenshots/m13_level_15.png
+docs/screenshots/m13_normal_complete.png
+docs/screenshots/m13_record_day.png
+docs/screenshots/m13_record_evening.png
+docs/screenshots/m13_record_fog.png
+docs/screenshots/m13_record_night.png
+docs/screenshots/m13_record_rain.png
+docs/screenshots/m13_record_snow.png
+docs/screenshots/m13_select_bottom.png
+docs/screenshots/m13_select_top.png
+docs/screenshots/m13_speed_after_four_seconds.png
+docs/screenshots/m13_speed_start.png
+docs/validation_m13/M12_BEFORE_AUDIT.json
+docs/validation_m13/PRESERVATION.txt
+docs/validation_m13/SUMMARY.txt
+docs/validation_m13/android_pack.txt
+docs/validation_m13/android_startup.txt
+docs/validation_m13/balance_tests.txt
+docs/validation_m13/balance_water_routes.txt
+docs/validation_m13/campaign_route_tests.txt
+docs/validation_m13/campaign_tests.txt
+docs/validation_m13/fresh_import.txt
+docs/validation_m13/identity_tests.txt
+docs/validation_m13/long_level_tests.txt
+docs/validation_m13/long_route_tests.txt
+docs/validation_m13/phase3_tests.txt
+docs/validation_m13/phase4_tests.txt
+docs/validation_m13/railway_tests.txt
+docs/validation_m13/references.txt
+docs/validation_m13/render.txt
+docs/validation_m13/render_final.txt
+docs/validation_m13/section_tests.txt
+docs/validation_m13/test_runner.txt
+docs/validation_m13/theme_route_tests.txt
+docs/validation_m13/theme_tests.txt
+docs/validation_m13/water_route_tests.txt
+docs/validation_m13/water_tests.txt
+docs/validation_m13/windows_pack.txt
+docs/validation_m13/windows_startup.txt
+resources/presentation/celebration.tres
+resources/progression/character_prices.tres
+scripts/data/celebration_config.gd
+scripts/data/celebration_config.gd.uid
+scripts/data/character_prices.gd
+scripts/data/character_prices.gd.uid
+tests/balance_tests.gd
+tests/balance_tests.gd.uid
+tests/balance_tests.tscn
+tests/balance_water_routes.gd
+tests/balance_water_routes.gd.uid
+tests/balance_water_routes.tscn
+tools/capture_balance.gd
+tools/capture_balance.gd.uid
+tools/capture_balance.tscn
+tools/capture_fireworks.gd
+tools/capture_fireworks.gd.uid
+tools/capture_fireworks.tscn
+tools/capture_speed.gd
+tools/capture_speed.gd.uid
+tools/capture_speed.tscn
+tools/speed_preview.gd
+tools/speed_preview.gd.uid
+tools/speed_preview.tscn
+
+Modified (38):
+README.md
+resources/campaign/level_01.tres
+resources/campaign/level_02.tres
+resources/campaign/level_03.tres
+resources/campaign/level_04.tres
+resources/campaign/level_05.tres
+resources/campaign/level_06.tres
+resources/campaign/level_07.tres
+resources/campaign/level_08.tres
+resources/campaign/level_09.tres
+resources/campaign/level_10.tres
+resources/campaign/level_11.tres
+resources/campaign/level_12.tres
+resources/campaign/level_13.tres
+resources/campaign/level_14.tres
+resources/campaign/level_15.tres
+resources/vehicles/cng.tres
+resources/vehicles/delivery_van.tres
+resources/vehicles/large_truck.tres
+resources/vehicles/local_bus.tres
+resources/vehicles/medium_truck.tres
+resources/vehicles/microbus.tres
+resources/vehicles/pickup.tres
+resources/vehicles/rickshaw.tres
+resources/vehicles/small_car.tres
+scripts/core/game.gd
+scripts/data/character_catalog.gd
+scripts/data/lane_config.gd
+scripts/data/vehicle_visual_config.gd
+scripts/data/water_lane_config.gd
+scripts/ui/game_hud.gd
+scripts/ui/level_result_panel.gd
+scripts/ui/result_celebration.gd
+scripts/world/traffic_lane.gd
+tests/campaign_route_tests.gd
+tests/campaign_tests.gd
+tests/identity_tests.gd
+tests/long_route_tests.gd
+
+Deleted: none.
+
+Modification reasons:
+README: current instructions and report links.
+15 campaign Resources: per-level lane counts, timings, speed/directions, water length/pitch, coin detours, timers, lives protection, ratings and scores.
+9 vehicle Resources: base-speed categories, existing visuals/dimensions retained.
+VehicleVisualConfig/LaneConfig: Inspector speed settings and validation.
+TrafficLane: distinct cruise speeds, safe front-to-back following and seeded starting phase.
+WaterLaneConfig: permit smaller validated decks; actual WaterSupport and movement unchanged.
+CharacterCatalog: resolve Inspector prices without changing stable skin IDs or ownership.
+GameHUD: price display uses resolved catalog; synchronous celebration stop before detachment.
+ResultCelebration: bounded repeating bursts and one sound per burst; stop/exit cleanup.
+LevelResultPanel: stop effect immediately when hidden.
+CrossingGame: retain furthest row through damage to prevent repeat progress-score farming.
+Campaign tests: repeating celebration/configured star/score assertions.
+Campaign route tests: delayed starts and power-free completion evidence.
+Long route test driver: predict actual actor speed, no lane-wide assumption.
+Identity tests: preserve campaign IDs/name/theme while allowing explicitly authorized balance changes.
+
+New files include two supporting Resource classes/presets (prices and celebration), focused balance/water tests, speed preview and captures, and the detailed report/evidence. No caches, player saves, APK or EXE are included.

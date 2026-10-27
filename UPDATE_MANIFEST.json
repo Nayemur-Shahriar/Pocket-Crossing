@@ -1,0 +1,152 @@
+[
+  {
+    "path": "assets/audio/playful/ASSET_REQUIREMENTS.md",
+    "sha256": "f63ea0ea821215d5d28d90937cd86b424cffb39561e9ddf37af88eb9c8286f2d",
+    "bytes": 285
+  },
+  {
+    "path": "assets/audio/playful/CC0_SOURCE_LICENSE.txt",
+    "sha256": "d02e059adb401d50167b2e04d12ef9236fbcef0b4e3b7157bd5ebfab8a82b8f4",
+    "bytes": 1138
+  },
+  {
+    "path": "assets/audio/playful/city.ogg",
+    "sha256": "023fdcdb876953510b9188e6e867558e7e1b2bf5bee5b647adfe5e1593765ad6",
+    "bytes": 553839
+  },
+  {
+    "path": "assets/audio/playful/city.ogg.import",
+    "sha256": "be5c9aac0860e6db3e66e20cb31f245221638809db7e0f6a34bfe371d1687ae6",
+    "bytes": 388
+  },
+  {
+    "path": "assets/audio/playful/city_challenge.ogg",
+    "sha256": "232d5a5a2d77a10df495d04bc813efac38c274bcddadefc710f2316e46283a1b",
+    "bytes": 572388
+  },
+  {
+    "path": "assets/audio/playful/city_challenge.ogg.import",
+    "sha256": "c002ee261b988dd65256b89386e51204357e052f688651f9ca6db708e3841773",
+    "bytes": 419
+  },
+  {
+    "path": "assets/audio/playful/night.ogg",
+    "sha256": "52d7ca0b53f1b9028f282236aabf7a58a194d40889f0a584d3310c0c557dc279",
+    "bytes": 563589
+  },
+  {
+    "path": "assets/audio/playful/night.ogg.import",
+    "sha256": "74ef7c3ba48727a983dd0f76c3d847d3f00c8cbd9d2aa0768a2cf88f65ac119f",
+    "bytes": 392
+  },
+  {
+    "path": "assets/audio/playful/night_challenge.ogg",
+    "sha256": "97937c3ab6dfc45e68ec932dc3b20b310bf61e418c73fb7b2990f57f1fa5b96d",
+    "bytes": 569689
+  },
+  {
+    "path": "assets/audio/playful/night_challenge.ogg.import",
+    "sha256": "fef267cdac4ef840f05232bc03e932cd42ce51c5c7c21d80e89bd4b28cf19697",
+    "bytes": 422
+  },
+  {
+    "path": "assets/audio/playful/river.ogg",
+    "sha256": "90b02713f4d21506f5b9e57c9bee8f45bc0e6880d03663b8d34703ec1bd2b1c0",
+    "bytes": 568174
+  },
+  {
+    "path": "assets/audio/playful/river.ogg.import",
+    "sha256": "29cba37f30c7e1eceff60f36582351813a49c0fe1d8657d4e02df7b139fc19ae",
+    "bytes": 392
+  },
+  {
+    "path": "assets/audio/playful/river_challenge.ogg",
+    "sha256": "a539186f0c348640b75aa04e5c05d8301533655ea7fb4f74254da9df259a7067",
+    "bytes": 570320
+  },
+  {
+    "path": "assets/audio/playful/river_challenge.ogg.import",
+    "sha256": "402c338b1a6bda656638278f977ab0668d167baaf89c0e3a3eaf08533e5458c7",
+    "bytes": 421
+  },
+  {
+    "path": "assets/audio/playful/village.ogg",
+    "sha256": "bdd0de79ebfb1794b295119b605858cb744cef3230281cb7f0bca8721b15e657",
+    "bytes": 479601
+  },
+  {
+    "path": "assets/audio/playful/village.ogg.import",
+    "sha256": "be7df1453a9d06df2af8286ec361b5a450eac2e07ab2ed977ca95fab849703bb",
+    "bytes": 397
+  },
+  {
+    "path": "assets/audio/playful/village_challenge.ogg",
+    "sha256": "b8f7082384843f5791c765aea450af78ac7ff91e935332cc409a5612e89e329c",
+    "bytes": 481627
+  },
+  {
+    "path": "assets/audio/playful/village_challenge.ogg.import",
+    "sha256": "a51bc64b783c27dd98ddf37c980a0c1623ca8d695bc0723c7dd1c0e10e5cb5c7",
+    "bytes": 428
+  },
+  {
+    "path": "default_bus_layout.tres",
+    "sha256": "c139c4ff9f68dc5b3a5a3d444ac20864c615c0e4777f0156027a178ea372dcbd",
+    "bytes": 397
+  },
+  {
+    "path": "docs/FREE_MUSIC_AUDIO_ANALYSIS.json",
+    "sha256": "ca18bf874db1a89027a7e795b363c73eb4ce930b0cf43256d9cad593455c8426",
+    "bytes": 4306
+  },
+  {
+    "path": "docs/FREE_MUSIC_CREDITS.md",
+    "sha256": "4b8cd31743d14e850ab55e80089d849e93fcaa9d4d63a8ec9842d68f25fa24ef",
+    "bytes": 1560
+  },
+  {
+    "path": "docs/FREE_MUSIC_REVIEW_REPORT.md",
+    "sha256": "30d0322f2253eb607ccb41db489c04e4ddbe6c000f8146a32661f16e51bf462e",
+    "bytes": 6895
+  },
+  {
+    "path": "docs/FREE_MUSIC_TEST_RESULTS.txt",
+    "sha256": "8c696356c4bb70ec8c3b029057a4c48cbf59d27fea2f41a8ce2a0519095d5532",
+    "bytes": 821
+  },
+  {
+    "path": "resources/audio/playful_music.tres",
+    "sha256": "8cb4e98863da650fa2e3f26991420fb77a4aec7818cd7901dc498a275a3139ae",
+    "bytes": 1142
+  },
+  {
+    "path": "scripts/core/audio.gd",
+    "sha256": "eac52b173adb079545742f4ed89dd4499fe4d6cf451a233ec97b121cdc59e480",
+    "bytes": 6189
+  },
+  {
+    "path": "scripts/data/playful_music_catalog.gd",
+    "sha256": "b7d4d8d235b65d8e37c55c302b2019da363814bc927632a47e23cedcf67af667",
+    "bytes": 1862
+  },
+  {
+    "path": "scripts/data/playful_music_catalog.gd.uid",
+    "sha256": "de4fb92fc95c0b59e82773ee4719c1454b8ee7d9638c04c937eec99e219683ea",
+    "bytes": 20
+  },
+  {
+    "path": "tests/free_music_tests.gd",
+    "sha256": "f5f35418ed67c3c80f80d22c47c81ddb185be4f7e5a9e70c3aaa384297eb6869",
+    "bytes": 5628
+  },
+  {
+    "path": "tests/free_music_tests.gd.uid",
+    "sha256": "bb7aa86e6e2c4195f7d87ed2d00b2f8392d832cd1e768d7468a6af5ccfb97157",
+    "bytes": 20
+  },
+  {
+    "path": "tests/free_music_tests.tscn",
+    "sha256": "2f7c1a8e6a67f79a1fd2a281be730354f4a5d8606d46c7f847201ef733827a87",
+    "bytes": 183
+  }
+]

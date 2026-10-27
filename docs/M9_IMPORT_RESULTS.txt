@@ -1,0 +1,320 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] update_scripts_classes | Started Registering global classes... (56 steps)
+[   0% ] update_scripts_classes | FloatingPlatform
+[   1% ] update_scripts_classes | CrossingPlayer
+[   3% ] update_scripts_classes | RailwayTrain
+[   5% ] update_scripts_classes | TrafficVehicle
+[   7% ] update_scripts_classes | 
+[   8% ] update_scripts_classes | CrossingGame
+[  10% ] update_scripts_classes | PowerUpController
+[  12% ] update_scripts_classes | 
+[  14% ] update_scripts_classes | CharacterCatalog
+[  15% ] update_scripts_classes | CompiledLevelLayout
+[  17% ] update_scripts_classes | LaneConfig
+[  19% ] update_scripts_classes | LevelCatalog
+[  21% ] update_scripts_classes | LevelConfig
+[  22% ] update_scripts_classes | LevelSectionConfig
+[  24% ] update_scripts_classes | LevelThemeConfig
+[  26% ] update_scripts_classes | PowerUpConfig
+[  28% ] update_scripts_classes | RailwayTrackConfig
+[  29% ] update_scripts_classes | SectionLayoutCompiler
+[  31% ] update_scripts_classes | WaterLaneConfig
+[  33% ] update_scripts_classes | InputRouter
+[  35% ] update_scripts_classes | 
+[  36% ] update_scripts_classes | GameHUD
+[  38% ] update_scripts_classes | TouchDirectionButton
+[  40% ] update_scripts_classes | CrossingStyle
+[  42% ] update_scripts_classes | 
+[  43% ] update_scripts_classes | DestinationZone
+[  45% ] update_scripts_classes | LevelCamera
+[  47% ] update_scripts_classes | LongLevelTerrain
+[  49% ] update_scripts_classes | RailwaySection
+[  50% ] update_scripts_classes | RailwaySignal
+[  52% ] update_scripts_classes | RailwayTrack
+[  54% ] update_scripts_classes | RewardField
+[  56% ] update_scripts_classes | RewardPickup
+[  57% ] update_scripts_classes | RoadLevel
+[  59% ] update_scripts_classes | SectionActivation
+[  61% ] update_scripts_classes | TrafficLane
+[  63% ] update_scripts_classes | WaterLane
+[  64% ] update_scripts_classes | WaterSupport
+[  66% ] update_scripts_classes | 
+[  68% ] update_scripts_classes | 
+[  70% ] update_scripts_classes | 
+[  71% ] update_scripts_classes | 
+[  73% ] update_scripts_classes | 
+[  75% ] update_scripts_classes | 
+[  77% ] update_scripts_classes | 
+[  78% ] update_scripts_classes | 
+[  80% ] update_scripts_classes | 
+[  82% ] update_scripts_classes | 
+[  84% ] update_scripts_classes | 
+[  85% ] update_scripts_classes | 
+[  87% ] update_scripts_classes | 
+[  89% ] update_scripts_classes | 
+[  91% ] update_scripts_classes | 
+[  92% ] update_scripts_classes | 
+[  94% ] update_scripts_classes | 
+[  96% ] update_scripts_classes | 
+[ DONE ] update_scripts_classes
+
+[   0% ] _update_scan_actions | Started Scanning actions... (78 steps)
+[   0% ] _update_scan_actions | asphalt.svg
+[   1% ] _update_scan_actions | car.svg
+[   2% ] _update_scan_actions | courier.svg
+[   3% ] _update_scan_actions | courier_coral.svg
+[   5% ] _update_scan_actions | courier_mint.svg
+[   6% ] _update_scan_actions | courier_violet.svg
+[   7% ] _update_scan_actions | grass.svg
+[   8% ] _update_scan_actions | icon.svg
+[  10% ] _update_scan_actions | pavement.svg
+[  11% ] _update_scan_actions | tree.svg
+[  12% ] _update_scan_actions | van.svg
+[  13% ] _update_scan_actions | complete.wav
+[  15% ] _update_scan_actions | dock.wav
+[  16% ] _update_scan_actions | hit.wav
+[  17% ] _update_scan_actions | hop.wav
+[  18% ] _update_scan_actions | ui.wav
+[  20% ] _update_scan_actions | campaign_01.png
+[  21% ] _update_scan_actions | campaign_02.png
+[  22% ] _update_scan_actions | campaign_03.png
+[  24% ] _update_scan_actions | campaign_04.png
+[  25% ] _update_scan_actions | campaign_05.png
+[  26% ] _update_scan_actions | campaign_complete.png
+[  27% ] _update_scan_actions | game_over.png
+[  29% ] _update_scan_actions | hop.png
+[  30% ] _update_scan_actions | impact.png
+[  31% ] _update_scan_actions | level_01.png
+[  32% ] _update_scan_actions | level_complete.png
+[  34% ] _update_scan_actions | level_select.png
+[  35% ] _update_scan_actions | m9_800x360.png
+[  36% ] _update_scan_actions | m9_960x720.png
+[  37% ] _update_scan_actions | m9_1920x864.png
+[  39% ] _update_scan_actions | m9_hit_feedback.png
+[  40% ] _update_scan_actions | m9_row_7.png
+[  41% ] _update_scan_actions | m9_row_13.png
+[  43% ] _update_scan_actions | m9_row_17.png
+[  44% ] _update_scan_actions | m9_row_22.png
+[  45% ] _update_scan_actions | m9_start.png
+[  46% ] _update_scan_actions | menu.png
+[  48% ] _update_scan_actions | mobile_800x360.png
+[  49% ] _update_scan_actions | mobile_960x720.png
+[  50% ] _update_scan_actions | mobile_1280x720.png
+[  51% ] _update_scan_actions | mobile_1920x864.png
+[  53% ] _update_scan_actions | pause.png
+[  54% ] _update_scan_actions | phase4_characters.png
+[  55% ] _update_scan_actions | phase4_characters_800x360.png
+[  56% ] _update_scan_actions | phase4_characters_960x720.png
+[  58% ] _update_scan_actions | phase4_characters_1280x720.png
+[  59% ] _update_scan_actions | phase4_characters_1920x864.png
+[  60% ] _update_scan_actions | phase4_effects.png
+[  62% ] _update_scan_actions | phase4_gameplay.png
+[  63% ] _update_scan_actions | phase4_results.png
+[  64% ] _update_scan_actions | phase4_select.png
+[  65% ] _update_scan_actions | phase4_select_800x360.png
+[  67% ] _update_scan_actions | phase4_select_960x720.png
+[  68% ] _update_scan_actions | phase4_select_1280x720.png
+[  69% ] _update_scan_actions | phase4_select_1920x864.png
+[  70% ] _update_scan_actions | railway_800x360.png
+[  72% ] _update_scan_actions | railway_960x720.png
+[  73% ] _update_scan_actions | railway_1920x864.png
+[  74% ] _update_scan_actions | railway_passing.png
+[  75% ] _update_scan_actions | railway_safe.png
+[  77% ] _update_scan_actions | railway_warning.png
+[  78% ] _update_scan_actions | sections_configuration_only.png
+[  79% ] _update_scan_actions | sections_example.png
+[  81% ] _update_scan_actions | sections_layout_800x360.png
+[  82% ] _update_scan_actions | sections_layout_960x720.png
+[  83% ] _update_scan_actions | sections_layout_1280x720.png
+[  84% ] _update_scan_actions | sections_layout_1920x864.png
+[  86% ] _update_scan_actions | sections_legacy_01.png
+[  87% ] _update_scan_actions | sections_legacy_02.png
+[  88% ] _update_scan_actions | sections_legacy_03.png
+[  89% ] _update_scan_actions | sections_legacy_04.png
+[  91% ] _update_scan_actions | sections_legacy_05.png
+[  92% ] _update_scan_actions | water_800x360.png
+[  93% ] _update_scan_actions | water_960x720.png
+[  94% ] _update_scan_actions | water_1920x864.png
+[  96% ] _update_scan_actions | water_overview.png
+[  97% ] _update_scan_actions | water_riding.png
+[ DONE ] _update_scan_actions
+
+[   0% ] reimport | Started (Re)Importing Assets (78 steps)
+[   0% ] reimport | Preparing files to reimport...
+[   1% ] reimport | Preparing files to reimport...
+[   2% ] reimport | Preparing files to reimport...
+[   3% ] reimport | Preparing files to reimport...
+[   5% ] reimport | Preparing files to reimport...
+[   6% ] reimport | Preparing files to reimport...
+[   7% ] reimport | Preparing files to reimport...
+[   8% ] reimport | Preparing files to reimport...
+[  10% ] reimport | Preparing files to reimport...
+[  11% ] reimport | Preparing files to reimport...
+[  12% ] reimport | Preparing files to reimport...
+[  13% ] reimport | Preparing files to reimport...
+[  15% ] reimport | Preparing files to reimport...
+[  16% ] reimport | Preparing files to reimport...
+[  17% ] reimport | Preparing files to reimport...
+[  18% ] reimport | Preparing files to reimport...
+[  20% ] reimport | Preparing files to reimport...
+[  21% ] reimport | Preparing files to reimport...
+[  22% ] reimport | Preparing files to reimport...
+[  24% ] reimport | Preparing files to reimport...
+[  25% ] reimport | Preparing files to reimport...
+[  26% ] reimport | Preparing files to reimport...
+[  27% ] reimport | Preparing files to reimport...
+[  29% ] reimport | Preparing files to reimport...
+[  30% ] reimport | Preparing files to reimport...
+[  31% ] reimport | Preparing files to reimport...
+[  32% ] reimport | Preparing files to reimport...
+[  34% ] reimport | Preparing files to reimport...
+[  35% ] reimport | Preparing files to reimport...
+[  36% ] reimport | Preparing files to reimport...
+[  37% ] reimport | Preparing files to reimport...
+[  39% ] reimport | Preparing files to reimport...
+[  40% ] reimport | Preparing files to reimport...
+[  41% ] reimport | Preparing files to reimport...
+[  43% ] reimport | Preparing files to reimport...
+[  44% ] reimport | Preparing files to reimport...
+[  45% ] reimport | Preparing files to reimport...
+[  46% ] reimport | Preparing files to reimport...
+[  48% ] reimport | Preparing files to reimport...
+[  49% ] reimport | Preparing files to reimport...
+[  50% ] reimport | Preparing files to reimport...
+[  51% ] reimport | Preparing files to reimport...
+[  53% ] reimport | Preparing files to reimport...
+[  54% ] reimport | Preparing files to reimport...
+[  55% ] reimport | Preparing files to reimport...
+[  56% ] reimport | Preparing files to reimport...
+[  58% ] reimport | Preparing files to reimport...
+[  59% ] reimport | Preparing files to reimport...
+[  60% ] reimport | Preparing files to reimport...
+[  62% ] reimport | Preparing files to reimport...
+[  63% ] reimport | Preparing files to reimport...
+[  64% ] reimport | Preparing files to reimport...
+[  65% ] reimport | Preparing files to reimport...
+[  67% ] reimport | Preparing files to reimport...
+[  68% ] reimport | Preparing files to reimport...
+[  69% ] reimport | Preparing files to reimport...
+[  70% ] reimport | Preparing files to reimport...
+[  72% ] reimport | Preparing files to reimport...
+[  73% ] reimport | Preparing files to reimport...
+[  74% ] reimport | Preparing files to reimport...
+[  75% ] reimport | Preparing files to reimport...
+[  77% ] reimport | Preparing files to reimport...
+[  78% ] reimport | Preparing files to reimport...
+[  79% ] reimport | Preparing files to reimport...
+[  81% ] reimport | Preparing files to reimport...
+[  82% ] reimport | Preparing files to reimport...
+[  83% ] reimport | Preparing files to reimport...
+[  84% ] reimport | Preparing files to reimport...
+[  86% ] reimport | Preparing files to reimport...
+[  87% ] reimport | Preparing files to reimport...
+[  88% ] reimport | Preparing files to reimport...
+[  89% ] reimport | Preparing files to reimport...
+[  91% ] reimport | Preparing files to reimport...
+[  92% ] reimport | Preparing files to reimport...
+[  93% ] reimport | Preparing files to reimport...
+[  94% ] reimport | Preparing files to reimport...
+[  96% ] reimport | Preparing files to reimport...
+[  97% ] reimport | Preparing files to reimport...
+[   0% ] reimport | Executing pre-reimport operations...
+[   0% ] reimport | railway_960x720.png
+[   1% ] reimport | railway_800x360.png
+[   2% ] reimport | phase4_select_1920x864.png
+[   3% ] reimport | phase4_select_1280x720.png
+[   5% ] reimport | phase4_select_960x720.png
+[   6% ] reimport | phase4_select_800x360.png
+[   7% ] reimport | phase4_select.png
+[   8% ] reimport | phase4_results.png
+[  10% ] reimport | phase4_gameplay.png
+[  11% ] reimport | phase4_effects.png
+[  12% ] reimport | phase4_characters_1920x864.png
+[  13% ] reimport | phase4_characters_1280x720.png
+[  15% ] reimport | phase4_characters_960x720.png
+[  16% ] reimport | phase4_characters_800x360.png
+[  17% ] reimport | phase4_characters.png
+[  18% ] reimport | pause.png
+[  20% ] reimport | mobile_1920x864.png
+[  21% ] reimport | mobile_1280x720.png
+[  22% ] reimport | mobile_960x720.png
+[  24% ] reimport | water_riding.png
+[  25% ] reimport | water_overview.png
+[  26% ] reimport | water_1920x864.png
+[  27% ] reimport | water_960x720.png
+[  29% ] reimport | water_800x360.png
+[  30% ] reimport | sections_legacy_05.png
+[  31% ] reimport | sections_legacy_04.png
+[  32% ] reimport | sections_legacy_03.png
+[  34% ] reimport | sections_legacy_02.png
+[  35% ] reimport | sections_legacy_01.png
+[  36% ] reimport | sections_layout_1920x864.png
+[  37% ] reimport | sections_layout_1280x720.png
+[  39% ] reimport | sections_layout_960x720.png
+[  40% ] reimport | sections_layout_800x360.png
+[  41% ] reimport | sections_example.png
+[  43% ] reimport | sections_configuration_only.png
+[  44% ] reimport | railway_warning.png
+[  45% ] reimport | railway_safe.png
+[  46% ] reimport | railway_passing.png
+[  48% ] reimport | railway_1920x864.png
+[  49% ] reimport | campaign_complete.png
+[  50% ] reimport | campaign_05.png
+[  51% ] reimport | campaign_04.png
+[  53% ] reimport | campaign_03.png
+[  54% ] reimport | campaign_02.png
+[  55% ] reimport | campaign_01.png
+[  56% ] reimport | van.svg
+[  58% ] reimport | tree.svg
+[  59% ] reimport | pavement.svg
+[  60% ] reimport | icon.svg
+[  62% ] reimport | grass.svg
+[  63% ] reimport | courier_violet.svg
+[  64% ] reimport | courier_mint.svg
+[  65% ] reimport | courier_coral.svg
+[  67% ] reimport | courier.svg
+[  68% ] reimport | car.svg
+[  69% ] reimport | asphalt.svg
+[  70% ] reimport | mobile_800x360.png
+[  72% ] reimport | menu.png
+[  73% ] reimport | m9_start.png
+[  74% ] reimport | m9_row_22.png
+[  75% ] reimport | m9_row_17.png
+[  77% ] reimport | m9_row_13.png
+[  78% ] reimport | m9_row_7.png
+[  79% ] reimport | m9_hit_feedback.png
+[  81% ] reimport | m9_1920x864.png
+[  82% ] reimport | m9_960x720.png
+[  83% ] reimport | m9_800x360.png
+[  84% ] reimport | level_select.png
+[  86% ] reimport | level_complete.png
+[  87% ] reimport | level_01.png
+[  88% ] reimport | impact.png
+[  89% ] reimport | hop.png
+[  91% ] reimport | game_over.png
+[  92% ] reimport | railway_960x720.png
+[  93% ] reimport | railway_800x360.png
+[  94% ] reimport | phase4_select_1920x864.png
+[  96% ] reimport | phase4_select_1280x720.png
+[  97% ] reimport | phase4_select_960x720.png
+[  98% ] reimport | Finalizing Asset Import...
+[ DONE ] reimport
+
+[   0% ] reimport | Started (Re)Importing Assets (78 steps)
+[   0% ] reimport | Executing post-reimport operations...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[ DONE ] loading_editor_layout
+

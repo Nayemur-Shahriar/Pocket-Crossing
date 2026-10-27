@@ -1,0 +1,215 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=33 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/power_up_config.gd" id="3_84wkw"]
+[ext_resource type="Resource" path="res://resources/environments/city.tres" id="environment"]
+[ext_resource type="Script" path="res://scripts/data/level_config.gd" id="level"]
+[ext_resource type="Script" path="res://scripts/data/pickup_placement.gd" id="pickup"]
+[ext_resource type="Script" path="res://scripts/data/lane_config.gd" id="road"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Resource" path="res://resources/themes/night.tres" id="theme"]
+[ext_resource type="Script" path="res://scripts/data/railway_track_config.gd" id="track"]
+[ext_resource type="Script" path="res://scripts/data/water_lane_config.gd" id="water"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="shield"]
+
+[sub_resource type="Resource" id="Coin0"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin1"]
+script = ExtResource("pickup")
+cell = Vector2i(11, 0)
+
+[sub_resource type="Resource" id="S00"]
+script = ExtResource("section")
+section_id = "section_00"
+kind = 0
+pickups = Array[ExtResource("pickup")]([SubResource("Coin0"), SubResource("Coin1")])
+
+[sub_resource type="Resource" id="Road0"]
+script = ExtResource("road")
+speed = 158.0
+spawn_min = 2.305
+spawn_max = 2.9050000000000002
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["cng", "microbus", "rickshaw"])
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road1"]
+script = ExtResource("road")
+direction = -1
+speed = 177.0
+speed_modifier = 1.04
+spawn_min = 2.4250000000000003
+spawn_max = 3.0250000000000004
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["local_bus", "small_car"])
+pattern = "waves"
+cycle_seconds = 13.0
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Resource_texmr"]
+script = ExtResource("road")
+speed = 188.0
+speed_modifier = 0.98
+spawn_min = 2.545
+spawn_max = 3.145
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["local_bus", "small_car"])
+cycle_seconds = 14.0
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="S01"]
+script = ExtResource("section")
+section_id = "section_01"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("Road0"), SubResource("Road1"), SubResource("Resource_texmr")])
+
+[sub_resource type="Resource" id="Coin2"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin3"]
+script = ExtResource("pickup")
+cell = Vector2i(5, 0)
+
+[sub_resource type="Resource" id="Power0"]
+script = ExtResource("pickup")
+cell = Vector2i(9, 0)
+power = ExtResource("shield")
+
+[sub_resource type="Resource" id="S02"]
+script = ExtResource("section")
+section_id = "section_02"
+pickups = Array[ExtResource("pickup")]([SubResource("Coin2"), SubResource("Coin3"), SubResource("Power0")])
+
+[sub_resource type="Resource" id="Road2"]
+script = ExtResource("road")
+speed = 165.0
+spawn_min = 2.305
+spawn_max = 2.9050000000000002
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["cng", "delivery_van", "rickshaw"])
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road3"]
+script = ExtResource("road")
+direction = -1
+speed = 181.0
+speed_modifier = 1.04
+spawn_min = 2.4250000000000003
+spawn_max = 3.0250000000000004
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["small_car", "microbus", "cng"])
+pattern = "waves"
+cycle_seconds = 13.0
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road4"]
+script = ExtResource("road")
+direction = -1
+speed = 154.0
+speed_modifier = 0.98
+spawn_min = 2.545
+spawn_max = 3.145
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["local_bus", "rickshaw"])
+cycle_seconds = 14.0
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="S03"]
+script = ExtResource("section")
+section_id = "section_03"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("Road2"), SubResource("Road3"), SubResource("Road4")])
+
+[sub_resource type="Resource" id="Coin4"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin5"]
+script = ExtResource("pickup")
+cell = Vector2i(11, 0)
+
+[sub_resource type="Resource" id="S04"]
+script = ExtResource("section")
+section_id = "section_04"
+pickups = Array[ExtResource("pickup")]([SubResource("Coin4"), SubResource("Coin5")])
+
+[sub_resource type="Resource" id="Road5"]
+script = ExtResource("road")
+speed = 158.0
+spawn_min = 2.305
+spawn_max = 2.9050000000000002
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["small_car", "delivery_van", "cng"])
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road6"]
+script = ExtResource("road")
+direction = -1
+speed = 177.0
+speed_modifier = 1.04
+spawn_min = 2.4250000000000003
+spawn_max = 3.0250000000000004
+minimum_clear_gap = 225.0
+minimum_gap_seconds = 1.325
+speed_variation = 0.034
+vehicle_types = Array[String](["rickshaw", "microbus", "small_car"])
+pattern = "waves"
+cycle_seconds = 13.0
+open_seconds = 3.76
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="S05"]
+script = ExtResource("section")
+section_id = "section_05"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("Road5"), SubResource("Road6")])
+
+[sub_resource type="Resource" id="S06"]
+script = ExtResource("section")
+section_id = "section_06"
+kind = 5
+destination_columns = Array[int]([4, 8, 12])
+
+[resource]
+script = ExtResource("level")
+display_name = "Night Ride"
+level_number = 4
+time_limit = 115.0
+forward_points = 25
+destination_points = 250
+seconds_bonus = 4
+life_bonus = 100
+spawn_protection = 0.25
+starting_speed_scale = 1.0
+level_id = "level_04"
+difficulty_label = "Moderate+"
+score_target = 785
+coin_count = 0
+power_ups = Array[ExtResource("3_84wkw")]([])
+star_time_fraction = 0.7
+sections = Array[ExtResource("section")]([SubResource("S00"), SubResource("S01"), SubResource("S02"), SubResource("S03"), SubResource("S04"), SubResource("S05"), SubResource("S06")])
+presentation = ExtResource("theme")
+environment = ExtResource("environment")

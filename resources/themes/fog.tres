@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="LevelThemeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_theme_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+theme_id = "fog"
+display_name = "Fog"
+background_color = Color(0.68627, 0.77255, 0.77255, 1)
+ambient_tint = Color(0.82745, 0.86275, 0.85098, 1)
+ambient_brightness = 0.95
+road_tint = Color(0.72157, 0.77255, 0.78824, 1)
+grass_tint = Color(0.75686, 0.80784, 0.76471, 1)
+safe_tint = Color(0.83922, 0.86667, 0.85098, 1)
+railway_color = Color(0.48627, 0.5451, 0.54902, 1)
+weather = "Fog"
+weather_intensity = 0.6
+fog_strength = 0.24
+atmosphere_color = Color(0.81176, 0.87451, 0.87059, 1)
+vehicle_lights = true
+train_lights = true
+player_highlight = true
+water_color = Color(0.26275, 0.52549, 0.60784, 1)
+water_edge_color = Color(0.18824, 0.39608, 0.47451, 1)
+light_strength = 0.55

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="EnvironmentProfile" load_steps=11 format=3]
+[ext_resource type="Script" path="res://scripts/data/environment_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/urban_facade.svg" id="urban_facade"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/market_stall.svg" id="market_stall"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/lamp.svg" id="lamp"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/utility_pole.svg" id="utility_pole"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/road_sign.svg" id="road_sign"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/leafy_tree.svg" id="leafy_tree"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/flowers.svg" id="flowers"]
+[ext_resource type="Texture2D" path="res://assets/environment/destinations/plaza.svg" id="finish"]
+[ext_resource type="AudioStream" path="res://assets/audio/city_steps.wav" id="music"]
+[ext_resource type="AudioStream" path="res://assets/audio/city_steps_challenge.wav" id="challenge_music"]
+[resource]
+script = ExtResource("script")
+music_track = ExtResource("music")
+challenge_music_track = ExtResource("challenge_music")
+destination_art = ExtResource("finish")
+profile_id = "city"
+display_name = "City"
+rest_style = "Paving"
+ground_tint = Color(0.6588,0.7137,0.6196,1)
+safe_color = Color(0.7686,0.7529,0.6667,1)
+edge_color = Color(0.6196,0.6039,0.5294,1)
+sign_caption = "CITY"
+props = Array[Texture2D]([ExtResource("urban_facade"), ExtResource("market_stall"), ExtResource("lamp"), ExtResource("utility_pole"), ExtResource("road_sign")])
+vegetation = Array[Texture2D]([ExtResource("leafy_tree"), ExtResource("flowers")])
+prop_density = 0.75
+vegetation_density = 0.25
+guard_rails = false

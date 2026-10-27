@@ -1,0 +1,363 @@
+{
+  "literal_production_refs": 30,
+  "missing": [],
+  "svg_count": 54,
+  "svg": [
+    {
+      "path": "assets/art/grass.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 298
+    },
+    {
+      "path": "assets/art/icon.svg",
+      "width": "512",
+      "height": "512",
+      "bytes": 1011
+    },
+    {
+      "path": "assets/art/courier_mint.svg",
+      "width": "52",
+      "height": "60",
+      "bytes": 1618
+    },
+    {
+      "path": "assets/art/asphalt.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 2614
+    },
+    {
+      "path": "assets/art/courier_violet.svg",
+      "width": "52",
+      "height": "60",
+      "bytes": 1618
+    },
+    {
+      "path": "assets/art/courier.svg",
+      "width": "52",
+      "height": "60",
+      "bytes": 1618
+    },
+    {
+      "path": "assets/art/van.svg",
+      "width": "140",
+      "height": "58",
+      "bytes": 1499
+    },
+    {
+      "path": "assets/art/car.svg",
+      "width": "116",
+      "height": "58",
+      "bytes": 1446
+    },
+    {
+      "path": "assets/art/courier_coral.svg",
+      "width": "52",
+      "height": "60",
+      "bytes": 1618
+    },
+    {
+      "path": "assets/art/pavement.svg",
+      "width": "128",
+      "height": "64",
+      "bytes": 388
+    },
+    {
+      "path": "assets/art/tree.svg",
+      "width": "100",
+      "height": "100",
+      "bytes": 772
+    },
+    {
+      "path": "assets/vehicles/rickshaw.svg",
+      "width": "116",
+      "height": "58",
+      "bytes": 1178
+    },
+    {
+      "path": "assets/vehicles/small_car.svg",
+      "width": "116",
+      "height": "58",
+      "bytes": 1240
+    },
+    {
+      "path": "assets/vehicles/local_bus.svg",
+      "width": "210",
+      "height": "58",
+      "bytes": 2135
+    },
+    {
+      "path": "assets/vehicles/pickup.svg",
+      "width": "140",
+      "height": "58",
+      "bytes": 1838
+    },
+    {
+      "path": "assets/vehicles/large_truck.svg",
+      "width": "210",
+      "height": "58",
+      "bytes": 2639
+    },
+    {
+      "path": "assets/vehicles/microbus.svg",
+      "width": "140",
+      "height": "58",
+      "bytes": 1646
+    },
+    {
+      "path": "assets/vehicles/delivery_van.svg",
+      "width": "140",
+      "height": "58",
+      "bytes": 1125
+    },
+    {
+      "path": "assets/vehicles/medium_truck.svg",
+      "width": "140",
+      "height": "58",
+      "bytes": 2037
+    },
+    {
+      "path": "assets/vehicles/cng.svg",
+      "width": "116",
+      "height": "58",
+      "bytes": 1309
+    },
+    {
+      "path": "assets/railway/train/riverline_coach.svg",
+      "width": "112",
+      "height": "50",
+      "bytes": 1221
+    },
+    {
+      "path": "assets/railway/train/riverline_engine.svg",
+      "width": "96",
+      "height": "50",
+      "bytes": 1212
+    },
+    {
+      "path": "assets/railway/train/sunrise_coach.svg",
+      "width": "112",
+      "height": "50",
+      "bytes": 1221
+    },
+    {
+      "path": "assets/railway/train/sunrise_engine.svg",
+      "width": "96",
+      "height": "50",
+      "bytes": 1212
+    },
+    {
+      "path": "assets/environment/props/signal_box.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 455
+    },
+    {
+      "path": "assets/environment/props/bridge_rail.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 483
+    },
+    {
+      "path": "assets/environment/props/bench.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 587
+    },
+    {
+      "path": "assets/environment/props/reeds.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 860
+    },
+    {
+      "path": "assets/environment/props/lamp.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 404
+    },
+    {
+      "path": "assets/environment/props/ghat_steps.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 416
+    },
+    {
+      "path": "assets/environment/props/railway_sign.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 410
+    },
+    {
+      "path": "assets/environment/props/crop_patch.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 720
+    },
+    {
+      "path": "assets/environment/props/grass_patch.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 606
+    },
+    {
+      "path": "assets/environment/props/bamboo.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 1740
+    },
+    {
+      "path": "assets/environment/props/palm.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 795
+    },
+    {
+      "path": "assets/environment/props/tea_stall.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 960
+    },
+    {
+      "path": "assets/environment/props/finish_gate.svg",
+      "width": "128",
+      "height": "52",
+      "bytes": 510
+    },
+    {
+      "path": "assets/environment/props/banana.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 415
+    },
+    {
+      "path": "assets/environment/props/road_sign.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 353
+    },
+    {
+      "path": "assets/environment/props/rural_house.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 882
+    },
+    {
+      "path": "assets/environment/props/leafy_tree.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 344
+    },
+    {
+      "path": "assets/environment/props/bush.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 231
+    },
+    {
+      "path": "assets/environment/props/utility_pole.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 553
+    },
+    {
+      "path": "assets/environment/props/urban_facade.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 1022
+    },
+    {
+      "path": "assets/environment/props/fence.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 549
+    },
+    {
+      "path": "assets/environment/props/bamboo_fence.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 717
+    },
+    {
+      "path": "assets/environment/props/market_stall.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 537
+    },
+    {
+      "path": "assets/environment/props/dirt_patch.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 290
+    },
+    {
+      "path": "assets/environment/props/flowers.svg",
+      "width": "64",
+      "height": "64",
+      "bytes": 461
+    },
+    {
+      "path": "assets/water/boats/fishing_boat.svg",
+      "width": "256",
+      "height": "52",
+      "bytes": 2554
+    },
+    {
+      "path": "assets/water/boats/passenger_boat.svg",
+      "width": "256",
+      "height": "52",
+      "bytes": 2522
+    },
+    {
+      "path": "assets/water/boats/ferry.svg",
+      "width": "256",
+      "height": "52",
+      "bytes": 2458
+    },
+    {
+      "path": "assets/water/boats/wooden_boat.svg",
+      "width": "256",
+      "height": "52",
+      "bytes": 1988
+    },
+    {
+      "path": "assets/water/boats/engine_boat.svg",
+      "width": "256",
+      "height": "52",
+      "bytes": 1952
+    }
+  ],
+  "audio_levels": [
+    {
+      "path": "assets/audio/ui.wav",
+      "peak_dbfs": -6.53,
+      "rms_dbfs": -15.74
+    },
+    {
+      "path": "assets/audio/hop.wav",
+      "peak_dbfs": -6.47,
+      "rms_dbfs": -15.6
+    },
+    {
+      "path": "assets/audio/firework.wav",
+      "peak_dbfs": -7.38,
+      "rms_dbfs": -24.86
+    },
+    {
+      "path": "assets/audio/dock.wav",
+      "peak_dbfs": -5.71,
+      "rms_dbfs": -15.07
+    },
+    {
+      "path": "assets/audio/complete.wav",
+      "peak_dbfs": -5.17,
+      "rms_dbfs": -14.64
+    },
+    {
+      "path": "assets/audio/hit.wav",
+      "peak_dbfs": -5.45,
+      "rms_dbfs": -18.78
+    }
+  ]
+}

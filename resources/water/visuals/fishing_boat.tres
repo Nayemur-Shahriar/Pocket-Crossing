@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="PlatformVisualConfig" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/platform_visual_config.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/water/boats/fishing_boat.svg" id="art"]
+[resource]
+script = ExtResource("1")
+display_name = "Fishing Boat"
+texture = ExtResource("art")

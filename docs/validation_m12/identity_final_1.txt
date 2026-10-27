@@ -1,0 +1,1046 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Valid unique vehicle Resource: car
+PASS Valid unique vehicle Resource: truck
+PASS Valid unique vehicle Resource: bus
+PASS Valid unique vehicle Resource: train
+PASS Valid unique vehicle Resource: cng
+PASS Valid unique vehicle Resource: rickshaw
+PASS Valid unique vehicle Resource: local_bus
+PASS Valid unique vehicle Resource: small_car
+PASS Valid unique vehicle Resource: microbus
+PASS Valid unique vehicle Resource: pickup
+PASS Valid unique vehicle Resource: delivery_van
+PASS Valid unique vehicle Resource: medium_truck
+PASS Valid unique vehicle Resource: large_truck
+PASS Preserved collision/spacing family: cng
+PASS Vehicle resolves in day cng direction -1
+PASS Vehicle resolves in evening cng direction -1
+PASS Vehicle resolves in night cng direction -1
+PASS Vehicle resolves in rain cng direction -1
+PASS Vehicle resolves in snow cng direction -1
+PASS Vehicle resolves in fog cng direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day cng direction 1
+PASS Vehicle resolves in evening cng direction 1
+PASS Vehicle resolves in night cng direction 1
+PASS Vehicle resolves in rain cng direction 1
+PASS Vehicle resolves in snow cng direction 1
+PASS Vehicle resolves in fog cng direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: rickshaw
+PASS Vehicle resolves in day rickshaw direction -1
+PASS Vehicle resolves in evening rickshaw direction -1
+PASS Vehicle resolves in night rickshaw direction -1
+PASS Vehicle resolves in rain rickshaw direction -1
+PASS Vehicle resolves in snow rickshaw direction -1
+PASS Vehicle resolves in fog rickshaw direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day rickshaw direction 1
+PASS Vehicle resolves in evening rickshaw direction 1
+PASS Vehicle resolves in night rickshaw direction 1
+PASS Vehicle resolves in rain rickshaw direction 1
+PASS Vehicle resolves in snow rickshaw direction 1
+PASS Vehicle resolves in fog rickshaw direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: local_bus
+PASS Vehicle resolves in day local_bus direction -1
+PASS Vehicle resolves in evening local_bus direction -1
+PASS Vehicle resolves in night local_bus direction -1
+PASS Vehicle resolves in rain local_bus direction -1
+PASS Vehicle resolves in snow local_bus direction -1
+PASS Vehicle resolves in fog local_bus direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day local_bus direction 1
+PASS Vehicle resolves in evening local_bus direction 1
+PASS Vehicle resolves in night local_bus direction 1
+PASS Vehicle resolves in rain local_bus direction 1
+PASS Vehicle resolves in snow local_bus direction 1
+PASS Vehicle resolves in fog local_bus direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: small_car
+PASS Vehicle resolves in day small_car direction -1
+PASS Vehicle resolves in evening small_car direction -1
+PASS Vehicle resolves in night small_car direction -1
+PASS Vehicle resolves in rain small_car direction -1
+PASS Vehicle resolves in snow small_car direction -1
+PASS Vehicle resolves in fog small_car direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day small_car direction 1
+PASS Vehicle resolves in evening small_car direction 1
+PASS Vehicle resolves in night small_car direction 1
+PASS Vehicle resolves in rain small_car direction 1
+PASS Vehicle resolves in snow small_car direction 1
+PASS Vehicle resolves in fog small_car direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: microbus
+PASS Vehicle resolves in day microbus direction -1
+PASS Vehicle resolves in evening microbus direction -1
+PASS Vehicle resolves in night microbus direction -1
+PASS Vehicle resolves in rain microbus direction -1
+PASS Vehicle resolves in snow microbus direction -1
+PASS Vehicle resolves in fog microbus direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day microbus direction 1
+PASS Vehicle resolves in evening microbus direction 1
+PASS Vehicle resolves in night microbus direction 1
+PASS Vehicle resolves in rain microbus direction 1
+PASS Vehicle resolves in snow microbus direction 1
+PASS Vehicle resolves in fog microbus direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: pickup
+PASS Vehicle resolves in day pickup direction -1
+PASS Vehicle resolves in evening pickup direction -1
+PASS Vehicle resolves in night pickup direction -1
+PASS Vehicle resolves in rain pickup direction -1
+PASS Vehicle resolves in snow pickup direction -1
+PASS Vehicle resolves in fog pickup direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day pickup direction 1
+PASS Vehicle resolves in evening pickup direction 1
+PASS Vehicle resolves in night pickup direction 1
+PASS Vehicle resolves in rain pickup direction 1
+PASS Vehicle resolves in snow pickup direction 1
+PASS Vehicle resolves in fog pickup direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: delivery_van
+PASS Vehicle resolves in day delivery_van direction -1
+PASS Vehicle resolves in evening delivery_van direction -1
+PASS Vehicle resolves in night delivery_van direction -1
+PASS Vehicle resolves in rain delivery_van direction -1
+PASS Vehicle resolves in snow delivery_van direction -1
+PASS Vehicle resolves in fog delivery_van direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day delivery_van direction 1
+PASS Vehicle resolves in evening delivery_van direction 1
+PASS Vehicle resolves in night delivery_van direction 1
+PASS Vehicle resolves in rain delivery_van direction 1
+PASS Vehicle resolves in snow delivery_van direction 1
+PASS Vehicle resolves in fog delivery_van direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: medium_truck
+PASS Vehicle resolves in day medium_truck direction -1
+PASS Vehicle resolves in evening medium_truck direction -1
+PASS Vehicle resolves in night medium_truck direction -1
+PASS Vehicle resolves in rain medium_truck direction -1
+PASS Vehicle resolves in snow medium_truck direction -1
+PASS Vehicle resolves in fog medium_truck direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day medium_truck direction 1
+PASS Vehicle resolves in evening medium_truck direction 1
+PASS Vehicle resolves in night medium_truck direction 1
+PASS Vehicle resolves in rain medium_truck direction 1
+PASS Vehicle resolves in snow medium_truck direction 1
+PASS Vehicle resolves in fog medium_truck direction 1
+PASS Actual vehicle shape matches Resource
+PASS Preserved collision/spacing family: large_truck
+PASS Vehicle resolves in day large_truck direction -1
+PASS Vehicle resolves in evening large_truck direction -1
+PASS Vehicle resolves in night large_truck direction -1
+PASS Vehicle resolves in rain large_truck direction -1
+PASS Vehicle resolves in snow large_truck direction -1
+PASS Vehicle resolves in fog large_truck direction -1
+PASS Actual vehicle shape matches Resource
+PASS Vehicle resolves in day large_truck direction 1
+PASS Vehicle resolves in evening large_truck direction 1
+PASS Vehicle resolves in night large_truck direction 1
+PASS Vehicle resolves in rain large_truck direction 1
+PASS Vehicle resolves in snow large_truck direction 1
+PASS Vehicle resolves in fog large_truck direction 1
+PASS Actual vehicle shape matches Resource
+PASS Unknown road visual is rejected
+PASS Missing engine/coach textures rejected
+PASS Missing platform texture rejected
+PASS Campaign compiles: Easy Road
+PASS Every M11 gameplay parameter preserved: Easy Road
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: City Run
+PASS Every M11 gameplay parameter preserved: City Run
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Sunset Rush
+PASS Every M11 gameplay parameter preserved: Sunset Rush
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Night Ride
+PASS Every M11 gameplay parameter preserved: Night Ride
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Train Time
+PASS Every M11 gameplay parameter preserved: Train Time
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Double Track
+PASS Every M11 gameplay parameter preserved: Double Track
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: River Hop
+PASS Every M11 gameplay parameter preserved: River Hop
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Rain Run
+PASS Every M11 gameplay parameter preserved: Rain Run
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: River Rush
+PASS Every M11 gameplay parameter preserved: River Rush
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Snow Way
+PASS Every M11 gameplay parameter preserved: Snow Way
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Fog Track
+PASS Every M11 gameplay parameter preserved: Fog Track
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Wild River
+PASS Every M11 gameplay parameter preserved: Wild River
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Midnight Run
+PASS Every M11 gameplay parameter preserved: Midnight Run
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Danger Zone
+PASS Every M11 gameplay parameter preserved: Danger Zone
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Campaign compiles: Final Crossing
+PASS Every M11 gameplay parameter preserved: Final Crossing
+PASS Level uses its Environment Resource
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Spawned campaign vehicle has art
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Passenger train keeps collision envelope
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS Boat support boundary unchanged
+PASS One ambience player; zero decorative physics/nodes
+PASS Visible-window decoration count bounded
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS Props outside playable footprints
+PASS All nine new vehicle types used in actual campaign
+PASS All five new boats used in actual campaign
+PASS Valid environment green
+PASS Environment/theme green / day
+PASS Separate profile and weather applied
+PASS Environment/theme green / evening
+PASS Separate profile and weather applied
+PASS Environment/theme green / night
+PASS Separate profile and weather applied
+PASS Environment/theme green / rain
+PASS Separate profile and weather applied
+PASS Environment/theme green / snow
+PASS Separate profile and weather applied
+PASS Environment/theme green / fog
+PASS Separate profile and weather applied
+PASS Valid environment village
+PASS Environment/theme village / day
+PASS Separate profile and weather applied
+PASS Environment/theme village / evening
+PASS Separate profile and weather applied
+PASS Environment/theme village / night
+PASS Separate profile and weather applied
+PASS Environment/theme village / rain
+PASS Separate profile and weather applied
+PASS Environment/theme village / snow
+PASS Separate profile and weather applied
+PASS Environment/theme village / fog
+PASS Separate profile and weather applied
+PASS Valid environment city
+PASS Environment/theme city / day
+PASS Separate profile and weather applied
+PASS Environment/theme city / evening
+PASS Separate profile and weather applied
+PASS Environment/theme city / night
+PASS Separate profile and weather applied
+PASS Environment/theme city / rain
+PASS Separate profile and weather applied
+PASS Environment/theme city / snow
+PASS Separate profile and weather applied
+PASS Environment/theme city / fog
+PASS Separate profile and weather applied
+PASS Valid environment highway
+PASS Environment/theme highway / day
+PASS Separate profile and weather applied
+PASS Environment/theme highway / evening
+PASS Separate profile and weather applied
+PASS Environment/theme highway / night
+PASS Separate profile and weather applied
+PASS Environment/theme highway / rain
+PASS Separate profile and weather applied
+PASS Environment/theme highway / snow
+PASS Separate profile and weather applied
+PASS Environment/theme highway / fog
+PASS Separate profile and weather applied
+PASS Valid environment railway
+PASS Environment/theme railway / day
+PASS Separate profile and weather applied
+PASS Environment/theme railway / evening
+PASS Separate profile and weather applied
+PASS Environment/theme railway / night
+PASS Separate profile and weather applied
+PASS Environment/theme railway / rain
+PASS Separate profile and weather applied
+PASS Environment/theme railway / snow
+PASS Separate profile and weather applied
+PASS Environment/theme railway / fog
+PASS Separate profile and weather applied
+PASS Valid environment river
+PASS Environment/theme river / day
+PASS Separate profile and weather applied
+PASS Environment/theme river / evening
+PASS Separate profile and weather applied
+PASS Environment/theme river / night
+PASS Separate profile and weather applied
+PASS Environment/theme river / rain
+PASS Separate profile and weather applied
+PASS Environment/theme river / snow
+PASS Separate profile and weather applied
+PASS Environment/theme river / fog
+PASS Separate profile and weather applied
+PASS Valid environment crossroads
+PASS Environment/theme crossroads / day
+PASS Separate profile and weather applied
+PASS Environment/theme crossroads / evening
+PASS Separate profile and weather applied
+PASS Environment/theme crossroads / night
+PASS Separate profile and weather applied
+PASS Environment/theme crossroads / rain
+PASS Separate profile and weather applied
+PASS Environment/theme crossroads / snow
+PASS Separate profile and weather applied
+PASS Environment/theme crossroads / fog
+PASS Separate profile and weather applied
+PASS Invalid scenery falls back to legacy art without blocking gameplay
+PASS No per-frame decoration generation while window stays fixed
+PASS Backtrack keeps bounded draw list and one node owner
+PASS Backtrack keeps bounded draw list and one node owner
+PASS Backtrack keeps bounded draw list and one node owner
+PASS Backtrack keeps bounded draw list and one node owner
+PASS Backtrack keeps bounded draw list and one node owner
+PASS Backtrack keeps bounded draw list and one node owner
+PASS Start scenery deterministic after backtracking
+PASS Scenery does not consume traffic RNG
+PASS Retry reuses scenery without duplicates
+PASS Retry reuses scenery without duplicates
+PASS Retry reuses scenery without duplicates
+PASS New train art uses existing life-loss path
+PASS Landing on wooden_boat
+PASS Carrying on wooden_boat
+PASS Jump off clears support: wooden_boat
+PASS Landing on passenger_boat
+PASS Carrying on passenger_boat
+PASS Jump off clears support: passenger_boat
+PASS Landing on fishing_boat
+PASS Carrying on fishing_boat
+PASS Jump off clears support: fishing_boat
+PASS Landing on engine_boat
+PASS Carrying on engine_boat
+PASS Jump off clears support: engine_boat
+PASS Landing on ferry
+PASS Carrying on ferry
+PASS Jump off clears support: ferry
+PASS Optional ambience starts once
+PASS Pause suspends ambience
+PASS Mute stops ambience
+PASS Next Level replaces environment cleanly
+PASS Level Select hides scenery and stops ambience
+PASS Normal profile untouched
+PASS Normal profile untouched
+PASS Normal profile untouched
+IDENTITY RESULTS: 1043 passed, 0 failed

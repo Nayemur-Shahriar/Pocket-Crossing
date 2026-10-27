@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="LevelThemeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_theme_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+theme_id = "rain"
+display_name = "Rain"
+background_color = Color(0.39216, 0.49412, 0.56863, 1)
+ambient_tint = Color(0.71373, 0.8, 0.84706, 1)
+ambient_brightness = 0.84
+road_tint = Color(0.63922, 0.70196, 0.77255, 1)
+grass_tint = Color(0.65098, 0.76863, 0.72157, 1)
+safe_tint = Color(0.70588, 0.75686, 0.77647, 1)
+railway_color = Color(0.4, 0.46275, 0.50196, 1)
+water_color = Color(0.16863, 0.5098, 0.61569, 1)
+water_edge_color = Color(0.12549, 0.38039, 0.48627, 1)
+water_ripple_color = Color(0.60784, 0.80784, 0.83529, 1)
+wetness = 0.85
+weather = "Rain"
+weather_intensity = 0.7
+particle_amount = 200
+vehicle_lights = true
+train_lights = true
+player_highlight = true
+light_strength = 0.5
+ripple_visual_speed = 1.5

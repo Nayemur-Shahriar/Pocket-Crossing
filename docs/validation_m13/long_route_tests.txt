@@ -1,0 +1,5 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Natural long mixed crossing seed 42: row=23, lives=3, remaining=233.5
+PASS Natural long mixed crossing seed 2026: row=23, lives=3, remaining=230.3
+LONG ROUTE RESULTS: 2 passed, 0 failed

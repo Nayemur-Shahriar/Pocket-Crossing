@@ -1,0 +1,145 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Long preview starts directly
+PASS Long preview uses isolated profile
+PASS 24 ordered rows compiled without screen-height limit
+PASS Existing road/rail/water factories reused
+PASS Section starts at deterministic row 0
+PASS Section starts at deterministic row 1
+PASS Section starts at deterministic row 7
+PASS Section starts at deterministic row 8
+PASS Section starts at deterministic row 10
+PASS Section starts at deterministic row 11
+PASS Section starts at deterministic row 13
+PASS Section starts at deterministic row 14
+PASS Section starts at deterministic row 17
+PASS Section starts at deterministic row 18
+PASS Section starts at deterministic row 22
+PASS Section starts at deterministic row 23
+PASS Sections cover world without overlaps or gaps
+PASS Road world position row 1
+PASS Road world position row 2
+PASS Road world position row 3
+PASS Road world position row 4
+PASS Road world position row 5
+PASS Road world position row 6
+PASS Road world position row 11
+PASS Road world position row 12
+PASS Road world position row 18
+PASS Road world position row 19
+PASS Road world position row 20
+PASS Road world position row 21
+PASS Railway at world row eight
+PASS Water at world row fourteen
+PASS Destination at final world row
+PASS 8-row layout valid/playable
+PASS 17-row layout valid/playable
+PASS 64-row layout valid/playable
+PASS 1024-row layout valid/playable
+PASS Malformed section order still rejected
+PASS Start framing unchanged
+PASS Far world components inactive at Start
+PASS Far water timer and platform pool frozen/hidden
+PASS Camera advances vertically with stable horizontal framing
+PASS Camera transform applies to player world position
+PASS One backward row remains inside dead zone
+PASS Larger backtracking reveals player before footer
+PASS Respawn snaps camera to Start immediately
+PASS Camera clamped at destination end
+PASS No empty space beyond destination garden
+PASS HUD transform independent of camera
+PASS Long-route destination counter stays in footer
+PASS Touch button remains screen-space and visible
+PASS Touch button remains screen-space and visible
+PASS Touch button remains screen-space and visible
+PASS Touch button remains screen-space and visible
+PASS Distant passed road deactivated
+PASS Inactive road and child vehicle clocks freeze
+PASS Backtracking resumes same road nodes
+PASS Reactivation preserves vehicle identity
+PASS Inactive railway retains warning without ticking or spawning
+PASS Reactivated railway resumes its remaining warning
+PASS Pause freezes camera, train warning and game clock
+PASS Resume continues warning normally
+PASS Scrolled train collision consumes shield once
+PASS Scrolled train collision uses existing life loss
+PASS Water pool resumes unchanged near player
+PASS Visible support available on long-world water
+PASS Support resolves at long-world row
+PASS Platform carries player while camera scrolled
+PASS Water shield rescue retains lives and resets camera/activation
+PASS Long-water fall routes through normal life loss
+PASS Water death resets camera on respawn
+PASS Real scrolled road collision costs exactly one life
+PASS Death respawn returns world camera to Start
+PASS Coins distributed beyond first screen
+PASS Coin remains collected after streaming round trip
+PASS Retry resets gameplay and camera
+PASS Retry rebuilds original hazard state
+PASS Long safe route loads
+PASS Real forward hop reaches row 1
+PASS Player stays inside useful viewport at row 1
+PASS Real forward hop reaches row 2
+PASS Player stays inside useful viewport at row 2
+PASS Real forward hop reaches row 3
+PASS Player stays inside useful viewport at row 3
+PASS Real forward hop reaches row 4
+PASS Player stays inside useful viewport at row 4
+PASS Real forward hop reaches row 5
+PASS Player stays inside useful viewport at row 5
+PASS Real forward hop reaches row 6
+PASS Player stays inside useful viewport at row 6
+PASS Real forward hop reaches row 7
+PASS Player stays inside useful viewport at row 7
+PASS Real forward hop reaches row 8
+PASS Player stays inside useful viewport at row 8
+PASS Real forward hop reaches row 9
+PASS Player stays inside useful viewport at row 9
+PASS Real forward hop reaches row 10
+PASS Player stays inside useful viewport at row 10
+PASS Real forward hop reaches row 11
+PASS Player stays inside useful viewport at row 11
+PASS Real forward hop reaches row 12
+PASS Player stays inside useful viewport at row 12
+PASS Real forward hop reaches row 13
+PASS Player stays inside useful viewport at row 13
+PASS Real forward hop reaches row 14
+PASS Player stays inside useful viewport at row 14
+PASS Real forward hop reaches row 15
+PASS Player stays inside useful viewport at row 15
+PASS Real forward hop reaches row 16
+PASS Player stays inside useful viewport at row 16
+PASS Real forward hop reaches row 17
+PASS Player stays inside useful viewport at row 17
+PASS Real forward hop reaches row 18
+PASS Player stays inside useful viewport at row 18
+PASS Real forward hop reaches row 19
+PASS Player stays inside useful viewport at row 19
+PASS Real forward hop reaches row 20
+PASS Player stays inside useful viewport at row 20
+PASS Real forward hop reaches row 21
+PASS Player stays inside useful viewport at row 21
+PASS Real forward hop reaches row 22
+PASS Player stays inside useful viewport at row 22
+PASS Real forward hop reaches row 23
+PASS Player stays inside useful viewport at row 23
+PASS Long route completes through existing destination logic
+PASS Long route stars/high score saved by stable ID
+PASS Retry after completion returns to Start
+PASS Intermediate bay retains its claimed state on a long route
+PASS Next crossing restarts camera at Start
+PASS All bays finish long route without losing earlier claim
+PASS Campaign still loads: Greenway
+PASS Original level keeps fixed framing/full activity: Greenway
+PASS Campaign still loads: City Rush
+PASS Original level keeps fixed framing/full activity: City Rush
+PASS Campaign still loads: Highway
+PASS Original level keeps fixed framing/full activity: Highway
+PASS Campaign still loads: Village Road
+PASS Original level keeps fixed framing/full activity: Village Road
+PASS Campaign still loads: Railway Crossing
+PASS Original level keeps fixed framing/full activity: Railway Crossing
+PASS Normal profile/backup/temp untouched
+PASS Normal profile/backup/temp untouched
+PASS Normal profile/backup/temp untouched
+LONG LEVEL RESULTS: 142 passed, 0 failed

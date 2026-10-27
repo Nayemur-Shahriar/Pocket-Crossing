@@ -1,0 +1,285 @@
+{
+  "scope": "14 requested refinements after M14.9; no M15",
+  "engine": "Godot 4.5.2 stable Linux",
+  "counted_assertions": {
+    "total": 5527,
+    "passed": 5527,
+    "failed": 0,
+    "breakdown": {
+      "preserved_25_suites": 4354,
+      "refinement": 120,
+      "internal_statistics": 41,
+      "map_depth_and_challenges": 138,
+      "firework_and_ranking": 27,
+      "competitive_flow": 27,
+      "real_map_removal_routes": 16,
+      "challenge_routes": 68,
+      "lan_stabilization": 28,
+      "lan_stabilization_extra": 24,
+      "four_map_four_peer_lan": 344,
+      "timed_competitive_four_peer": 268,
+      "dog_water_four_peer": 59,
+      "audio_asset_quality": 13
+    }
+  },
+  "preserved_suites": [
+    {
+      "suite": "test_runner",
+      "exit": 0,
+      "seconds": 2.36,
+      "summary": [
+        "RESULT: 135 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "phase3_tests",
+      "exit": 0,
+      "seconds": 3.3,
+      "summary": [
+        "PHASE 3 RESULTS: 103 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "phase4_tests",
+      "exit": 0,
+      "seconds": 0.94,
+      "summary": [
+        "PHASE 4 RESULTS: 62 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "section_tests",
+      "exit": 0,
+      "seconds": 0.93,
+      "summary": [
+        "SECTION RESULTS: 68 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "railway_tests",
+      "exit": 0,
+      "seconds": 0.92,
+      "summary": [
+        "RAILWAY RESULTS: 88 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "water_tests",
+      "exit": 0,
+      "seconds": 1.21,
+      "summary": [
+        "WATER RESULTS: 73 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "water_route_tests",
+      "exit": 0,
+      "seconds": 0.73,
+      "summary": [
+        "WATER ROUTE RESULTS: 3 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "long_level_tests",
+      "exit": 0,
+      "seconds": 1.16,
+      "summary": [
+        "LONG LEVEL RESULTS: 142 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "long_route_tests",
+      "exit": 0,
+      "seconds": 1.22,
+      "summary": [
+        "LONG ROUTE RESULTS: 2 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "theme_tests",
+      "exit": 0,
+      "seconds": 0.95,
+      "summary": [
+        "THEME RESULTS: 109 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "theme_route_tests",
+      "exit": 0,
+      "seconds": 1.87,
+      "summary": [
+        "THEME ROUTE RESULTS: 6 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "campaign_route_tests",
+      "exit": 0,
+      "seconds": 11.12,
+      "summary": [
+        "CAMPAIGN ROUTE RESULTS: 75 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "campaign_tests",
+      "exit": 0,
+      "seconds": 1.68,
+      "summary": [
+        "CAMPAIGN RESULTS: 372 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "identity_tests",
+      "exit": 0,
+      "seconds": 1.69,
+      "summary": [
+        "IDENTITY RESULTS: 978 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "balance_tests",
+      "exit": 0,
+      "seconds": 1.22,
+      "summary": [
+        "BALANCE RESULTS: 516 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "balance_water_routes",
+      "exit": 0,
+      "seconds": 1.98,
+      "summary": []
+    },
+    {
+      "suite": "qa_validation",
+      "exit": 0,
+      "seconds": 1.04,
+      "summary": [
+        "QA VALIDATION RESULTS: 367 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "qa_contacts",
+      "exit": 0,
+      "seconds": 1.13,
+      "summary": [
+        "QA CONTACT RESULTS: 106 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "qa_stress",
+      "exit": 0,
+      "seconds": 4.49,
+      "summary": [
+        "QA STRESS RESULTS: 539 passed, 0 failed; cycles=18; wall_seconds=3.35"
+      ]
+    },
+    {
+      "suite": "qa_repro",
+      "exit": 0,
+      "seconds": 0.85,
+      "summary": []
+    },
+    {
+      "suite": "qa_perf",
+      "exit": 0,
+      "seconds": 8.38,
+      "summary": []
+    },
+    {
+      "suite": "post_m14_tests",
+      "exit": 0,
+      "seconds": 2.52,
+      "summary": [
+        "POST M14 RESULTS: 459 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "map_campaign_tests",
+      "exit": 0,
+      "seconds": 1.04,
+      "summary": [
+        "MAP CAMPAIGN RESULTS: 110 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "map_route_tests",
+      "exit": 0,
+      "seconds": 5.75,
+      "summary": [
+        "MAP ROUTE RESULTS: 12 passed, 0 failed"
+      ]
+    },
+    {
+      "suite": "lan_account_tests",
+      "exit": 0,
+      "seconds": 0.55,
+      "summary": [
+        "RESULT 29 passed / 0 failed"
+      ]
+    }
+  ],
+  "resource_loads": {
+    "total": 322,
+    "passed": 322,
+    "failed": 0
+  },
+  "references": {
+    "references": 783,
+    "missing": [],
+    "unchanged_gameplay_resources": [
+      "village_crossing",
+      "city_rush",
+      "river_delta",
+      "night_express"
+    ],
+    "unchanged_core_files": 6
+  },
+  "clean_copy_over": [
+    {
+      "gate": "import",
+      "exit": 0,
+      "summary": []
+    },
+    {
+      "gate": "main",
+      "exit": 0,
+      "summary": []
+    },
+    {
+      "gate": "resources",
+      "exit": 0,
+      "summary": [
+        "RESOURCE LOAD RESULTS: 322 passed, 0 failed"
+      ]
+    },
+    {
+      "gate": "focused",
+      "exit": 0,
+      "summary": [
+        "REFINEMENT RESULTS: 120 passed, 0 failed"
+      ]
+    }
+  ],
+  "exported_pck": "PASS: music, characters, dog configuration, all hazard cues, water life-loss, Best Time, save/reload",
+  "rendered_fireworks": {
+    "duration_seconds": 120,
+    "frames": 5678,
+    "median_frame_ms": 20.3703703703704,
+    "p95_frame_ms": 25.0,
+    "peak_rocket_records": 6,
+    "waves": 27,
+    "audio_player_children_min": 1,
+    "audio_player_children_max": 1,
+    "sound_events": 102,
+    "cleanup": "PASS",
+    "renderer": "Mesa llvmpipe software OpenGL; not a physical Android benchmark"
+  },
+  "physical_windows_tested": false,
+  "physical_android_tested": false,
+  "notes": [
+    "Repeated clean-copy checks are not added to the assertion total.",
+    "Three preserved suites report successful exit rather than assertion totals.",
+    "Earlier development failures were fixed; latest results above supersede earlier logs.",
+    "Fast headless audio shutdown warnings in the new tests were resolved by allowing mixer cleanup; some historical accelerated suites still emit ObjectDB shutdown warnings."
+  ]
+}

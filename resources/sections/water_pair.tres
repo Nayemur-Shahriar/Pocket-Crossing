@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="LevelSectionConfig" load_steps=8 format=3 uid="uid://dg4p7oj6nf70l"]
+
+[ext_resource type="Script" uid="uid://clxcqv3kbeb6n" path="res://scripts/data/level_section_config.gd" id="1"]
+[ext_resource type="Script" uid="uid://c7bkf7fvtt6ea" path="res://scripts/data/railway_track_config.gd" id="1_nk8ue"]
+[ext_resource type="Script" uid="uid://bc4yvr40ecisi" path="res://scripts/data/pickup_placement.gd" id="1_v21ke"]
+[ext_resource type="Script" uid="uid://d16k50w54hxcu" path="res://scripts/data/water_lane_config.gd" id="2"]
+[ext_resource type="Script" uid="uid://dm7l6coe30tj5" path="res://scripts/data/lane_config.gd" id="2_v21ke"]
+
+[sub_resource type="Resource" id="East"]
+script = ExtResource("2")
+
+[sub_resource type="Resource" id="West"]
+script = ExtResource("2")
+direction = -1
+
+[resource]
+script = ExtResource("1")
+kind = 4
+water_lanes = Array[ExtResource("2")]([SubResource("East"), SubResource("West")])

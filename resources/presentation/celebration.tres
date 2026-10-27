@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CelebrationConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/celebration_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+rockets_per_wave = 4
+rockets_per_wave_max = 6
+rocket_travel_time = 1.05
+rocket_stagger = 0.10
+rocket_trail_length = 100.0
+explosion_radius = 205.0
+burst_lifetime = 1.15
+rays = 20
+delay_min = 1.2
+delay_max = 0.80

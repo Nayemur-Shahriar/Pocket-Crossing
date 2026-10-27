@@ -1,0 +1,18 @@
+Byte-identical to M11:
+scripts/core/save_data.gd
+scripts/core/power_up_controller.gd
+scripts/input/input_router.gd
+scripts/actors/player.gd
+scripts/world/water_support.gd
+scripts/world/water_lane.gd
+scripts/world/railway_section.gd
+scripts/world/level_camera.gd
+scripts/world/section_activation.gd
+scripts/data/section_layout_compiler.gd
+scripts/ui/game_hud.gd
+scripts/ui/level_result_panel.gd
+scripts/ui/result_celebration.gd
+resources/levels/campaign.tres
+project.godot
+export_presets.cfg
+All historical M11 screenshots restored unchanged.

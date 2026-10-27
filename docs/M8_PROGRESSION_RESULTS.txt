@@ -1,0 +1,81 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Missing profile uses safe defaults
+PASS Two free cosmetic skins
+PASS Safe, reachable pickup cells: Greenway
+PASS Bounded pickup count: Greenway
+PASS Safe, reachable pickup cells: City Rush
+PASS Bounded pickup count: City Rush
+PASS Safe, reachable pickup cells: Highway
+PASS Bounded pickup count: Highway
+PASS Safe, reachable pickup cells: Village Road
+PASS Bounded pickup count: Village Road
+PASS Safe, reachable pickup cells: Railway Crossing
+PASS Bounded pickup count: Railway Crossing
+PASS Coin banks immediately through completed-hop callback
+PASS Repeated callback cannot award duplicate coin
+PASS Collected coin survives reload
+PASS Shield absorbs collision without losing life or resetting hop
+PASS Shield consumed with short collision grace
+PASS Same-frame second hit ignored during shield grace
+PASS Unshielded hit retains existing life/respawn flow
+PASS Death does not respawn collected coins
+PASS Slow effect reaches existing vehicles immediately
+PASS New vehicles inherit shared slow speed
+PASS Pause freezes power duration
+PASS Slow expires and restores existing traffic speed
+PASS Multiplier doubles coin reward
+PASS Multiplier doubles forward points
+PASS Multiplier doubles destination and forward points
+PASS Reward multiplier expires
+PASS Repeated effect refreshes instead of stacking
+PASS Retry clears temporary effects and run counters
+PASS Retry keeps banked wallet
+PASS Completion alone earns one star
+PASS Time threshold earns second star
+PASS Lives threshold earns second star
+PASS Both thresholds earn three stars, inclusive boundaries
+PASS Successful run saves stars
+PASS Results receive rating and coin totals
+PASS Completion callback cannot duplicate rewards
+PASS Worse replay never reduces stars or high score
+PASS Failed run can improve score without changing best stars
+PASS Insufficient coins cannot unlock character
+PASS Unknown character ID safely rejected
+PASS Unlock spends exact coin price
+PASS Re-selecting owned skin never charges again
+PASS Second paid skin unlocks without negative balance
+PASS Character selection and ownership survive reload
+PASS Selected skin applied at run start
+PASS Cosmetics never change hitbox or movement
+PASS Character selection screen exposes free skin
+PASS Character UI selects without starting gameplay
+PASS Return from characters preserves input isolation
+PASS Arbitrary future level IDs persist
+PASS Pickup system accepts opaque world keys and positions
+PASS Wrong scalar types fall back safely
+PASS Negative scores and excessive star values are clamped
+PASS Only boolean true unlock records accepted
+PASS Bad/locked character selections fall back
+PASS Phase 3 profile migrates without losing progress/settings
+PASS Legacy profile does not invent coins or star performance
+ERROR: ConfigFile parse error at user://phase4_test.cfg:0: Unexpected EOF while parsing simple tag.
+   at: _parse (core/io/config_file.cpp:292)
+   GDScript backtrace (most recent call first):
+       [0] load_profile (res://scripts/core/save_data.gd:51)
+       [1] run (res://tests/phase4_tests.gd:191)
+PASS Truncated save recovers last-good backup
+ERROR: ConfigFile parse error at user://phase4_test.cfg:0: Unexpected EOF while parsing simple tag.
+   at: _parse (core/io/config_file.cpp:292)
+   GDScript backtrace (most recent call first):
+       [0] load_profile (res://scripts/core/save_data.gd:51)
+       [1] run (res://tests/phase4_tests.gd:197)
+PASS Corrupt save without backup starts safely
+WARNING: Could not save local progress: File not found
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] save (res://scripts/core/save_data.gd:92)
+         [1] choose_character (res://scripts/core/save_data.gd:136)
+         [2] run (res://tests/phase4_tests.gd:203)
+PASS Failed save rolls back purchase and selection
+PHASE 4 RESULTS: 62 passed, 0 failed

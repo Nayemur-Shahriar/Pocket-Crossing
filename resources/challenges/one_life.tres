@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ChallengeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/challenge_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+challenge_id = "one_life"
+title = "One Life"
+description = "One valid death ends the attempt."
+modifier = "one_life"
+maps = Array[String](["village_crossing", "city_rush", "river_delta", "night_express"])

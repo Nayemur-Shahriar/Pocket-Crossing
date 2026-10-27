@@ -1,0 +1,15 @@
+.godot/
+builds/*
+!builds/.gitkeep
+*.tmp
+*.log
+*.keystore
+*.jks
+export_credentials.cfg
+.DS_Store
+*.apk
+*.aab
+*.idsig
+*.exe
+*.pck
+*.zip

@@ -1,0 +1,270 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=44 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/power_up_config.gd" id="3_lahvs"]
+[ext_resource type="Resource" path="res://resources/water/visuals/engine_boat.tres" id="engine_boat"]
+[ext_resource type="Resource" path="res://resources/environments/river.tres" id="environment"]
+[ext_resource type="Script" path="res://scripts/data/level_config.gd" id="level"]
+[ext_resource type="Resource" path="res://resources/water/visuals/passenger_boat.tres" id="passenger_boat"]
+[ext_resource type="Script" path="res://scripts/data/pickup_placement.gd" id="pickup"]
+[ext_resource type="Script" path="res://scripts/data/lane_config.gd" id="road"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Resource" path="res://resources/themes/evening.tres" id="theme"]
+[ext_resource type="Script" path="res://scripts/data/railway_track_config.gd" id="track"]
+[ext_resource type="Script" path="res://scripts/data/water_lane_config.gd" id="water"]
+[ext_resource type="Resource" path="res://resources/water/visuals/wooden_boat.tres" id="wooden_boat"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="shield"]
+
+[sub_resource type="Resource" id="Coin0"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin1"]
+script = ExtResource("pickup")
+cell = Vector2i(13, 0)
+
+[sub_resource type="Resource" id="S00"]
+script = ExtResource("section")
+section_id = "section_00"
+kind = 0
+pickups = Array[ExtResource("pickup")]([SubResource("Coin0"), SubResource("Coin1")])
+
+[sub_resource type="Resource" id="Road0"]
+script = ExtResource("road")
+speed = 180.0
+spawn_min = 1.98
+spawn_max = 2.43
+minimum_clear_gap = 200.0
+minimum_gap_seconds = 1.2
+speed_variation = 0.049
+vehicle_types = Array[String](["small_car", "pickup", "cng"])
+open_seconds = 3.36
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road1"]
+script = ExtResource("road")
+direction = -1
+speed = 199.0
+speed_modifier = 1.04
+spawn_min = 2.1
+spawn_max = 2.5500000000000003
+minimum_clear_gap = 200.0
+minimum_gap_seconds = 1.2
+speed_variation = 0.049
+vehicle_types = Array[String](["local_bus", "small_car"])
+pattern = "waves"
+cycle_seconds = 13.0
+open_seconds = 3.36
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road2"]
+script = ExtResource("road")
+speed = 210.0
+speed_modifier = 0.98
+spawn_min = 2.2199999999999998
+spawn_max = 2.67
+minimum_clear_gap = 200.0
+minimum_gap_seconds = 1.2
+speed_variation = 0.049
+vehicle_types = Array[String](["cng", "medium_truck", "small_car"])
+cycle_seconds = 14.0
+open_seconds = 3.36
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="S01"]
+script = ExtResource("section")
+section_id = "section_01"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("Road0"), SubResource("Road1"), SubResource("Road2")])
+
+[sub_resource type="Resource" id="Coin2"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin3"]
+script = ExtResource("pickup")
+cell = Vector2i(3, 0)
+
+[sub_resource type="Resource" id="Power0"]
+script = ExtResource("pickup")
+cell = Vector2i(9, 0)
+power = ExtResource("shield")
+
+[sub_resource type="Resource" id="S02"]
+script = ExtResource("section")
+section_id = "section_02"
+pickups = Array[ExtResource("pickup")]([SubResource("Coin2"), SubResource("Coin3"), SubResource("Power0")])
+
+[sub_resource type="Resource" id="Water0"]
+script = ExtResource("water")
+platform_speed = 78.0
+spawn_min = 3.0256410256410255
+spawn_max = 3.1794871794871793
+platform_type = "long_boat"
+platform_length = 192.0
+minimum_spacing = 44.0
+speed_variation = 0.025
+visual = ExtResource("passenger_boat")
+
+[sub_resource type="Resource" id="Water1"]
+script = ExtResource("water")
+direction = -1
+platform_speed = 66.0
+spawn_min = 3.090909090909091
+spawn_max = 3.272727272727273
+platform_type = "log"
+platform_length = 160.0
+minimum_spacing = 44.0
+speed_variation = 0.025
+visual = ExtResource("wooden_boat")
+
+[sub_resource type="Resource" id="Water2"]
+script = ExtResource("water")
+platform_speed = 98.0
+spawn_min = 2.2448979591836733
+spawn_max = 2.36734693877551
+platform_type = "small_boat"
+platform_length = 176.0
+minimum_spacing = 44.0
+speed_variation = 0.025
+visual = ExtResource("engine_boat")
+
+[sub_resource type="Resource" id="S03"]
+script = ExtResource("section")
+section_id = "section_03"
+kind = 4
+water_lanes = Array[ExtResource("water")]([SubResource("Water0"), SubResource("Water1"), SubResource("Water2")])
+
+[sub_resource type="Resource" id="Coin4"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin5"]
+script = ExtResource("pickup")
+cell = Vector2i(13, 0)
+
+[sub_resource type="Resource" id="S04"]
+script = ExtResource("section")
+section_id = "section_04"
+pickups = Array[ExtResource("pickup")]([SubResource("Coin4"), SubResource("Coin5")])
+
+[sub_resource type="Resource" id="Road3"]
+script = ExtResource("road")
+speed = 187.0
+spawn_min = 1.98
+spawn_max = 2.43
+minimum_clear_gap = 200.0
+minimum_gap_seconds = 1.2
+speed_variation = 0.049
+vehicle_types = Array[String](["cng", "pickup", "small_car"])
+open_seconds = 3.36
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road4"]
+script = ExtResource("road")
+direction = -1
+speed = 203.0
+speed_modifier = 1.04
+spawn_min = 2.1
+spawn_max = 2.5500000000000003
+minimum_clear_gap = 200.0
+minimum_gap_seconds = 1.2
+speed_variation = 0.049
+vehicle_types = Array[String](["local_bus", "cng"])
+pattern = "waves"
+cycle_seconds = 13.0
+open_seconds = 3.36
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="Road5"]
+script = ExtResource("road")
+direction = -1
+speed = 176.0
+speed_modifier = 0.98
+spawn_min = 2.2199999999999998
+spawn_max = 2.67
+minimum_clear_gap = 200.0
+minimum_gap_seconds = 1.2
+speed_variation = 0.049
+vehicle_types = Array[String](["small_car", "medium_truck", "cng"])
+cycle_seconds = 14.0
+open_seconds = 3.36
+warning_seconds = 2.0
+
+[sub_resource type="Resource" id="S05"]
+script = ExtResource("section")
+section_id = "section_05"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("Road3"), SubResource("Road4"), SubResource("Road5")])
+
+[sub_resource type="Resource" id="Coin6"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+
+[sub_resource type="Resource" id="Coin7"]
+script = ExtResource("pickup")
+cell = Vector2i(3, 0)
+
+[sub_resource type="Resource" id="S06"]
+script = ExtResource("section")
+section_id = "section_06"
+pickups = Array[ExtResource("pickup")]([SubResource("Coin6"), SubResource("Coin7")])
+
+[sub_resource type="Resource" id="Water3"]
+script = ExtResource("water")
+direction = -1
+platform_speed = 78.0
+spawn_min = 3.0256410256410255
+spawn_max = 3.1794871794871793
+platform_type = "long_boat"
+platform_length = 192.0
+minimum_spacing = 44.0
+speed_variation = 0.025
+visual = ExtResource("passenger_boat")
+
+[sub_resource type="Resource" id="Water4"]
+script = ExtResource("water")
+platform_speed = 66.0
+spawn_min = 3.090909090909091
+spawn_max = 3.272727272727273
+platform_type = "log"
+platform_length = 160.0
+minimum_spacing = 44.0
+speed_variation = 0.025
+visual = ExtResource("wooden_boat")
+
+[sub_resource type="Resource" id="S07"]
+script = ExtResource("section")
+section_id = "section_07"
+kind = 4
+water_lanes = Array[ExtResource("water")]([SubResource("Water3"), SubResource("Water4")])
+
+[sub_resource type="Resource" id="S08"]
+script = ExtResource("section")
+section_id = "section_08"
+
+[sub_resource type="Resource" id="S09"]
+script = ExtResource("section")
+section_id = "section_09"
+kind = 5
+destination_columns = Array[int]([4, 8, 12])
+
+[resource]
+script = ExtResource("level")
+display_name = "River Rush"
+level_number = 9
+time_limit = 155.0
+forward_points = 25
+destination_points = 250
+seconds_bonus = 4
+life_bonus = 100
+spawn_protection = 0.25
+starting_speed_scale = 1.0
+level_id = "level_09"
+difficulty_label = "Challenging"
+score_target = 1010
+coin_count = 0
+power_ups = Array[ExtResource("3_lahvs")]([])
+star_time_fraction = 0.67
+sections = Array[ExtResource("section")]([SubResource("S00"), SubResource("S01"), SubResource("S02"), SubResource("S03"), SubResource("S04"), SubResource("S05"), SubResource("S06"), SubResource("S07"), SubResource("S08"), SubResource("S09")])
+presentation = ExtResource("theme")
+environment = ExtResource("environment")

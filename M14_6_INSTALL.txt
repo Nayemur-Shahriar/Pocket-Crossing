@@ -1,0 +1,23 @@
+POCKET CROSSING M14.6 UPDATE — apply to your pc M14.5 project
+
+1. Back up your existing project folder and your game saves. Close Godot.
+2. Extract PocketCrossing_M14_6_Update.zip.
+3. Copy the CONTENTS of its PocketCrossing folder into your existing PocketCrossing
+   folder, beside project.godot. Accept replacement of matching files.
+   Do not create PocketCrossing/PocketCrossing. No existing files need deletion.
+4. Open the existing project.godot with Godot 4.5.2 and allow imports to finish.
+5. Press the top Play triangle. Use LOCAL PLAY or FRIENDS PLAY.
+6. Every friend must use the same updated build. Connect all devices to the same
+   Wi-Fi or hotspot. One chooses HOST GAME; the others choose JOIN GAME.
+   If discovery shows no game, use ENTER HOST IP with the address in the host lobby.
+
+This is one UPDATE ZIP, not a replacement project. The Recovery Checkpoint ZIP is
+an internal work checkpoint and should not be installed on top of this update.
+No user save files are included or overwritten by copying this ZIP.
+
+Read docs/M14_6_REPORT.md for architecture and exact PC/Android/hotspot tests.
+Read docs/M14_6_VALIDATION.md for tests actually executed and remaining checks.
+Read docs/M14_6_FILES.txt for the exact created/modified file list.
+
+No M15 release or publishing work is included. Physical Windows/Android network
+and mobile performance acceptance must be completed before release preparation.

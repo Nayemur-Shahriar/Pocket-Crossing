@@ -1,0 +1,428 @@
+[
+  {
+    "number": 1,
+    "name": "Easy Road",
+    "file": "resources/campaign/level_01.tres",
+    "environment": "green",
+    "theme": "day",
+    "vehicles": [
+      "cng",
+      "small_car"
+    ],
+    "rail_water_visuals": []
+  },
+  {
+    "number": 2,
+    "name": "City Run",
+    "file": "resources/campaign/level_02.tres",
+    "environment": "city",
+    "theme": "day",
+    "vehicles": [
+      "cng",
+      "delivery_van",
+      "microbus",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": []
+  },
+  {
+    "number": 3,
+    "name": "Sunset Rush",
+    "file": "resources/campaign/level_03.tres",
+    "environment": "city",
+    "theme": "evening",
+    "vehicles": [
+      "cng",
+      "delivery_van",
+      "microbus",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": []
+  },
+  {
+    "number": 4,
+    "name": "Night Ride",
+    "file": "resources/campaign/level_04.tres",
+    "environment": "city",
+    "theme": "night",
+    "vehicles": [
+      "cng",
+      "delivery_van",
+      "local_bus",
+      "microbus",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": []
+  },
+  {
+    "number": 5,
+    "name": "Train Time",
+    "file": "resources/campaign/level_05.tres",
+    "environment": "village",
+    "theme": "day",
+    "vehicles": [
+      "cng",
+      "local_bus",
+      "medium_truck",
+      "pickup",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/riverline.tres"
+      ]
+    ]
+  },
+  {
+    "number": 6,
+    "name": "Double Track",
+    "file": "resources/campaign/level_06.tres",
+    "environment": "railway",
+    "theme": "evening",
+    "vehicles": [
+      "cng",
+      "local_bus",
+      "medium_truck",
+      "pickup",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/sunrise.tres"
+      ],
+      [
+        "Track1",
+        "res://resources/railway/visuals/sunrise.tres"
+      ]
+    ]
+  },
+  {
+    "number": 7,
+    "name": "River Hop",
+    "file": "resources/campaign/level_07.tres",
+    "environment": "river",
+    "theme": "day",
+    "vehicles": [
+      "cng",
+      "local_bus",
+      "medium_truck",
+      "pickup",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Water0",
+        "res://resources/water/visuals/wooden_boat.tres"
+      ],
+      [
+        "Water1",
+        "res://resources/water/visuals/passenger_boat.tres"
+      ]
+    ]
+  },
+  {
+    "number": 8,
+    "name": "Rain Run",
+    "file": "resources/campaign/level_08.tres",
+    "environment": "city",
+    "theme": "rain",
+    "vehicles": [
+      "cng",
+      "delivery_van",
+      "local_bus",
+      "microbus",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/riverline.tres"
+      ]
+    ]
+  },
+  {
+    "number": 9,
+    "name": "River Rush",
+    "file": "resources/campaign/level_09.tres",
+    "environment": "river",
+    "theme": "evening",
+    "vehicles": [
+      "cng",
+      "local_bus",
+      "medium_truck",
+      "pickup",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Water0",
+        "res://resources/water/visuals/passenger_boat.tres"
+      ],
+      [
+        "Water1",
+        "res://resources/water/visuals/wooden_boat.tres"
+      ],
+      [
+        "Water2",
+        "res://resources/water/visuals/engine_boat.tres"
+      ],
+      [
+        "Water3",
+        "res://resources/water/visuals/passenger_boat.tres"
+      ],
+      [
+        "Water4",
+        "res://resources/water/visuals/wooden_boat.tres"
+      ]
+    ]
+  },
+  {
+    "number": 10,
+    "name": "Snow Way",
+    "file": "resources/campaign/level_10.tres",
+    "environment": "village",
+    "theme": "snow",
+    "vehicles": [
+      "cng",
+      "local_bus",
+      "medium_truck",
+      "pickup",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/sunrise.tres"
+      ],
+      [
+        "Track1",
+        "res://resources/railway/visuals/sunrise.tres"
+      ],
+      [
+        "Track2",
+        "res://resources/railway/visuals/sunrise.tres"
+      ]
+    ]
+  },
+  {
+    "number": 11,
+    "name": "Fog Track",
+    "file": "resources/campaign/level_11.tres",
+    "environment": "railway",
+    "theme": "fog",
+    "vehicles": [
+      "cng",
+      "local_bus",
+      "medium_truck",
+      "pickup",
+      "rickshaw",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Track1",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Track2",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Track3",
+        "res://resources/railway/visuals/riverline.tres"
+      ]
+    ]
+  },
+  {
+    "number": 12,
+    "name": "Wild River",
+    "file": "resources/campaign/level_12.tres",
+    "environment": "river",
+    "theme": "rain",
+    "vehicles": [
+      "cng",
+      "local_bus",
+      "medium_truck",
+      "pickup",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Water0",
+        "res://resources/water/visuals/ferry.tres"
+      ],
+      [
+        "Water1",
+        "res://resources/water/visuals/fishing_boat.tres"
+      ],
+      [
+        "Water2",
+        "res://resources/water/visuals/engine_boat.tres"
+      ],
+      [
+        "Track0",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Water3",
+        "res://resources/water/visuals/passenger_boat.tres"
+      ],
+      [
+        "Water4",
+        "res://resources/water/visuals/ferry.tres"
+      ]
+    ]
+  },
+  {
+    "number": 13,
+    "name": "Midnight Run",
+    "file": "resources/campaign/level_13.tres",
+    "environment": "highway",
+    "theme": "night",
+    "vehicles": [
+      "large_truck",
+      "local_bus",
+      "medium_truck",
+      "microbus",
+      "pickup",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Track1",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Water0",
+        "res://resources/water/visuals/ferry.tres"
+      ],
+      [
+        "Water1",
+        "legacy"
+      ],
+      [
+        "Water2",
+        "res://resources/water/visuals/engine_boat.tres"
+      ],
+      [
+        "Track2",
+        "res://resources/railway/visuals/riverline.tres"
+      ]
+    ]
+  },
+  {
+    "number": 14,
+    "name": "Danger Zone",
+    "file": "resources/campaign/level_14.tres",
+    "environment": "highway",
+    "theme": "evening",
+    "vehicles": [
+      "large_truck",
+      "local_bus",
+      "medium_truck",
+      "microbus",
+      "pickup",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/sunrise.tres"
+      ],
+      [
+        "Track1",
+        "res://resources/railway/visuals/sunrise.tres"
+      ],
+      [
+        "Track2",
+        "res://resources/railway/visuals/sunrise.tres"
+      ],
+      [
+        "Water0",
+        "res://resources/water/visuals/ferry.tres"
+      ],
+      [
+        "Water1",
+        "legacy"
+      ],
+      [
+        "Water2",
+        "res://resources/water/visuals/engine_boat.tres"
+      ],
+      [
+        "Track3",
+        "res://resources/railway/visuals/sunrise.tres"
+      ],
+      [
+        "Track4",
+        "res://resources/railway/visuals/sunrise.tres"
+      ]
+    ]
+  },
+  {
+    "number": 15,
+    "name": "Final Crossing",
+    "file": "resources/campaign/level_15.tres",
+    "environment": "crossroads",
+    "theme": "night",
+    "vehicles": [
+      "large_truck",
+      "local_bus",
+      "medium_truck",
+      "microbus",
+      "pickup",
+      "small_car"
+    ],
+    "rail_water_visuals": [
+      [
+        "Track0",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Track1",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Water0",
+        "res://resources/water/visuals/ferry.tres"
+      ],
+      [
+        "Water1",
+        "legacy"
+      ],
+      [
+        "Water2",
+        "res://resources/water/visuals/engine_boat.tres"
+      ],
+      [
+        "Track2",
+        "res://resources/railway/visuals/riverline.tres"
+      ],
+      [
+        "Water3",
+        "res://resources/water/visuals/passenger_boat.tres"
+      ],
+      [
+        "Water4",
+        "res://resources/water/visuals/ferry.tres"
+      ]
+    ]
+  }
+]

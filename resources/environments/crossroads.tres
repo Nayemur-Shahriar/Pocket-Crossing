@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="EnvironmentProfile" load_steps=11 format=3]
+[ext_resource type="Script" path="res://scripts/data/environment_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/urban_facade.svg" id="urban_facade"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/tea_stall.svg" id="tea_stall"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/ghat_steps.svg" id="ghat_steps"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/lamp.svg" id="lamp"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bridge_rail.svg" id="bridge_rail"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/palm.svg" id="palm"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/banana.svg" id="banana"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bamboo.svg" id="bamboo"]
+[ext_resource type="Texture2D" path="res://assets/environment/destinations/plaza.svg" id="finish"]
+[resource]
+script = ExtResource("script")
+destination_art = ExtResource("finish")
+profile_id = "crossroads"
+display_name = "Crossroads"
+rest_style = "Paving"
+ground_tint = Color(0.6392,0.7059,0.6,1)
+safe_color = Color(0.749,0.7608,0.6353,1)
+edge_color = Color(0.5294,0.6196,0.5725,1)
+sign_caption = "CROSSING"
+props = Array[Texture2D]([ExtResource("urban_facade"), ExtResource("tea_stall"), ExtResource("ghat_steps"), ExtResource("lamp"), ExtResource("bridge_rail")])
+vegetation = Array[Texture2D]([ExtResource("palm"), ExtResource("banana"), ExtResource("bamboo")])
+prop_density = 1.0
+vegetation_density = 0.9
+guard_rails = true

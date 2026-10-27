@@ -1,0 +1,4 @@
+firework.wav — original synthesized audio created for Pocket Crossing M11.
+Copyright (c) 2026 Pocket Crossing contributors. Licensed under the project MIT License.
+No samples or third-party recording used.
+Mono 22050 Hz, 16-bit PCM, 0.22 seconds; exponentially decaying deterministic noise and sine pop.

@@ -1,0 +1,1022 @@
+WorkerThreadPool: 9 threads, 2 max low-priority.
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Unrecognized output string "misc2" in mapping:
+030000000d0f0000ab01000011010000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:a5,leftx:a0,lefty:a1,misc2:b2,paddle1:b19,paddle2:b18,paddle3:b15,paddle4:b5,rightshoulder:b7,rightstick:b14,righttrigger:a4,rightx:a2,righty:a3,start:b11,x:b3,y:b4,platform:Linux,
+Unrecognized output string "misc2" in mapping:
+050000000d0f00009601000091000000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:a5,leftx:a0,lefty:a1,misc2:b2,paddle1:b19,paddle2:b18,paddle3:b15,paddle4:b5,rightshoulder:b7,rightstick:b14,righttrigger:a4,rightx:a2,righty:a3,start:b11,x:b3,y:b4,platform:Linux,
+Unrecognized output string "misc2" in mapping:
+030000007e0500006920000011010000,Nintendo Switch 2 Pro Controller,a:b0,b:b1,back:b14,dpdown:b8,dpleft:b10,dpright:b9,dpup:b11,guide:b16,leftshoulder:b12,leftstick:b15,lefttrigger:b13,leftx:a0,lefty:a1~,misc1:b17,misc2:b20,paddle1:b18,paddle2:b19,rightshoulder:b4,rightstick:b7,righttrigger:b5,rightx:a2,righty:a3~,start:b6,x:b2,y:b3,platform:Linux,
+SDL: Init OK!
+Xshape 1.1 detected.
+Xinerama 1.1 detected.
+Xrandr 1.6 detected.
+Xrender 0.11 detected.
+Xinput 2.2 detected.
+XInput: Refreshing devices.
+XInput: No touch devices found.
+Detecting GPUs, set DRI_PRIME in the environment to override GPU detection logic.
+Only one GPU found, using default.
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+XcursorGetTheme could not get cursor theme
+Failed loading custom cursor: crossed_circle
+DBus 1.14.10 detected.
+Using "default" pen tablet driver...
+Shader 'CanvasSdfShaderGLES3' SHA256: abf356c5c158e897c1737becd3e6532eb221c967f6121798daab7bfe96f2ce42
+Shader 'SkeletonShaderGLES3' SHA256: b724bbf96cb191c3ae0b22461482bd5d8f988f0884b3957c98bc8282be770042
+Shader 'ParticlesShaderGLES3' SHA256: e395289efaf6eb901f37fa52ee46789f3fed87c5d9721839dd1efbd72c3654f8
+Shader 'ParticlesCopyShaderGLES3' SHA256: 937b7c463fea7c1216a899efe1af174d744ae49c077911598b503ad50aaa5144
+Shader 'CopyShaderGLES3' SHA256: 0862bf67ea5885a24e12d07034ad0c47acc5cc1b0be179194cd3f115d810ade6
+Shader 'CubemapFilterShaderGLES3' SHA256: 15708463424337ab1a0751f98ac1ef0eb698999e583f9e560cd1564d8b7b71c3
+Shader 'GlowShaderGLES3' SHA256: 8f5fe5d3855cfde58ee491780c7ef8f87450649ccee7c499d11dac3127823727
+Shader 'PostShaderGLES3' SHA256: dcd0c5beff4e92862f5609421d3f9ce8263e4b20663b6c60ffd835bab5831750
+Shader 'FeedShaderGLES3' SHA256: 91c6c80fb626be963e0d35c9015450afdb94c21a9a5a724e204bb741159a3006
+Shader 'CanvasShaderGLES3' SHA256: 50e14a659485d647a4c471ff8cdd8c47a4c9f524840fd40fea402971ed8505c1
+Shader 'CanvasOcclusionShaderGLES3' SHA256: 6ae9571e2fd4347046b3e02c28910aa22c11964bfb6632690d8a04a5a3830b2d
+Shader 'SceneShaderGLES3' SHA256: 6f1328b1bda7266ce012ec6095023ed5177bf2063e35b08b08abfb9d59f86dbc
+Shader 'SkyShaderGLES3' SHA256: e4b026fbf641d53334a97491ff0eb3a029676af418ab5f641c0957ec226b64f6
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 3758106041
+EDITOR API HASH: 1819551975
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://scripts/core/save_data.gd
+Loading resource: res://resources/powerups/shield.tres
+Loading resource: res://scripts/data/power_up_config.gd
+Loading resource: res://resources/powerups/slow.tres
+Loading resource: res://resources/powerups/double.tres
+Loading resource: res://scripts/core/audio.gd
+Loaded system CA certificates
+Loading resource: res://tools/capture_identity.tscn
+Loading resource: res://tools/capture_identity.gd
+Loading resource: res://assets/audio/firework.wav
+Loading resource: res://.godot/imported/firework.wav-cba771bef30f4abcfe64d5488dff0ed2.sample
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://assets/art/grass.svg
+Loading resource: res://.godot/imported/grass.svg-64204dbbdee9bd6b6769a43ccb769652.ctex
+Loading resource: res://assets/art/asphalt.svg
+Loading resource: res://.godot/imported/asphalt.svg-8d26d9e579d67338ab1c6694ef670f09.ctex
+Loading resource: res://assets/art/pavement.svg
+Loading resource: res://.godot/imported/pavement.svg-7779f3056692240a4e43e961ce67f447.ctex
+Loading resource: res://assets/environment/props/finish_gate.svg
+Loading resource: res://.godot/imported/finish_gate.svg-331b5e4fc842aa9dfbbccc40e0a818bd.ctex
+Loading resource: res://assets/environment/props/reeds.svg
+Loading resource: res://.godot/imported/reeds.svg-fd70bfd2f0e192f38b77c2649014b8f1.ctex
+Loading resource: res://assets/environment/props/railway_sign.svg
+Loading resource: res://.godot/imported/railway_sign.svg-6aafb89f15b62dd3fad7eb10d4f8a01a.ctex
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scripts/actors/vehicle.gd
+Loading resource: res://assets/art/car.svg
+Loading resource: res://.godot/imported/car.svg-e9ded2ee0effb4717a51a1fde8c84b8e.ctex
+Loading resource: res://assets/audio/hop.wav
+Loading resource: res://.godot/imported/hop.wav-cad010ed019beb222695f942aec5ffa1.sample
+Loading resource: res://assets/audio/hit.wav
+Loading resource: res://.godot/imported/hit.wav-96dc477cdf4a42f381370dba6e3f75ce.sample
+Loading resource: res://assets/audio/dock.wav
+Loading resource: res://.godot/imported/dock.wav-96b6ab6e86ff56998afc521d64af464c.sample
+Loading resource: res://assets/audio/complete.wav
+Loading resource: res://.godot/imported/complete.wav-c68699f1d953f56f7d9d6484d4ef9d4f.sample
+Loading resource: res://assets/audio/ui.wav
+Loading resource: res://.godot/imported/ui.wav-d54e8bc37b8ccee18240932350cecc18.sample
+Loading resource: res://tools/campaign_preview.tscn
+Loading resource: res://scenes/main.tscn
+Loading resource: res://scenes/levels/level_01.tscn
+Loading resource: res://resources/levels/level_01.tres
+Loading resource: res://scripts/world/board_art.gd
+Loading resource: res://assets/art/tree.svg
+Loading resource: res://.godot/imported/tree.svg-100aa84e87644a7b3e7a3e63208c070d.ctex
+Loading resource: res://scenes/actors/player.tscn
+Loading resource: res://assets/art/courier.svg
+Loading resource: res://.godot/imported/courier.svg-ff07669e7260303a51fbda008c1ed217.ctex
+Loading resource: res://tools/campaign_preview.gd
+Loading resource: res://resources/levels/campaign.tres
+Loading resource: res://resources/campaign/level_01.tres
+Loading resource: res://resources/themes/day.tres
+Loading resource: res://resources/environments/green.tres
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://resources/campaign/level_02.tres
+Loading resource: res://resources/environments/city.tres
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://resources/campaign/level_03.tres
+Loading resource: res://resources/themes/evening.tres
+Loading resource: res://resources/campaign/level_04.tres
+Loading resource: res://resources/themes/night.tres
+Loading resource: res://resources/campaign/level_05.tres
+Loading resource: res://resources/environments/village.tres
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://resources/campaign/level_06.tres
+Loading resource: res://resources/environments/railway.tres
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/campaign/level_07.tres
+Loading resource: res://resources/environments/river.tres
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/campaign/level_08.tres
+Loading resource: res://resources/themes/rain.tres
+Loading resource: res://resources/campaign/level_09.tres
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/campaign/level_10.tres
+Loading resource: res://resources/themes/snow.tres
+Loading resource: res://resources/campaign/level_11.tres
+Loading resource: res://resources/themes/fog.tres
+Loading resource: res://resources/campaign/level_12.tres
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/campaign/level_13.tres
+Loading resource: res://resources/environments/highway.tres
+Loading resource: res://resources/campaign/level_14.tres
+Loading resource: res://resources/campaign/level_15.tres
+Loading resource: res://resources/environments/crossroads.tres
+Loading resource: res://resources/levels/campaign.tres
+Loading resource: res://resources/campaign/level_01.tres
+Loading resource: res://resources/themes/day.tres
+Loading resource: res://resources/environments/green.tres
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://resources/campaign/level_02.tres
+Loading resource: res://resources/environments/city.tres
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://resources/campaign/level_03.tres
+Loading resource: res://resources/themes/evening.tres
+Loading resource: res://resources/campaign/level_04.tres
+Loading resource: res://resources/themes/night.tres
+Loading resource: res://resources/campaign/level_05.tres
+Loading resource: res://resources/environments/village.tres
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://resources/campaign/level_06.tres
+Loading resource: res://resources/environments/railway.tres
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/campaign/level_07.tres
+Loading resource: res://resources/environments/river.tres
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/campaign/level_08.tres
+Loading resource: res://resources/themes/rain.tres
+Loading resource: res://resources/campaign/level_09.tres
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/campaign/level_10.tres
+Loading resource: res://resources/themes/snow.tres
+Loading resource: res://resources/campaign/level_11.tres
+Loading resource: res://resources/themes/fog.tres
+Loading resource: res://resources/campaign/level_12.tres
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/campaign/level_13.tres
+Loading resource: res://resources/environments/highway.tres
+Loading resource: res://resources/campaign/level_14.tres
+Loading resource: res://resources/campaign/level_15.tres
+Loading resource: res://resources/environments/crossroads.tres
+Loading resource: res://resources/vehicles/catalog.tres
+Loading resource: res://resources/vehicles/car.tres
+Loading resource: res://resources/vehicles/truck.tres
+Loading resource: res://assets/art/van.svg
+Loading resource: res://.godot/imported/van.svg-71b1ff5b9d89d80bfc27a6c3b82dccbd.ctex
+Loading resource: res://resources/vehicles/bus.tres
+Loading resource: res://resources/vehicles/train.tres
+Loading resource: res://resources/vehicles/cng.tres
+Loading resource: res://assets/vehicles/cng.svg
+Loading resource: res://.godot/imported/cng.svg-5790abda67cfac715b57e9f5a14b6fdf.ctex
+Loading resource: res://resources/vehicles/rickshaw.tres
+Loading resource: res://assets/vehicles/rickshaw.svg
+Loading resource: res://.godot/imported/rickshaw.svg-1ccd695ae51b9070d699e89b0bfb82c4.ctex
+Loading resource: res://resources/vehicles/local_bus.tres
+Loading resource: res://assets/vehicles/local_bus.svg
+Loading resource: res://.godot/imported/local_bus.svg-09957a089b707e5930077c2fad570cd4.ctex
+Loading resource: res://resources/vehicles/small_car.tres
+Loading resource: res://assets/vehicles/small_car.svg
+Loading resource: res://.godot/imported/small_car.svg-6adebe8667374df7743728e3eebb7ed8.ctex
+Loading resource: res://resources/vehicles/microbus.tres
+Loading resource: res://assets/vehicles/microbus.svg
+Loading resource: res://.godot/imported/microbus.svg-d0e68d9197c17a6435d27a7c1fbe9625.ctex
+Loading resource: res://resources/vehicles/pickup.tres
+Loading resource: res://assets/vehicles/pickup.svg
+Loading resource: res://.godot/imported/pickup.svg-518f584e422a5f0c61210b6f0fc8ac5b.ctex
+Loading resource: res://resources/vehicles/delivery_van.tres
+Loading resource: res://assets/vehicles/delivery_van.svg
+Loading resource: res://.godot/imported/delivery_van.svg-27ea83468547f640eeb87290489080e2.ctex
+Loading resource: res://resources/vehicles/medium_truck.tres
+Loading resource: res://assets/vehicles/medium_truck.svg
+Loading resource: res://.godot/imported/medium_truck.svg-5f352e0afc2cc6fc27fd4e12aed3af63.ctex
+Loading resource: res://resources/vehicles/large_truck.tres
+Loading resource: res://assets/vehicles/large_truck.svg
+Loading resource: res://.godot/imported/large_truck.svg-f4d240a8fd997a53d97dc424111627aa.ctex
+Captured M12 level_01
+Captured M12 destination level_01
+Captured M12 level_02
+Captured M12 destination level_02
+Captured M12 level_03
+Captured M12 destination level_03
+Captured M12 level_04
+Captured M12 destination level_04
+Captured M12 level_05
+Captured M12 destination level_05
+Captured M12 level_06
+Captured M12 destination level_06
+Captured M12 level_07
+Captured M12 destination level_07
+Captured M12 level_08
+Captured M12 destination level_08
+Captured M12 level_09
+Captured M12 destination level_09
+Captured M12 level_10
+Captured M12 destination level_10
+Captured M12 level_11
+Captured M12 destination level_11
+Captured M12 level_12
+Captured M12 destination level_12
+Captured M12 level_13
+Captured M12 destination level_13
+Captured M12 level_14
+Captured M12 destination level_14
+Captured M12 level_15
+Captured M12 destination level_15
+Captured M12 record_day
+Captured M12 record_evening
+Captured M12 record_night
+Captured M12 record_rain
+Captured M12 record_snow
+Captured M12 record_fog
+Captured M12 normal_complete
+Captured M12 failure
+Captured M12 failure_1920x864
+Captured M12 failure_800x360
+Captured M12 final_complete
+Captured M12 select_top
+Captured M12 select_bottom
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+WorkerThreadPool: 9 threads, 2 max low-priority.
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Unrecognized output string "misc2" in mapping:
+030000000d0f0000ab01000011010000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:a5,leftx:a0,lefty:a1,misc2:b2,paddle1:b19,paddle2:b18,paddle3:b15,paddle4:b5,rightshoulder:b7,rightstick:b14,righttrigger:a4,rightx:a2,righty:a3,start:b11,x:b3,y:b4,platform:Linux,
+Unrecognized output string "misc2" in mapping:
+050000000d0f00009601000091000000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:a5,leftx:a0,lefty:a1,misc2:b2,paddle1:b19,paddle2:b18,paddle3:b15,paddle4:b5,rightshoulder:b7,rightstick:b14,righttrigger:a4,rightx:a2,righty:a3,start:b11,x:b3,y:b4,platform:Linux,
+Unrecognized output string "misc2" in mapping:
+030000007e0500006920000011010000,Nintendo Switch 2 Pro Controller,a:b0,b:b1,back:b14,dpdown:b8,dpleft:b10,dpright:b9,dpup:b11,guide:b16,leftshoulder:b12,leftstick:b15,lefttrigger:b13,leftx:a0,lefty:a1~,misc1:b17,misc2:b20,paddle1:b18,paddle2:b19,rightshoulder:b4,rightstick:b7,righttrigger:b5,rightx:a2,righty:a3~,start:b6,x:b2,y:b3,platform:Linux,
+SDL: Init OK!
+Xshape 1.1 detected.
+Xinerama 1.1 detected.
+Xrandr 1.6 detected.
+Xrender 0.11 detected.
+Xinput 2.2 detected.
+XInput: Refreshing devices.
+XInput: No touch devices found.
+Detecting GPUs, set DRI_PRIME in the environment to override GPU detection logic.
+Only one GPU found, using default.
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+XcursorGetTheme could not get cursor theme
+Failed loading custom cursor: crossed_circle
+DBus 1.14.10 detected.
+Using "default" pen tablet driver...
+Shader 'CanvasSdfShaderGLES3' SHA256: abf356c5c158e897c1737becd3e6532eb221c967f6121798daab7bfe96f2ce42
+Shader 'SkeletonShaderGLES3' SHA256: b724bbf96cb191c3ae0b22461482bd5d8f988f0884b3957c98bc8282be770042
+Shader 'ParticlesShaderGLES3' SHA256: e395289efaf6eb901f37fa52ee46789f3fed87c5d9721839dd1efbd72c3654f8
+Shader 'ParticlesCopyShaderGLES3' SHA256: 937b7c463fea7c1216a899efe1af174d744ae49c077911598b503ad50aaa5144
+Shader 'CopyShaderGLES3' SHA256: 0862bf67ea5885a24e12d07034ad0c47acc5cc1b0be179194cd3f115d810ade6
+Shader 'CubemapFilterShaderGLES3' SHA256: 15708463424337ab1a0751f98ac1ef0eb698999e583f9e560cd1564d8b7b71c3
+Shader 'GlowShaderGLES3' SHA256: 8f5fe5d3855cfde58ee491780c7ef8f87450649ccee7c499d11dac3127823727
+Shader 'PostShaderGLES3' SHA256: dcd0c5beff4e92862f5609421d3f9ce8263e4b20663b6c60ffd835bab5831750
+Shader 'FeedShaderGLES3' SHA256: 91c6c80fb626be963e0d35c9015450afdb94c21a9a5a724e204bb741159a3006
+Shader 'CanvasShaderGLES3' SHA256: 50e14a659485d647a4c471ff8cdd8c47a4c9f524840fd40fea402971ed8505c1
+Shader 'CanvasOcclusionShaderGLES3' SHA256: 6ae9571e2fd4347046b3e02c28910aa22c11964bfb6632690d8a04a5a3830b2d
+Shader 'SceneShaderGLES3' SHA256: 6f1328b1bda7266ce012ec6095023ed5177bf2063e35b08b08abfb9d59f86dbc
+Shader 'SkyShaderGLES3' SHA256: e4b026fbf641d53334a97491ff0eb3a029676af418ab5f641c0957ec226b64f6
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 3758106041
+EDITOR API HASH: 1819551975
+SceneTreeFTI: traversal method DEFAULT
+Loading resource: res://scripts/core/save_data.gd
+Loading resource: res://resources/powerups/shield.tres
+Loading resource: res://scripts/data/power_up_config.gd
+Loading resource: res://resources/powerups/slow.tres
+Loading resource: res://resources/powerups/double.tres
+Loading resource: res://scripts/core/audio.gd
+Loaded system CA certificates
+Loading resource: res://tools/capture_identity_gallery.tscn
+Loading resource: res://tools/capture_identity_gallery.gd
+Loading resource: res://assets/audio/hop.wav
+Loading resource: res://.godot/imported/hop.wav-cad010ed019beb222695f942aec5ffa1.sample
+Loading resource: res://assets/audio/hit.wav
+Loading resource: res://.godot/imported/hit.wav-96dc477cdf4a42f381370dba6e3f75ce.sample
+Loading resource: res://assets/audio/dock.wav
+Loading resource: res://.godot/imported/dock.wav-96b6ab6e86ff56998afc521d64af464c.sample
+Loading resource: res://assets/audio/complete.wav
+Loading resource: res://.godot/imported/complete.wav-c68699f1d953f56f7d9d6484d4ef9d4f.sample
+Loading resource: res://assets/audio/ui.wav
+Loading resource: res://.godot/imported/ui.wav-d54e8bc37b8ccee18240932350cecc18.sample
+Loading resource: res://resources/themes/day.tres
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://assets/art/car.svg
+Loading resource: res://.godot/imported/car.svg-e9ded2ee0effb4717a51a1fde8c84b8e.ctex
+Loading resource: res://resources/vehicles/catalog.tres
+Loading resource: res://resources/vehicles/car.tres
+Loading resource: res://resources/vehicles/truck.tres
+Loading resource: res://assets/art/van.svg
+Loading resource: res://.godot/imported/van.svg-71b1ff5b9d89d80bfc27a6c3b82dccbd.ctex
+Loading resource: res://resources/vehicles/bus.tres
+Loading resource: res://resources/vehicles/train.tres
+Loading resource: res://resources/vehicles/cng.tres
+Loading resource: res://assets/vehicles/cng.svg
+Loading resource: res://.godot/imported/cng.svg-5790abda67cfac715b57e9f5a14b6fdf.ctex
+Loading resource: res://resources/vehicles/rickshaw.tres
+Loading resource: res://assets/vehicles/rickshaw.svg
+Loading resource: res://.godot/imported/rickshaw.svg-1ccd695ae51b9070d699e89b0bfb82c4.ctex
+Loading resource: res://resources/vehicles/local_bus.tres
+Loading resource: res://assets/vehicles/local_bus.svg
+Loading resource: res://.godot/imported/local_bus.svg-09957a089b707e5930077c2fad570cd4.ctex
+Loading resource: res://resources/vehicles/small_car.tres
+Loading resource: res://assets/vehicles/small_car.svg
+Loading resource: res://.godot/imported/small_car.svg-6adebe8667374df7743728e3eebb7ed8.ctex
+Loading resource: res://resources/vehicles/microbus.tres
+Loading resource: res://assets/vehicles/microbus.svg
+Loading resource: res://.godot/imported/microbus.svg-d0e68d9197c17a6435d27a7c1fbe9625.ctex
+Loading resource: res://resources/vehicles/pickup.tres
+Loading resource: res://assets/vehicles/pickup.svg
+Loading resource: res://.godot/imported/pickup.svg-518f584e422a5f0c61210b6f0fc8ac5b.ctex
+Loading resource: res://resources/vehicles/delivery_van.tres
+Loading resource: res://assets/vehicles/delivery_van.svg
+Loading resource: res://.godot/imported/delivery_van.svg-27ea83468547f640eeb87290489080e2.ctex
+Loading resource: res://resources/vehicles/medium_truck.tres
+Loading resource: res://assets/vehicles/medium_truck.svg
+Loading resource: res://.godot/imported/medium_truck.svg-5f352e0afc2cc6fc27fd4e12aed3af63.ctex
+Loading resource: res://resources/vehicles/large_truck.tres
+Loading resource: res://assets/vehicles/large_truck.svg
+Loading resource: res://.godot/imported/large_truck.svg-f4d240a8fd997a53d97dc424111627aa.ctex
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Captured gallery day 0
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Captured gallery day 1
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/reeds.svg
+Loading resource: res://.godot/imported/reeds.svg-fd70bfd2f0e192f38b77c2649014b8f1.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/railway_sign.svg
+Loading resource: res://.godot/imported/railway_sign.svg-6aafb89f15b62dd3fad7eb10d4f8a01a.ctex
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/finish_gate.svg
+Loading resource: res://.godot/imported/finish_gate.svg-331b5e4fc842aa9dfbbccc40e0a818bd.ctex
+Captured gallery day 2
+Loading resource: res://resources/themes/evening.tres
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Captured gallery evening 0
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Captured gallery evening 1
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/reeds.svg
+Loading resource: res://.godot/imported/reeds.svg-fd70bfd2f0e192f38b77c2649014b8f1.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/railway_sign.svg
+Loading resource: res://.godot/imported/railway_sign.svg-6aafb89f15b62dd3fad7eb10d4f8a01a.ctex
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/finish_gate.svg
+Loading resource: res://.godot/imported/finish_gate.svg-331b5e4fc842aa9dfbbccc40e0a818bd.ctex
+Captured gallery evening 2
+Loading resource: res://resources/themes/night.tres
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Captured gallery night 0
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Captured gallery night 1
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/reeds.svg
+Loading resource: res://.godot/imported/reeds.svg-fd70bfd2f0e192f38b77c2649014b8f1.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/railway_sign.svg
+Loading resource: res://.godot/imported/railway_sign.svg-6aafb89f15b62dd3fad7eb10d4f8a01a.ctex
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/finish_gate.svg
+Loading resource: res://.godot/imported/finish_gate.svg-331b5e4fc842aa9dfbbccc40e0a818bd.ctex
+Captured gallery night 2
+Loading resource: res://resources/themes/rain.tres
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Captured gallery rain 0
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Captured gallery rain 1
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/reeds.svg
+Loading resource: res://.godot/imported/reeds.svg-fd70bfd2f0e192f38b77c2649014b8f1.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/railway_sign.svg
+Loading resource: res://.godot/imported/railway_sign.svg-6aafb89f15b62dd3fad7eb10d4f8a01a.ctex
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/finish_gate.svg
+Loading resource: res://.godot/imported/finish_gate.svg-331b5e4fc842aa9dfbbccc40e0a818bd.ctex
+Captured gallery rain 2
+Loading resource: res://resources/themes/snow.tres
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Captured gallery snow 0
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Captured gallery snow 1
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/reeds.svg
+Loading resource: res://.godot/imported/reeds.svg-fd70bfd2f0e192f38b77c2649014b8f1.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/railway_sign.svg
+Loading resource: res://.godot/imported/railway_sign.svg-6aafb89f15b62dd3fad7eb10d4f8a01a.ctex
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/finish_gate.svg
+Loading resource: res://.godot/imported/finish_gate.svg-331b5e4fc842aa9dfbbccc40e0a818bd.ctex
+Captured gallery snow 2
+Loading resource: res://resources/themes/fog.tres
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Loading resource: res://scenes/actors/vehicle.tscn
+Captured gallery fog 0
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/riverline.tres
+Loading resource: res://assets/railway/train/riverline_engine.svg
+Loading resource: res://.godot/imported/riverline_engine.svg-24b83d00f50ec1960c01a17306b3b22d.ctex
+Loading resource: res://assets/railway/train/riverline_coach.svg
+Loading resource: res://.godot/imported/riverline_coach.svg-a01192b8c40a4dfe9080e6857dce0c71.ctex
+Loading resource: res://scenes/railway/train.tscn
+Loading resource: res://resources/railway/visuals/sunrise.tres
+Loading resource: res://assets/railway/train/sunrise_engine.svg
+Loading resource: res://.godot/imported/sunrise_engine.svg-7fb344da72a2d52a56555b95cdd5b2fb.ctex
+Loading resource: res://assets/railway/train/sunrise_coach.svg
+Loading resource: res://.godot/imported/sunrise_coach.svg-4b28ad05157a6be36ef118b499530f2c.ctex
+Loading resource: res://resources/water/visuals/wooden_boat.tres
+Loading resource: res://assets/water/boats/wooden_boat.svg
+Loading resource: res://.godot/imported/wooden_boat.svg-091f35a261e932a08a90eeb80d9f01e1.ctex
+Loading resource: res://resources/water/visuals/passenger_boat.tres
+Loading resource: res://assets/water/boats/passenger_boat.svg
+Loading resource: res://.godot/imported/passenger_boat.svg-a52d7d8815fddfdf24fab0de5de28d1c.ctex
+Loading resource: res://resources/water/visuals/fishing_boat.tres
+Loading resource: res://assets/water/boats/fishing_boat.svg
+Loading resource: res://.godot/imported/fishing_boat.svg-c97031a1eae45e48167fdd3069ff7333.ctex
+Loading resource: res://resources/water/visuals/engine_boat.tres
+Loading resource: res://assets/water/boats/engine_boat.svg
+Loading resource: res://.godot/imported/engine_boat.svg-5a47ddcda6079b74bd68ce8636679aec.ctex
+Loading resource: res://resources/water/visuals/ferry.tres
+Loading resource: res://assets/water/boats/ferry.svg
+Loading resource: res://.godot/imported/ferry.svg-1c0060fb2cf51392e0afce740721e8ce.ctex
+Captured gallery fog 1
+Loading resource: res://assets/environment/props/banana.svg
+Loading resource: res://.godot/imported/banana.svg-62d5c93e69122582f8f395088db01752.ctex
+Loading resource: res://assets/environment/props/palm.svg
+Loading resource: res://.godot/imported/palm.svg-b7d3b1d0c5996904c40f0255c161eff4.ctex
+Loading resource: res://assets/environment/props/bamboo.svg
+Loading resource: res://.godot/imported/bamboo.svg-4e6870af50b662a4b7bc979daada4d78.ctex
+Loading resource: res://assets/environment/props/leafy_tree.svg
+Loading resource: res://.godot/imported/leafy_tree.svg-6f15ff8c7018758c4e51cc279730f9d8.ctex
+Loading resource: res://assets/environment/props/bush.svg
+Loading resource: res://.godot/imported/bush.svg-bdd679e7faecfdda85f3e7ab5f24df5e.ctex
+Loading resource: res://assets/environment/props/reeds.svg
+Loading resource: res://.godot/imported/reeds.svg-fd70bfd2f0e192f38b77c2649014b8f1.ctex
+Loading resource: res://assets/environment/props/flowers.svg
+Loading resource: res://.godot/imported/flowers.svg-b493ba41757388cc258c3396a423c732.ctex
+Loading resource: res://assets/environment/props/crop_patch.svg
+Loading resource: res://.godot/imported/crop_patch.svg-c79d1b2c51cd0a3d85f8a3b69b0d046f.ctex
+Loading resource: res://assets/environment/props/dirt_patch.svg
+Loading resource: res://.godot/imported/dirt_patch.svg-162cb1cf931f13e34ae96fb77cfb1a69.ctex
+Loading resource: res://assets/environment/props/grass_patch.svg
+Loading resource: res://.godot/imported/grass_patch.svg-939d113e63687053313768ca200a67ad.ctex
+Loading resource: res://assets/environment/props/bamboo_fence.svg
+Loading resource: res://.godot/imported/bamboo_fence.svg-ed6afc63c35c1af1d8945385e1c2cca9.ctex
+Loading resource: res://assets/environment/props/fence.svg
+Loading resource: res://.godot/imported/fence.svg-c347f3673da628a63f228dae159d99cd.ctex
+Loading resource: res://assets/environment/props/utility_pole.svg
+Loading resource: res://.godot/imported/utility_pole.svg-07149585dd8a2283dfd3231a2e685bc4.ctex
+Loading resource: res://assets/environment/props/lamp.svg
+Loading resource: res://.godot/imported/lamp.svg-becf1f09e42241edd55f2b1c1f7720c4.ctex
+Loading resource: res://assets/environment/props/bench.svg
+Loading resource: res://.godot/imported/bench.svg-db89434d4b0dafedc330b854187293a8.ctex
+Loading resource: res://assets/environment/props/road_sign.svg
+Loading resource: res://.godot/imported/road_sign.svg-fa61613f02badff7d6b55f0a4dc3d650.ctex
+Loading resource: res://assets/environment/props/railway_sign.svg
+Loading resource: res://.godot/imported/railway_sign.svg-6aafb89f15b62dd3fad7eb10d4f8a01a.ctex
+Loading resource: res://assets/environment/props/signal_box.svg
+Loading resource: res://.godot/imported/signal_box.svg-44c895336b989eb6d348f9632c2e8244.ctex
+Loading resource: res://assets/environment/props/market_stall.svg
+Loading resource: res://.godot/imported/market_stall.svg-40b24f6ce88624adbe04f90617098bda.ctex
+Loading resource: res://assets/environment/props/tea_stall.svg
+Loading resource: res://.godot/imported/tea_stall.svg-ccfb3a93d93fe0087bc4a1d9a917a38c.ctex
+Loading resource: res://assets/environment/props/rural_house.svg
+Loading resource: res://.godot/imported/rural_house.svg-e5f4ca8ca1efb415e2791b43450c49b6.ctex
+Loading resource: res://assets/environment/props/urban_facade.svg
+Loading resource: res://.godot/imported/urban_facade.svg-49698d037cb7c5145a31293b995c2204.ctex
+Loading resource: res://assets/environment/props/bridge_rail.svg
+Loading resource: res://.godot/imported/bridge_rail.svg-beb04e299655b4e5eeb5dd739c51f375.ctex
+Loading resource: res://assets/environment/props/ghat_steps.svg
+Loading resource: res://.godot/imported/ghat_steps.svg-f59580569f167fee30ae4b4bf15d3f01.ctex
+Loading resource: res://assets/environment/props/finish_gate.svg
+Loading resource: res://.godot/imported/finish_gate.svg-331b5e4fc842aa9dfbbccc40e0a818bd.ctex
+Captured gallery fog 2
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"

@@ -1,0 +1,90 @@
+[
+  {
+    "file": "village_breeze.wav",
+    "bpm": 108,
+    "bars": 16,
+    "seconds": 35.55555555555556,
+    "style": "Warm plucked major pentatonic",
+    "challenge": false,
+    "peak": 0.6088338409433194,
+    "rms": 0.08912509369932466,
+    "loop_boundary_delta": 0.0
+  },
+  {
+    "file": "village_breeze_challenge.wav",
+    "bpm": 108,
+    "bars": 16,
+    "seconds": 35.55555555555556,
+    "style": "Warm plucked major pentatonic",
+    "challenge": true,
+    "peak": 0.6028117850011907,
+    "rms": 0.08912509370022108,
+    "loop_boundary_delta": 0.0
+  },
+  {
+    "file": "city_steps.wav",
+    "bpm": 124,
+    "bars": 16,
+    "seconds": 30.967755102040815,
+    "style": "Syncopated keyboard and bouncy bass",
+    "challenge": false,
+    "peak": 0.6267476166876462,
+    "rms": 0.08912508581964777,
+    "loop_boundary_delta": 0.0
+  },
+  {
+    "file": "city_steps_challenge.wav",
+    "bpm": 124,
+    "bars": 16,
+    "seconds": 30.967755102040815,
+    "style": "Syncopated keyboard and bouncy bass",
+    "challenge": true,
+    "peak": 0.614007673341319,
+    "rms": 0.0891250860096161,
+    "loop_boundary_delta": 0.0
+  },
+  {
+    "file": "river_drift.wav",
+    "bpm": 112,
+    "bars": 16,
+    "seconds": 34.285714285714285,
+    "style": "Flowing mallets and offbeat percussion",
+    "challenge": false,
+    "peak": 0.607941397735503,
+    "rms": 0.08912509381337455,
+    "loop_boundary_delta": 0.0
+  },
+  {
+    "file": "river_drift_challenge.wav",
+    "bpm": 112,
+    "bars": 16,
+    "seconds": 34.285714285714285,
+    "style": "Flowing mallets and offbeat percussion",
+    "challenge": true,
+    "peak": 0.6099841607111439,
+    "rms": 0.08912509381337455,
+    "loop_boundary_delta": 0.0
+  },
+  {
+    "file": "night_rails.wav",
+    "bpm": 120,
+    "bars": 16,
+    "seconds": 32.0,
+    "style": "Electronic pluck and playful minor pulse",
+    "challenge": false,
+    "peak": 0.6319321069344604,
+    "rms": 0.08912509516189457,
+    "loop_boundary_delta": 0.0
+  },
+  {
+    "file": "night_rails_challenge.wav",
+    "bpm": 120,
+    "bars": 16,
+    "seconds": 32.0,
+    "style": "Electronic pluck and playful minor pulse",
+    "challenge": true,
+    "peak": 0.612852573067648,
+    "rms": 0.08912509511599927,
+    "loop_boundary_delta": 0.0
+  }
+]

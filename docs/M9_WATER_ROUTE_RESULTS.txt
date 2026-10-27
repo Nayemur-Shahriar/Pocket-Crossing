@@ -1,0 +1,6 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Natural four-bay crossing seed 11: lives=3, remaining=167.9
+PASS Natural four-bay crossing seed 42: lives=3, remaining=164.2
+PASS Natural four-bay crossing seed 2026: lives=3, remaining=169.5
+WATER ROUTE RESULTS: 3 passed, 0 failed

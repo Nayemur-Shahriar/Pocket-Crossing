@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="EnvironmentProfile" load_steps=13 format=3]
+[ext_resource type="Script" path="res://scripts/data/environment_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/rural_house.svg" id="rural_house"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/tea_stall.svg" id="tea_stall"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bamboo_fence.svg" id="bamboo_fence"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/crop_patch.svg" id="crop_patch"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/dirt_patch.svg" id="dirt_patch"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/banana.svg" id="banana"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bamboo.svg" id="bamboo"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/palm.svg" id="palm"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/grass_patch.svg" id="grass_patch"]
+[ext_resource type="Texture2D" path="res://assets/environment/destinations/courtyard.svg" id="finish"]
+[ext_resource type="AudioStream" path="res://assets/audio/village_breeze.wav" id="music"]
+[ext_resource type="AudioStream" path="res://assets/audio/village_breeze_challenge.wav" id="challenge_music"]
+[resource]
+script = ExtResource("script")
+music_track = ExtResource("music")
+challenge_music_track = ExtResource("challenge_music")
+destination_art = ExtResource("finish")
+profile_id = "village"
+display_name = "Village"
+rest_style = "Path"
+ground_tint = Color(0.6471,0.7216,0.4588,1)
+safe_color = Color(0.7882,0.7059,0.4824,1)
+edge_color = Color(0.6118,0.5765,0.3608,1)
+sign_caption = "VILLAGE"
+props = Array[Texture2D]([ExtResource("rural_house"), ExtResource("tea_stall"), ExtResource("bamboo_fence"), ExtResource("crop_patch"), ExtResource("dirt_patch")])
+vegetation = Array[Texture2D]([ExtResource("banana"), ExtResource("bamboo"), ExtResource("palm"), ExtResource("grass_patch")])
+prop_density = 0.55
+vegetation_density = 0.8
+guard_rails = false

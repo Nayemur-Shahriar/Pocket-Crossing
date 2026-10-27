@@ -1,0 +1,26 @@
+regression_final.log
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+CHALLENGE POLISH: 292 passed, 0 failed
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2514)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:804)
+
+
+music_tests.log
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+MUSIC PASS: 604 passed, 0 failed
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2514)
+ERROR: 10 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:804)
+
+
+music_restart.log
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+MUSIC RESTART: 2 passed, 0 failed
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2514)

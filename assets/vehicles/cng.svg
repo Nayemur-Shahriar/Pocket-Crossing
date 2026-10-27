@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="58" viewBox="0 0 116 58">
+<ellipse cx="56" cy="34" rx="53" ry="22" fill="#162d38" opacity=".2"/>
+<g fill="#20323c" stroke="#93a8a4" stroke-width="1"><rect x="18" y="1" width="19" height="9" rx="4"/><rect x="18" y="48" width="19" height="9" rx="4"/><rect x="98" y="24" width="17" height="10" rx="4"/></g>
+<!-- Wide passenger shell tapers to one front wheel and compact scooter nose. -->
+<path d="M8 9Q3 29 8 49H60Q78 47 96 38L108 33V25L96 20Q78 11 60 9Z" fill="#328960" stroke="#203b40" stroke-width="2"/>
+<path d="M10 10H57L69 14V44L57 48H10Q4 29 10 10Z" fill="#164f43"/>
+<path d="M15 15H51L58 18V40L51 43H15Z" fill="#263f43"/>
+<!-- Cream canvas roof, dark open doors and warm rear bench. -->
+<path d="M12 14Q8 29 12 44H44Q52 29 44 14Z" fill="#ded2a1" stroke="#a89b78" stroke-width="1.5"/>
+<path d="M15 17Q11 29 15 41M19 16H40M19 42H40" fill="none" stroke="#fff0c3" stroke-width="2"/>
+<path d="M47 15H59V23H47ZM47 35H59V43H47Z" fill="#112f35"/>
+<path d="M48 24H57V34H48Z" fill="#ce7853"/>
+<path d="M63 14L83 21V37L63 44Z" fill="#719fac" stroke="#203b40" stroke-width="2"/>
+<path d="M67 18L78 23V33" stroke="#c0e0dc" stroke-width="2" fill="none"/>
+<path d="M86 23L99 26V32L86 35Z" fill="#53b576"/>
+<path d="M88 28H97" stroke="#20674f" stroke-width="2"/>
+<ellipse cx="103" cy="29" rx="3" ry="4" fill="#fff0b1"/>
+<path d="M63 13L65 8M63 45L65 50" stroke="#203b40" stroke-width="2"/>
+<path d="M9 15V22M9 36V43" stroke="#fa816c" stroke-width="3"/>
+<path d="M15 48H56L87 38" stroke="#efc568" stroke-width="2" fill="none"/>
+</svg>

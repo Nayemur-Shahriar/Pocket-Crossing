@@ -1,0 +1,162 @@
+[
+  {
+    "scenario": "duplicate",
+    "peer": 0,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "duplicate",
+    "peer": 1,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "version",
+    "peer": 0,
+    "exit": 0,
+    "errors": false,
+    "summary": []
+  },
+  {
+    "scenario": "version",
+    "peer": 1,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "full",
+    "peer": 0,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "full",
+    "peer": 1,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "full",
+    "peer": 2,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "full",
+    "peer": 3,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "full",
+    "peer": 4,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "lobby_disconnect",
+    "peer": 0,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "lobby_disconnect",
+    "peer": 1,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "match_disconnect",
+    "peer": 0,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "match_disconnect",
+    "peer": 1,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "host_disconnect",
+    "peer": 0,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "host_disconnect",
+    "peer": 1,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "midmatch",
+    "peer": 0,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "midmatch",
+    "peer": 1,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  },
+  {
+    "scenario": "midmatch",
+    "peer": 2,
+    "exit": 0,
+    "errors": false,
+    "summary": [
+      "RESULT 3 passed / 0 failed"
+    ]
+  }
+]

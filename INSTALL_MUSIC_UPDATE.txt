@@ -1,0 +1,5 @@
+REVIEW BUILD: Selected B free music update
+
+Back up your project. Merge this PocketCrossing folder into the folder containing project.godot; replace matching files. Open in Godot 4 and allow audio import. No APK is included.
+
+Read docs/FREE_MUSIC_REVIEW_REPORT.md before acceptance. Other maps require audition; requested tempo/long-form variation and physical speaker balance are not certified. No gameplay/UI/maps/network/ranking/SFX asset changes.

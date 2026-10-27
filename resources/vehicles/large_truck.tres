@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="VehicleVisualConfig" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/vehicle_visual_config.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/vehicles/large_truck.svg" id="art"]
+
+[resource]
+script = ExtResource("1")
+id = "large_truck"
+display_name = "Large cargo truck"
+texture = ExtResource("art")
+visual_size = Vector2(210, 58)
+collision_size = Vector2(186, 38)
+spacing_envelope = 214.0
+base_speed = 100.0

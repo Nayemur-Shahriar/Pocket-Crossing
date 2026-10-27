@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="VehicleVisualConfig" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/data/vehicle_visual_config.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/art/car.svg" id="art"]
+[resource]
+script = ExtResource("1")
+id = "car"
+display_name = "Small car (legacy)"
+texture = ExtResource("art")
+visual_size = Vector2(116,58)
+collision_size = Vector2(92,38)
+spacing_envelope = 144.0
+tint_with_lane_color = true

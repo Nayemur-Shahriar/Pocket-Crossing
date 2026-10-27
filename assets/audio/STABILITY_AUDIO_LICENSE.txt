@@ -1,0 +1,1 @@
+Original Pocket Crossing synthesized compositions: Village Breeze, City Steps, River Drift, Night Rails. Original layered water impact/splash/turbulence. No third-party samples or compositions. Source: tools/generate_stability_audio.py.

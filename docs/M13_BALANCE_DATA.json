@@ -1,0 +1,2978 @@
+[
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				11,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				5,
+				4
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Moderate",
+		"forward_points": 25,
+		"hazards": 5,
+		"life_bonus": 100,
+		"name": "Easy Road",
+		"number": 1,
+		"powers": [],
+		"rail": [],
+		"road": [
+			{
+				"clear_gap": 240.0,
+				"direction": 1,
+				"gap_seconds": 1.4,
+				"modifier": 1.0,
+				"spawn_max": 3.1,
+				"spawn_min": 2.5,
+				"speed": 133.0,
+				"types": [
+					"small_car",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 240.0,
+				"direction": -1,
+				"gap_seconds": 1.4,
+				"modifier": 1.04,
+				"spawn_max": 3.22,
+				"spawn_min": 2.62,
+				"speed": 152.0,
+				"types": [
+					"small_car",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 240.0,
+				"direction": 1,
+				"gap_seconds": 1.4,
+				"modifier": 0.98,
+				"spawn_max": 3.34,
+				"spawn_min": 2.74,
+				"speed": 163.0,
+				"types": [
+					"small_car",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 240.0,
+				"direction": -1,
+				"gap_seconds": 1.4,
+				"modifier": 1.0,
+				"spawn_max": 3.1,
+				"spawn_min": 2.5,
+				"speed": 140.0,
+				"types": [
+					"small_car",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 240.0,
+				"direction": 1,
+				"gap_seconds": 1.4,
+				"modifier": 1.04,
+				"spawn_max": 3.22,
+				"spawn_min": 2.62,
+				"speed": 156.0,
+				"types": [
+					"small_car",
+					"cng"
+				]
+			}
+		],
+		"rows": 8,
+		"score_target": 650,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.72,
+		"time": 85.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				11,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				5,
+				4
+			],
+			[
+				7,
+				8
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Moderate",
+		"forward_points": 25,
+		"hazards": 6,
+		"life_bonus": 100,
+		"name": "City Run",
+		"number": 2,
+		"powers": [],
+		"rail": [],
+		"road": [
+			{
+				"clear_gap": 235.0,
+				"direction": 1,
+				"gap_seconds": 1.375,
+				"modifier": 1.0,
+				"spawn_max": 3.035,
+				"spawn_min": 2.435,
+				"speed": 143.0,
+				"types": [
+					"cng",
+					"rickshaw",
+					"microbus"
+				]
+			},
+			{
+				"clear_gap": 235.0,
+				"direction": -1,
+				"gap_seconds": 1.375,
+				"modifier": 1.04,
+				"spawn_max": 3.155,
+				"spawn_min": 2.555,
+				"speed": 162.0,
+				"types": [
+					"small_car",
+					"cng",
+					"delivery_van"
+				]
+			},
+			{
+				"clear_gap": 235.0,
+				"direction": 1,
+				"gap_seconds": 1.375,
+				"modifier": 0.98,
+				"spawn_max": 3.275,
+				"spawn_min": 2.675,
+				"speed": 173.0,
+				"types": [
+					"small_car",
+					"cng",
+					"delivery_van"
+				]
+			},
+			{
+				"clear_gap": 235.0,
+				"direction": -1,
+				"gap_seconds": 1.375,
+				"modifier": 1.0,
+				"spawn_max": 3.035,
+				"spawn_min": 2.435,
+				"speed": 150.0,
+				"types": [
+					"rickshaw",
+					"small_car",
+					"microbus"
+				]
+			},
+			{
+				"clear_gap": 235.0,
+				"direction": 1,
+				"gap_seconds": 1.375,
+				"modifier": 1.04,
+				"spawn_max": 3.155,
+				"spawn_min": 2.555,
+				"speed": 166.0,
+				"types": [
+					"cng",
+					"rickshaw",
+					"delivery_van"
+				]
+			},
+			{
+				"clear_gap": 235.0,
+				"direction": -1,
+				"gap_seconds": 1.375,
+				"modifier": 0.98,
+				"spawn_max": 3.275,
+				"spawn_min": 2.675,
+				"speed": 139.0,
+				"types": [
+					"small_car",
+					"cng",
+					"microbus"
+				]
+			}
+		],
+		"rows": 10,
+		"score_target": 695,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.72,
+		"time": 95.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				11,
+				0
+			],
+			[
+				7,
+				5
+			],
+			[
+				5,
+				5
+			],
+			[
+				7,
+				8
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Moderate",
+		"forward_points": 25,
+		"hazards": 7,
+		"life_bonus": 100,
+		"name": "Sunset Rush",
+		"number": 3,
+		"powers": [],
+		"rail": [],
+		"road": [
+			{
+				"clear_gap": 230.0,
+				"direction": 1,
+				"gap_seconds": 1.35,
+				"modifier": 1.0,
+				"spawn_max": 2.97,
+				"spawn_min": 2.37,
+				"speed": 153.0,
+				"types": [
+					"cng",
+					"rickshaw",
+					"microbus"
+				]
+			},
+			{
+				"clear_gap": 230.0,
+				"direction": -1,
+				"gap_seconds": 1.35,
+				"modifier": 1.04,
+				"spawn_max": 3.09,
+				"spawn_min": 2.49,
+				"speed": 172.0,
+				"types": [
+					"small_car",
+					"cng",
+					"delivery_van"
+				]
+			},
+			{
+				"clear_gap": 230.0,
+				"direction": 1,
+				"gap_seconds": 1.35,
+				"modifier": 0.98,
+				"spawn_max": 3.21,
+				"spawn_min": 2.61,
+				"speed": 183.0,
+				"types": [
+					"rickshaw",
+					"small_car",
+					"microbus"
+				]
+			},
+			{
+				"clear_gap": 230.0,
+				"direction": -1,
+				"gap_seconds": 1.35,
+				"modifier": 1.0,
+				"spawn_max": 2.97,
+				"spawn_min": 2.37,
+				"speed": 160.0,
+				"types": [
+					"rickshaw",
+					"small_car",
+					"microbus"
+				]
+			},
+			{
+				"clear_gap": 230.0,
+				"direction": 1,
+				"gap_seconds": 1.35,
+				"modifier": 1.04,
+				"spawn_max": 3.09,
+				"spawn_min": 2.49,
+				"speed": 176.0,
+				"types": [
+					"cng",
+					"rickshaw",
+					"delivery_van"
+				]
+			},
+			{
+				"clear_gap": 230.0,
+				"direction": -1,
+				"gap_seconds": 1.35,
+				"modifier": 0.98,
+				"spawn_max": 3.21,
+				"spawn_min": 2.61,
+				"speed": 149.0,
+				"types": [
+					"small_car",
+					"cng",
+					"microbus"
+				]
+			},
+			{
+				"clear_gap": 230.0,
+				"direction": 1,
+				"gap_seconds": 1.35,
+				"modifier": 1.0,
+				"spawn_max": 2.97,
+				"spawn_min": 2.37,
+				"speed": 153.0,
+				"types": [
+					"rickshaw",
+					"small_car",
+					"delivery_van"
+				]
+			}
+		],
+		"rows": 11,
+		"score_target": 740,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.7,
+		"time": 105.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				11,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				5,
+				4
+			],
+			[
+				7,
+				8
+			],
+			[
+				11,
+				8
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Moderate+",
+		"forward_points": 25,
+		"hazards": 8,
+		"life_bonus": 100,
+		"name": "Night Ride",
+		"number": 4,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			}
+		],
+		"rail": [],
+		"road": [
+			{
+				"clear_gap": 225.0,
+				"direction": 1,
+				"gap_seconds": 1.325,
+				"modifier": 1.0,
+				"spawn_max": 2.905,
+				"spawn_min": 2.305,
+				"speed": 158.0,
+				"types": [
+					"cng",
+					"microbus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 225.0,
+				"direction": -1,
+				"gap_seconds": 1.325,
+				"modifier": 1.04,
+				"spawn_max": 3.025,
+				"spawn_min": 2.425,
+				"speed": 177.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 225.0,
+				"direction": 1,
+				"gap_seconds": 1.325,
+				"modifier": 0.98,
+				"spawn_max": 3.145,
+				"spawn_min": 2.545,
+				"speed": 188.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 225.0,
+				"direction": 1,
+				"gap_seconds": 1.325,
+				"modifier": 1.0,
+				"spawn_max": 2.905,
+				"spawn_min": 2.305,
+				"speed": 165.0,
+				"types": [
+					"cng",
+					"delivery_van",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 225.0,
+				"direction": -1,
+				"gap_seconds": 1.325,
+				"modifier": 1.04,
+				"spawn_max": 3.025,
+				"spawn_min": 2.425,
+				"speed": 181.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 225.0,
+				"direction": -1,
+				"gap_seconds": 1.325,
+				"modifier": 0.98,
+				"spawn_max": 3.145,
+				"spawn_min": 2.545,
+				"speed": 154.0,
+				"types": [
+					"local_bus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 225.0,
+				"direction": 1,
+				"gap_seconds": 1.325,
+				"modifier": 1.0,
+				"spawn_max": 2.905,
+				"spawn_min": 2.305,
+				"speed": 158.0,
+				"types": [
+					"small_car",
+					"delivery_van",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 225.0,
+				"direction": -1,
+				"gap_seconds": 1.325,
+				"modifier": 1.04,
+				"spawn_max": 3.025,
+				"spawn_min": 2.425,
+				"speed": 177.0,
+				"types": [
+					"rickshaw",
+					"microbus",
+					"small_car"
+				]
+			}
+		],
+		"rows": 12,
+		"score_target": 785,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.7,
+		"time": 115.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				11,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				5,
+				4
+			],
+			[
+				7,
+				6
+			],
+			[
+				11,
+				6
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Moderate+",
+		"forward_points": 25,
+		"hazards": 8,
+		"life_bonus": 100,
+		"name": "Train Time",
+		"number": 5,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 18.0,
+				"safe_delay": 3.32,
+				"speed": 396.0,
+				"warning": 3.6
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 220.0,
+				"direction": 1,
+				"gap_seconds": 1.3,
+				"modifier": 1.0,
+				"spawn_max": 2.84,
+				"spawn_min": 2.24,
+				"speed": 162.0,
+				"types": [
+					"cng",
+					"pickup",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 220.0,
+				"direction": -1,
+				"gap_seconds": 1.3,
+				"modifier": 1.04,
+				"spawn_max": 2.96,
+				"spawn_min": 2.36,
+				"speed": 181.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 220.0,
+				"direction": 1,
+				"gap_seconds": 1.3,
+				"modifier": 0.98,
+				"spawn_max": 3.08,
+				"spawn_min": 2.48,
+				"speed": 192.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 220.0,
+				"direction": 1,
+				"gap_seconds": 1.3,
+				"modifier": 1.0,
+				"spawn_max": 2.84,
+				"spawn_min": 2.24,
+				"speed": 169.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 220.0,
+				"direction": -1,
+				"gap_seconds": 1.3,
+				"modifier": 1.04,
+				"spawn_max": 2.96,
+				"spawn_min": 2.36,
+				"speed": 185.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 220.0,
+				"direction": -1,
+				"gap_seconds": 1.3,
+				"modifier": 0.98,
+				"spawn_max": 3.08,
+				"spawn_min": 2.48,
+				"speed": 158.0,
+				"types": [
+					"local_bus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 220.0,
+				"direction": 1,
+				"gap_seconds": 1.3,
+				"modifier": 1.0,
+				"spawn_max": 2.84,
+				"spawn_min": 2.24,
+				"speed": 162.0,
+				"types": [
+					"local_bus",
+					"rickshaw"
+				]
+			}
+		],
+		"rows": 13,
+		"score_target": 830,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.69,
+		"time": 125.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				13,
+				0
+			],
+			[
+				7,
+				5
+			],
+			[
+				3,
+				5
+			],
+			[
+				7,
+				8
+			],
+			[
+				13,
+				8
+			],
+			[
+				7,
+				12
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Moderate+",
+		"forward_points": 25,
+		"hazards": 9,
+		"life_bonus": 100,
+		"name": "Double Track",
+		"number": 6,
+		"powers": [
+			{
+				"cell": [
+					9,
+					5
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 17.25,
+				"safe_delay": 3.25,
+				"speed": 410.0,
+				"warning": 3.5
+			},
+			{
+				"direction": -1,
+				"interval": 18.25,
+				"safe_delay": 3.25,
+				"speed": 450.0,
+				"warning": 3.5
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 215.0,
+				"direction": 1,
+				"gap_seconds": 1.275,
+				"modifier": 1.0,
+				"spawn_max": 2.775,
+				"spawn_min": 2.175,
+				"speed": 166.0,
+				"types": [
+					"cng",
+					"pickup",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 215.0,
+				"direction": -1,
+				"gap_seconds": 1.275,
+				"modifier": 1.04,
+				"spawn_max": 2.895,
+				"spawn_min": 2.295,
+				"speed": 185.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 215.0,
+				"direction": 1,
+				"gap_seconds": 1.275,
+				"modifier": 0.98,
+				"spawn_max": 3.015,
+				"spawn_min": 2.415,
+				"speed": 196.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 215.0,
+				"direction": 1,
+				"gap_seconds": 1.275,
+				"modifier": 1.0,
+				"spawn_max": 2.775,
+				"spawn_min": 2.175,
+				"speed": 173.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 215.0,
+				"direction": -1,
+				"gap_seconds": 1.275,
+				"modifier": 1.04,
+				"spawn_max": 2.895,
+				"spawn_min": 2.295,
+				"speed": 189.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 215.0,
+				"direction": -1,
+				"gap_seconds": 1.275,
+				"modifier": 0.98,
+				"spawn_max": 3.015,
+				"spawn_min": 2.415,
+				"speed": 162.0,
+				"types": [
+					"local_bus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 215.0,
+				"direction": 1,
+				"gap_seconds": 1.275,
+				"modifier": 1.0,
+				"spawn_max": 2.775,
+				"spawn_min": 2.175,
+				"speed": 166.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"cng"
+				]
+			}
+		],
+		"rows": 14,
+		"score_target": 875,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.69,
+		"time": 135.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				13,
+				0
+			],
+			[
+				7,
+				5
+			],
+			[
+				3,
+				5
+			],
+			[
+				7,
+				8
+			],
+			[
+				13,
+				8
+			],
+			[
+				7,
+				12
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Challenging",
+		"forward_points": 25,
+		"hazards": 9,
+		"life_bonus": 100,
+		"name": "River Hop",
+		"number": 7,
+		"powers": [
+			{
+				"cell": [
+					9,
+					5
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			}
+		],
+		"rail": [],
+		"road": [
+			{
+				"clear_gap": 210.0,
+				"direction": 1,
+				"gap_seconds": 1.25,
+				"modifier": 1.0,
+				"spawn_max": 2.56,
+				"spawn_min": 2.11,
+				"speed": 166.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 210.0,
+				"direction": -1,
+				"gap_seconds": 1.25,
+				"modifier": 1.04,
+				"spawn_max": 2.68,
+				"spawn_min": 2.23,
+				"speed": 185.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 210.0,
+				"direction": 1,
+				"gap_seconds": 1.25,
+				"modifier": 0.98,
+				"spawn_max": 2.8,
+				"spawn_min": 2.35,
+				"speed": 196.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 210.0,
+				"direction": 1,
+				"gap_seconds": 1.25,
+				"modifier": 1.0,
+				"spawn_max": 2.56,
+				"spawn_min": 2.11,
+				"speed": 173.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 210.0,
+				"direction": -1,
+				"gap_seconds": 1.25,
+				"modifier": 1.04,
+				"spawn_max": 2.68,
+				"spawn_min": 2.23,
+				"speed": 189.0,
+				"types": [
+					"cng",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 210.0,
+				"direction": -1,
+				"gap_seconds": 1.25,
+				"modifier": 0.98,
+				"spawn_max": 2.8,
+				"spawn_min": 2.35,
+				"speed": 162.0,
+				"types": [
+					"local_bus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 210.0,
+				"direction": 1,
+				"gap_seconds": 1.25,
+				"modifier": 1.0,
+				"spawn_max": 2.56,
+				"spawn_min": 2.11,
+				"speed": 166.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"cng"
+				]
+			}
+		],
+		"rows": 14,
+		"score_target": 600,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.68,
+		"time": 145.0,
+		"water": [
+			{
+				"direction": 1,
+				"length": 192.0,
+				"pitch_max": 244.0,
+				"pitch_min": 232.0,
+				"speed": 62.0,
+				"type": "Wooden Boat"
+			},
+			{
+				"direction": -1,
+				"length": 224.0,
+				"pitch_max": 276.0,
+				"pitch_min": 264.0,
+				"speed": 74.0,
+				"type": "Passenger Boat"
+			}
+		]
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				13,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				3,
+				4
+			],
+			[
+				7,
+				6
+			],
+			[
+				13,
+				6
+			],
+			[
+				7,
+				11
+			],
+			[
+				3,
+				11
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Challenging",
+		"forward_points": 25,
+		"hazards": 10,
+		"life_bonus": 100,
+		"name": "Rain Run",
+		"number": 8,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 6.0,
+				"effect": "slow"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 15.75,
+				"safe_delay": 3.11,
+				"speed": 438.0,
+				"warning": 3.3
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 205.0,
+				"direction": 1,
+				"gap_seconds": 1.225,
+				"modifier": 1.0,
+				"spawn_max": 2.495,
+				"spawn_min": 2.045,
+				"speed": 176.0,
+				"types": [
+					"cng",
+					"microbus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": -1,
+				"gap_seconds": 1.225,
+				"modifier": 1.04,
+				"spawn_max": 2.615,
+				"spawn_min": 2.165,
+				"speed": 195.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": 1,
+				"gap_seconds": 1.225,
+				"modifier": 0.98,
+				"spawn_max": 2.735,
+				"spawn_min": 2.285,
+				"speed": 206.0,
+				"types": [
+					"cng",
+					"delivery_van",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": 1,
+				"gap_seconds": 1.225,
+				"modifier": 1.0,
+				"spawn_max": 2.495,
+				"spawn_min": 2.045,
+				"speed": 183.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": -1,
+				"gap_seconds": 1.225,
+				"modifier": 1.04,
+				"spawn_max": 2.615,
+				"spawn_min": 2.165,
+				"speed": 199.0,
+				"types": [
+					"local_bus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": -1,
+				"gap_seconds": 1.225,
+				"modifier": 0.98,
+				"spawn_max": 2.735,
+				"spawn_min": 2.285,
+				"speed": 172.0,
+				"types": [
+					"small_car",
+					"delivery_van",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": 1,
+				"gap_seconds": 1.225,
+				"modifier": 1.0,
+				"spawn_max": 2.495,
+				"spawn_min": 2.045,
+				"speed": 176.0,
+				"types": [
+					"rickshaw",
+					"microbus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": -1,
+				"gap_seconds": 1.225,
+				"modifier": 1.04,
+				"spawn_max": 2.615,
+				"spawn_min": 2.165,
+				"speed": 195.0,
+				"types": [
+					"local_bus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 205.0,
+				"direction": 1,
+				"gap_seconds": 1.225,
+				"modifier": 0.98,
+				"spawn_max": 2.735,
+				"spawn_min": 2.285,
+				"speed": 206.0,
+				"types": [
+					"rickshaw",
+					"delivery_van",
+					"small_car"
+				]
+			}
+		],
+		"rows": 15,
+		"score_target": 965,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.68,
+		"time": 145.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				13,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				3,
+				4
+			],
+			[
+				7,
+				8
+			],
+			[
+				13,
+				8
+			],
+			[
+				7,
+				12
+			],
+			[
+				3,
+				12
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Challenging",
+		"forward_points": 25,
+		"hazards": 11,
+		"life_bonus": 100,
+		"name": "River Rush",
+		"number": 9,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			}
+		],
+		"rail": [],
+		"road": [
+			{
+				"clear_gap": 200.0,
+				"direction": 1,
+				"gap_seconds": 1.2,
+				"modifier": 1.0,
+				"spawn_max": 2.43,
+				"spawn_min": 1.98,
+				"speed": 180.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 200.0,
+				"direction": -1,
+				"gap_seconds": 1.2,
+				"modifier": 1.04,
+				"spawn_max": 2.55,
+				"spawn_min": 2.1,
+				"speed": 199.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 200.0,
+				"direction": 1,
+				"gap_seconds": 1.2,
+				"modifier": 0.98,
+				"spawn_max": 2.67,
+				"spawn_min": 2.22,
+				"speed": 210.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 200.0,
+				"direction": 1,
+				"gap_seconds": 1.2,
+				"modifier": 1.0,
+				"spawn_max": 2.43,
+				"spawn_min": 1.98,
+				"speed": 187.0,
+				"types": [
+					"cng",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 200.0,
+				"direction": -1,
+				"gap_seconds": 1.2,
+				"modifier": 1.04,
+				"spawn_max": 2.55,
+				"spawn_min": 2.1,
+				"speed": 203.0,
+				"types": [
+					"local_bus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 200.0,
+				"direction": -1,
+				"gap_seconds": 1.2,
+				"modifier": 0.98,
+				"spawn_max": 2.67,
+				"spawn_min": 2.22,
+				"speed": 176.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"cng"
+				]
+			}
+		],
+		"rows": 17,
+		"score_target": 1010,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.67,
+		"time": 155.0,
+		"water": [
+			{
+				"direction": 1,
+				"length": 192.0,
+				"pitch_max": 248.0,
+				"pitch_min": 236.0,
+				"speed": 78.0,
+				"type": "Passenger Boat"
+			},
+			{
+				"direction": -1,
+				"length": 160.0,
+				"pitch_max": 216.0,
+				"pitch_min": 204.0,
+				"speed": 66.0,
+				"type": "Wooden Boat"
+			},
+			{
+				"direction": 1,
+				"length": 176.0,
+				"pitch_max": 232.0,
+				"pitch_min": 220.0,
+				"speed": 98.0,
+				"type": "Engine Boat"
+			},
+			{
+				"direction": -1,
+				"length": 192.0,
+				"pitch_max": 248.0,
+				"pitch_min": 236.0,
+				"speed": 78.0,
+				"type": "Passenger Boat"
+			},
+			{
+				"direction": 1,
+				"length": 160.0,
+				"pitch_max": 216.0,
+				"pitch_min": 204.0,
+				"speed": 66.0,
+				"type": "Wooden Boat"
+			}
+		]
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				13,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				3,
+				4
+			],
+			[
+				7,
+				7
+			],
+			[
+				13,
+				7
+			],
+			[
+				7,
+				11
+			],
+			[
+				3,
+				11
+			],
+			[
+				7,
+				13
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Hard",
+		"forward_points": 25,
+		"hazards": 12,
+		"life_bonus": 100,
+		"name": "Snow Way",
+		"number": 10,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 6.0,
+				"effect": "slow"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 14.25,
+				"safe_delay": 2.97,
+				"speed": 466.0,
+				"warning": 3.1
+			},
+			{
+				"direction": -1,
+				"interval": 15.25,
+				"safe_delay": 2.97,
+				"speed": 506.0,
+				"warning": 3.1
+			},
+			{
+				"direction": 1,
+				"interval": 14.25,
+				"safe_delay": 2.97,
+				"speed": 546.0,
+				"warning": 3.1
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 195.0,
+				"direction": 1,
+				"gap_seconds": 1.175,
+				"modifier": 1.0,
+				"spawn_max": 2.365,
+				"spawn_min": 1.915,
+				"speed": 186.0,
+				"types": [
+					"cng",
+					"pickup",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": -1,
+				"gap_seconds": 1.175,
+				"modifier": 1.04,
+				"spawn_max": 2.485,
+				"spawn_min": 2.035,
+				"speed": 205.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": 1,
+				"gap_seconds": 1.175,
+				"modifier": 0.98,
+				"spawn_max": 2.605,
+				"spawn_min": 2.155,
+				"speed": 216.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": 1,
+				"gap_seconds": 1.175,
+				"modifier": 1.0,
+				"spawn_max": 2.365,
+				"spawn_min": 1.915,
+				"speed": 193.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": -1,
+				"gap_seconds": 1.175,
+				"modifier": 1.04,
+				"spawn_max": 2.485,
+				"spawn_min": 2.035,
+				"speed": 209.0,
+				"types": [
+					"local_bus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": -1,
+				"gap_seconds": 1.175,
+				"modifier": 0.98,
+				"spawn_max": 2.605,
+				"spawn_min": 2.155,
+				"speed": 182.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": 1,
+				"gap_seconds": 1.175,
+				"modifier": 1.0,
+				"spawn_max": 2.365,
+				"spawn_min": 1.915,
+				"speed": 186.0,
+				"types": [
+					"rickshaw",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": -1,
+				"gap_seconds": 1.175,
+				"modifier": 1.04,
+				"spawn_max": 2.485,
+				"spawn_min": 2.035,
+				"speed": 205.0,
+				"types": [
+					"local_bus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 195.0,
+				"direction": 1,
+				"gap_seconds": 1.175,
+				"modifier": 0.98,
+				"spawn_max": 2.605,
+				"spawn_min": 2.155,
+				"speed": 216.0,
+				"types": [
+					"rickshaw",
+					"medium_truck",
+					"small_car"
+				]
+			}
+		],
+		"rows": 18,
+		"score_target": 1055,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.67,
+		"time": 155.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				15,
+				0
+			],
+			[
+				7,
+				5
+			],
+			[
+				1,
+				5
+			],
+			[
+				7,
+				8
+			],
+			[
+				15,
+				8
+			],
+			[
+				7,
+				12
+			],
+			[
+				1,
+				12
+			],
+			[
+				7,
+				15
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Hard",
+		"forward_points": 25,
+		"hazards": 14,
+		"life_bonus": 100,
+		"name": "Fog Track",
+		"number": 11,
+		"powers": [
+			{
+				"cell": [
+					9,
+					5
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 13.5,
+				"safe_delay": 2.9,
+				"speed": 480.0,
+				"warning": 3.2
+			},
+			{
+				"direction": -1,
+				"interval": 14.5,
+				"safe_delay": 2.9,
+				"speed": 520.0,
+				"warning": 3.2
+			},
+			{
+				"direction": 1,
+				"interval": 13.5,
+				"safe_delay": 2.9,
+				"speed": 560.0,
+				"warning": 3.2
+			},
+			{
+				"direction": -1,
+				"interval": 14.5,
+				"safe_delay": 2.9,
+				"speed": 480.0,
+				"warning": 3.2
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 190.0,
+				"direction": 1,
+				"gap_seconds": 1.15,
+				"modifier": 1.0,
+				"spawn_max": 2.3,
+				"spawn_min": 1.85,
+				"speed": 184.0,
+				"types": [
+					"cng",
+					"pickup",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": -1,
+				"gap_seconds": 1.15,
+				"modifier": 1.04,
+				"spawn_max": 2.42,
+				"spawn_min": 1.97,
+				"speed": 203.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": 1,
+				"gap_seconds": 1.15,
+				"modifier": 0.98,
+				"spawn_max": 2.54,
+				"spawn_min": 2.09,
+				"speed": 214.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": 1,
+				"gap_seconds": 1.15,
+				"modifier": 1.0,
+				"spawn_max": 2.3,
+				"spawn_min": 1.85,
+				"speed": 191.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": -1,
+				"gap_seconds": 1.15,
+				"modifier": 1.04,
+				"spawn_max": 2.42,
+				"spawn_min": 1.97,
+				"speed": 207.0,
+				"types": [
+					"local_bus",
+					"rickshaw"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": -1,
+				"gap_seconds": 1.15,
+				"modifier": 0.98,
+				"spawn_max": 2.54,
+				"spawn_min": 2.09,
+				"speed": 180.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": 1,
+				"gap_seconds": 1.15,
+				"modifier": 1.0,
+				"spawn_max": 2.3,
+				"spawn_min": 1.85,
+				"speed": 184.0,
+				"types": [
+					"rickshaw",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": -1,
+				"gap_seconds": 1.15,
+				"modifier": 1.04,
+				"spawn_max": 2.42,
+				"spawn_min": 1.97,
+				"speed": 203.0,
+				"types": [
+					"local_bus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": 1,
+				"gap_seconds": 1.15,
+				"modifier": 0.98,
+				"spawn_max": 2.54,
+				"spawn_min": 2.09,
+				"speed": 214.0,
+				"types": [
+					"rickshaw",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 190.0,
+				"direction": 1,
+				"gap_seconds": 1.15,
+				"modifier": 1.0,
+				"spawn_max": 2.3,
+				"spawn_min": 1.85,
+				"speed": 191.0,
+				"types": [
+					"cng",
+					"pickup",
+					"rickshaw"
+				]
+			}
+		],
+		"rows": 20,
+		"score_target": 1100,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.66,
+		"time": 165.0,
+		"water": []
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				15,
+				0
+			],
+			[
+				7,
+				3
+			],
+			[
+				1,
+				3
+			],
+			[
+				7,
+				7
+			],
+			[
+				15,
+				7
+			],
+			[
+				7,
+				9
+			],
+			[
+				1,
+				9
+			],
+			[
+				7,
+				14
+			],
+			[
+				15,
+				14
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Hard",
+		"forward_points": 25,
+		"hazards": 15,
+		"life_bonus": 100,
+		"name": "Wild River",
+		"number": 12,
+		"powers": [
+			{
+				"cell": [
+					9,
+					3
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			},
+			{
+				"cell": [
+					9,
+					9
+				],
+				"duration": 8.0,
+				"effect": "double"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 12.75,
+				"safe_delay": 2.83,
+				"speed": 494.0,
+				"warning": 2.9
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 185.0,
+				"direction": 1,
+				"gap_seconds": 1.125,
+				"modifier": 1.0,
+				"spawn_max": 2.235,
+				"spawn_min": 1.785,
+				"speed": 193.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": -1,
+				"gap_seconds": 1.125,
+				"modifier": 1.04,
+				"spawn_max": 2.355,
+				"spawn_min": 1.905,
+				"speed": 212.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": 1,
+				"gap_seconds": 1.125,
+				"modifier": 0.98,
+				"spawn_max": 2.475,
+				"spawn_min": 2.025,
+				"speed": 223.0,
+				"types": [
+					"cng",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": 1,
+				"gap_seconds": 1.125,
+				"modifier": 1.0,
+				"spawn_max": 2.235,
+				"spawn_min": 1.785,
+				"speed": 200.0,
+				"types": [
+					"local_bus",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": -1,
+				"gap_seconds": 1.125,
+				"modifier": 1.04,
+				"spawn_max": 2.355,
+				"spawn_min": 1.905,
+				"speed": 216.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": -1,
+				"gap_seconds": 1.125,
+				"modifier": 0.98,
+				"spawn_max": 2.475,
+				"spawn_min": 2.025,
+				"speed": 189.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"cng"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": 1,
+				"gap_seconds": 1.125,
+				"modifier": 1.0,
+				"spawn_max": 2.235,
+				"spawn_min": 1.785,
+				"speed": 193.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": -1,
+				"gap_seconds": 1.125,
+				"modifier": 1.04,
+				"spawn_max": 2.355,
+				"spawn_min": 1.905,
+				"speed": 212.0,
+				"types": [
+					"cng",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 185.0,
+				"direction": 1,
+				"gap_seconds": 1.125,
+				"modifier": 0.98,
+				"spawn_max": 2.475,
+				"spawn_min": 2.025,
+				"speed": 223.0,
+				"types": [
+					"cng",
+					"pickup",
+					"small_car"
+				]
+			}
+		],
+		"rows": 22,
+		"score_target": 1145,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.65,
+		"time": 175.0,
+		"water": [
+			{
+				"direction": 1,
+				"length": 224.0,
+				"pitch_max": 286.0,
+				"pitch_min": 274.0,
+				"speed": 68.0,
+				"type": "Ferry"
+			},
+			{
+				"direction": -1,
+				"length": 160.0,
+				"pitch_max": 222.0,
+				"pitch_min": 210.0,
+				"speed": 80.0,
+				"type": "Fishing Boat"
+			},
+			{
+				"direction": 1,
+				"length": 176.0,
+				"pitch_max": 238.0,
+				"pitch_min": 226.0,
+				"speed": 104.0,
+				"type": "Engine Boat"
+			},
+			{
+				"direction": -1,
+				"length": 192.0,
+				"pitch_max": 254.0,
+				"pitch_min": 242.0,
+				"speed": 84.0,
+				"type": "Passenger Boat"
+			},
+			{
+				"direction": 1,
+				"length": 224.0,
+				"pitch_max": 286.0,
+				"pitch_min": 274.0,
+				"speed": 68.0,
+				"type": "Ferry"
+			}
+		]
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				15,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				1,
+				4
+			],
+			[
+				7,
+				7
+			],
+			[
+				15,
+				7
+			],
+			[
+				7,
+				11
+			],
+			[
+				1,
+				11
+			],
+			[
+				7,
+				15
+			],
+			[
+				15,
+				15
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Very Hard",
+		"forward_points": 25,
+		"hazards": 17,
+		"life_bonus": 100,
+		"name": "Midnight Run",
+		"number": 13,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			},
+			{
+				"cell": [
+					9,
+					11
+				],
+				"duration": 6.0,
+				"effect": "slow"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 12.0,
+				"safe_delay": 2.76,
+				"speed": 508.0,
+				"warning": 2.8
+			},
+			{
+				"direction": -1,
+				"interval": 13.0,
+				"safe_delay": 2.76,
+				"speed": 548.0,
+				"warning": 2.8
+			},
+			{
+				"direction": 1,
+				"interval": 12.0,
+				"safe_delay": 2.76,
+				"speed": 588.0,
+				"warning": 2.8
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 180.0,
+				"direction": 1,
+				"gap_seconds": 1.1,
+				"modifier": 1.0,
+				"spawn_max": 2.17,
+				"spawn_min": 1.72,
+				"speed": 200.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": -1,
+				"gap_seconds": 1.1,
+				"modifier": 1.04,
+				"spawn_max": 2.29,
+				"spawn_min": 1.84,
+				"speed": 219.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": 1,
+				"gap_seconds": 1.1,
+				"modifier": 0.98,
+				"spawn_max": 2.41,
+				"spawn_min": 1.96,
+				"speed": 230.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": 1,
+				"gap_seconds": 1.1,
+				"modifier": 1.0,
+				"spawn_max": 2.17,
+				"spawn_min": 1.72,
+				"speed": 207.0,
+				"types": [
+					"large_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": -1,
+				"gap_seconds": 1.1,
+				"modifier": 1.04,
+				"spawn_max": 2.29,
+				"spawn_min": 1.84,
+				"speed": 223.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": -1,
+				"gap_seconds": 1.1,
+				"modifier": 0.98,
+				"spawn_max": 2.41,
+				"spawn_min": 1.96,
+				"speed": 196.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": 1,
+				"gap_seconds": 1.1,
+				"modifier": 1.0,
+				"spawn_max": 2.17,
+				"spawn_min": 1.72,
+				"speed": 200.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": -1,
+				"gap_seconds": 1.1,
+				"modifier": 1.04,
+				"spawn_max": 2.29,
+				"spawn_min": 1.84,
+				"speed": 219.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": 1,
+				"gap_seconds": 1.1,
+				"modifier": 0.98,
+				"spawn_max": 2.41,
+				"spawn_min": 1.96,
+				"speed": 230.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": 1,
+				"gap_seconds": 1.1,
+				"modifier": 1.0,
+				"spawn_max": 2.17,
+				"spawn_min": 1.72,
+				"speed": 207.0,
+				"types": [
+					"large_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 180.0,
+				"direction": -1,
+				"gap_seconds": 1.1,
+				"modifier": 1.04,
+				"spawn_max": 2.29,
+				"spawn_min": 1.84,
+				"speed": 223.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"small_car"
+				]
+			}
+		],
+		"rows": 25,
+		"score_target": 1190,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.65,
+		"time": 185.0,
+		"water": [
+			{
+				"direction": 1,
+				"length": 208.0,
+				"pitch_max": 272.0,
+				"pitch_min": 260.0,
+				"speed": 70.0,
+				"type": "Ferry"
+			},
+			{
+				"direction": -1,
+				"length": 128.0,
+				"pitch_max": 192.0,
+				"pitch_min": 180.0,
+				"speed": 78.0,
+				"type": "log"
+			},
+			{
+				"direction": 1,
+				"length": 160.0,
+				"pitch_max": 224.0,
+				"pitch_min": 212.0,
+				"speed": 106.0,
+				"type": "Engine Boat"
+			}
+		]
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				15,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				1,
+				4
+			],
+			[
+				7,
+				8
+			],
+			[
+				15,
+				8
+			],
+			[
+				7,
+				11
+			],
+			[
+				1,
+				11
+			],
+			[
+				7,
+				15
+			],
+			[
+				15,
+				15
+			],
+			[
+				7,
+				19
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Very Hard",
+		"forward_points": 25,
+		"hazards": 18,
+		"life_bonus": 100,
+		"name": "Danger Zone",
+		"number": 14,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			},
+			{
+				"cell": [
+					9,
+					11
+				],
+				"duration": 6.0,
+				"effect": "slow"
+			},
+			{
+				"cell": [
+					9,
+					19
+				],
+				"duration": 8.0,
+				"effect": "double"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 11.25,
+				"safe_delay": 2.69,
+				"speed": 522.0,
+				"warning": 2.7
+			},
+			{
+				"direction": -1,
+				"interval": 12.25,
+				"safe_delay": 2.69,
+				"speed": 562.0,
+				"warning": 2.7
+			},
+			{
+				"direction": 1,
+				"interval": 11.25,
+				"safe_delay": 2.69,
+				"speed": 602.0,
+				"warning": 2.7
+			},
+			{
+				"direction": -1,
+				"interval": 12.25,
+				"safe_delay": 2.69,
+				"speed": 522.0,
+				"warning": 2.7
+			},
+			{
+				"direction": 1,
+				"interval": 11.25,
+				"safe_delay": 2.69,
+				"speed": 562.0,
+				"warning": 2.7
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 175.0,
+				"direction": 1,
+				"gap_seconds": 1.075,
+				"modifier": 1.0,
+				"spawn_max": 2.105,
+				"spawn_min": 1.655,
+				"speed": 206.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": -1,
+				"gap_seconds": 1.075,
+				"modifier": 1.04,
+				"spawn_max": 2.225,
+				"spawn_min": 1.775,
+				"speed": 225.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": 1,
+				"gap_seconds": 1.075,
+				"modifier": 0.98,
+				"spawn_max": 2.345,
+				"spawn_min": 1.895,
+				"speed": 236.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": 1,
+				"gap_seconds": 1.075,
+				"modifier": 1.0,
+				"spawn_max": 2.105,
+				"spawn_min": 1.655,
+				"speed": 213.0,
+				"types": [
+					"large_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": -1,
+				"gap_seconds": 1.075,
+				"modifier": 1.04,
+				"spawn_max": 2.225,
+				"spawn_min": 1.775,
+				"speed": 229.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": -1,
+				"gap_seconds": 1.075,
+				"modifier": 0.98,
+				"spawn_max": 2.345,
+				"spawn_min": 1.895,
+				"speed": 202.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": 1,
+				"gap_seconds": 1.075,
+				"modifier": 1.0,
+				"spawn_max": 2.105,
+				"spawn_min": 1.655,
+				"speed": 206.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": -1,
+				"gap_seconds": 1.075,
+				"modifier": 1.04,
+				"spawn_max": 2.225,
+				"spawn_min": 1.775,
+				"speed": 225.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": 1,
+				"gap_seconds": 1.075,
+				"modifier": 0.98,
+				"spawn_max": 2.345,
+				"spawn_min": 1.895,
+				"speed": 236.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 175.0,
+				"direction": 1,
+				"gap_seconds": 1.075,
+				"modifier": 1.0,
+				"spawn_max": 2.105,
+				"spawn_min": 1.655,
+				"speed": 213.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"small_car"
+				]
+			}
+		],
+		"rows": 26,
+		"score_target": 1235,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.64,
+		"time": 195.0,
+		"water": [
+			{
+				"direction": 1,
+				"length": 208.0,
+				"pitch_max": 274.0,
+				"pitch_min": 262.0,
+				"speed": 72.0,
+				"type": "Ferry"
+			},
+			{
+				"direction": -1,
+				"length": 128.0,
+				"pitch_max": 194.0,
+				"pitch_min": 182.0,
+				"speed": 80.0,
+				"type": "log"
+			},
+			{
+				"direction": 1,
+				"length": 160.0,
+				"pitch_max": 226.0,
+				"pitch_min": 214.0,
+				"speed": 108.0,
+				"type": "Engine Boat"
+			}
+		]
+	},
+	{
+		"coins": [
+			[
+				7,
+				0
+			],
+			[
+				15,
+				0
+			],
+			[
+				7,
+				4
+			],
+			[
+				1,
+				4
+			],
+			[
+				7,
+				7
+			],
+			[
+				15,
+				7
+			],
+			[
+				7,
+				10
+			],
+			[
+				1,
+				10
+			],
+			[
+				7,
+				14
+			],
+			[
+				15,
+				14
+			],
+			[
+				7,
+				19
+			]
+		],
+		"destination_points": 250,
+		"difficulty": "Final Challenge",
+		"forward_points": 25,
+		"hazards": 20,
+		"life_bonus": 100,
+		"name": "Final Crossing",
+		"number": 15,
+		"powers": [
+			{
+				"cell": [
+					9,
+					4
+				],
+				"duration": 12.0,
+				"effect": "shield"
+			},
+			{
+				"cell": [
+					9,
+					10
+				],
+				"duration": 6.0,
+				"effect": "slow"
+			},
+			{
+				"cell": [
+					9,
+					19
+				],
+				"duration": 8.0,
+				"effect": "double"
+			}
+		],
+		"rail": [
+			{
+				"direction": 1,
+				"interval": 10.5,
+				"safe_delay": 2.62,
+				"speed": 536.0,
+				"warning": 2.6
+			},
+			{
+				"direction": -1,
+				"interval": 11.5,
+				"safe_delay": 2.62,
+				"speed": 576.0,
+				"warning": 2.6
+			},
+			{
+				"direction": 1,
+				"interval": 10.5,
+				"safe_delay": 2.62,
+				"speed": 616.0,
+				"warning": 2.6
+			}
+		],
+		"road": [
+			{
+				"clear_gap": 170.0,
+				"direction": 1,
+				"gap_seconds": 1.05,
+				"modifier": 1.0,
+				"spawn_max": 2.04,
+				"spawn_min": 1.59,
+				"speed": 213.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": -1,
+				"gap_seconds": 1.05,
+				"modifier": 1.04,
+				"spawn_max": 2.16,
+				"spawn_min": 1.71,
+				"speed": 232.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": 1,
+				"gap_seconds": 1.05,
+				"modifier": 0.98,
+				"spawn_max": 2.28,
+				"spawn_min": 1.83,
+				"speed": 243.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": 1,
+				"gap_seconds": 1.05,
+				"modifier": 1.0,
+				"spawn_max": 2.04,
+				"spawn_min": 1.59,
+				"speed": 220.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": -1,
+				"gap_seconds": 1.05,
+				"modifier": 1.04,
+				"spawn_max": 2.16,
+				"spawn_min": 1.71,
+				"speed": 236.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": -1,
+				"gap_seconds": 1.05,
+				"modifier": 0.98,
+				"spawn_max": 2.28,
+				"spawn_min": 1.83,
+				"speed": 209.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": 1,
+				"gap_seconds": 1.05,
+				"modifier": 1.0,
+				"spawn_max": 2.04,
+				"spawn_min": 1.59,
+				"speed": 213.0,
+				"types": [
+					"small_car",
+					"pickup",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": -1,
+				"gap_seconds": 1.05,
+				"modifier": 1.04,
+				"spawn_max": 2.16,
+				"spawn_min": 1.71,
+				"speed": 232.0,
+				"types": [
+					"large_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": 1,
+				"gap_seconds": 1.05,
+				"modifier": 0.98,
+				"spawn_max": 2.28,
+				"spawn_min": 1.83,
+				"speed": 243.0,
+				"types": [
+					"small_car",
+					"microbus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": 1,
+				"gap_seconds": 1.05,
+				"modifier": 1.0,
+				"spawn_max": 2.04,
+				"spawn_min": 1.59,
+				"speed": 220.0,
+				"types": [
+					"local_bus",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": -1,
+				"gap_seconds": 1.05,
+				"modifier": 1.04,
+				"spawn_max": 2.16,
+				"spawn_min": 1.71,
+				"speed": 236.0,
+				"types": [
+					"small_car",
+					"medium_truck",
+					"small_car"
+				]
+			},
+			{
+				"clear_gap": 170.0,
+				"direction": -1,
+				"gap_seconds": 1.05,
+				"modifier": 0.98,
+				"spawn_max": 2.28,
+				"spawn_min": 1.83,
+				"speed": 209.0,
+				"types": [
+					"large_truck",
+					"small_car"
+				]
+			}
+		],
+		"rows": 29,
+		"score_target": 1280,
+		"seconds_bonus": 4,
+		"star_time_fraction": 0.64,
+		"time": 205.0,
+		"water": [
+			{
+				"direction": 1,
+				"length": 208.0,
+				"pitch_max": 276.0,
+				"pitch_min": 264.0,
+				"speed": 74.0,
+				"type": "Ferry"
+			},
+			{
+				"direction": -1,
+				"length": 128.0,
+				"pitch_max": 196.0,
+				"pitch_min": 184.0,
+				"speed": 82.0,
+				"type": "log"
+			},
+			{
+				"direction": 1,
+				"length": 160.0,
+				"pitch_max": 228.0,
+				"pitch_min": 216.0,
+				"speed": 110.0,
+				"type": "Engine Boat"
+			},
+			{
+				"direction": -1,
+				"length": 176.0,
+				"pitch_max": 244.0,
+				"pitch_min": 232.0,
+				"speed": 90.0,
+				"type": "Passenger Boat"
+			},
+			{
+				"direction": 1,
+				"length": 208.0,
+				"pitch_max": 276.0,
+				"pitch_min": 264.0,
+				"speed": 74.0,
+				"type": "Ferry"
+			}
+		]
+	}
+]

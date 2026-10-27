@@ -1,0 +1,60 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=12 format=3 uid="uid://c1klkjqvpo46l"]
+
+[ext_resource type="Script" uid="uid://c5mpib6lv8akn" path="res://scripts/data/level_config.gd" id="1"]
+[ext_resource type="Script" uid="uid://dm7l6coe30tj5" path="res://scripts/data/lane_config.gd" id="2"]
+[ext_resource type="Script" uid="uid://cju825wry4p3f" path="res://scripts/data/power_up_config.gd" id="2_ejcb0"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="3_d2nye"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="4_v6f58"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="5_8jl60"]
+[ext_resource type="Script" uid="uid://clxcqv3kbeb6n" path="res://scripts/data/level_section_config.gd" id="7_pv013"]
+
+[sub_resource type="Resource" id="Lane0"]
+script = ExtResource("2")
+speed = 195.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "car", "truck"])
+
+[sub_resource type="Resource" id="Lane1"]
+script = ExtResource("2")
+row = 2
+direction = -1
+speed = 207.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "car", "truck"])
+
+[sub_resource type="Resource" id="Lane2"]
+script = ExtResource("2")
+row = 4
+speed = 219.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "car", "truck"])
+
+[sub_resource type="Resource" id="Lane3"]
+script = ExtResource("2")
+row = 5
+direction = -1
+speed = 231.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "car", "truck"])
+
+[resource]
+script = ExtResource("1")
+display_name = "City Rush"
+level_number = 2
+time_limit = 110.0
+lanes = Array[ExtResource("2")]([SubResource("Lane0"), SubResource("Lane1"), SubResource("Lane2"), SubResource("Lane3")])
+starting_speed_scale = 0.78
+difficulty_ramp_seconds = 70.0
+level_id = "level_02"
+theme = "City"
+difficulty_label = "Learning"
+score_target = 800
+target_reward = 150

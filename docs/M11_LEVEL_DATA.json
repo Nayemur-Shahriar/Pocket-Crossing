@@ -1,0 +1,2195 @@
+[
+  {
+    "number": 1,
+    "name": "Easy Road",
+    "theme": "day",
+    "structure": "Start R2 S R1 Destination",
+    "rows": 6,
+    "time": 70,
+    "target": 300,
+    "coins": 4,
+    "powers": [],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 92,
+        "direction": 1,
+        "gap": 331,
+        "spawn": [
+          3.4,
+          4.05
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 117,
+        "direction": -1,
+        "gap": 355,
+        "spawn": [
+          3.55,
+          4.2
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 4,
+        "speed": 80,
+        "direction": 1,
+        "gap": 331,
+        "spawn": [
+          3.7,
+          4.35
+        ],
+        "pattern": "steady"
+      }
+    ],
+    "rails": [],
+    "water": [],
+    "safe_rows": [
+      0,
+      3
+    ]
+  },
+  {
+    "number": 2,
+    "name": "City Run",
+    "theme": "day",
+    "structure": "Start R2 S R3 S Destination",
+    "rows": 9,
+    "time": 85,
+    "target": 330,
+    "coins": 5,
+    "powers": [],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 99,
+        "direction": -1,
+        "gap": 322,
+        "spawn": [
+          3.3,
+          3.95
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 124,
+        "direction": 1,
+        "gap": 346,
+        "spawn": [
+          3.45,
+          4.1
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 4,
+        "speed": 87,
+        "direction": -1,
+        "gap": 322,
+        "spawn": [
+          3.6,
+          4.25
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 5,
+        "speed": 137,
+        "direction": 1,
+        "gap": 322,
+        "spawn": [
+          3.3,
+          3.95
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 6,
+        "speed": 99,
+        "direction": -1,
+        "gap": 346,
+        "spawn": [
+          3.45,
+          4.1
+        ],
+        "pattern": "steady"
+      }
+    ],
+    "rails": [],
+    "water": [],
+    "safe_rows": [
+      0,
+      3,
+      7
+    ]
+  },
+  {
+    "number": 3,
+    "name": "Sunset Rush",
+    "theme": "evening",
+    "structure": "Start R3 S R2 S R1 Destination",
+    "rows": 10,
+    "time": 100,
+    "target": 360,
+    "coins": 5,
+    "powers": [],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 106,
+        "direction": 1,
+        "gap": 313,
+        "spawn": [
+          3.2,
+          3.85
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 131,
+        "direction": -1,
+        "gap": 337,
+        "spawn": [
+          3.35,
+          4.0
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 94,
+        "direction": 1,
+        "gap": 313,
+        "spawn": [
+          3.5,
+          4.15
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 5,
+        "speed": 144,
+        "direction": -1,
+        "gap": 313,
+        "spawn": [
+          3.2,
+          3.85
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 6,
+        "speed": 106,
+        "direction": 1,
+        "gap": 337,
+        "spawn": [
+          3.35,
+          4.0
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 8,
+        "speed": 131,
+        "direction": -1,
+        "gap": 313,
+        "spawn": [
+          3.5,
+          4.15
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [],
+    "water": [],
+    "safe_rows": [
+      0,
+      4,
+      7
+    ]
+  },
+  {
+    "number": 4,
+    "name": "Night Ride",
+    "theme": "night",
+    "structure": "Start R2 S R3 S R2 Destination",
+    "rows": 11,
+    "time": 110,
+    "target": 390,
+    "coins": 6,
+    "powers": [
+      "shield"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 113,
+        "direction": -1,
+        "gap": 304,
+        "spawn": [
+          3.1,
+          3.75
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 138,
+        "direction": 1,
+        "gap": 328,
+        "spawn": [
+          3.25,
+          3.9
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 4,
+        "speed": 101,
+        "direction": -1,
+        "gap": 304,
+        "spawn": [
+          3.4,
+          4.05
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 5,
+        "speed": 151,
+        "direction": 1,
+        "gap": 304,
+        "spawn": [
+          3.1,
+          3.75
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 6,
+        "speed": 113,
+        "direction": -1,
+        "gap": 328,
+        "spawn": [
+          3.25,
+          3.9
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 8,
+        "speed": 138,
+        "direction": 1,
+        "gap": 304,
+        "spawn": [
+          3.4,
+          4.05
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 9,
+        "speed": 101,
+        "direction": -1,
+        "gap": 304,
+        "spawn": [
+          3.1,
+          3.75
+        ],
+        "pattern": "steady"
+      }
+    ],
+    "rails": [],
+    "water": [],
+    "safe_rows": [
+      0,
+      3,
+      7
+    ]
+  },
+  {
+    "number": 5,
+    "name": "Train Time",
+    "theme": "day",
+    "structure": "Start R2 S T1 S R3 S Destination",
+    "rows": 11,
+    "time": 120,
+    "target": 420,
+    "coins": 6,
+    "powers": [
+      "shield"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 120,
+        "direction": 1,
+        "gap": 295,
+        "spawn": [
+          3.0,
+          3.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 145,
+        "direction": -1,
+        "gap": 319,
+        "spawn": [
+          3.15,
+          3.8
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 6,
+        "speed": 108,
+        "direction": 1,
+        "gap": 295,
+        "spawn": [
+          3.3,
+          3.95
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 7,
+        "speed": 158,
+        "direction": -1,
+        "gap": 295,
+        "spawn": [
+          3.0,
+          3.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 8,
+        "speed": 120,
+        "direction": 1,
+        "gap": 319,
+        "spawn": [
+          3.15,
+          3.8
+        ],
+        "pattern": "steady"
+      }
+    ],
+    "rails": [
+      {
+        "row": 4,
+        "speed": 300,
+        "warning": 4.0,
+        "interval": [
+          24,
+          28
+        ]
+      }
+    ],
+    "water": [],
+    "safe_rows": [
+      0,
+      3,
+      5,
+      9
+    ]
+  },
+  {
+    "number": 6,
+    "name": "Double Track",
+    "theme": "evening",
+    "structure": "Start R3 S T2 S R3 S Destination",
+    "rows": 13,
+    "time": 130,
+    "target": 450,
+    "coins": 7,
+    "powers": [
+      "shield"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 127,
+        "direction": -1,
+        "gap": 286,
+        "spawn": [
+          2.9,
+          3.55
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 152,
+        "direction": 1,
+        "gap": 310,
+        "spawn": [
+          3.05,
+          3.7
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 115,
+        "direction": -1,
+        "gap": 286,
+        "spawn": [
+          3.2,
+          3.85
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 8,
+        "speed": 165,
+        "direction": 1,
+        "gap": 286,
+        "spawn": [
+          2.9,
+          3.55
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 9,
+        "speed": 127,
+        "direction": -1,
+        "gap": 310,
+        "spawn": [
+          3.05,
+          3.7
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 152,
+        "direction": 1,
+        "gap": 286,
+        "spawn": [
+          3.2,
+          3.85
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [
+      {
+        "row": 5,
+        "speed": 308,
+        "warning": 4.0,
+        "interval": [
+          24,
+          28
+        ]
+      },
+      {
+        "row": 6,
+        "speed": 348,
+        "warning": 4.0,
+        "interval": [
+          26,
+          30
+        ]
+      }
+    ],
+    "water": [],
+    "safe_rows": [
+      0,
+      4,
+      7,
+      11
+    ]
+  },
+  {
+    "number": 7,
+    "name": "River Hop",
+    "theme": "day",
+    "structure": "Start R3 S W2 S R3 S Destination",
+    "rows": 13,
+    "time": 140,
+    "target": 480,
+    "coins": 7,
+    "powers": [
+      "shield"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 134,
+        "direction": 1,
+        "gap": 277,
+        "spawn": [
+          2.8,
+          3.45
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 159,
+        "direction": -1,
+        "gap": 301,
+        "spawn": [
+          2.95,
+          3.6
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 122,
+        "direction": 1,
+        "gap": 277,
+        "spawn": [
+          3.1,
+          3.75
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 8,
+        "speed": 172,
+        "direction": -1,
+        "gap": 277,
+        "spawn": [
+          2.8,
+          3.45
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 9,
+        "speed": 134,
+        "direction": 1,
+        "gap": 301,
+        "spawn": [
+          2.95,
+          3.6
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 159,
+        "direction": -1,
+        "gap": 277,
+        "spawn": [
+          3.1,
+          3.75
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [],
+    "water": [
+      {
+        "row": 5,
+        "speed": 40,
+        "length": 320,
+        "spacing": 32,
+        "spawn": [
+          8.8,
+          9.0
+        ]
+      },
+      {
+        "row": 6,
+        "speed": 48,
+        "length": 320,
+        "spacing": 32,
+        "spawn": [
+          7.333,
+          7.5
+        ]
+      }
+    ],
+    "safe_rows": [
+      0,
+      4,
+      7,
+      11
+    ]
+  },
+  {
+    "number": 8,
+    "name": "Rain Run",
+    "theme": "rain",
+    "structure": "Start R3 S T1 S R4 S R2 Destination",
+    "rows": 15,
+    "time": 145,
+    "target": 510,
+    "coins": 8,
+    "powers": [
+      "slow"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 141,
+        "direction": -1,
+        "gap": 268,
+        "spawn": [
+          2.7,
+          3.35
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 166,
+        "direction": 1,
+        "gap": 292,
+        "spawn": [
+          2.85,
+          3.5
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 129,
+        "direction": -1,
+        "gap": 268,
+        "spawn": [
+          3.0,
+          3.65
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 7,
+        "speed": 179,
+        "direction": 1,
+        "gap": 268,
+        "spawn": [
+          2.7,
+          3.35
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 8,
+        "speed": 141,
+        "direction": -1,
+        "gap": 292,
+        "spawn": [
+          2.85,
+          3.5
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 9,
+        "speed": 166,
+        "direction": 1,
+        "gap": 268,
+        "spawn": [
+          3.0,
+          3.65
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 10,
+        "speed": 129,
+        "direction": -1,
+        "gap": 268,
+        "spawn": [
+          2.7,
+          3.35
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 12,
+        "speed": 179,
+        "direction": 1,
+        "gap": 292,
+        "spawn": [
+          2.85,
+          3.5
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 13,
+        "speed": 141,
+        "direction": -1,
+        "gap": 268,
+        "spawn": [
+          3.0,
+          3.65
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [
+      {
+        "row": 5,
+        "speed": 324,
+        "warning": 3.4,
+        "interval": [
+          20,
+          24
+        ]
+      }
+    ],
+    "water": [],
+    "safe_rows": [
+      0,
+      4,
+      6,
+      11
+    ]
+  },
+  {
+    "number": 9,
+    "name": "River Rush",
+    "theme": "evening",
+    "structure": "Start R3 S W3 S R3 S W2 S Destination",
+    "rows": 17,
+    "time": 155,
+    "target": 540,
+    "coins": 8,
+    "powers": [
+      "shield"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 148,
+        "direction": 1,
+        "gap": 259,
+        "spawn": [
+          2.6,
+          3.25
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 173,
+        "direction": -1,
+        "gap": 283,
+        "spawn": [
+          2.75,
+          3.4
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 136,
+        "direction": 1,
+        "gap": 259,
+        "spawn": [
+          2.9,
+          3.55
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 9,
+        "speed": 186,
+        "direction": -1,
+        "gap": 259,
+        "spawn": [
+          2.6,
+          3.25
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 148,
+        "direction": 1,
+        "gap": 283,
+        "spawn": [
+          2.75,
+          3.4
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 11,
+        "speed": 173,
+        "direction": -1,
+        "gap": 259,
+        "spawn": [
+          2.9,
+          3.55
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [],
+    "water": [
+      {
+        "row": 5,
+        "speed": 52,
+        "length": 288,
+        "spacing": 40,
+        "spawn": [
+          6.308,
+          6.462
+        ]
+      },
+      {
+        "row": 6,
+        "speed": 64,
+        "length": 256,
+        "spacing": 48,
+        "spawn": [
+          4.75,
+          4.875
+        ]
+      },
+      {
+        "row": 7,
+        "speed": 46,
+        "length": 224,
+        "spacing": 40,
+        "spawn": [
+          5.739,
+          5.913
+        ]
+      },
+      {
+        "row": 13,
+        "speed": 52,
+        "length": 288,
+        "spacing": 40,
+        "spawn": [
+          6.308,
+          6.462
+        ]
+      },
+      {
+        "row": 14,
+        "speed": 64,
+        "length": 256,
+        "spacing": 48,
+        "spawn": [
+          4.75,
+          4.875
+        ]
+      }
+    ],
+    "safe_rows": [
+      0,
+      4,
+      8,
+      12,
+      15
+    ]
+  },
+  {
+    "number": 10,
+    "name": "Snow Way",
+    "theme": "snow",
+    "structure": "Start R3 S T2 S R3 S T1 S R3 Destination",
+    "rows": 18,
+    "time": 165,
+    "target": 570,
+    "coins": 9,
+    "powers": [
+      "slow"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 155,
+        "direction": -1,
+        "gap": 250,
+        "spawn": [
+          2.5,
+          3.15
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 180,
+        "direction": 1,
+        "gap": 274,
+        "spawn": [
+          2.65,
+          3.3
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 143,
+        "direction": -1,
+        "gap": 250,
+        "spawn": [
+          2.8,
+          3.45
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 8,
+        "speed": 193,
+        "direction": 1,
+        "gap": 250,
+        "spawn": [
+          2.5,
+          3.15
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 9,
+        "speed": 155,
+        "direction": -1,
+        "gap": 274,
+        "spawn": [
+          2.65,
+          3.3
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 180,
+        "direction": 1,
+        "gap": 250,
+        "spawn": [
+          2.8,
+          3.45
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 14,
+        "speed": 143,
+        "direction": -1,
+        "gap": 250,
+        "spawn": [
+          2.5,
+          3.15
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 15,
+        "speed": 193,
+        "direction": 1,
+        "gap": 274,
+        "spawn": [
+          2.65,
+          3.3
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 16,
+        "speed": 155,
+        "direction": -1,
+        "gap": 250,
+        "spawn": [
+          2.8,
+          3.45
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [
+      {
+        "row": 5,
+        "speed": 340,
+        "warning": 3.4,
+        "interval": [
+          20,
+          24
+        ]
+      },
+      {
+        "row": 6,
+        "speed": 380,
+        "warning": 3.4,
+        "interval": [
+          22,
+          26
+        ]
+      },
+      {
+        "row": 12,
+        "speed": 340,
+        "warning": 3.4,
+        "interval": [
+          20,
+          24
+        ]
+      }
+    ],
+    "water": [],
+    "safe_rows": [
+      0,
+      4,
+      7,
+      11,
+      13
+    ]
+  },
+  {
+    "number": 11,
+    "name": "Fog Track",
+    "theme": "fog",
+    "structure": "Start R4 S T2 S R3 S T2 S R3 Destination",
+    "rows": 20,
+    "time": 175,
+    "target": 600,
+    "coins": 9,
+    "powers": [
+      "shield"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 162,
+        "direction": 1,
+        "gap": 241,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 187,
+        "direction": -1,
+        "gap": 265,
+        "spawn": [
+          2.55,
+          3.2
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 150,
+        "direction": 1,
+        "gap": 241,
+        "spawn": [
+          2.7,
+          3.35
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 4,
+        "speed": 200,
+        "direction": -1,
+        "gap": 241,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 9,
+        "speed": 162,
+        "direction": 1,
+        "gap": 265,
+        "spawn": [
+          2.55,
+          3.2
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 187,
+        "direction": -1,
+        "gap": 241,
+        "spawn": [
+          2.7,
+          3.35
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 11,
+        "speed": 150,
+        "direction": 1,
+        "gap": 241,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 16,
+        "speed": 200,
+        "direction": -1,
+        "gap": 265,
+        "spawn": [
+          2.55,
+          3.2
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 17,
+        "speed": 162,
+        "direction": 1,
+        "gap": 241,
+        "spawn": [
+          2.7,
+          3.35
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 18,
+        "speed": 187,
+        "direction": -1,
+        "gap": 241,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "steady"
+      }
+    ],
+    "rails": [
+      {
+        "row": 6,
+        "speed": 348,
+        "warning": 3.4,
+        "interval": [
+          20,
+          24
+        ]
+      },
+      {
+        "row": 7,
+        "speed": 388,
+        "warning": 3.4,
+        "interval": [
+          22,
+          26
+        ]
+      },
+      {
+        "row": 13,
+        "speed": 348,
+        "warning": 3.4,
+        "interval": [
+          20,
+          24
+        ]
+      },
+      {
+        "row": 14,
+        "speed": 388,
+        "warning": 3.4,
+        "interval": [
+          22,
+          26
+        ]
+      }
+    ],
+    "water": [],
+    "safe_rows": [
+      0,
+      5,
+      8,
+      12,
+      15
+    ]
+  },
+  {
+    "number": 12,
+    "name": "Wild River",
+    "theme": "rain",
+    "structure": "Start R3 S W3 S T1 S R4 S W2 S R3 Destination",
+    "rows": 23,
+    "time": 185,
+    "target": 630,
+    "coins": 10,
+    "powers": [
+      "shield",
+      "double"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 169,
+        "direction": -1,
+        "gap": 232,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 194,
+        "direction": 1,
+        "gap": 256,
+        "spawn": [
+          2.45,
+          3.1
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 157,
+        "direction": -1,
+        "gap": 232,
+        "spawn": [
+          2.6,
+          3.25
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 11,
+        "speed": 207,
+        "direction": 1,
+        "gap": 232,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 12,
+        "speed": 169,
+        "direction": -1,
+        "gap": 256,
+        "spawn": [
+          2.45,
+          3.1
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 13,
+        "speed": 194,
+        "direction": 1,
+        "gap": 232,
+        "spawn": [
+          2.6,
+          3.25
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 14,
+        "speed": 157,
+        "direction": -1,
+        "gap": 232,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 19,
+        "speed": 207,
+        "direction": 1,
+        "gap": 256,
+        "spawn": [
+          2.45,
+          3.1
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 20,
+        "speed": 169,
+        "direction": -1,
+        "gap": 232,
+        "spawn": [
+          2.6,
+          3.25
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 21,
+        "speed": 194,
+        "direction": 1,
+        "gap": 232,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "steady"
+      }
+    ],
+    "rails": [
+      {
+        "row": 9,
+        "speed": 356,
+        "warning": 3.0,
+        "interval": [
+          17,
+          21
+        ]
+      }
+    ],
+    "water": [
+      {
+        "row": 5,
+        "speed": 61,
+        "length": 288,
+        "spacing": 52,
+        "spawn": [
+          5.574,
+          5.705
+        ]
+      },
+      {
+        "row": 6,
+        "speed": 73,
+        "length": 256,
+        "spacing": 60,
+        "spawn": [
+          4.329,
+          4.438
+        ]
+      },
+      {
+        "row": 7,
+        "speed": 55,
+        "length": 224,
+        "spacing": 52,
+        "spawn": [
+          5.018,
+          5.164
+        ]
+      },
+      {
+        "row": 16,
+        "speed": 61,
+        "length": 288,
+        "spacing": 52,
+        "spawn": [
+          5.574,
+          5.705
+        ]
+      },
+      {
+        "row": 17,
+        "speed": 73,
+        "length": 256,
+        "spacing": 60,
+        "spawn": [
+          4.329,
+          4.438
+        ]
+      }
+    ],
+    "safe_rows": [
+      0,
+      4,
+      8,
+      10,
+      15,
+      18
+    ]
+  },
+  {
+    "number": 13,
+    "name": "Midnight Run",
+    "theme": "night",
+    "structure": "Start R4 S T2 S R3 S W3 S R3 S T1 S R2 Destination",
+    "rows": 26,
+    "time": 195,
+    "target": 660,
+    "coins": 10,
+    "powers": [
+      "shield",
+      "slow"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 176,
+        "direction": 1,
+        "gap": 223,
+        "spawn": [
+          2.2,
+          2.85
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 201,
+        "direction": -1,
+        "gap": 247,
+        "spawn": [
+          2.35,
+          3.0
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 164,
+        "direction": 1,
+        "gap": 223,
+        "spawn": [
+          2.5,
+          3.15
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 4,
+        "speed": 214,
+        "direction": -1,
+        "gap": 223,
+        "spawn": [
+          2.2,
+          2.85
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 9,
+        "speed": 176,
+        "direction": 1,
+        "gap": 247,
+        "spawn": [
+          2.35,
+          3.0
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 201,
+        "direction": -1,
+        "gap": 223,
+        "spawn": [
+          2.5,
+          3.15
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 11,
+        "speed": 164,
+        "direction": 1,
+        "gap": 223,
+        "spawn": [
+          2.2,
+          2.85
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 17,
+        "speed": 214,
+        "direction": -1,
+        "gap": 247,
+        "spawn": [
+          2.35,
+          3.0
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 18,
+        "speed": 176,
+        "direction": 1,
+        "gap": 223,
+        "spawn": [
+          2.5,
+          3.15
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 19,
+        "speed": 201,
+        "direction": -1,
+        "gap": 223,
+        "spawn": [
+          2.2,
+          2.85
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 23,
+        "speed": 164,
+        "direction": 1,
+        "gap": 247,
+        "spawn": [
+          2.35,
+          3.0
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 24,
+        "speed": 214,
+        "direction": -1,
+        "gap": 223,
+        "spawn": [
+          2.5,
+          3.15
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [
+      {
+        "row": 6,
+        "speed": 364,
+        "warning": 3.0,
+        "interval": [
+          17,
+          21
+        ]
+      },
+      {
+        "row": 7,
+        "speed": 404,
+        "warning": 3.0,
+        "interval": [
+          19,
+          23
+        ]
+      },
+      {
+        "row": 21,
+        "speed": 364,
+        "warning": 3.0,
+        "interval": [
+          17,
+          21
+        ]
+      }
+    ],
+    "water": [
+      {
+        "row": 13,
+        "speed": 64,
+        "length": 288,
+        "spacing": 56,
+        "spawn": [
+          5.375,
+          5.5
+        ]
+      },
+      {
+        "row": 14,
+        "speed": 76,
+        "length": 256,
+        "spacing": 64,
+        "spawn": [
+          4.211,
+          4.316
+        ]
+      },
+      {
+        "row": 15,
+        "speed": 58,
+        "length": 224,
+        "spacing": 56,
+        "spawn": [
+          4.828,
+          4.966
+        ]
+      }
+    ],
+    "safe_rows": [
+      0,
+      5,
+      8,
+      12,
+      16,
+      20,
+      22
+    ]
+  },
+  {
+    "number": 14,
+    "name": "Danger Zone",
+    "theme": "evening",
+    "structure": "Start R4 S T3 S R3 S W3 S R4 S T2 S R3 Destination",
+    "rows": 30,
+    "time": 210,
+    "target": 690,
+    "coins": 11,
+    "powers": [
+      "shield",
+      "slow",
+      "double"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 183,
+        "direction": -1,
+        "gap": 214,
+        "spawn": [
+          2.1,
+          2.75
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 208,
+        "direction": 1,
+        "gap": 238,
+        "spawn": [
+          2.25,
+          2.9
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 171,
+        "direction": -1,
+        "gap": 214,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 4,
+        "speed": 221,
+        "direction": 1,
+        "gap": 214,
+        "spawn": [
+          2.1,
+          2.75
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 183,
+        "direction": -1,
+        "gap": 238,
+        "spawn": [
+          2.25,
+          2.9
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 11,
+        "speed": 208,
+        "direction": 1,
+        "gap": 214,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 12,
+        "speed": 171,
+        "direction": -1,
+        "gap": 214,
+        "spawn": [
+          2.1,
+          2.75
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 18,
+        "speed": 221,
+        "direction": 1,
+        "gap": 238,
+        "spawn": [
+          2.25,
+          2.9
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 19,
+        "speed": 183,
+        "direction": -1,
+        "gap": 214,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 20,
+        "speed": 208,
+        "direction": 1,
+        "gap": 214,
+        "spawn": [
+          2.1,
+          2.75
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 21,
+        "speed": 171,
+        "direction": -1,
+        "gap": 238,
+        "spawn": [
+          2.25,
+          2.9
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 26,
+        "speed": 221,
+        "direction": 1,
+        "gap": 214,
+        "spawn": [
+          2.4,
+          3.05
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 27,
+        "speed": 183,
+        "direction": -1,
+        "gap": 214,
+        "spawn": [
+          2.1,
+          2.75
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 28,
+        "speed": 208,
+        "direction": 1,
+        "gap": 238,
+        "spawn": [
+          2.25,
+          2.9
+        ],
+        "pattern": "steady"
+      }
+    ],
+    "rails": [
+      {
+        "row": 6,
+        "speed": 372,
+        "warning": 3.0,
+        "interval": [
+          17,
+          21
+        ]
+      },
+      {
+        "row": 7,
+        "speed": 412,
+        "warning": 3.0,
+        "interval": [
+          19,
+          23
+        ]
+      },
+      {
+        "row": 8,
+        "speed": 452,
+        "warning": 3.0,
+        "interval": [
+          21,
+          25
+        ]
+      },
+      {
+        "row": 23,
+        "speed": 372,
+        "warning": 3.0,
+        "interval": [
+          17,
+          21
+        ]
+      },
+      {
+        "row": 24,
+        "speed": 412,
+        "warning": 3.0,
+        "interval": [
+          19,
+          23
+        ]
+      }
+    ],
+    "water": [
+      {
+        "row": 14,
+        "speed": 67,
+        "length": 288,
+        "spacing": 60,
+        "spawn": [
+          5.194,
+          5.313
+        ]
+      },
+      {
+        "row": 15,
+        "speed": 79,
+        "length": 256,
+        "spacing": 68,
+        "spawn": [
+          4.101,
+          4.203
+        ]
+      },
+      {
+        "row": 16,
+        "speed": 61,
+        "length": 224,
+        "spacing": 60,
+        "spawn": [
+          4.656,
+          4.787
+        ]
+      }
+    ],
+    "safe_rows": [
+      0,
+      5,
+      9,
+      13,
+      17,
+      22,
+      25
+    ]
+  },
+  {
+    "number": 15,
+    "name": "Final Crossing",
+    "theme": "night",
+    "structure": "Start R3 R2 S T2 S R3 S W3 S R4 T1 S R3 S W2 S R3 Destination",
+    "rows": 35,
+    "time": 235,
+    "target": 720,
+    "coins": 11,
+    "powers": [
+      "shield",
+      "slow",
+      "double"
+    ],
+    "roads": [
+      {
+        "row": 1,
+        "speed": 190,
+        "direction": 1,
+        "gap": 205,
+        "spawn": [
+          2.0,
+          2.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 2,
+        "speed": 215,
+        "direction": -1,
+        "gap": 229,
+        "spawn": [
+          2.15,
+          2.8
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 3,
+        "speed": 178,
+        "direction": 1,
+        "gap": 205,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 4,
+        "speed": 228,
+        "direction": -1,
+        "gap": 205,
+        "spawn": [
+          2.0,
+          2.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 5,
+        "speed": 190,
+        "direction": 1,
+        "gap": 229,
+        "spawn": [
+          2.15,
+          2.8
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 10,
+        "speed": 215,
+        "direction": -1,
+        "gap": 205,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 11,
+        "speed": 178,
+        "direction": 1,
+        "gap": 205,
+        "spawn": [
+          2.0,
+          2.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 12,
+        "speed": 228,
+        "direction": -1,
+        "gap": 229,
+        "spawn": [
+          2.15,
+          2.8
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 18,
+        "speed": 190,
+        "direction": 1,
+        "gap": 205,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 19,
+        "speed": 215,
+        "direction": -1,
+        "gap": 205,
+        "spawn": [
+          2.0,
+          2.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 20,
+        "speed": 178,
+        "direction": 1,
+        "gap": 229,
+        "spawn": [
+          2.15,
+          2.8
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 21,
+        "speed": 228,
+        "direction": -1,
+        "gap": 205,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 24,
+        "speed": 190,
+        "direction": 1,
+        "gap": 205,
+        "spawn": [
+          2.0,
+          2.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 25,
+        "speed": 215,
+        "direction": -1,
+        "gap": 229,
+        "spawn": [
+          2.15,
+          2.8
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 26,
+        "speed": 178,
+        "direction": 1,
+        "gap": 205,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "waves"
+      },
+      {
+        "row": 31,
+        "speed": 228,
+        "direction": -1,
+        "gap": 205,
+        "spawn": [
+          2.0,
+          2.65
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 32,
+        "speed": 190,
+        "direction": 1,
+        "gap": 229,
+        "spawn": [
+          2.15,
+          2.8
+        ],
+        "pattern": "steady"
+      },
+      {
+        "row": 33,
+        "speed": 215,
+        "direction": -1,
+        "gap": 205,
+        "spawn": [
+          2.3,
+          2.95
+        ],
+        "pattern": "waves"
+      }
+    ],
+    "rails": [
+      {
+        "row": 7,
+        "speed": 380,
+        "warning": 3.0,
+        "interval": [
+          17,
+          21
+        ]
+      },
+      {
+        "row": 8,
+        "speed": 420,
+        "warning": 3.0,
+        "interval": [
+          19,
+          23
+        ]
+      },
+      {
+        "row": 22,
+        "speed": 380,
+        "warning": 3.0,
+        "interval": [
+          17,
+          21
+        ]
+      }
+    ],
+    "water": [
+      {
+        "row": 14,
+        "speed": 70,
+        "length": 288,
+        "spacing": 64,
+        "spawn": [
+          5.029,
+          5.143
+        ]
+      },
+      {
+        "row": 15,
+        "speed": 82,
+        "length": 256,
+        "spacing": 72,
+        "spawn": [
+          4.0,
+          4.098
+        ]
+      },
+      {
+        "row": 16,
+        "speed": 64,
+        "length": 224,
+        "spacing": 64,
+        "spawn": [
+          4.5,
+          4.625
+        ]
+      },
+      {
+        "row": 28,
+        "speed": 70,
+        "length": 288,
+        "spacing": 64,
+        "spawn": [
+          5.029,
+          5.143
+        ]
+      },
+      {
+        "row": 29,
+        "speed": 82,
+        "length": 256,
+        "spacing": 72,
+        "spawn": [
+          4.0,
+          4.098
+        ]
+      }
+    ],
+    "safe_rows": [
+      0,
+      6,
+      9,
+      13,
+      17,
+      23,
+      27,
+      30
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+Original Pocket Crossing synthesis. No recordings, samples or third-party compositions. Morning Walk: 32-second periodic celesta/pad loop. Effects: non-graphic mechanical impacts, water entry/bubbles, dog bark/catch. Source: tools/generate_refinement_audio.py.

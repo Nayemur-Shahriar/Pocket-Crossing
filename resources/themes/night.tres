@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="LevelThemeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_theme_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+theme_id = "night"
+display_name = "Night"
+time_of_day = "Night"
+background_color = Color(0.09412, 0.16863, 0.28627, 1)
+ambient_tint = Color(0.6902, 0.79608, 0.92941, 1)
+ambient_brightness = 0.7
+road_tint = Color(0.66275, 0.74902, 0.83922, 1)
+grass_tint = Color(0.53725, 0.68235, 0.75294, 1)
+safe_tint = Color(0.67843, 0.73333, 0.80784, 1)
+markings_color = Color(0.66667, 0.72157, 0.78824, 1)
+railway_color = Color(0.32157, 0.40784, 0.47059, 1)
+rail_color = Color(0.73333, 0.82353, 0.89412, 1)
+water_color = Color(0.12549, 0.34118, 0.45882, 1)
+water_edge_color = Color(0.08627, 0.23922, 0.38039, 1)
+water_ripple_color = Color(0.40392, 0.73333, 0.81569, 1)
+destination_color = Color(0.82745, 0.91765, 0.87451, 1)
+destination_border = Color(0.58039, 0.83529, 0.81569, 1)
+vehicle_lights = true
+train_lights = true
+player_highlight = true
+light_strength = 0.9

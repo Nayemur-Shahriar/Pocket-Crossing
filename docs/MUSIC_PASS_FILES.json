@@ -1,0 +1,152 @@
+[
+  {
+    "path": "assets/audio/ARCADE_MUSIC_LICENSE.txt",
+    "kind": "modified",
+    "sha256": "e497660526d54735a79f8db2961e269c99d0b892d39b62e647ceb00010a63a81"
+  },
+  {
+    "path": "assets/audio/city_steps.wav",
+    "kind": "modified",
+    "sha256": "7fc97ab3d5cda369d10ca3bfacde04c4780ae94242a27b056575f3e5adc322c2"
+  },
+  {
+    "path": "assets/audio/city_steps.wav.import",
+    "kind": "modified",
+    "sha256": "4ca64f7b8d167a6fc686b635dabe0e939ff77c297e9d332799c07500e302102e"
+  },
+  {
+    "path": "assets/audio/city_steps_challenge.wav",
+    "kind": "modified",
+    "sha256": "25618cdff312156a0f52fddcc825ee0997cc63bbe0110a5c5eb58c1fcfad15a7"
+  },
+  {
+    "path": "assets/audio/city_steps_challenge.wav.import",
+    "kind": "modified",
+    "sha256": "76948595323f28b047c23866a8731154eb6739e68f2ec830abb3c1b271cc7465"
+  },
+  {
+    "path": "assets/audio/morning_walk.wav",
+    "kind": "modified",
+    "sha256": "8b32c112ffbec27fb6c51a0590f70dfad5a534bfc9ec85de6f05753030052d71"
+  },
+  {
+    "path": "assets/audio/morning_walk.wav.import",
+    "kind": "modified",
+    "sha256": "ed04946ab567dca93f2d6f34db8bf68f48da39133b9de5d91ccb5974a534a6fb"
+  },
+  {
+    "path": "assets/audio/night_rails.wav",
+    "kind": "modified",
+    "sha256": "315a20d7b5d12b7f262290fcb7a7c2c9193bcc9f9169307edb064b8ff428e96a"
+  },
+  {
+    "path": "assets/audio/night_rails.wav.import",
+    "kind": "modified",
+    "sha256": "8acbe2952bff0800652bdec923ccd08ced0fb2d0ac83acdaf14b20e49e709db7"
+  },
+  {
+    "path": "assets/audio/night_rails_challenge.wav",
+    "kind": "modified",
+    "sha256": "429f21ba6a158553221bafe42a358a31dd20ade0fc33fbadb4dde7d764b5441a"
+  },
+  {
+    "path": "assets/audio/night_rails_challenge.wav.import",
+    "kind": "modified",
+    "sha256": "d73806eac42c3c30da3ce6d551ce5b5b85498ca7bce9571fc4f99128854f265f"
+  },
+  {
+    "path": "assets/audio/river_drift.wav",
+    "kind": "modified",
+    "sha256": "f739aa6d1b31e411d13105c1d8af1e156f142d2910a734904a20b6f7d0a61800"
+  },
+  {
+    "path": "assets/audio/river_drift.wav.import",
+    "kind": "modified",
+    "sha256": "686e1390a4312e5d98424e4ac83449b7efb6c70f49c3e7df0c8bc842abf12306"
+  },
+  {
+    "path": "assets/audio/river_drift_challenge.wav",
+    "kind": "modified",
+    "sha256": "e349df41409c72e4b35b4d8bd199425a74daa380c46c7695e8af9d366b7411df"
+  },
+  {
+    "path": "assets/audio/river_drift_challenge.wav.import",
+    "kind": "modified",
+    "sha256": "263eb9a7ffdcd47347d7e889747c7cca0b9144a1c9de8facc5cb54e267ef13c5"
+  },
+  {
+    "path": "assets/audio/village_breeze.wav",
+    "kind": "modified",
+    "sha256": "8b32c112ffbec27fb6c51a0590f70dfad5a534bfc9ec85de6f05753030052d71"
+  },
+  {
+    "path": "assets/audio/village_breeze.wav.import",
+    "kind": "modified",
+    "sha256": "378a790a77ec748dfadf32c6bd3b39e8367e1128e894a80653e1dd15e62c90c2"
+  },
+  {
+    "path": "assets/audio/village_breeze_challenge.wav",
+    "kind": "modified",
+    "sha256": "e766aafe98b37ca70a756e46797603b5fac6ee3ac02541d213c921bc92430488"
+  },
+  {
+    "path": "assets/audio/village_breeze_challenge.wav.import",
+    "kind": "modified",
+    "sha256": "ec0cffbe1ebffd11fe2891051476251d99a84b87cbf6431277963d11846e7d68"
+  },
+  {
+    "path": "default_bus_layout.tres",
+    "kind": "modified",
+    "sha256": "03e0d1577f9850daf2f8531ea6c7671d47068bc6cc7b4c69c8854917812e8427"
+  },
+  {
+    "path": "docs/ARCADE_MUSIC_SOURCE.txt",
+    "kind": "modified",
+    "sha256": "c0a0de230e2b0f52afb2de21a2cdda3db622b932bfec5299b62766ff267a96f2"
+  },
+  {
+    "path": "docs/MUSIC_IMPROVEMENT_REPORT.md",
+    "kind": "created",
+    "sha256": "8d8ce0703675c37e124010968671d1a7d2b3b2b8bc9fdd7f73dc32700b37d56f"
+  },
+  {
+    "path": "docs/MUSIC_PASS_ANALYSIS.json",
+    "kind": "created",
+    "sha256": "17d0586f4ceb8bd45e4e3c7ea5a0f968802764734360f14def1c2d681037d33a"
+  },
+  {
+    "path": "docs/MUSIC_PASS_ASSET_CHECKS.json",
+    "kind": "created",
+    "sha256": "fa0138477aeba3b134f94fe78afe7dcfbb32a11b8d20e0fe90244dc382410859"
+  },
+  {
+    "path": "docs/music_pass_test_logs.txt",
+    "kind": "created",
+    "sha256": "5d5e4ac4b250d07a17d54b6ace842675ce4ba7bdf66030dbb11937157d7847b2"
+  },
+  {
+    "path": "scripts/core/audio.gd",
+    "kind": "modified",
+    "sha256": "a228bffab83a4dfbba54be13fefadd5cee211bda70661666e0accf6a949614d3"
+  },
+  {
+    "path": "scripts/ui/result_celebration.gd",
+    "kind": "modified",
+    "sha256": "2a6a6baa0bd3a8213e7fd59fe238e4aa2e4bcadcbe564bc54ee15db295e5d06f"
+  },
+  {
+    "path": "tests/music_pass_tests.gd",
+    "kind": "created",
+    "sha256": "6301791abaff59cd7752f497b14050e70f8db481f9bc4bd262ecdff730ad9421"
+  },
+  {
+    "path": "tests/music_pass_tests.tscn",
+    "kind": "created",
+    "sha256": "5f8a7ab116946e864c902ef7d2d573f9430a19d0455d253b790e69b43044d017"
+  },
+  {
+    "path": "tools/generate_music_pass.py",
+    "kind": "created",
+    "sha256": "c0a0de230e2b0f52afb2de21a2cdda3db622b932bfec5299b62766ff267a96f2"
+  }
+]

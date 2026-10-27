@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=10 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_config.gd" id="level"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Resource" path="res://resources/themes/day.tres" id="theme"]
+[ext_resource type="Resource" path="res://resources/sections/start.tres" id="start"]
+[ext_resource type="Resource" path="res://resources/sections/road_pair.tres" id="road_pair"]
+[ext_resource type="Resource" path="res://resources/sections/railway_pair.tres" id="railway_pair"]
+[ext_resource type="Resource" path="res://resources/sections/safe.tres" id="safe"]
+[ext_resource type="Resource" path="res://resources/sections/water_pair.tres" id="water_pair"]
+[ext_resource type="Resource" path="res://resources/sections/destination.tres" id="destination"]
+[resource]
+script = ExtResource("level")
+level_id = "example_mixed_layout_data_only"
+display_name = "Mixed Layout / Data Only"
+level_number = 2
+presentation = ExtResource("theme")
+sections = Array[ExtResource("section")]([ExtResource("start"), ExtResource("road_pair"), ExtResource("railway_pair"), ExtResource("safe"), ExtResource("water_pair"), ExtResource("road_pair"), ExtResource("railway_pair"), ExtResource("destination")])

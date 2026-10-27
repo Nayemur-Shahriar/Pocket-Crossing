@@ -1,0 +1,375 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS 15 authored campaign Resources
+PASS Normal startup opens Level Select
+PASS All 15 full-size cards in focus-following scroll
+PASS Fresh campaign locks later levels
+PASS Unique level ID 01
+PASS Valid name/number: Easy Road
+PASS Road/rail/water and sections compile: Easy Road
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 01
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 02
+PASS Valid name/number: City Run
+PASS Road/rail/water and sections compile: City Run
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 02
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 03
+PASS Valid name/number: Sunset Rush
+PASS Road/rail/water and sections compile: Sunset Rush
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 03
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 04
+PASS Valid name/number: Night Ride
+PASS Road/rail/water and sections compile: Night Ride
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 04
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 05
+PASS Valid name/number: Train Time
+PASS Road/rail/water and sections compile: Train Time
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 05
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 06
+PASS Valid name/number: Double Track
+PASS Road/rail/water and sections compile: Double Track
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 06
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 07
+PASS Valid name/number: River Hop
+PASS Road/rail/water and sections compile: River Hop
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 07
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 08
+PASS Valid name/number: Rain Run
+PASS Road/rail/water and sections compile: Rain Run
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 08
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 09
+PASS Valid name/number: River Rush
+PASS Road/rail/water and sections compile: River Rush
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 09
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 10
+PASS Valid name/number: Snow Way
+PASS Road/rail/water and sections compile: Snow Way
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 10
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 11
+PASS Valid name/number: Fog Track
+PASS Road/rail/water and sections compile: Fog Track
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 11
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 12
+PASS Valid name/number: Wild River
+PASS Road/rail/water and sections compile: Wild River
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 12
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 13
+PASS Valid name/number: Midnight Run
+PASS Road/rail/water and sections compile: Midnight Run
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 13
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 14
+PASS Valid name/number: Danger Zone
+PASS Road/rail/water and sections compile: Danger Zone
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 14
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Next loads next Resource
+PASS Unique level ID 15
+PASS Valid name/number: Final Crossing
+PASS Road/rail/water and sections compile: Final Crossing
+PASS Valid start and destination
+PASS Valid assigned theme
+PASS Achievable star tiers, no perfect-life requirement
+PASS Sequential unlock: 15
+PASS Correct layout and theme loaded
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Authored pickup on safe reachable cell
+PASS Bounded coins and sparse powers
+PASS Completion awards rating
+PASS Stable-ID completion persisted
+PASS Next only exists before final level
+PASS Final campaign message
+PASS Six themes and varied route lengths
+PASS No nonexistent Level 16
+PASS High score detected after reward, before saving
+PASS Exact result score/best/run coins
+PASS Result stars match earned rating
+PASS Record message and repeating celebration
+PASS Result blocks gameplay and freezes world
+PASS Input cannot move behind result
+PASS Repeats for 60 seconds with bounded bursts and respects mute
+PASS Original audio assigned and fired once per burst
+PASS No duplicate result/reward
+PASS Play Again cleans card and fireworks
+PASS Replay resets same run
+PASS Replay resets camera without duplicate weather
+PASS Equal/lower best does not celebrate
+PASS Equal/lower best does not celebrate
+PASS No lives opens failure card
+PASS Failure has no next/stars/fireworks
+PASS Failure awards no completion or unlock
+PASS Failure retains banked coin and existing high-score economy
+PASS Failure Play Again
+PASS Failure Level Select cleans effects
+PASS Old five completions unlock Level 6
+PASS Existing wallet/best/stars/character preserved
+PASS Reject pickup placement on hazardous sections
+PASS Final-level retry has no duplicate runtime components
+PASS Final-level retry reuses theme owner
+PASS Final-level retry has no duplicate runtime components
+PASS Final-level retry reuses theme owner
+PASS Final-level retry has no duplicate runtime components
+PASS Final-level retry reuses theme owner
+PASS Final-level distant road deactivates
+PASS Backtrack/reactivation retains road and water clocks
+PASS Mixed final level pauses
+PASS Completion Level Select removes result and atmosphere
+PASS Return menu focuses and scrolls to last played level
+PASS Normal profile untouched
+PASS Normal profile untouched
+PASS Normal profile untouched
+CAMPAIGN RESULTS: 372 passed, 0 failed

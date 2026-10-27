@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=10 format=3]
+[ext_resource type="Script" path="res://scripts/data/playful_music_catalog.gd" id="1"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/village.ogg" id="2"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/city.ogg" id="3"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/river.ogg" id="4"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/night.ogg" id="5"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/village_challenge.ogg" id="6"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/city_challenge.ogg" id="7"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/river_challenge.ogg" id="8"]
+[ext_resource type="AudioStream" path="res://assets/audio/playful/night_challenge.ogg" id="9"]
+
+[resource]
+script = ExtResource("1")
+village = ExtResource("2")
+city = ExtResource("3")
+river = ExtResource("4")
+night = ExtResource("5")
+village_challenge = ExtResource("6")
+city_challenge = ExtResource("7")
+river_challenge = ExtResource("8")
+night_challenge = ExtResource("9")

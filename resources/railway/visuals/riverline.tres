@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="TrainVisualConfig" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/data/train_visual_config.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/railway/train/riverline_engine.svg" id="engine"]
+[ext_resource type="Texture2D" path="res://assets/railway/train/riverline_coach.svg" id="coach"]
+[resource]
+script = ExtResource("1")
+display_name = "Riverline"
+engine_texture = ExtResource("engine")
+coach_texture = ExtResource("coach")

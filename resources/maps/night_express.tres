@@ -1,0 +1,256 @@
+[gd_resource type="Resource" script_class="MapConfig" load_steps=50 format=3]
+[ext_resource type="AudioStream" path="res://assets/audio/ambience_night.wav" id="ambience"]
+[ext_resource type="Script" path="res://scripts/data/map_config.gd" id="map"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Script" path="res://scripts/data/lane_config.gd" id="road"]
+[ext_resource type="Script" path="res://scripts/data/water_lane_config.gd" id="water"]
+[ext_resource type="Script" path="res://scripts/data/railway_track_config.gd" id="rail"]
+[ext_resource type="Script" path="res://scripts/data/pickup_placement.gd" id="pickup"]
+[ext_resource type="Resource" path="res://resources/environments/railway.tres" id="env"]
+[ext_resource type="Resource" path="res://resources/themes/night.tres" id="theme"]
+[ext_resource type="Texture2D" path="res://assets/maps/night_express.svg" id="preview"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="shield"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="slow"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="double"]
+[ext_resource type="Resource" path="res://resources/railway/visuals/riverline.tres" id="train"]
+
+
+[ext_resource type="Script" path="res://scripts/data/dog_config.gd" id="dog_rule"]
+
+[sub_resource type="Resource" id="S0"]
+script = ExtResource("section")
+section_id = "start_0"
+kind = 0
+
+
+[sub_resource type="Resource" id="H1_0"]
+script = ExtResource("road")
+direction = 1
+speed = 260.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_clear_gap = 210.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.1
+vehicle_types = Array[String](["small_car", "medium_truck"])
+
+
+[sub_resource type="Resource" id="H1_1"]
+script = ExtResource("road")
+direction = -1
+speed = 290.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_clear_gap = 210.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.1
+vehicle_types = Array[String](["local_bus", "large_truck"])
+
+
+[sub_resource type="Resource" id="P2_1"]
+script = ExtResource("pickup")
+cell = Vector2i(4, 0)
+coin_value = 3
+on_hazard = true
+
+[sub_resource type="Resource" id="P4_1"]
+script = ExtResource("pickup")
+cell = Vector2i(12, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="P6_1"]
+script = ExtResource("pickup")
+cell = Vector2i(6, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="S1"]
+script = ExtResource("section")
+section_id = "road_1"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("H1_0"), SubResource("H1_1")])
+pickups = Array[ExtResource("pickup")]([SubResource("P2_1"), SubResource("P4_1"), SubResource("P6_1")])
+
+[sub_resource type="Resource" id="P2_0"]
+script = ExtResource("pickup")
+cell = Vector2i(2, 0)
+
+[sub_resource type="Resource" id="P2_2"]
+script = ExtResource("pickup")
+cell = Vector2i(4, 0)
+coin_value = 3
+on_hazard = true
+
+[sub_resource type="Resource" id="P2_3"]
+script = ExtResource("pickup")
+cell = Vector2i(4, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="Power2"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+power = ExtResource("shield")
+
+[sub_resource type="Resource" id="S2"]
+script = ExtResource("section")
+section_id = "safe_2"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P2_0"), SubResource("Power2")])
+
+
+[sub_resource type="Resource" id="H3_0"]
+script = ExtResource("rail")
+direction = 1
+speed = 420.0
+warning_seconds = 3.2
+interval_min = 9.0
+interval_max = 13.0
+initial_delay = 3.0
+safe_delay = 4.0
+train_length = 360.0
+visual = ExtResource("train")
+
+[sub_resource type="Resource" id="H3_1"]
+script = ExtResource("rail")
+direction = -1
+speed = 500.0
+warning_seconds = 3.6
+interval_min = 11.0
+interval_max = 15.0
+initial_delay = 8.0
+safe_delay = 4.0
+train_length = 424.0
+visual = ExtResource("train")
+
+[sub_resource type="Resource" id="P4_2"]
+script = ExtResource("pickup")
+cell = Vector2i(12, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="P6_2"]
+script = ExtResource("pickup")
+cell = Vector2i(6, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="S3"]
+script = ExtResource("section")
+section_id = "rail_3"
+kind = 3
+railway_tracks = Array[ExtResource("rail")]([SubResource("H3_0"), SubResource("H3_1")])
+pickups = Array[ExtResource("pickup")]([SubResource("P2_2"), SubResource("P4_2"), SubResource("P6_2")])
+
+[sub_resource type="Resource" id="P4_0"]
+script = ExtResource("pickup")
+cell = Vector2i(1, 0)
+
+[sub_resource type="Resource" id="P4_3"]
+script = ExtResource("pickup")
+cell = Vector2i(12, 1)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="Power4"]
+script = ExtResource("pickup")
+cell = Vector2i(10, 0)
+power = ExtResource("double")
+
+[sub_resource type="Resource" id="S4"]
+script = ExtResource("section")
+section_id = "safe_4"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P4_0"), SubResource("Power4")])
+
+
+[sub_resource type="Resource" id="H5_0"]
+script = ExtResource("road")
+direction = 1
+speed = 275.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_clear_gap = 210.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.1
+vehicle_types = Array[String](["small_car", "medium_truck"])
+
+
+[sub_resource type="Resource" id="H5_1"]
+script = ExtResource("road")
+direction = -1
+speed = 300.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_clear_gap = 210.0
+minimum_gap_seconds = 1.4
+speed_variation = 0.1
+vehicle_types = Array[String](["local_bus", "large_truck"])
+
+
+[sub_resource type="Resource" id="P6_3"]
+script = ExtResource("pickup")
+cell = Vector2i(6, 0)
+coin_value = 1
+on_hazard = true
+
+[sub_resource type="Resource" id="S5"]
+script = ExtResource("section")
+section_id = "road_5"
+kind = 1
+road_lanes = Array[ExtResource("road")]([SubResource("H5_0"), SubResource("H5_1")])
+pickups = Array[ExtResource("pickup")]([SubResource("P2_3"), SubResource("P4_3"), SubResource("P6_3")])
+
+[sub_resource type="Resource" id="P6_0"]
+script = ExtResource("pickup")
+cell = Vector2i(2, 0)
+
+[sub_resource type="Resource" id="Power6"]
+script = ExtResource("pickup")
+cell = Vector2i(7, 0)
+power = ExtResource("slow")
+
+[sub_resource type="Resource" id="S6"]
+script = ExtResource("section")
+section_id = "safe_6"
+kind = 2
+pickups = Array[ExtResource("pickup")]([SubResource("P6_0"), SubResource("Power6")])
+
+
+[sub_resource type="Resource" id="S7"]
+script = ExtResource("section")
+section_id = "goal_7"
+kind = 5
+destination_columns = Array[int]([1, 4, 8, 11, 16])
+
+
+[sub_resource type="Resource" id="DogRule"]
+script = ExtResource("dog_rule")
+section_ids = Array[String](["safe_2", "safe_4", "safe_6"])
+
+[resource]
+script = ExtResource("map")
+dog = SubResource("DogRule")
+ambience = ExtResource("ambience")
+level_id = "night_express"
+display_name = "Night Express"
+level_number = 4
+unlock_cost = 155
+completion_coins = 35
+preview_art = ExtResource("preview")
+atmosphere_label = "Night · express trains and highway"
+required_crossings = 5
+destination_tints = Array[Color]([Color(1,1,1,1), Color(0.84,0.94,1,1), Color(1,0.9,0.78,1), Color(0.86,1,0.9,1), Color(1,0.85,0.85,1)])
+time_limit = 600.0
+starting_lives = 3
+starting_speed_scale = 1.0
+final_speed_scale = 1.0
+spawn_protection = 0.5
+destination_reset_seconds = 0.55
+coin_count = 0
+presentation = ExtResource("theme")
+environment = ExtResource("env")
+sections = Array[ExtResource("section")]([SubResource("S0"), SubResource("S1"), SubResource("S2"), SubResource("S3"), SubResource("S4"), SubResource("S5"), SubResource("S6"), SubResource("S7")])
+signature = "High-pressure timing · Fast highways, independent rail warnings and safe islands."
+

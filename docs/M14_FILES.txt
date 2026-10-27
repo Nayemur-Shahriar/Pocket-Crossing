@@ -1,0 +1,196 @@
+Pocket Crossing M14 incremental update over completed M13
+
+Modified: 6; created: 182. No deletions.
+Five production scripts plus README changed. Project/export settings, all assets/scenes/Resources and save schema preserved.
+
+MODIFIED
+README.md — M14 installation, verification status and report links.
+scripts/core/save_data.gd — Empty-profile backup recovery and completed-level access in partial profiles.
+scripts/data/level_config.gd — Reject malformed movement/origin/life/ramp/score/star values before runtime.
+scripts/world/railway_section.gd — Fresh full warning when a busy retained railway reactivates.
+scripts/world/section_activation.gd — Invoke railway reactivation safeguard only on inactive-to-active transitions.
+scripts/world/traffic_lane.gd — Compute shared following gap once per speed update; same values, less repeated work.
+
+CREATED
+docs/M14_FILES.txt — M14 completion report, requirement coverage or exact file manifest.
+docs/M14_REQUIREMENT_COVERAGE.md — M14 completion report, requirement coverage or exact file manifest.
+docs/QA_M14.md — M14 completion report, requirement coverage or exact file manifest.
+docs/screenshots/m13_failure.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_failure_1920x864.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_failure_800x360.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_final_complete.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_fireworks_01s.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_fireworks_30s.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_fireworks_60s.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_fireworks_after_replay.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_01.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_02.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_03.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_04.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_05.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_06.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_07.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_08.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_09.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_10.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_11.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_12.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_13.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_14.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_level_15.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_normal_complete.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_record_day.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_record_evening.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_record_fog.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_record_night.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_record_rain.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_record_snow.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_select_bottom.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_select_top.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_speed_after_four_seconds.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m13_speed_start.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1280x720.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1280x720.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1366x768.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1366x768.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1600x900.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1600x900.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1920x1080.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1920x1080.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1920x864.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_1920x864.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_800x360.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_characters_800x360.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1280x720.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1280x720.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1366x768.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1366x768.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1600x900.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1600x900.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1920x1080.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1920x1080.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1920x864.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_1920x864.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_800x360.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_failure_800x360.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_030.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_030.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_060.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_060.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_090.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_090.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_120.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_120.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_exit.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_exit.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_start.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_fireworks_start.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1280x720.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1280x720.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1366x768.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1366x768.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1600x900.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1600x900.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1920x1080.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1920x1080.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1920x864.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_1920x864.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_800x360.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_menu_800x360.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1280x720.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1280x720.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1366x768.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1366x768.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1600x900.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1600x900.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1920x1080.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1920x1080.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1920x864.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_1920x864.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_800x360.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_pause_800x360.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_passing_day.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_passing_evening.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_passing_fog.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_passing_night.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_passing_rain.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_passing_snow.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_warning_day.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_warning_evening.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_warning_fog.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_warning_night.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_warning_rain.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_rail_warning_snow.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_day.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_day.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_evening.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_evening.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_fog.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_fog.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_night.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_night.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_rain.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_rain.png.import — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_snow.png — Rendered M14 QA screenshot evidence.
+docs/screenshots/m14_theme_snow.png.import — Rendered M14 QA screenshot evidence.
+docs/validation_m14/android_native_export.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/android_pack_runtime.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/asset_audit.json — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/balance_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/balance_water_routes.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/campaign_route_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/campaign_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/contacts.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/fresh_import.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/identity_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/import.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/lifecycle_inventory.txt — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/long_level_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/long_route_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/pack_summary.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/perf_after.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/perf_before.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/phase3_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/phase4_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/railway_realtime.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/railway_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/regression_results.json — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/regression_summary_final.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/render.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/render_rail.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/render_ui.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/repro_before.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/repro_empty_before.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/repro_final.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/section_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/soak.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/static_audit.json — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/stress_final.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/summary.json — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/test_runner.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/theme_route_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/theme_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/validation.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/water_realtime.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/water_route_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/water_tests.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/windows_native_export.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+docs/validation_m14/windows_pack_runtime.log — M14 test/audit/export evidence; expected negative tests distinguished in report.
+tests/qa_contacts.gd — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_contacts.gd.uid — Godot stable script identifier for the new QA tool/test.
+tests/qa_contacts.tscn — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_perf.gd — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_perf.gd.uid — Godot stable script identifier for the new QA tool/test.
+tests/qa_perf.tscn — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_repro.gd — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_repro.gd.uid — Godot stable script identifier for the new QA tool/test.
+tests/qa_repro.tscn — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_stress.gd — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_stress.gd.uid — Godot stable script identifier for the new QA tool/test.
+tests/qa_stress.tscn — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_validation.gd — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tests/qa_validation.gd.uid — Godot stable script identifier for the new QA tool/test.
+tests/qa_validation.tscn — Focused M14 reproduction, validation, collision, lifecycle or performance test.
+tools/capture_qa.gd — Reusable M14 render/capture workflow; excluded from export.
+tools/capture_qa.gd.uid — Godot stable script identifier for the new QA tool/test.
+tools/capture_qa.tscn — Reusable M14 render/capture workflow; excluded from export.

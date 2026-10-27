@@ -1,0 +1,8 @@
+Godot 4.5.2 headless, clean original project plus this patch.
+Main real-audio test: 80 passed, 0 failed.
+Separate restart persistence test: 2 passed, 0 failed.
+Restart shutdown reported ObjectDB instances leaked / one resource still in use. Unresolved; assertions passed, not a clean shutdown claim.
+Initial editor import logged new Ogg loads before import completed; subsequent editor import finished with no script/resource errors.
+All eight outputs decoded; no sample clipping; measured levels and seam deltas in audio analysis JSON.
+Protected original files byte-compared: 308. Gameplay SFX cue table, gains and voice dispatch remain byte-identical; only music ducking policy differs.
+No manual several-minute gameplay sessions, human listening evaluation, phone/laptop speaker test or Android device test performed.

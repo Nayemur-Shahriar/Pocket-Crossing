@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="EnvironmentProfile" load_steps=9 format=3]
+[ext_resource type="Script" path="res://scripts/data/environment_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bridge_rail.svg" id="bridge_rail"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/utility_pole.svg" id="utility_pole"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/road_sign.svg" id="road_sign"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/lamp.svg" id="lamp"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/bush.svg" id="bush"]
+[ext_resource type="Texture2D" path="res://assets/environment/props/grass_patch.svg" id="grass_patch"]
+[ext_resource type="Texture2D" path="res://assets/environment/destinations/rest_stop.svg" id="finish"]
+[resource]
+script = ExtResource("script")
+destination_art = ExtResource("finish")
+profile_id = "highway"
+display_name = "Highway"
+rest_style = "Paving"
+ground_tint = Color(0.6471,0.7176,0.5373,1)
+safe_color = Color(0.7137,0.7333,0.6784,1)
+edge_color = Color(0.5255,0.6196,0.5882,1)
+sign_caption = "SLOW"
+props = Array[Texture2D]([ExtResource("bridge_rail"), ExtResource("utility_pole"), ExtResource("road_sign"), ExtResource("lamp")])
+vegetation = Array[Texture2D]([ExtResource("bush"), ExtResource("grass_patch")])
+prop_density = 0.5
+vegetation_density = 0.25
+guard_rails = true

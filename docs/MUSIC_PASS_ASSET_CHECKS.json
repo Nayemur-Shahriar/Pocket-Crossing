@@ -1,0 +1,78 @@
+{
+  "tracks": [
+    {
+      "file": "morning_walk.wav",
+      "sample_rate": 22050,
+      "samples": 784000,
+      "peak_dbfs": -4.31,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "village_breeze.wav",
+      "sample_rate": 22050,
+      "samples": 784000,
+      "peak_dbfs": -4.31,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "village_breeze_challenge.wav",
+      "sample_rate": 22050,
+      "samples": 784000,
+      "peak_dbfs": -4.4,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "city_steps.wav",
+      "sample_rate": 22050,
+      "samples": 682839,
+      "peak_dbfs": -4.06,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "city_steps_challenge.wav",
+      "sample_rate": 22050,
+      "samples": 682839,
+      "peak_dbfs": -4.24,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "river_drift.wav",
+      "sample_rate": 22050,
+      "samples": 756000,
+      "peak_dbfs": -4.32,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "river_drift_challenge.wav",
+      "sample_rate": 22050,
+      "samples": 756000,
+      "peak_dbfs": -4.29,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "night_rails.wav",
+      "sample_rate": 22050,
+      "samples": 705600,
+      "peak_dbfs": -3.99,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    },
+    {
+      "file": "night_rails_challenge.wav",
+      "sample_rate": 22050,
+      "samples": 705600,
+      "peak_dbfs": -4.25,
+      "rms_dbfs": -21.0,
+      "endpoint_delta": 0.0
+    }
+  ],
+  "unchanged_code_scene_resource_files": 271,
+  "all_sfx_wav_bytes_unchanged": true
+}

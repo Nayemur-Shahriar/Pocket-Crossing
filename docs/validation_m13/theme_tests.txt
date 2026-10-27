@@ -1,0 +1,112 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS Single theme preview launches real long layout
+PASS Theme preview profile isolated
+PASS day Resource loads and validates
+PASS day assignment compiles without changing layout
+PASS day switches without rebuilding gameplay nodes
+PASS day leaves simulation/scoring/RNG unchanged
+PASS day reaches all environment components
+PASS day reaches existing vehicle and train visuals
+PASS day keeps exactly one weather pool and haze
+PASS day uses bounded viewport particle count
+PASS day reaches newly spawned vehicles
+PASS evening Resource loads and validates
+PASS evening assignment compiles without changing layout
+PASS evening switches without rebuilding gameplay nodes
+PASS evening leaves simulation/scoring/RNG unchanged
+PASS evening reaches all environment components
+PASS evening reaches existing vehicle and train visuals
+PASS evening keeps exactly one weather pool and haze
+PASS evening uses bounded viewport particle count
+PASS evening has its own road material tint
+PASS evening reaches newly spawned vehicles
+PASS night Resource loads and validates
+PASS night assignment compiles without changing layout
+PASS night switches without rebuilding gameplay nodes
+PASS night leaves simulation/scoring/RNG unchanged
+PASS night reaches all environment components
+PASS night reaches existing vehicle and train visuals
+PASS night keeps exactly one weather pool and haze
+PASS night uses bounded viewport particle count
+PASS night has its own road material tint
+PASS night reaches newly spawned vehicles
+PASS rain Resource loads and validates
+PASS rain assignment compiles without changing layout
+PASS rain switches without rebuilding gameplay nodes
+PASS rain leaves simulation/scoring/RNG unchanged
+PASS rain reaches all environment components
+PASS rain reaches existing vehicle and train visuals
+PASS rain keeps exactly one weather pool and haze
+PASS rain uses bounded viewport particle count
+PASS rain has its own road material tint
+PASS rain reaches newly spawned vehicles
+PASS snow Resource loads and validates
+PASS snow assignment compiles without changing layout
+PASS snow switches without rebuilding gameplay nodes
+PASS snow leaves simulation/scoring/RNG unchanged
+PASS snow reaches all environment components
+PASS snow reaches existing vehicle and train visuals
+PASS snow keeps exactly one weather pool and haze
+PASS snow uses bounded viewport particle count
+PASS snow has its own road material tint
+PASS snow reaches newly spawned vehicles
+PASS fog Resource loads and validates
+PASS fog assignment compiles without changing layout
+PASS fog switches without rebuilding gameplay nodes
+PASS fog leaves simulation/scoring/RNG unchanged
+PASS fog reaches all environment components
+PASS fog reaches existing vehicle and train visuals
+PASS fog keeps exactly one weather pool and haze
+PASS fog uses bounded viewport particle count
+PASS fog has its own road material tint
+PASS fog reaches newly spawned vehicles
+PASS Missing theme falls back to Day
+PASS Invalid ambient_brightness falls back safely
+PASS Invalid fog_strength falls back safely
+PASS Invalid particle_amount falls back safely
+PASS Invalid weather falls back safely
+PASS Rain particles actually animate
+PASS Rain freezes while paused
+PASS Rain resumes
+PASS Snow freezes while paused
+PASS Weather stays screen-relative at row 7
+PASS Streaming/backtracking does not duplicate effects
+PASS Weather stays screen-relative at row 13
+PASS Streaming/backtracking does not duplicate effects
+PASS Weather stays screen-relative at row 22
+PASS Streaming/backtracking does not duplicate effects
+PASS Weather stays screen-relative at row 13
+PASS Streaming/backtracking does not duplicate effects
+PASS Weather stays screen-relative at row 0
+PASS Streaming/backtracking does not duplicate effects
+PASS Weather stays screen-relative at row 17
+PASS Streaming/backtracking does not duplicate effects
+PASS Weather stays screen-relative at row 0
+PASS Streaming/backtracking does not duplicate effects
+PASS Retry retains one correctly reset snow pool
+PASS Retry retains one correctly reset snow pool
+PASS Retry retains one correctly reset snow pool
+PASS Retry retains one correctly reset snow pool
+PASS Retry retains one correctly reset snow pool
+PASS Death/respawn keeps assigned theme
+PASS Level Select hides and stops all weather
+PASS First themed level completes normally
+PASS Next Level replaces rain with night/lights
+PASS Next Level reuses one presentation owner
+PASS Next Level then menu leaves no overlay
+PASS Level Resource with missing presentation loads Day
+PASS Legacy campaign still loads: Greenway
+PASS Short-board theme integration: Greenway
+PASS Legacy campaign still loads: City Rush
+PASS Short-board theme integration: City Rush
+PASS Legacy campaign still loads: Highway
+PASS Short-board theme integration: Highway
+PASS Legacy campaign still loads: Village Road
+PASS Short-board theme integration: Village Road
+PASS Legacy campaign still loads: Railway Crossing
+PASS Short-board theme integration: Railway Crossing
+PASS Normal profile/backup/temp untouched
+PASS Normal profile/backup/temp untouched
+PASS Normal profile/backup/temp untouched
+THEME RESULTS: 109 passed, 0 failed

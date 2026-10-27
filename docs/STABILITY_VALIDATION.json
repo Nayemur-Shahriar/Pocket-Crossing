@@ -1,0 +1,188 @@
+{
+  "assertions": {
+    "total": 1502,
+    "suites": [
+      {
+        "suite": "phase3_tests",
+        "passed": 103,
+        "failed": 0
+      },
+      {
+        "suite": "phase4_tests",
+        "passed": 62,
+        "failed": 0
+      },
+      {
+        "suite": "section_tests",
+        "passed": 68,
+        "failed": 0
+      },
+      {
+        "suite": "railway_tests",
+        "passed": 88,
+        "failed": 0
+      },
+      {
+        "suite": "water_tests",
+        "passed": 73,
+        "failed": 0
+      },
+      {
+        "suite": "long_level_tests",
+        "passed": 142,
+        "failed": 0
+      },
+      {
+        "suite": "theme_tests",
+        "passed": 109,
+        "failed": 0
+      },
+      {
+        "suite": "map_campaign_tests",
+        "passed": 110,
+        "failed": 0
+      },
+      {
+        "suite": "map_route_tests",
+        "passed": 12,
+        "failed": 0
+      },
+      {
+        "suite": "lan_stabilization_tests",
+        "passed": 28,
+        "failed": 0
+      },
+      {
+        "suite": "lan_stabilization_extra",
+        "passed": 24,
+        "failed": 0
+      },
+      {
+        "suite": "competitive_tests",
+        "passed": 27,
+        "failed": 0
+      },
+      {
+        "suite": "competitive_flow_tests",
+        "passed": 27,
+        "failed": 0
+      },
+      {
+        "suite": "qa_contacts",
+        "passed": 106,
+        "failed": 0
+      },
+      {
+        "suite": "focused",
+        "passed": 208,
+        "failed": 0
+      },
+      {
+        "suite": "peer_0",
+        "passed": 10,
+        "failed": 0
+      },
+      {
+        "suite": "peer_1",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "suite": "peer_2",
+        "passed": 9,
+        "failed": 0
+      },
+      {
+        "suite": "refinement_peer_tests_0",
+        "passed": 17,
+        "failed": 0
+      },
+      {
+        "suite": "refinement_peer_tests_1",
+        "passed": 14,
+        "failed": 0
+      },
+      {
+        "suite": "refinement_peer_tests_2",
+        "passed": 14,
+        "failed": 0
+      },
+      {
+        "suite": "refinement_peer_tests_3",
+        "passed": 14,
+        "failed": 0
+      },
+      {
+        "suite": "competitive_peer_tests_0",
+        "passed": 52,
+        "failed": 0
+      },
+      {
+        "suite": "competitive_peer_tests_1",
+        "passed": 61,
+        "failed": 0
+      },
+      {
+        "suite": "competitive_peer_tests_2",
+        "passed": 59,
+        "failed": 0
+      },
+      {
+        "suite": "competitive_peer_tests_3",
+        "passed": 56,
+        "failed": 0
+      }
+    ]
+  },
+  "assets": {
+    "refs": 792,
+    "missing": [],
+    "audio": [
+      {
+        "asset": "village_breeze",
+        "seconds": 32.0,
+        "peak": 0.22198486328125,
+        "rms": 0.04992596277364267,
+        "seam_delta": 0.0020751953125
+      },
+      {
+        "asset": "city_steps",
+        "seconds": 25.6,
+        "peak": 0.224761962890625,
+        "rms": 0.052658099519990474,
+        "seam_delta": 0.00775146484375
+      },
+      {
+        "asset": "river_drift",
+        "seconds": 48.0,
+        "peak": 0.203948974609375,
+        "rms": 0.053069498351573784,
+        "seam_delta": 0.001983642578125
+      },
+      {
+        "asset": "night_rails",
+        "seconds": 38.4,
+        "peak": 0.204376220703125,
+        "rms": 0.0483929639187847,
+        "seam_delta": 0.06329345703125
+      },
+      {
+        "asset": "water_entry",
+        "seconds": 1.1499773242630384,
+        "peak": 0.799957275390625,
+        "rms": 0.05657186045941628,
+        "seam_delta": 0.0
+      },
+      {
+        "asset": "dog_bark",
+        "seconds": 0.5499773242630386,
+        "peak": 0.61358642578125,
+        "rms": 0.09682422376536522,
+        "seam_delta": 0.0
+      }
+    ]
+  },
+  "physical_windows": false,
+  "physical_android": false,
+  "premature_result_original_trigger_reproduced": false
+}

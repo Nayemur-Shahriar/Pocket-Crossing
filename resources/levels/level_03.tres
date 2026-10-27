@@ -1,0 +1,69 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=13 format=3 uid="uid://ds5dw1ab0d840"]
+
+[ext_resource type="Script" uid="uid://c5mpib6lv8akn" path="res://scripts/data/level_config.gd" id="1"]
+[ext_resource type="Script" uid="uid://dm7l6coe30tj5" path="res://scripts/data/lane_config.gd" id="2"]
+[ext_resource type="Script" uid="uid://cju825wry4p3f" path="res://scripts/data/power_up_config.gd" id="2_a68ni"]
+[ext_resource type="Resource" path="res://resources/powerups/shield.tres" id="3_dsanl"]
+[ext_resource type="Resource" path="res://resources/powerups/slow.tres" id="4_bha5r"]
+[ext_resource type="Resource" path="res://resources/powerups/double.tres" id="5_cw6m7"]
+[ext_resource type="Script" uid="uid://clxcqv3kbeb6n" path="res://scripts/data/level_section_config.gd" id="7_l2mlw"]
+
+[sub_resource type="Resource" id="Lane0"]
+script = ExtResource("2")
+speed = 205.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[sub_resource type="Resource" id="Lane1"]
+script = ExtResource("2")
+row = 2
+direction = -1
+speed = 217.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[sub_resource type="Resource" id="Lane2"]
+script = ExtResource("2")
+row = 3
+speed = 229.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[sub_resource type="Resource" id="Lane3"]
+script = ExtResource("2")
+row = 4
+direction = -1
+speed = 241.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[sub_resource type="Resource" id="Lane4"]
+script = ExtResource("2")
+row = 5
+speed = 253.0
+spawn_min = 1.7
+spawn_max = 2.5
+minimum_gap_seconds = 1.5
+vehicle_types = Array[String](["car", "truck", "bus"])
+
+[resource]
+script = ExtResource("1")
+display_name = "Highway"
+level_number = 3
+time_limit = 110.0
+lanes = Array[ExtResource("2")]([SubResource("Lane0"), SubResource("Lane1"), SubResource("Lane2"), SubResource("Lane3"), SubResource("Lane4")])
+starting_speed_scale = 0.78
+difficulty_ramp_seconds = 70.0
+level_id = "level_03"
+theme = "Highway"
+difficulty_label = "Intermediate"
+score_target = 850
+target_reward = 175

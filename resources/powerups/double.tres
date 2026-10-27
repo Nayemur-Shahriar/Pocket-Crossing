@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="PowerUpConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/power_up_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+effect = "double"
+display_name = "Double rewards"
+duration = 8.0
+color = Color(0.84, 0.70, 0.96, 1)

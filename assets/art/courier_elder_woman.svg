@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60">
+<defs><linearGradient id="cloth" x2="0.4" y2="1"><stop stop-color="#c28c99"/><stop offset="1" stop-color="#c28c99" stop-opacity=".78"/></linearGradient></defs>
+<path d="M17 39h18l-1 14h-7l-1-11-1 11h-8Z" fill="#4a6269" stroke="#243b42" stroke-width="1.2"/>
+<path d="M17 52h8v5H14q-1-3 3-5ZM28 52h6q5 1 5 5H28Z" fill="#23373e"/>
+<path d="M15 56h9m5 0h9" stroke="#aec3bf" stroke-width="1.2"/>
+<path d="M17 33h18l4 13q-13 4-26 0Z" fill="#c28c99" stroke="#3d4c57" stroke-width="1.2"/>
+<path d="M17 9q-3 12-1 18l5-3h10l5 3q3-14-3-20Z" fill="#d3d0c6"/>
+<path d="M17 23q-5 1-6 8l-1 10 5 1 4-14m16-5q5 2 6 8l1 10-5 1-4-14" fill="#c28c99" stroke="#394a4d" stroke-width="1.1"/>
+<ellipse cx="12.7" cy="45" rx="3.4" ry="3.7" fill="#a56b4f"/><ellipse cx="39.3" cy="45" rx="3.4" ry="3.7" fill="#a56b4f"/>
+<path d="M18 23q8-5 16 0l2 18q-10 4-20 0Z" fill="url(#cloth)" stroke="#3b4e52" stroke-width="1.2"/>
+<path d="M22 18h8v7q-4 4-8 0Z" fill="#a56b4f"/>
+<path d="M18 23l8 6 8-6-2 19H20Z" fill="#e1d9bd"/>
+<path d="M19 24l7 7 7-7v20H19Z" fill="#c28c99"/>
+<path d="M26 31v14" stroke="#334851" stroke-width="1"/>
+<circle cx="27" cy="37" r=".8" fill="#f1dcad"/>
+<ellipse cx="17.9" cy="14" rx="2" ry="3" fill="#a56b4f"/><ellipse cx="34.1" cy="14" rx="2" ry="3" fill="#a56b4f"/>
+<ellipse cx="26" cy="12" rx="8" ry="9.8" fill="#a56b4f" stroke="#695448" stroke-width=".7"/>
+<path d="M17 13q-2-12 9-12t9 12l-4-7q-6 5-12 1Z" fill="#d3d0c6"/>
+<path d="M20 6q6-5 11-1" fill="none" stroke="#fff4df" stroke-opacity=".25" stroke-width="1.3"/>
+<circle cx="26" cy="2.8" r="3" fill="#c9c7bc"/>
+<path d="M21 12h3m4 0h3" stroke="#3c3330" stroke-width="1" stroke-linecap="round"/>
+<circle cx="22.5" cy="14" r="1.1" fill="#20383d"/><circle cx="29.5" cy="14" r="1.1" fill="#20383d"/>
+<path d="M26 15l-1 2h2m-4 2q3 2 6 0" fill="none" stroke="#794d3e" stroke-width=".8" stroke-linecap="round"/>
+<path d="M19 16l2 1m10 0 2-1m-10-8h6" stroke="#806759" stroke-width=".6"/>
+<g fill="none" stroke="#44595d" stroke-width=".8"><rect x="19.5" y="12.3" width="6" height="4" rx="1.5"/><rect x="27" y="12.3" width="6" height="4" rx="1.5"/><path d="M25.5 14H27"/></g>
+</svg>

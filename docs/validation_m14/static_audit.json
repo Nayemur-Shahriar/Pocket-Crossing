@@ -1,0 +1,54 @@
+{
+  "files": 1165,
+  "scripts": 54,
+  "external_references": 457,
+  "missing_external_references": [],
+  "production_absolute_path_findings": [],
+  "credential_pattern_findings_locations_only": [],
+  "assets_scenes_resources_preserved": 200,
+  "assets_scenes_resources_changed": [],
+  "audio": [
+    {
+      "path": "assets/audio/dock.wav",
+      "seconds": 0.285,
+      "channels": 1,
+      "hz": 22050,
+      "bytes": 12608
+    },
+    {
+      "path": "assets/audio/hit.wav",
+      "seconds": 0.28,
+      "channels": 1,
+      "hz": 22050,
+      "bytes": 12392
+    },
+    {
+      "path": "assets/audio/firework.wav",
+      "seconds": 0.22,
+      "channels": 1,
+      "hz": 22050,
+      "bytes": 9746
+    },
+    {
+      "path": "assets/audio/hop.wav",
+      "seconds": 0.065,
+      "channels": 1,
+      "hz": 22050,
+      "bytes": 2910
+    },
+    {
+      "path": "assets/audio/ui.wav",
+      "seconds": 0.12,
+      "channels": 1,
+      "hz": 22050,
+      "bytes": 5336
+    },
+    {
+      "path": "assets/audio/complete.wav",
+      "seconds": 0.6,
+      "channels": 1,
+      "hz": 22050,
+      "bytes": 26500
+    }
+  ]
+}

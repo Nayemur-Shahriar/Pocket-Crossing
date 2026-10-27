@@ -1,0 +1,22 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+Captured phase4_select
+Captured phase4_characters
+Captured phase4_gameplay
+Captured phase4_effects
+Captured phase4_results
+Captured phase4_select_1280x720
+Captured phase4_characters_1280x720
+PHASE4 LAYOUT PASS (1280, 720)
+Captured phase4_select_1920x864
+Captured phase4_characters_1920x864
+PHASE4 LAYOUT PASS (1920, 864)
+Captured phase4_select_960x720
+Captured phase4_characters_960x720
+PHASE4 LAYOUT PASS (960, 720)
+Captured phase4_select_800x360
+Captured phase4_characters_800x360
+PHASE4 LAYOUT PASS (800, 360)

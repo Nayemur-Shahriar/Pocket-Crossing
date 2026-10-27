@@ -1,0 +1,167 @@
+{
+  "headless_assertions_passed": 1092,
+  "headless_failed": 0,
+  "rendered_assertions_passed": 338,
+  "rendered_failed": 0,
+  "rendered_swaps": 24,
+  "resource_loads": 336,
+  "protected_unchanged": 72,
+  "physical_android_tested": false,
+  "physical_windows_tested": false,
+  "listening_acceptance": "pending",
+  "music_analysis": [
+    {
+      "file": "village_breeze.wav",
+      "bpm": 108,
+      "bars": 16,
+      "seconds": 35.55555555555556,
+      "style": "Warm plucked major pentatonic",
+      "challenge": false,
+      "peak": 0.55,
+      "rms": 0.05718584334925926,
+      "loop_boundary_delta": 0.0001344552830164457
+    },
+    {
+      "file": "village_breeze_challenge.wav",
+      "bpm": 108,
+      "bars": 16,
+      "seconds": 35.55555555555556,
+      "style": "Warm plucked major pentatonic",
+      "challenge": true,
+      "peak": 0.55,
+      "rms": 0.05630184885348819,
+      "loop_boundary_delta": 0.000130087321295963
+    },
+    {
+      "file": "city_steps.wav",
+      "bpm": 124,
+      "bars": 16,
+      "seconds": 30.967755102040815,
+      "style": "Syncopated keyboard and bouncy bass",
+      "challenge": false,
+      "peak": 0.55,
+      "rms": 0.06191046250818117,
+      "loop_boundary_delta": 0.004174045284334651
+    },
+    {
+      "file": "city_steps_challenge.wav",
+      "bpm": 124,
+      "bars": 16,
+      "seconds": 30.967755102040815,
+      "style": "Syncopated keyboard and bouncy bass",
+      "challenge": true,
+      "peak": 0.55,
+      "rms": 0.06291054542674838,
+      "loop_boundary_delta": 0.004174047661336663
+    },
+    {
+      "file": "river_drift.wav",
+      "bpm": 112,
+      "bars": 16,
+      "seconds": 34.285714285714285,
+      "style": "Flowing mallets and offbeat percussion",
+      "challenge": false,
+      "peak": 0.55,
+      "rms": 0.062039298286629754,
+      "loop_boundary_delta": 0.0
+    },
+    {
+      "file": "river_drift_challenge.wav",
+      "bpm": 112,
+      "bars": 16,
+      "seconds": 34.285714285714285,
+      "style": "Flowing mallets and offbeat percussion",
+      "challenge": true,
+      "peak": 0.55,
+      "rms": 0.05804725272812886,
+      "loop_boundary_delta": 0.0
+    },
+    {
+      "file": "night_rails.wav",
+      "bpm": 128,
+      "bars": 16,
+      "seconds": 30.0,
+      "style": "Electronic pluck and playful minor pulse",
+      "challenge": false,
+      "peak": 0.55,
+      "rms": 0.06504189188719356,
+      "loop_boundary_delta": 0.003081228678558555
+    },
+    {
+      "file": "night_rails_challenge.wav",
+      "bpm": 128,
+      "bars": 16,
+      "seconds": 30.0,
+      "style": "Electronic pluck and playful minor pulse",
+      "challenge": true,
+      "peak": 0.55,
+      "rms": 0.06643525714906594,
+      "loop_boundary_delta": 0.003081228561204359
+    }
+  ],
+  "suites": [
+    [
+      "challenge_polish_tests",
+      0,
+      [
+        "CHALLENGE POLISH: 321 passed, 0 failed"
+      ]
+    ],
+    [
+      "polish_tests",
+      0,
+      [
+        "POLISH RESULTS: 126 passed, 0 failed"
+      ]
+    ],
+    [
+      "stability_pass_tests",
+      0,
+      [
+        "STABILITY PASS: 208 passed, 0 failed"
+      ]
+    ],
+    [
+      "map_campaign_tests",
+      0,
+      [
+        "MAP CAMPAIGN RESULTS: 110 passed, 0 failed"
+      ]
+    ],
+    [
+      "map_depth_tests",
+      0,
+      [
+        "MAP DEPTH RESULTS: 138 passed, 0 failed"
+      ]
+    ],
+    [
+      "competitive_tests",
+      0,
+      [
+        "RESULT 27 passed / 0 failed"
+      ]
+    ],
+    [
+      "competitive_flow_tests",
+      0,
+      [
+        "RESULT 27 passed / 0 failed"
+      ]
+    ],
+    [
+      "test_runner",
+      0,
+      [
+        "RESULT: 135 passed, 0 failed"
+      ]
+    ],
+    [
+      "refinement_parse",
+      0,
+      [
+        "RESOURCE LOAD RESULTS: 336 passed, 0 failed"
+      ]
+    ]
+  ]
+}

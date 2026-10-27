@@ -1,0 +1,121 @@
+{
+  "engine": "Godot 4.5.2 stable, Linux",
+  "assertions": {
+    "test_runner": [
+      135,
+      0
+    ],
+    "phase3_tests": [
+      103,
+      0
+    ],
+    "phase4_tests": [
+      62,
+      0
+    ],
+    "section_tests": [
+      68,
+      0
+    ],
+    "railway_tests": [
+      88,
+      0
+    ],
+    "water_tests": [
+      73,
+      0
+    ],
+    "long_level_tests": [
+      142,
+      0
+    ],
+    "theme_tests": [
+      109,
+      0
+    ],
+    "map_campaign_tests": [
+      110,
+      0
+    ],
+    "map_route_tests": [
+      12,
+      0
+    ],
+    "lan_stabilization_tests": [
+      28,
+      0
+    ],
+    "lan_stabilization_extra": [
+      24,
+      0
+    ],
+    "competitive_tests": [
+      27,
+      0
+    ],
+    "competitive_flow_tests": [
+      27,
+      0
+    ],
+    "stability_pass_tests": [
+      208,
+      0
+    ],
+    "qa_contacts": [
+      106,
+      0
+    ],
+    "polish_tests_final": [
+      126,
+      0
+    ],
+    "competitive_peer_tests_0": [
+      52,
+      0
+    ],
+    "competitive_peer_tests_1": [
+      61,
+      0
+    ],
+    "competitive_peer_tests_2": [
+      59,
+      0
+    ],
+    "competitive_peer_tests_3": [
+      56,
+      0
+    ],
+    "stability_peer_tests_final_0": [
+      10,
+      0
+    ],
+    "stability_peer_tests_final_1": [
+      9,
+      0
+    ],
+    "stability_peer_tests_final_2": [
+      9,
+      0
+    ]
+  },
+  "total_passed": 1704,
+  "failed": 0,
+  "resources_loaded": 334,
+  "missing_resources": 0,
+  "physical_windows_tested": false,
+  "physical_android_tested": false,
+  "release_exports_performed": false,
+  "render_sizes": [
+    "1280x720",
+    "1920x1080",
+    "2340x1080",
+    "960x540",
+    "640x360"
+  ],
+  "notes": [
+    "Xvfb llvmpipe visual inspection, not physical device QA",
+    "Initial map-route wall-time timeout resolved by fixed-FPS deterministic run",
+    "Initial stability runner used four peers for a three-peer scenario; final three-peer run passed",
+    "Some legacy/accelerated harnesses and focused test report ObjectDB/resource-in-use shutdown warnings; no assertion or parser failures in final runs"
+  ]
+}

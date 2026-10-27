@@ -1,0 +1,13 @@
+POCKET CROSSING M14.7 — UPDATE FOR WORKING M14.6.1
+
+Close Godot. Back up your project.
+Extract the ZIP. Merge the CONTENTS of its PocketCrossing folder into your
+existing project folder containing project.godot. Replace matching files;
+retain all other files. Do not create a nested PocketCrossing folder.
+Open your existing project.godot in Godot 4.5.2; wait for imports; press Play.
+All Friends devices must use this same update. No save migration is needed.
+This is source code, not an APK or Windows executable.
+
+Full report/manual tests: docs/M14_7_REPORT.md
+Exact new/modified files: docs/M14_7_FILES.txt
+M14.8 and M15 have not been started.

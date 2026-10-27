@@ -1,0 +1,9 @@
+Pocket Crossing post-M14 UPDATE
+
+Close Godot. Back up your existing M14 project.
+Copy the CONTENTS of this PocketCrossing folder into the existing folder that contains project.godot. Replace matching files. Do not create a nested project folder.
+Reopen the existing project and allow Godot to import assets. Run Project normally.
+No normal save, project settings, export settings, APK or EXE is replaced. No files need deletion.
+
+Read docs/POST_M14_REPORT.md and docs/POST_M14_FILES.txt for the complete report, exact changed-file list, Inspector instructions and PC/Android checks.
+M15 has NOT started. Native Windows and physical Android testing remains required.

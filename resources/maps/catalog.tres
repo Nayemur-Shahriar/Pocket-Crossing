@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LevelCatalog" load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_catalog.gd" id="script"]
+[ext_resource type="Resource" path="res://resources/maps/village_crossing.tres" id="m0"]
+[ext_resource type="Resource" path="res://resources/maps/city_rush.tres" id="m1"]
+[ext_resource type="Resource" path="res://resources/maps/river_delta.tres" id="m2"]
+[ext_resource type="Resource" path="res://resources/maps/night_express.tres" id="m3"]
+[resource]
+script = ExtResource("script")
+levels = Array[Resource]([ExtResource("m0"), ExtResource("m1"), ExtResource("m2"), ExtResource("m3")])

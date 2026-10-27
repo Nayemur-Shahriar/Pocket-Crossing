@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="LevelThemeConfig" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_theme_config.gd" id="1"]
+[resource]
+script = ExtResource("1")
+theme_id = "snow"
+display_name = "Snow"
+background_color = Color(0.7098, 0.81569, 0.88235, 1)
+ambient_tint = Color(0.85098, 0.91373, 1.0, 1)
+ambient_brightness = 1.05
+road_tint = Color(0.62745, 0.70588, 0.78039, 1)
+grass_tint = Color(0.79608, 0.86275, 0.89412, 1)
+safe_tint = Color(0.88627, 0.92941, 1.0, 1)
+railway_color = Color(0.49412, 0.56863, 0.61176, 1)
+water_color = Color(0.20392, 0.48235, 0.61176, 1)
+water_edge_color = Color(0.13725, 0.36078, 0.50196, 1)
+water_ripple_color = Color(0.64314, 0.83137, 0.89804, 1)
+snow_coverage = 0.9
+weather = "Snow"
+weather_intensity = 0.65
+particle_amount = 160
+destination_color = Color(0.94118, 0.94902, 0.87451, 1)

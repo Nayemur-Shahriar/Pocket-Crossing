@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="LevelConfig" load_steps=15 format=3]
+[ext_resource type="Script" path="res://scripts/data/level_config.gd" id="level"]
+[ext_resource type="Script" path="res://scripts/data/level_section_config.gd" id="section"]
+[ext_resource type="Script" path="res://scripts/data/lane_config.gd" id="lane"]
+[ext_resource type="Script" path="res://scripts/data/railway_track_config.gd" id="track"]
+[ext_resource type="Resource" path="res://resources/themes/day.tres" id="theme"]
+[ext_resource type="Resource" path="res://resources/sections/start.tres" id="start"]
+[ext_resource type="Resource" path="res://resources/sections/safe.tres" id="safe"]
+[ext_resource type="Resource" path="res://resources/sections/destination.tres" id="destination"]
+[sub_resource type="Resource" id="RoadLane"]
+script = ExtResource("lane")
+direction = 1
+speed = 155.0
+spawn_min = 2.8
+spawn_max = 3.8
+[sub_resource type="Resource" id="Road"]
+script = ExtResource("section")
+kind = 1
+road_lanes = Array[ExtResource("lane")]([SubResource("RoadLane")])
+[sub_resource type="Resource" id="East"]
+script = ExtResource("track")
+direction = 1
+speed = 420.0
+warning_seconds = 3.0
+initial_delay = 2.0
+interval_min = 6.0
+interval_max = 9.0
+safe_delay = 3.0
+train_length = 360.0
+[sub_resource type="Resource" id="West"]
+script = ExtResource("track")
+direction = -1
+speed = 560.0
+warning_seconds = 3.5
+initial_delay = 5.0
+interval_min = 8.0
+interval_max = 11.0
+safe_delay = 3.0
+train_length = 440.0
+[sub_resource type="Resource" id="Railway"]
+script = ExtResource("section")
+kind = 3
+railway_tracks = Array[ExtResource("track")]([SubResource("East"), SubResource("West")])
+[resource]
+script = ExtResource("level")
+level_id = "example_railway_demo"
+display_name = "Railway Workshop"
+level_number = 1
+time_limit = 180.0
+presentation = ExtResource("theme")
+sections = Array[ExtResource("section")]([ExtResource("start"), SubResource("Road"), ExtResource("safe"), SubResource("Railway"), ExtResource("safe"), ExtResource("destination")])

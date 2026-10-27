@@ -1,0 +1,10 @@
+M13 final verification
+2756 assertions passed, zero failed.
+45 campaign physics completions; each level has three-star and power-free routes.
+5 smaller-water forward/backtrack/recross tests passed.
+Fresh import: no script/parser errors.
+451 external Resource/scene references checked, none missing.
+Windows and Android resource-pack exports/startup passed on Linux; not native device certification.
+61.002 second rendered fireworks run: 58 bursts, 58 sound triggers, max 2 active bursts, 157 nodes before/after. Replay cleanup passed.
+Native Windows manual tests and physical Android touch/performance tests remain pending.
+Expected logs: malformed-save/write-failure recovery diagnostics in Phase 4; software V-Sync warning in rendering.

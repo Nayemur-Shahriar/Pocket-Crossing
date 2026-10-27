@@ -1,0 +1,84 @@
+Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org
+
+PASS  Main menu is the initial screen
+PASS  Fresh run has 3 lives, 90 seconds, and zero score
+PASS  Four traffic lanes are instantiated
+PASS  Traffic alternates direction
+PASS  Vehicles physically move in both directions
+PASS  Pause freezes both timer and traffic
+PASS  Resume restarts the timer
+PASS  D key makes exactly one right hop
+PASS  Arrow key returns to the starting column
+PASS  Left boundary prevents leaving the board
+PASS  Bottom boundary prevents leaving the board
+PASS  New forward row awards ten points
+PASS  Back-and-forth hopping cannot farm points
+PASS  Top edge only admits empty destination columns
+PASS  Physics collision consumes one life and enters respawn
+PASS  Repeated collision during respawn does not consume extra lives
+PASS  Pausing also freezes the respawn delay
+PASS  Respawn returns the visible player to the safe sidewalk
+PASS  Respawn grants brief collision protection
+PASS  Spawn protection rejects damage
+PASS  Third life lost through real physics opens the game-over screen
+PASS  Time expiry ends the run independently of lives
+PASS  One long touch swipe creates exactly one upward hop
+PASS  Ending a swipe over the UI does not lock later gestures
+PASS  On-screen up button moves the player
+PASS  Holding a direction button repeats hops
+PASS  Releasing the direction button stops repeating
+PASS  Native touch tap maps to (0, 1) exactly once
+PASS  Native touch tap maps to (0, -1) exactly once
+PASS  Native touch tap maps to (-1, 0) exactly once
+PASS  Native touch tap maps to (1, 0) exactly once
+PASS  Swipe maps to (0, 1) exactly once
+PASS  Swipe maps to (0, -1) exactly once
+PASS  Swipe maps to (-1, 0) exactly once
+PASS  Swipe maps to (1, 0) exactly once
+PASS  Small accidental swipe ignored
+PASS  Footer does not start swipe
+PASS  Dragging off a button creates no extra swipe
+PASS  Release outside button clears hold
+PASS  Releasing older thumb preserves newest thumb
+PASS  Both thumbs released clears hold
+PASS  Releasing newest thumb restores older hold
+PASS  Restoring hold does not inject a new hop
+PASS  Canceled touch clears hold
+PASS  Pause clears all button and gesture ownership
+PASS  Swipe mode hides split buttons
+PASS  Swipe mode ignores button commands
+PASS  Split mode shows buttons
+PASS  Split-only mode ignores swipes
+PASS  Keyboard remains active in split-only mode
+PASS  Keyboard mapping preserved: W
+PASS  Keyboard mapping preserved: S
+PASS  Keyboard mapping preserved: A
+PASS  Keyboard mapping preserved: D
+PASS  Keyboard mapping preserved: Up
+PASS  Keyboard mapping preserved: Down
+PASS  Keyboard mapping preserved: Left
+PASS  Keyboard mapping preserved: Right
+PASS  Touch target (0, 1) fits simulated notch/navigation safe area
+PASS  Touch target (0, -1) fits simulated notch/navigation safe area
+PASS  Touch target (-1, 0) fits simulated notch/navigation safe area
+PASS  Touch target (1, 0) fits simulated notch/navigation safe area
+PASS  Controls anchor to opposite bottom corners
+PASS  Destination 2 changes to its reached state
+PASS  Destination 2 cannot be scored twice
+PASS  Destination 6 changes to its reached state
+PASS  Destination 6 cannot be scored twice
+PASS  Destination 11 changes to its reached state
+PASS  Destination 11 cannot be scored twice
+PASS  Destination 15 changes to its reached state
+PASS  Destination 15 cannot be scored twice
+PASS  All four destinations open the level-complete screen
+PASS  Completion adds time/life bonuses and persists the best score
+PASS  Terminal state cannot award a second completion bonus
+PASS  Completed level freezes the timer
+PASS  Replay resets score, lives, and all destination states
+PASS  Losing application focus automatically pauses
+PASS  Android Back does not use the automatic quit behavior
+PASS  Android Back notification resumes a paused run
+PASS  Best score is readable from the saved profile
+
+RESULT: 80 passed, 0 failed

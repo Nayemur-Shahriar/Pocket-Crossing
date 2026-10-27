@@ -1,0 +1,11 @@
+M12 final validation
+Godot 4.5.2, Linux headless and software OpenGL Compatibility
+2266 assertions passed; 0 failed (counting each suite once).
+Fresh import: no parser/script/resource errors.
+433 external scene/resource references checked; 0 missing.
+Windows/Android resource packs exported and started headlessly. These are not native device tests.
+61 M12 render captures. All 15 representative campaign views visually inspected.
+Older audio suites rerun with normal clock: no exit-retention warnings.
+Phase 4 intentionally tests malformed save input; its ConfigFile diagnostics are expected.
+Render driver V-Sync warning is expected in software rendering.
+Physical Windows/Android playtesting and Android performance remain pending.

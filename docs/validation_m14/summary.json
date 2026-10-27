@@ -1,0 +1,144 @@
+{
+  "assertions": 10456,
+  "passed": 10456,
+  "failed": 0,
+  "suites": [
+    {
+      "name": "test_runner",
+      "passed": 135,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "phase3_tests",
+      "passed": 103,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "phase4_tests",
+      "passed": 62,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "section_tests",
+      "passed": 68,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "railway_tests",
+      "passed": 88,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "water_tests",
+      "passed": 73,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "water_route_tests",
+      "passed": 3,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "long_level_tests",
+      "passed": 142,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "long_route_tests",
+      "passed": 2,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "theme_tests",
+      "passed": 109,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "theme_route_tests",
+      "passed": 6,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "campaign_route_tests",
+      "passed": 75,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "campaign_tests",
+      "passed": 372,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "identity_tests",
+      "passed": 986,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "balance_tests",
+      "passed": 516,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "balance_water_routes",
+      "passed": 5,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "qa_validation",
+      "passed": 353,
+      "failed": 0,
+      "clock": "normal clock"
+    },
+    {
+      "name": "qa_contacts",
+      "passed": 90,
+      "failed": 0,
+      "clock": "fixed 60 Hz / accelerated"
+    },
+    {
+      "name": "capture_qa",
+      "passed": 63,
+      "failed": 0,
+      "clock": "rendered wall clock"
+    },
+    {
+      "name": "capture_qa --ui-only",
+      "passed": 66,
+      "failed": 0,
+      "clock": "rendered wall clock"
+    },
+    {
+      "name": "qa_stress --soak-seconds=1200",
+      "passed": 6600,
+      "failed": 0,
+      "clock": "wall clock"
+    },
+    {
+      "name": "qa_stress final code",
+      "passed": 539,
+      "failed": 0,
+      "clock": "normal clock"
+    }
+  ],
+  "soak_summary": "QA STRESS RESULTS: 6600 passed, 0 failed; cycles=368; wall_seconds=1201.58",
+  "native_windows_tested": false,
+  "physical_android_tested": false,
+  "windows_native_export": "blocked: missing templates",
+  "android_native_export": "blocked: missing templates/SDK configuration"
+}

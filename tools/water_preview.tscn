@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5hnipp8h7t72"]
+
+[ext_resource type="PackedScene" path="res://tools/section_preview.tscn" id="1"]
+[ext_resource type="Resource" path="res://resources/examples/water_demo.tres" id="2"]
+
+[node name="WaterPreview" instance=ExtResource("1")]
+example = ExtResource("2")
